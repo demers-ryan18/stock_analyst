@@ -1,0 +1,44 @@
+ticker,sector,added_date,source,status,notes
+NVDA,Technology,2026-08-30,seed,active,AI/datacenter compute leader
+MSFT,Technology,2026-08-30,seed,active,Cloud + AI platform breadth
+GOOGL,Communication Services,2026-08-30,seed,active,Search/cloud/AI; watch antitrust overhang
+AMZN,Consumer Discretionary,2026-08-30,seed,active,AWS margins + retail growth
+META,Communication Services,2026-08-30,seed,active,Ad business + AI capex efficiency
+AAPL,Technology,2026-08-30,seed,active,Services growth + capital return
+AVGO,Technology,2026-08-30,seed,active,Semis + AI networking
+CRM,Technology,2026-08-30,seed,active,Enterprise SaaS, watch margin trend
+NOW,Technology,2026-08-30,seed,active,Workflow SaaS, high growth durability
+INTU,Technology,2026-08-30,seed,active,Fintech/tax SaaS, pricing power
+ADBE,Technology,2026-08-30,seed,active,Creative/marketing software
+SNOW,Technology,2026-08-30,seed,active,Data cloud, watch profitability path
+PANW,Technology,2026-08-30,seed,active,Cybersecurity platform consolidation
+CRWD,Technology,2026-08-30,seed,active,Cybersecurity, high growth
+NET,Technology,2026-08-30,seed,active,Edge/security network, smaller cap
+DDOG,Technology,2026-08-30,seed,active,Observability SaaS
+TSM,Technology,2026-08-30,seed,active,Leading-edge foundry, AI chip supply
+ASML,Technology,2026-08-30,seed,active,EUV lithography monopoly
+AMD,Technology,2026-08-30,seed,active,GPU/CPU challenger, AI upside
+LRCX,Technology,2026-08-30,seed,active,Semicap equipment
+TSLA,Consumer Discretionary,2026-08-30,seed,active,EV + energy + optionality, high volatility
+CMG,Consumer Discretionary,2026-08-30,seed,active,Unit growth + margins
+LULU,Consumer Discretionary,2026-08-30,seed,active,Athletic apparel, watch comps
+COST,Consumer Staples,2026-08-30,seed,active,Membership retail, steady grower
+UNH,Health Care,2026-08-30,seed,active,Managed care scale
+LLY,Health Care,2026-08-30,seed,active,GLP-1 franchise leader
+NVO,Health Care,2026-08-30,seed,active,GLP-1 franchise, ADR
+ISRG,Health Care,2026-08-30,seed,active,Surgical robotics
+VRTX,Health Care,2026-08-30,seed,active,Specialty pharma, strong pipeline
+V,Financials,2026-08-30,seed,active,Payments network, secular growth
+MA,Financials,2026-08-30,seed,active,Payments network, secular growth
+SPGI,Financials,2026-08-30,seed,active,Ratings/data, high margin compounder
+ICE,Financials,2026-08-30,seed,active,Exchanges/data infrastructure
+CAT,Industrials,2026-08-30,seed,active,Infrastructure/capex cycle
+GE,Industrials,2026-08-30,seed,active,Aerospace-driven turnaround
+DE,Industrials,2026-08-30,seed,active,Ag equipment + precision tech
+XOM,Energy,2026-08-30,seed,active,Integrated energy, capital discipline
+LIN,Materials,2026-08-30,seed,active,Industrial gases compounder
+QQQ,ETF,2026-08-30,seed,active,Large-cap growth/tech core exposure
+VUG,ETF,2026-08-30,seed,active,Broad US growth factor
+SMH,ETF,2026-08-30,seed,active,Semiconductor sector exposure
+XLK,ETF,2026-08-30,seed,active,Technology sector exposure
+VGT,ETF,2026-08-30,seed,active,Technology sector exposure, low cost

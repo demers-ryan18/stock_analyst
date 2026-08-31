@@ -1,0 +1,12 @@
+{
+  "status": "awaiting_import",
+  "last_updated": "2026-08-30",
+  "cash": 0.0,
+  "total_value": 0.0,
+  "holdings": [],
+  "sector_allocation": [],
+  "recent_transactions": [],
+  "data_errors": [
+    "DE: price history missing (empty history)"
+  ]
+}

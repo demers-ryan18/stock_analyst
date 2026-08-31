@@ -1,0 +1,25 @@
+# Position-sizing and portfolio construction rules.
+# scripts/evaluate.py and AGENT.md both treat this file as authoritative.
+
+max_position_pct: 0.15       # no single holding above 15% of portfolio value
+target_holdings_min: 15
+target_holdings_max: 25
+sector_max_pct: 0.30         # no sector above 30% of portfolio value
+min_cash_buffer_pct: 0.02    # keep at least 2% of portfolio value as cash
+
+# Sell/trim thresholds used by scripts/evaluate.py
+trim_over_cap_tolerance_pct: 0.02   # trim if a position exceeds max_position_pct by more than this
+stop_loss_pct: -0.25                # flag for review if a holding is down this much from cost basis
+stale_review_days: 10                # flag a holding for fresh research if not reviewed in this many days
+
+paths:
+  portfolio: data/portfolio.json
+  transactions: data/transactions.csv
+  watchlist: config/watchlist.csv
+  price_cache: data/price_cache
+  reports_latest: reports/latest.md
+  reports_archive: reports/archive
+  artifact_id_file: config/artifact_id.txt
+
+fundamentals_cache_days: 3
+universe: "US equities and ETFs only"
