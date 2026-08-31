@@ -1,7 +1,7 @@
 {
   "status": "active",
-  "cash": 40.27,
-  "last_updated": "2026-08-30",
+  "cash": 505.14,
+  "last_updated": "2026-08-31",
   "holdings": [
     {
       "ticker": "AGX",
@@ -9,18 +9,18 @@
       "cost_basis_per_share": 614.82,
       "date_added": "2026-08-30",
       "sector": "Industrials",
-      "thesis": "Imported from broker export; awaiting first research review.",
-      "last_review": null,
+      "thesis": "HOLD: -31% vs. cost basis triggered stop-loss review, but driven by import cost basis near a prior peak, not deterioration -- FY26 revenue +8%, earnings +61%, $2.8B backlog, Buy-rated (avg PT $667.80), Q3 earnings due 9/2/26.",
+      "last_review": "2026-08-31",
       "status": "active"
     },
     {
       "ticker": "CRDO",
-      "shares": 4.49,
+      "shares": 1.8526,
       "cost_basis_per_share": 270.52,
       "date_added": "2026-08-30",
       "sector": "Technology",
-      "thesis": "Imported from broker export; awaiting first research review.",
-      "last_review": null,
+      "thesis": "TRIMMED to 15% cap (24.9% -> 15%), then trimmed further to bring the Technology sector under its 30% sector cap (was 34.7% after the first trim). Fundamentals remain strong (Q4 FY26 revenue +205.7% YoY, FY27 guidance implies 80%+ revenue growth, Strong Buy consensus) -- purely a sizing/diversification rebalance, not a conviction change.",
+      "last_review": "2026-08-31",
       "status": "active"
     },
     {
@@ -29,28 +29,58 @@
       "cost_basis_per_share": 127.51,
       "date_added": "2026-08-30",
       "sector": "Technology",
-      "thesis": "Imported from broker export; awaiting first research review.",
-      "last_review": null,
+      "thesis": "HOLD: earnings-growth flag reflects reinvestment, not a slowdown -- Q2 revenue $298.45M (EPS beat), DAU +23% YoY accelerating, paid subscribers +17%, FY26 guidance reaffirmed (15-18% rev growth), analyst targets raised post-print.",
+      "last_review": "2026-08-31",
       "status": "active"
     },
     {
       "ticker": "INOD",
-      "shares": 8.085,
+      "shares": 4.078,
       "cost_basis_per_share": 79.32,
       "date_added": "2026-08-30",
       "sector": "Technology",
-      "thesis": "Imported from broker export; awaiting first research review.",
-      "last_review": null,
+      "thesis": "TRIMMED ~50% on stop-loss review: down 43% over 30 days on heavy insider selling ($174.3M sold, no buys in 12mo) and a pending CEO transition (new CEO effective 9/30/26), despite a Q2 beat (revenue $92.1M +58% YoY) and reaffirmed 40% FY guidance. Kept a reduced position given intact growth; watching insider activity and transition closely.",
+      "last_review": "2026-08-31",
       "status": "active"
     },
     {
       "ticker": "VRT",
-      "shares": 7.004,
+      "shares": 2.405,
       "cost_basis_per_share": 323.17,
       "date_added": "2026-08-30",
       "sector": "Industrials",
-      "thesis": "Imported from broker export; awaiting first research review.",
-      "last_review": null,
+      "thesis": "TRIMMED to 15% cap: was 43.7% of portfolio. Q2 FY26 net sales +24% YoY (18% organic), raised full-year guidance, Strong Buy consensus PT $338 vs ~$256 price -- thesis intact, sizing rebalance.",
+      "last_review": "2026-08-31",
+      "status": "active"
+    },
+    {
+      "ticker": "GOOGL",
+      "shares": 1.7771,
+      "cost_basis_per_share": 337.63,
+      "date_added": "2026-08-31",
+      "sector": "Communication Services",
+      "thesis": "Search/cloud/AI compounder trading at a reasonable multiple for its growth; diversifies portfolio out of Tech/Industrials concentration.",
+      "last_review": "2026-08-31",
+      "status": "active"
+    },
+    {
+      "ticker": "AMZN",
+      "shares": 1.9219,
+      "cost_basis_per_share": 260.16,
+      "date_added": "2026-08-31",
+      "sector": "Consumer Cyclical",
+      "thesis": "AWS margin expansion plus retail growth; diversifies portfolio into Consumer Cyclical.",
+      "last_review": "2026-08-31",
+      "status": "active"
+    },
+    {
+      "ticker": "XOM",
+      "shares": 2.7512,
+      "cost_basis_per_share": 159.93,
+      "date_added": "2026-08-31",
+      "sector": "Energy",
+      "thesis": "Integrated energy major with capital discipline; low-correlation diversifier away from Tech/Industrials-heavy portfolio.",
+      "last_review": "2026-08-31",
       "status": "active"
     }
   ]
