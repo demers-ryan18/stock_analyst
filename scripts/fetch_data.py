@@ -9,11 +9,23 @@ from __future__ import annotations
 
 import csv
 import json
+import os
 import sys
 import time
 from datetime import date, datetime, timedelta
 from pathlib import Path
 from typing import Any
+
+# yfinance defaults to curl_cffi for browser TLS fingerprinting, which ships its
+# own trust store and does not honor the proxy CA bundle a sandboxed cloud run
+# injects via the standard env vars — every request fails with a connection
+# reset even against an allowlisted host. Falling back to plain `requests` (which
+# does honor those env vars) fixes this; this must be set before `import
+# yfinance` since _http.py picks the HTTP backend at import time. Only kicks in
+# when a proxy is actually configured (i.e. the cloud sandbox), so local runs are
+# unaffected and keep using curl_cffi.
+if os.environ.get("HTTPS_PROXY") or os.environ.get("https_proxy"):
+    os.environ.setdefault("YF_DISABLE_CURL_CFFI", "1")
 
 import pandas as pd
 import yfinance as yf
