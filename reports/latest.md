@@ -3,7 +3,3 @@
 **Portfolio not yet funded — awaiting broker CSV import.**
 
 Run `python scripts/import_csv.py --seed <path-to-export.csv>` once a broker export is available in `data/imports/`. Until then this report only tracks watchlist research.
-
-## Data fetch errors
-
-- Yahoo Finance market-data feed was unreachable for all 41 tracked tickers this run (network/policy block in the execution environment: guce.yahoo.com CONNECT rejected with 403, query2.finance.yahoo.com connections reset mid-request). No prices or fundamentals could be fetched today. This is an infrastructure issue, not ticker-specific delisting/data-quality — will retry automatically on the next scheduled run.
