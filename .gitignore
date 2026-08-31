@@ -8,3 +8,4 @@ data/imports/*
 data/*.bak-*
 .venv/
 venv/
+.claude/
