@@ -1,0 +1,624 @@
+<title>Growth Ledger</title>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link
+  href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Public+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap"
+  rel="stylesheet"
+/>
+
+<style>
+  /* ---------- Tokens ---------- */
+  :root {
+    --bg: #eef1ee;
+    --surface: #ffffff;
+    --surface-alt: #e6eae4;
+    --ink: #182420;
+    --ink-muted: #5c6a63;
+    --ink-faint: #8b978f;
+    --border: #d7ddd3;
+    --accent: #a8752c;
+    --accent-strong: #7c5620;
+    --accent-soft: #f1e4cd;
+    --gain: #2f6b4f;
+    --gain-soft: #e2eee6;
+    --loss: #a23b2e;
+    --loss-soft: #f4e4e1;
+    --shadow: 0 1px 2px rgba(24, 36, 32, 0.06), 0 8px 24px -12px rgba(24, 36, 32, 0.18);
+
+    --font-display: "Fraunces", "Iowan Old Style", "Palatino Linotype", serif;
+    --font-body: "Public Sans", -apple-system, "Segoe UI", sans-serif;
+    --font-mono: "IBM Plex Mono", "SFMono-Regular", Consolas, monospace;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #12191a;
+      --surface: #1a2224;
+      --surface-alt: #212b2c;
+      --ink: #eceae3;
+      --ink-muted: #a3ada4;
+      --ink-faint: #6d7a72;
+      --border: #2c3735;
+      --accent: #d7a75c;
+      --accent-strong: #eec98a;
+      --accent-soft: #3a2f1c;
+      --gain: #6bb890;
+      --gain-soft: #1e332a;
+      --loss: #e08972;
+      --loss-soft: #3a241f;
+      --shadow: 0 1px 2px rgba(0, 0, 0, 0.3), 0 8px 24px -12px rgba(0, 0, 0, 0.5);
+    }
+  }
+
+  :root[data-theme="dark"] {
+    --bg: #12191a;
+    --surface: #1a2224;
+    --surface-alt: #212b2c;
+    --ink: #eceae3;
+    --ink-muted: #a3ada4;
+    --ink-faint: #6d7a72;
+    --border: #2c3735;
+    --accent: #d7a75c;
+    --accent-strong: #eec98a;
+    --accent-soft: #3a2f1c;
+    --gain: #6bb890;
+    --gain-soft: #1e332a;
+    --loss: #e08972;
+    --loss-soft: #3a241f;
+    --shadow: 0 1px 2px rgba(0, 0, 0, 0.3), 0 8px 24px -12px rgba(0, 0, 0, 0.5);
+  }
+
+  /* ---------- Base ---------- */
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: var(--font-body);
+    font-size: 15px;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+  }
+  @media (prefers-reduced-motion: no-preference) {
+    .tile, .panel, .row { transition: border-color 0.15s ease, background 0.15s ease; }
+  }
+
+  .wrap {
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 2.5rem 1.5rem 4rem;
+  }
+
+  a { color: var(--accent-strong); }
+
+  /* ---------- Header ---------- */
+  header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 1.5rem;
+    padding-bottom: 1.75rem;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid var(--border);
+  }
+  .brand-eyebrow {
+    font-family: var(--font-mono);
+    font-size: 0.7rem;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin: 0 0 0.5rem;
+  }
+  h1 {
+    font-family: var(--font-display);
+    font-weight: 600;
+    font-size: clamp(1.8rem, 3.4vw, 2.5rem);
+    margin: 0;
+    text-wrap: balance;
+    letter-spacing: -0.01em;
+  }
+  .as-of {
+    font-family: var(--font-mono);
+    font-size: 0.8rem;
+    color: var(--ink-faint);
+    margin-top: 0.4rem;
+  }
+  .status-pill {
+    font-family: var(--font-mono);
+    font-size: 0.72rem;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    padding: 0.4rem 0.75rem;
+    border-radius: 999px;
+    border: 1px solid var(--border);
+    background: var(--surface);
+    color: var(--ink-muted);
+    white-space: nowrap;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.45rem;
+  }
+  .status-pill .dot {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: var(--ink-faint);
+  }
+  .status-pill.active .dot { background: var(--gain); }
+  .status-pill.active { color: var(--gain); border-color: var(--gain-soft); }
+
+  /* ---------- Stat tiles ---------- */
+  .tiles {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+    gap: 1px;
+    background: var(--border);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 2.5rem;
+  }
+  .tile {
+    background: var(--surface);
+    padding: 1.15rem 1.3rem;
+  }
+  .tile-label {
+    font-family: var(--font-mono);
+    font-size: 0.68rem;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    color: var(--ink-faint);
+    margin: 0 0 0.5rem;
+  }
+  .tile-value {
+    font-family: var(--font-mono);
+    font-variant-numeric: tabular-nums;
+    font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing: -0.01em;
+  }
+  .tile-sub {
+    font-size: 0.78rem;
+    color: var(--ink-muted);
+    margin-top: 0.3rem;
+  }
+
+  /* ---------- Layout grid ---------- */
+  .grid {
+    display: grid;
+    grid-template-columns: minmax(0, 1.6fr) minmax(0, 1fr);
+    gap: 1.75rem;
+  }
+  @media (max-width: 760px) {
+    .grid { grid-template-columns: 1fr; }
+  }
+
+  .panel {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    box-shadow: var(--shadow);
+    overflow: hidden;
+  }
+  .panel + .panel { margin-top: 1.75rem; }
+  .panel-head {
+    padding: 1.1rem 1.35rem 0.9rem;
+    border-bottom: 1px solid var(--border);
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 1rem;
+  }
+  .panel-title {
+    font-family: var(--font-display);
+    font-weight: 600;
+    font-size: 1.05rem;
+    margin: 0;
+  }
+  .panel-note {
+    font-size: 0.76rem;
+    color: var(--ink-faint);
+    font-family: var(--font-mono);
+  }
+  .panel-body { padding: 0.4rem 0; }
+  .panel-body.pad { padding: 1.1rem 1.35rem 1.3rem; }
+
+  /* ---------- Holdings table ---------- */
+  .table-scroll { overflow-x: auto; }
+  table { width: 100%; border-collapse: collapse; font-size: 0.86rem; min-width: 560px; }
+  thead th {
+    text-align: left;
+    font-family: var(--font-mono);
+    font-size: 0.66rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--ink-faint);
+    font-weight: 500;
+    padding: 0.6rem 1.35rem;
+    white-space: nowrap;
+  }
+  thead th.num, td.num { text-align: right; }
+  tbody td {
+    padding: 0.7rem 1.35rem;
+    border-top: 1px solid var(--border);
+    vertical-align: top;
+  }
+  tbody tr:hover { background: var(--surface-alt); }
+  .ticker {
+    font-family: var(--font-mono);
+    font-weight: 600;
+    letter-spacing: 0.01em;
+  }
+  .sector-tag {
+    display: block;
+    font-size: 0.72rem;
+    color: var(--ink-faint);
+    margin-top: 0.15rem;
+  }
+  td.num, .num-cell {
+    font-family: var(--font-mono);
+    font-variant-numeric: tabular-nums;
+  }
+  .gain { color: var(--gain); }
+  .loss { color: var(--loss); }
+  .pct-chip {
+    display: inline-block;
+    padding: 0.15rem 0.5rem;
+    border-radius: 5px;
+    font-size: 0.8rem;
+    font-weight: 500;
+  }
+  .pct-chip.gain { background: var(--gain-soft); }
+  .pct-chip.loss { background: var(--loss-soft); }
+
+  /* ---------- Sector allocation ---------- */
+  .sector-list { list-style: none; margin: 0; padding: 1.1rem 1.35rem 1.3rem; }
+  .sector-row {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 0.3rem 1rem;
+    align-items: baseline;
+    margin-bottom: 0.85rem;
+  }
+  .sector-row:last-child { margin-bottom: 0; }
+  .sector-name { font-size: 0.86rem; }
+  .sector-pct {
+    font-family: var(--font-mono);
+    font-variant-numeric: tabular-nums;
+    font-size: 0.86rem;
+    color: var(--ink-muted);
+  }
+  .sector-bar-track {
+    grid-column: 1 / -1;
+    height: 6px;
+    border-radius: 3px;
+    background: var(--surface-alt);
+    overflow: hidden;
+  }
+  .sector-bar-fill {
+    height: 100%;
+    background: var(--accent);
+    border-radius: 3px;
+  }
+
+  /* ---------- Ledger feed (recent transactions) ---------- */
+  .feed { list-style: none; margin: 0; padding: 0.5rem 1.35rem 1rem; }
+  .feed-entry {
+    display: flex;
+    gap: 0.9rem;
+    padding: 0.85rem 0;
+    border-top: 1px solid var(--border);
+  }
+  .feed-entry:first-child { border-top: none; }
+  .feed-date {
+    font-family: var(--font-mono);
+    font-size: 0.72rem;
+    color: var(--ink-faint);
+    white-space: nowrap;
+    padding-top: 0.2rem;
+  }
+  .feed-action {
+    font-family: var(--font-mono);
+    font-size: 0.68rem;
+    letter-spacing: 0.05em;
+    font-weight: 600;
+    padding: 0.15rem 0.4rem;
+    border-radius: 4px;
+    height: fit-content;
+  }
+  .feed-action.BUY, .feed-action.ADD { background: var(--gain-soft); color: var(--gain); }
+  .feed-action.SELL, .feed-action.TRIM { background: var(--loss-soft); color: var(--loss); }
+  .feed-main { flex: 1; min-width: 0; }
+  .feed-ticker { font-family: var(--font-mono); font-weight: 600; font-size: 0.86rem; }
+  .feed-rationale { font-size: 0.83rem; color: var(--ink-muted); margin-top: 0.2rem; }
+
+  /* ---------- Empty states ---------- */
+  .empty {
+    padding: 2.5rem 1.6rem;
+    text-align: center;
+  }
+  .empty-glyph {
+    font-family: var(--font-display);
+    font-size: 2rem;
+    color: var(--accent);
+    margin-bottom: 0.6rem;
+  }
+  .empty-title {
+    font-family: var(--font-display);
+    font-weight: 600;
+    font-size: 1.15rem;
+    margin: 0 0 0.4rem;
+  }
+  .empty-body {
+    color: var(--ink-muted);
+    font-size: 0.88rem;
+    max-width: 34ch;
+    margin: 0 auto;
+  }
+  .empty-code {
+    display: inline-block;
+    margin-top: 0.9rem;
+    font-family: var(--font-mono);
+    font-size: 0.78rem;
+    background: var(--surface-alt);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 0.5rem 0.8rem;
+  }
+
+  /* ---------- Errors banner ---------- */
+  .errors {
+    margin-top: 1.75rem;
+    padding: 0.9rem 1.2rem;
+    border: 1px solid var(--border);
+    border-left: 3px solid var(--loss);
+    border-radius: 6px;
+    background: var(--surface);
+    font-size: 0.8rem;
+    color: var(--ink-muted);
+  }
+  .errors strong { color: var(--ink); }
+  .errors ul { margin: 0.4rem 0 0; padding-left: 1.1rem; }
+
+  footer {
+    margin-top: 2.5rem;
+    padding-top: 1.25rem;
+    border-top: 1px solid var(--border);
+    font-size: 0.78rem;
+    color: var(--ink-faint);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+  footer strong { color: var(--ink-muted); }
+</style>
+
+<div class="wrap">
+  <header>
+    <div>
+      <p class="brand-eyebrow">Growth Ledger · recommendation-only</p>
+      <h1>Portfolio Dashboard</h1>
+      <p class="as-of" id="as-of">—</p>
+    </div>
+    <span class="status-pill" id="status-pill"><span class="dot"></span><span id="status-text">—</span></span>
+  </header>
+
+  <section class="tiles" id="tiles"></section>
+
+  <div class="grid">
+    <div>
+      <div class="panel">
+        <div class="panel-head">
+          <h2 class="panel-title">Holdings</h2>
+          <span class="panel-note" id="holdings-count-note"></span>
+        </div>
+        <div class="panel-body" id="holdings-body"></div>
+      </div>
+    </div>
+
+    <div>
+      <div class="panel">
+        <div class="panel-head">
+          <h2 class="panel-title">Sector allocation</h2>
+        </div>
+        <div class="panel-body" id="sector-body"></div>
+      </div>
+      <div class="panel">
+        <div class="panel-head">
+          <h2 class="panel-title">Recent decisions</h2>
+          <span class="panel-note">latest first</span>
+        </div>
+        <div class="panel-body" id="feed-body"></div>
+      </div>
+    </div>
+  </div>
+
+  <div id="errors-slot"></div>
+
+  <footer>
+    <span>This ledger tracks <strong>recommendations only</strong> — no trades are executed automatically.</span>
+    <span id="footer-updated"></span>
+  </footer>
+</div>
+
+<script id="dashboard-data" type="application/json">
+{
+  "status": "awaiting_import",
+  "last_updated": "2026-08-30",
+  "cash": 0.0,
+  "total_value": 0.0,
+  "holdings": [],
+  "sector_allocation": [],
+  "recent_transactions": [],
+  "data_errors": [
+    "DE: price history missing (empty history)"
+  ]
+}
+</script>
+
+<script>
+  const data = JSON.parse(document.getElementById('dashboard-data').textContent);
+
+  const money = (n) => '$' + Number(n).toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+  const moneyCompact = (n) => {
+    const abs = Math.abs(n);
+    if (abs >= 1000) return '$' + Number(n).toLocaleString('en-US', { minimumFractionDigits: 0, maximumFractionDigits: 0 });
+    return money(n);
+  };
+  const pct = (n, digits = 1) => (n * 100).toFixed(digits) + '%';
+  const escapeHtml = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+
+  function formatDate(iso) {
+    if (!iso) return '—';
+    const d = new Date(iso + 'T00:00:00');
+    return d.toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' });
+  }
+
+  document.getElementById('as-of').textContent = 'As of ' + formatDate(data.last_updated);
+  document.getElementById('footer-updated').textContent = 'Last run: ' + formatDate(data.last_updated);
+
+  const pill = document.getElementById('status-pill');
+  const statusText = document.getElementById('status-text');
+  if (data.status === 'active') {
+    pill.classList.add('active');
+    statusText.textContent = 'Active';
+  } else {
+    statusText.textContent = 'Awaiting import';
+  }
+
+  // ---- Stat tiles ----
+  const tiles = document.getElementById('tiles');
+  const holdingsCount = data.holdings.length;
+  const largest = data.holdings.slice().sort((a, b) => b.pct_of_portfolio - a.pct_of_portfolio)[0];
+  const cashPct = data.total_value ? data.cash / data.total_value : 0;
+
+  const tileDefs = [
+    { label: 'Total value', value: moneyCompact(data.total_value), sub: data.status === 'active' ? holdingsCount + ' holdings' : 'Not yet funded' },
+    { label: 'Cash', value: moneyCompact(data.cash), sub: data.status === 'active' ? pct(cashPct) + ' of portfolio' : ' ' },
+    { label: 'Positions', value: String(holdingsCount), sub: 'target 15–25' },
+    { label: 'Largest position', value: largest ? largest.ticker : '—', sub: largest ? pct(largest.pct_of_portfolio) + ' of portfolio' : ' ' },
+  ];
+  tiles.innerHTML = tileDefs.map(t => `
+    <div class="tile">
+      <p class="tile-label">${t.label}</p>
+      <div class="tile-value">${t.value}</div>
+      <div class="tile-sub">${t.sub}</div>
+    </div>
+  `).join('');
+
+  // ---- Holdings table ----
+  const holdingsBody = document.getElementById('holdings-body');
+  const holdingsNote = document.getElementById('holdings-count-note');
+  if (data.status !== 'active' || holdingsCount === 0) {
+    holdingsNote.textContent = '';
+    holdingsBody.innerHTML = `
+      <div class="empty">
+        <div class="empty-glyph">§</div>
+        <p class="empty-title">This ledger hasn't been opened yet</p>
+        <p class="empty-body">Import your current holdings from a broker CSV export to begin daily research and tracking.</p>
+        <code class="empty-code">python scripts/import_csv.py --seed data/imports/your_export.csv</code>
+      </div>
+    `;
+  } else {
+    holdingsNote.textContent = holdingsCount + ' positions';
+    const rows = data.holdings.map(h => {
+      const returnKnown = h.return_pct !== null && h.return_pct !== undefined;
+      const returnClass = returnKnown ? (h.return_pct >= 0 ? 'gain' : 'loss') : '';
+      const returnLabel = returnKnown ? (h.return_pct >= 0 ? '+' : '') + pct(h.return_pct) : '—';
+      return `
+        <tr>
+          <td>
+            <span class="ticker">${escapeHtml(h.ticker)}</span>
+            ${h.sector ? `<span class="sector-tag">${escapeHtml(h.sector)}</span>` : ''}
+          </td>
+          <td class="num">${h.shares}</td>
+          <td class="num">${h.cost_basis_per_share != null ? money(h.cost_basis_per_share) : '—'}</td>
+          <td class="num">${money(h.price)}</td>
+          <td class="num">${money(h.value)}</td>
+          <td class="num"><span class="pct-chip ${returnClass}">${returnLabel}</span></td>
+          <td class="num">${pct(h.pct_of_portfolio)}</td>
+        </tr>
+      `;
+    }).join('');
+    holdingsBody.innerHTML = `
+      <div class="table-scroll">
+        <table>
+          <thead>
+            <tr>
+              <th>Ticker</th>
+              <th class="num">Shares</th>
+              <th class="num">Cost basis</th>
+              <th class="num">Price</th>
+              <th class="num">Value</th>
+              <th class="num">Return</th>
+              <th class="num">% of portfolio</th>
+            </tr>
+          </thead>
+          <tbody>${rows}</tbody>
+        </table>
+      </div>
+    `;
+  }
+
+  // ---- Sector allocation ----
+  const sectorBody = document.getElementById('sector-body');
+  if (!data.sector_allocation || data.sector_allocation.length === 0) {
+    sectorBody.innerHTML = `
+      <div class="empty">
+        <p class="empty-body">No sector data yet.</p>
+      </div>
+    `;
+  } else {
+    const sorted = data.sector_allocation.slice().sort((a, b) => b.pct - a.pct);
+    sectorBody.innerHTML = `
+      <ul class="sector-list">
+        ${sorted.map(s => `
+          <li class="sector-row">
+            <span class="sector-name">${escapeHtml(s.sector)}</span>
+            <span class="sector-pct">${pct(s.pct)}</span>
+            <div class="sector-bar-track"><div class="sector-bar-fill" style="width:${Math.min(100, s.pct * 100).toFixed(1)}%"></div></div>
+          </li>
+        `).join('')}
+      </ul>
+    `;
+  }
+
+  // ---- Recent decisions feed ----
+  const feedBody = document.getElementById('feed-body');
+  if (!data.recent_transactions || data.recent_transactions.length === 0) {
+    feedBody.innerHTML = `
+      <div class="empty">
+        <p class="empty-body">No decisions logged yet. Once the daily research run begins, every buy, sell, trim, or add will appear here with its rationale.</p>
+      </div>
+    `;
+  } else {
+    feedBody.innerHTML = `
+      <ul class="feed">
+        ${data.recent_transactions.map(tx => `
+          <li class="feed-entry">
+            <span class="feed-date">${escapeHtml(tx.date)}</span>
+            <div class="feed-main">
+              <span class="feed-action ${escapeHtml(tx.action)}">${escapeHtml(tx.action)}</span>
+              <span class="feed-ticker">${escapeHtml(tx.ticker)}</span>
+              <div class="feed-rationale">${escapeHtml(tx.rationale)}</div>
+            </div>
+          </li>
+        `).join('')}
+      </ul>
+    `;
+  }
+
+  // ---- Data errors ----
+  const errorsSlot = document.getElementById('errors-slot');
+  if (data.data_errors && data.data_errors.length > 0) {
+    errorsSlot.innerHTML = `
+      <div class="errors">
+        <strong>Data fetch notes</strong> — the following tickers were skipped this run rather than failing the whole update:
+        <ul>${data.data_errors.map(e => `<li>${escapeHtml(e)}</li>`).join('')}</ul>
+      </div>
+    `;
+  }
+</script>
