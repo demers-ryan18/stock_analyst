@@ -98,9 +98,11 @@ real trade itself.
       <div style="font-size: 14px; font-weight: bold; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 8px; border-bottom: 1px solid #d7ddd3; padding-bottom: 4px;">Today's Decisions ({n})</div>
       <table style="width: 100%; border-collapse: collapse; font-size: 13px; margin-bottom: 24px;">
         <tr>
-          <!-- one row per BUY/SELL/TRIM/ADD. Action badge: TRIM/SELL -> loss colors, BUY/ADD -> gain colors. -->
+          <!-- one row per BUY/SELL/TRIM/ADD. Action badge: TRIM/SELL -> loss colors, BUY/ADD -> gain colors.
+               Share count is the day's net change for that ticker (sum same-ticker fills, e.g. two TRIM CRDO
+               rows in transactions.csv become one "-2.64 sh" line here) - signed, 2 decimal places. -->
           <td style="padding: 8px; vertical-align: top; border-bottom: 1px solid #eee; white-space: nowrap;">
-            <span style="background:#f4e4e1; color:#a23b2e; font-weight:bold; padding:2px 6px; border-radius:3px; font-size:11px;">TRIM</span> <b>{TICKER}</b>
+            <span style="background:#f4e4e1; color:#a23b2e; font-weight:bold; padding:2px 6px; border-radius:3px; font-size:11px;">TRIM</span> <b>{TICKER}</b> <span style="color:#8b978f; font-family:'Courier New',monospace; font-size:11px;">{-2.64 sh}</span>
           </td>
           <td style="padding: 8px; vertical-align: top; border-bottom: 1px solid #eee; color: #5c6a63;">{one-line reason, not the full transactions.csv rationale}</td>
         </tr>
