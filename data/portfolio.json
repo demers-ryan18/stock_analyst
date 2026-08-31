@@ -1,6 +1,57 @@
 {
-  "status": "awaiting_import",
-  "cash": 0.0,
-  "last_updated": null,
-  "holdings": []
+  "status": "active",
+  "cash": 40.27,
+  "last_updated": "2026-08-30",
+  "holdings": [
+    {
+      "ticker": "AGX",
+      "shares": 0.506,
+      "cost_basis_per_share": 614.82,
+      "date_added": "2026-08-30",
+      "sector": "Industrials",
+      "thesis": "Imported from broker export; awaiting first research review.",
+      "last_review": null,
+      "status": "active"
+    },
+    {
+      "ticker": "CRDO",
+      "shares": 4.49,
+      "cost_basis_per_share": 270.52,
+      "date_added": "2026-08-30",
+      "sector": "Technology",
+      "thesis": "Imported from broker export; awaiting first research review.",
+      "last_review": null,
+      "status": "active"
+    },
+    {
+      "ticker": "DUOL",
+      "shares": 3.921,
+      "cost_basis_per_share": 127.51,
+      "date_added": "2026-08-30",
+      "sector": "Technology",
+      "thesis": "Imported from broker export; awaiting first research review.",
+      "last_review": null,
+      "status": "active"
+    },
+    {
+      "ticker": "INOD",
+      "shares": 8.085,
+      "cost_basis_per_share": 79.32,
+      "date_added": "2026-08-30",
+      "sector": "Technology",
+      "thesis": "Imported from broker export; awaiting first research review.",
+      "last_review": null,
+      "status": "active"
+    },
+    {
+      "ticker": "VRT",
+      "shares": 7.004,
+      "cost_basis_per_share": 323.17,
+      "date_added": "2026-08-30",
+      "sector": "Industrials",
+      "thesis": "Imported from broker export; awaiting first research review.",
+      "last_review": null,
+      "status": "active"
+    }
+  ]
 }

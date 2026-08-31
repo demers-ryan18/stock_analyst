@@ -1,9 +1,25 @@
-# Portfolio Report — 2026-08-31
+# Portfolio Report — 2026-08-30
 
-**Portfolio not yet funded — awaiting broker CSV import.**
+**Total portfolio value:** $4,131.12  
+**Cash:** $40.27 (1.0%)
 
-Run `python scripts/import_csv.py --seed <path-to-export.csv>` once a broker export is available in `data/imports/`. Until then this report only tracks watchlist research.
+## Today's decisions
 
-## Data fetch errors
+No BUY/SELL/TRIM/ADD decisions today — all positions held.
 
-- Yahoo Finance market-data feed was unreachable for all 41 tracked tickers this run (network/policy block in the execution environment: guce.yahoo.com CONNECT rejected with 403, query2.finance.yahoo.com connections reset mid-request). No prices or fundamentals could be fetched today. This is an infrastructure issue, not ticker-specific delisting/data-quality — will retry automatically on the next scheduled run.
+## Current holdings
+
+| Ticker | Shares | Cost Basis | Price | Value | Return | % of Portfolio |
+|---|---|---|---|---|---|---|
+| AGX | 0.506 | $614.82 | $417.74 | $211.38 | -32.1% | 5.1% |
+| CRDO | 4.49 | $270.52 | $232.75 | $1,045.05 | -14.0% | 25.3% |
+| DUOL | 3.921 | $127.51 | $146.98 | $576.31 | 15.3% | 14.0% |
+| INOD | 8.085 | $79.32 | $56.59 | $457.53 | -28.7% | 11.1% |
+| VRT | 7.004 | $323.17 | $257.08 | $1,800.59 | -20.5% | 43.6% |
+
+## Sector allocation
+
+| Sector | % of Portfolio |
+|---|---|
+| Industrials | 48.7% |
+| Technology | 50.3% |
