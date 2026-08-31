@@ -20,6 +20,16 @@ paths:
   reports_latest: reports/latest.md
   reports_archive: reports/archive
   artifact_id_file: config/artifact_id.txt
+  history: data/history.csv
 
 fundamentals_cache_days: 3
 universe: "US equities and ETFs only"
+
+# Tracked alongside the portfolio's own value each run so the dashboard can show
+# performance relative to a simple index fund. Fetched like any other ticker but
+# never treated as a buy candidate (kept out of watchlist.csv on purpose).
+benchmark_ticker: SPY
+
+# A position/sector using more than this fraction of its cap is flagged in the
+# dashboard as approaching the limit, before it actually breaches it.
+cap_warning_threshold_pct: 0.85

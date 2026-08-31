@@ -50,7 +50,10 @@ real trade itself.
    portfolio within the sizing and sector-cap constraints.
 7. Update `data/portfolio.json` (holdings, cash) and append every BUY/SELL/TRIM/ADD (not
    HOLDs) to `data/transactions.csv` with full rationale.
-8. Run `scripts/generate_report.py` and `scripts/dashboard_data.py`.
+8. Run `scripts/record_history.py` (appends/updates today's row in `data/history.csv` —
+   total value, cash, and the benchmark price — powering the dashboard's performance chart
+   and vs-benchmark comparison), then `scripts/generate_report.py` and
+   `scripts/dashboard_data.py`.
 9. Load the `artifact-design` skill, then publish/update the dashboard Artifact **in
    place** — reuse the id/URL stored in `config/artifact_id.txt`. If this is the very first
    publish, save the new URL to that file.

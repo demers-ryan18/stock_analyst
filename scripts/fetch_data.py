@@ -40,6 +40,10 @@ FUNDAMENTALS_FIELDS = [
 
 
 def load_universe_tickers(settings: dict[str, Any], repo_root: Path = REPO_ROOT) -> list[str]:
+    """Every ticker to fetch: current holdings, active watchlist candidates, and the
+    benchmark. The benchmark is fetched here so it's priced like everything else, but
+    it's added directly (not via watchlist.csv) so it's never mistaken for a buy candidate
+    by evaluate.py's screening, which only reads watchlist.csv."""
     portfolio = load_portfolio(settings, repo_root)
     tickers = {h["ticker"] for h in portfolio.get("holdings", [])}
 
@@ -48,6 +52,11 @@ def load_universe_tickers(settings: dict[str, Any], repo_root: Path = REPO_ROOT)
         for row in csv.DictReader(f):
             if row.get("status", "active") == "active":
                 tickers.add(row["ticker"].strip().upper())
+
+    benchmark = settings.get("benchmark_ticker")
+    if benchmark:
+        tickers.add(benchmark.strip().upper())
+
     return sorted(tickers)
 
 

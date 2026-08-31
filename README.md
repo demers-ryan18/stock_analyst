@@ -20,12 +20,17 @@ config/artifact_id.txt Dashboard Artifact URL, reused so the same link updates e
 data/portfolio.json    The tracked "model" portfolio: cash + holdings, with cost basis,
                         sector, and thesis notes per holding
 data/transactions.csv  Append-only log of every BUY/SELL/TRIM/ADD with rationale
+data/history.csv        One row per day: total value, cash, benchmark price — powers the
+                        dashboard's performance chart and vs-benchmark comparison
 
 scripts/import_csv.py       Import/reconcile your real broker CSV export
-scripts/fetch_data.py       Pull prices + fundamentals (yfinance)
+scripts/fetch_data.py       Pull prices + fundamentals (yfinance), including the benchmark
 scripts/evaluate.py         Quantitative hold/trim/sell/buy screening logic
+scripts/record_history.py   Appends/updates today's row in data/history.csv
 scripts/generate_report.py  Builds reports/latest.md + a dated archive copy
-scripts/dashboard_data.py   Builds the JSON payload the dashboard Artifact reads
+scripts/dashboard_data.py   Builds the JSON payload the dashboard Artifact reads (holdings
+                             with fundamentals/cap-usage, sector allocation, performance
+                             history, watchlist candidate scores, recent decisions)
 
 reports/latest.md            Most recent report
 reports/archive/YYYY-MM-DD.md  Full history, one file per day
@@ -67,7 +72,8 @@ reports/archive/YYYY-MM-DD.md  Full history, one file per day
 ## Running things manually / testing
 
 ```
-python scripts/fetch_data.py          # refresh prices + fundamentals
+python scripts/fetch_data.py          # refresh prices + fundamentals (+ benchmark)
+python scripts/record_history.py      # record today's value/benchmark snapshot
 python scripts/generate_report.py     # rebuild reports/latest.md
 python scripts/dashboard_data.py      # rebuild reports/dashboard_data.json
 pytest tests/                          # run the test suite (no network required)

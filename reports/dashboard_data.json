@@ -2,117 +2,199 @@
   "status": "active",
   "last_updated": "2026-08-31",
   "cash": 505.14,
-  "total_value": 4106.467254760742,
+  "total_value": 4118.362920779418,
   "holdings": [
     {
       "ticker": "VRT",
       "shares": 2.405,
       "cost_basis_per_share": 323.17,
-      "price": 256.04998779296875,
-      "value": 615.8002206420898,
-      "return_pct": -0.20769258349175748,
-      "pct_of_portfolio": 0.14995863413452898,
+      "price": 258.7200012207031,
+      "value": 622.221602935791,
+      "return_pct": -0.19943063644303893,
+      "pct_of_portfolio": 0.15108469430810453,
+      "position_cap_usage_pct": 1.0072312953873637,
+      "near_position_cap": true,
       "sector": "Industrials",
-      "thesis": "TRIMMED to 15% cap: was 43.7% of portfolio. Q2 FY26 net sales +24% YoY (18% organic), raised full-year guidance, Strong Buy consensus PT $338 vs ~$256 price -- thesis intact, sizing rebalance."
+      "thesis": "TRIMMED to 15% cap: was 43.7% of portfolio. Q2 FY26 net sales +24% YoY (18% organic), raised full-year guidance, Strong Buy consensus PT $338 vs ~$256 price -- thesis intact, sizing rebalance.",
+      "fundamentals": {
+        "trailingPE": 58.16289,
+        "forwardPE": 28.254305,
+        "revenueGrowth": 0.241,
+        "earningsGrowth": 0.53,
+        "marketCap": 98972753920
+      }
     },
     {
       "ticker": "GOOGL",
       "shares": 1.7771,
       "cost_basis_per_share": 337.63,
-      "price": 337.5299987792969,
-      "value": 599.8245608306885,
-      "return_pct": -0.00029618582680188506,
-      "pct_of_portfolio": 0.1460682683236534,
+      "price": 339.3500061035156,
+      "value": 603.0588958465576,
+      "return_pct": 0.0050943521118254585,
+      "pct_of_portfolio": 0.14643170294773974,
+      "position_cap_usage_pct": 0.9762113529849317,
+      "near_position_cap": true,
       "sector": "Communication Services",
-      "thesis": "Search/cloud/AI compounder trading at a reasonable multiple for its growth; diversifies portfolio out of Tech/Industrials concentration."
+      "thesis": "Search/cloud/AI compounder trading at a reasonable multiple for its growth; diversifies portfolio out of Tech/Industrials concentration.",
+      "fundamentals": {
+        "trailingPE": 17.390366,
+        "forwardPE": 23.374542,
+        "revenueGrowth": 0.242,
+        "earningsGrowth": 2.94,
+        "marketCap": 4238773059584
+      }
     },
     {
       "ticker": "DUOL",
       "shares": 3.921,
       "cost_basis_per_share": 127.51,
-      "price": 147.96499633789062,
-      "value": 580.1707506408691,
-      "return_pct": 0.16041876196290972,
-      "pct_of_portfolio": 0.1412822055182008,
+      "price": 148.36000061035156,
+      "value": 581.7195623931884,
+      "return_pct": 0.1635165917210537,
+      "pct_of_portfolio": 0.14125019421141627,
+      "position_cap_usage_pct": 0.9416679614094419,
+      "near_position_cap": true,
       "sector": "Technology",
-      "thesis": "HOLD: earnings-growth flag reflects reinvestment, not a slowdown -- Q2 revenue $298.45M (EPS beat), DAU +23% YoY accelerating, paid subscribers +17%, FY26 guidance reaffirmed (15-18% rev growth), analyst targets raised post-print."
+      "thesis": "HOLD: earnings-growth flag reflects reinvestment, not a slowdown -- Q2 revenue $298.45M (EPS beat), DAU +23% YoY accelerating, paid subscribers +17%, FY26 guidance reaffirmed (15-18% rev growth), analyst targets raised post-print.",
+      "fundamentals": {
+        "trailingPE": 17.35301,
+        "forwardPE": 19.240612,
+        "revenueGrowth": 0.183,
+        "earningsGrowth": -0.275,
+        "marketCap": 6848256000
+      }
     },
     {
       "ticker": "AMZN",
       "shares": 1.9219,
       "cost_basis_per_share": 260.16,
-      "price": 260.1289978027344,
-      "value": 499.9419208770752,
-      "return_pct": -0.00011916588739871621,
-      "pct_of_portfolio": 0.12174501581559637,
+      "price": 259.7699890136719,
+      "value": 499.25194188537597,
+      "return_pct": -0.0014991197198960253,
+      "pct_of_portfolio": 0.1212258247971236,
+      "position_cap_usage_pct": 0.8081721653141574,
+      "near_position_cap": false,
       "sector": "Consumer Cyclical",
-      "thesis": "AWS margin expansion plus retail growth; diversifies portfolio into Consumer Cyclical."
+      "thesis": "AWS margin expansion plus retail growth; diversifies portfolio into Consumer Cyclical.",
+      "fundamentals": {
+        "trailingPE": 21.417202,
+        "forwardPE": 25.641668,
+        "revenueGrowth": 0.196,
+        "earningsGrowth": 2.423,
+        "marketCap": 2873797378048
+      }
     },
     {
       "ticker": "XOM",
       "shares": 2.7512,
       "cost_basis_per_share": 159.93,
-      "price": 159.9499969482422,
-      "value": 440.05443160400387,
-      "return_pct": 0.00012503562960157992,
-      "pct_of_portfolio": 0.10716131514109517,
+      "price": 160.9499969482422,
+      "value": 442.8056316040039,
+      "return_pct": 0.006377771201414248,
+      "pct_of_portfolio": 0.10751981797665393,
+      "position_cap_usage_pct": 0.7167987865110262,
+      "near_position_cap": false,
       "sector": "Energy",
-      "thesis": "Integrated energy major with capital discipline; low-correlation diversifier away from Tech/Industrials-heavy portfolio."
+      "thesis": "Integrated energy major with capital discipline; low-correlation diversifier away from Tech/Industrials-heavy portfolio.",
+      "fundamentals": {
+        "trailingPE": 20.168598,
+        "forwardPE": 14.724317,
+        "revenueGrowth": 0.441,
+        "earningsGrowth": 1.128,
+        "marketCap": 644377739264
+      }
     },
     {
       "ticker": "CRDO",
       "shares": 1.8526,
       "cost_basis_per_share": 270.52,
-      "price": 227.8300018310547,
-      "value": 422.0778613922119,
-      "return_pct": -0.15780717939134,
-      "pct_of_portfolio": 0.10278369099446373,
+      "price": 226.19000244140625,
+      "value": 419.03959852294923,
+      "return_pct": -0.16386957547905417,
+      "pct_of_portfolio": 0.10174907034265065,
+      "position_cap_usage_pct": 0.6783271356176711,
+      "near_position_cap": false,
       "sector": "Technology",
-      "thesis": "TRIMMED to 15% cap (24.9% -> 15%), then trimmed further to bring the Technology sector under its 30% sector cap (was 34.7% after the first trim). Fundamentals remain strong (Q4 FY26 revenue +205.7% YoY, FY27 guidance implies 80%+ revenue growth, Strong Buy consensus) -- purely a sizing/diversification rebalance, not a conviction change."
+      "thesis": "TRIMMED to 15% cap (24.9% -> 15%), then trimmed further to bring the Technology sector under its 30% sector cap (was 34.7% after the first trim). Fundamentals remain strong (Q4 FY26 revenue +205.7% YoY, FY27 guidance implies 80%+ revenue growth, Strong Buy consensus) -- purely a sizing/diversification rebalance, not a conviction change.",
+      "fundamentals": {
+        "trailingPE": 92.72909,
+        "forwardPE": 25.473015,
+        "revenueGrowth": 1.57,
+        "earningsGrowth": 3.432,
+        "marketCap": 43741794304
+      }
     },
     {
       "ticker": "INOD",
       "shares": 4.078,
       "cost_basis_per_share": 79.32,
-      "price": 56.30500030517578,
-      "value": 229.61179124450686,
-      "return_pct": -0.2901538035151817,
-      "pct_of_portfolio": 0.055914677263848016,
+      "price": 56.41999816894531,
+      "value": 230.080752532959,
+      "return_pct": -0.288704006947235,
+      "pct_of_portfolio": 0.05586704157908823,
+      "position_cap_usage_pct": 0.3724469438605882,
+      "near_position_cap": false,
       "sector": "Technology",
-      "thesis": "TRIMMED ~50% on stop-loss review: down 43% over 30 days on heavy insider selling ($174.3M sold, no buys in 12mo) and a pending CEO transition (new CEO effective 9/30/26), despite a Q2 beat (revenue $92.1M +58% YoY) and reaffirmed 40% FY guidance. Kept a reduced position given intact growth; watching insider activity and transition closely."
+      "thesis": "TRIMMED ~50% on stop-loss review: down 43% over 30 days on heavy insider selling ($174.3M sold, no buys in 12mo) and a pending CEO transition (new CEO effective 9/30/26), despite a Q2 beat (revenue $92.1M +58% YoY) and reaffirmed 40% FY guidance. Kept a reduced position given intact growth; watching insider activity and transition closely.",
+      "fundamentals": {
+        "trailingPE": 43.868217,
+        "forwardPE": 27.106773,
+        "revenueGrowth": 0.578,
+        "earningsGrowth": 1.05,
+        "marketCap": 1945714304
+      }
     },
     {
       "ticker": "AGX",
       "shares": 0.506,
       "cost_basis_per_share": 614.82,
-      "price": 422.6199951171875,
-      "value": 213.84571752929688,
-      "return_pct": -0.31261182928794207,
-      "pct_of_portfolio": 0.0520753495066543,
+      "price": 424.989990234375,
+      "value": 215.04493505859375,
+      "return_pct": -0.30875705046294044,
+      "pct_of_portfolio": 0.05221612062734276,
+      "position_cap_usage_pct": 0.3481074708489517,
+      "near_position_cap": false,
       "sector": "Industrials",
-      "thesis": "HOLD: -31% vs. cost basis triggered stop-loss review, but driven by import cost basis near a prior peak, not deterioration -- FY26 revenue +8%, earnings +61%, $2.8B backlog, Buy-rated (avg PT $667.80), Q3 earnings due 9/2/26."
+      "thesis": "HOLD: -31% vs. cost basis triggered stop-loss review, but driven by import cost basis near a prior peak, not deterioration -- FY26 revenue +8%, earnings +61%, $2.8B backlog, Buy-rated (avg PT $667.80), Q3 earnings due 9/2/26.",
+      "fundamentals": {
+        "trailingPE": 40.478683,
+        "forwardPE": 26.125046,
+        "revenueGrowth": 0.502,
+        "earningsGrowth": 1.025,
+        "marketCap": 5856399872
+      }
     }
   ],
   "sector_allocation": [
     {
       "sector": "Communication Services",
-      "pct": 0.1460682683236534
+      "pct": 0.14643170294773974,
+      "sector_cap_usage_pct": 0.48810567649246583,
+      "near_sector_cap": false
     },
     {
       "sector": "Consumer Cyclical",
-      "pct": 0.12174501581559637
+      "pct": 0.1212258247971236,
+      "sector_cap_usage_pct": 0.4040860826570787,
+      "near_sector_cap": false
     },
     {
       "sector": "Energy",
-      "pct": 0.10716131514109517
+      "pct": 0.10751981797665393,
+      "sector_cap_usage_pct": 0.3583993932555131,
+      "near_sector_cap": false
     },
     {
       "sector": "Industrials",
-      "pct": 0.20203398364118327
+      "pct": 0.2033008149354473,
+      "sector_cap_usage_pct": 0.6776693831181577,
+      "near_sector_cap": false
     },
     {
       "sector": "Technology",
-      "pct": 0.2999805737765125
+      "pct": 0.2988663061331552,
+      "sector_cap_usage_pct": 0.9962210204438506,
+      "near_sector_cap": true
     }
   ],
   "recent_transactions": [
@@ -194,5 +276,128 @@
       "cash_after": "446.96"
     }
   ],
+  "performance_history": [
+    {
+      "date": "2026-08-31",
+      "total_value": 4118.36,
+      "portfolio_return_pct": 0.0,
+      "benchmark_return_pct": 0.0
+    }
+  ],
+  "benchmark_ticker": "SPY",
+  "watchlist": {
+    "total_screened": 43,
+    "top_candidates": [
+      {
+        "ticker": "DDOG",
+        "sector": "Technology",
+        "score": 78.485,
+        "reasons": [
+          "revenue growth 35.6%",
+          "earnings growth 1498.5%"
+        ],
+        "notes": "Observability SaaS"
+      },
+      {
+        "ticker": "NVDA",
+        "sector": "Technology",
+        "score": 19.26933005,
+        "reasons": [
+          "revenue growth 105.9%",
+          "earnings growth 127.8%",
+          "forward P/E 14.2"
+        ],
+        "notes": "AI/datacenter compute leader"
+      },
+      {
+        "ticker": "AMD",
+        "sector": "Technology",
+        "score": 14.4783398,
+        "reasons": [
+          "revenue growth 50.1%",
+          "earnings growth 159.5%",
+          "forward P/E 30.1"
+        ],
+        "notes": "GPU/CPU challenger"
+      },
+      {
+        "ticker": "AVGO",
+        "sector": "Technology",
+        "score": 11.11474425,
+        "reasons": [
+          "revenue growth 47.9%",
+          "earnings growth 85.4%",
+          "forward P/E 18.9"
+        ],
+        "notes": "Semis + AI networking"
+      },
+      {
+        "ticker": "TSM",
+        "sector": "Technology",
+        "score": 9.511561799999999,
+        "reasons": [
+          "revenue growth 36.0%",
+          "earnings growth 77.4%",
+          "forward P/E 19.2"
+        ],
+        "notes": "Leading-edge foundry"
+      },
+      {
+        "ticker": "CRM",
+        "sector": "Technology",
+        "score": 9.215458,
+        "reasons": [
+          "revenue growth 10.8%",
+          "earnings growth 118.9%",
+          "forward P/E 16.2"
+        ],
+        "notes": "Enterprise SaaS"
+      },
+      {
+        "ticker": "LLY",
+        "sector": "Healthcare",
+        "score": 7.8366042,
+        "reasons": [
+          "revenue growth 47.7%",
+          "earnings growth 26.2%",
+          "forward P/E 24.9"
+        ],
+        "notes": "GLP-1 franchise leader"
+      },
+      {
+        "ticker": "CAT",
+        "sector": "Industrials",
+        "score": 7.57250255,
+        "reasons": [
+          "revenue growth 24.0%",
+          "earnings growth 68.2%",
+          "forward P/E 24.7"
+        ],
+        "notes": "Infrastructure/capex cycle"
+      },
+      {
+        "ticker": "LRCX",
+        "sector": "Technology",
+        "score": 6.433881,
+        "reasons": [
+          "revenue growth 30.0%",
+          "earnings growth 34.8%",
+          "forward P/E 26.1"
+        ],
+        "notes": "Semicap equipment"
+      },
+      {
+        "ticker": "COST",
+        "sector": "Consumer Defensive",
+        "score": 5.3387661,
+        "reasons": [
+          "revenue growth 21.5%",
+          "earnings growth 45.5%",
+          "forward P/E 41.7"
+        ],
+        "notes": "Membership retail"
+      }
+    ]
+  },
   "data_errors": []
 }
