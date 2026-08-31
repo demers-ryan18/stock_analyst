@@ -55,8 +55,71 @@ real trade itself.
    place** — reuse the id/URL stored in `config/artifact_id.txt`. If this is the very first
    publish, save the new URL to that file.
 10. Send an email digest via the Gmail MCP tool (`mcp__claude_ai_Gmail__send_message`) to
-    demersryan495@gmail.com: today's decisions with rationale, current holdings snapshot,
-    performance vs. cost basis, and the dashboard link.
+    demersryan495@gmail.com. Pass **both** `body` (plain-text fallback) and `htmlBody`
+    (the real one Gmail renders) — always use the HTML template below, don't fall back to
+    a plain-text wall of paragraphs. The goal is scannable at a glance: stat tiles first,
+    a compact decisions table second, full depth left to the dashboard link rather than
+    duplicated in the email.
+
+    **Subject:** `Growth Ledger — Daily Review, {date}` (or `... — Data Outage` /
+    `... — Run Failed` on a failure email; see step 11's failure path).
+
+    **HTML body structure** (inline styles only — email clients strip `<style>` blocks and
+    don't support flex/grid; use tables for layout). Match the dashboard's ledger palette:
+    ink `#182420`, muted `#5c6a63`, faint `#8b978f`, border `#d7ddd3`, accent `#a8752c`,
+    gain `#2f6b4f` / gain-soft `#e2eee6`, loss `#a23b2e` / loss-soft `#f4e4e1`. Body font
+    `Georgia, 'Times New Roman', serif`; labels/numbers in `'Courier New', monospace`.
+
+    ```html
+    <div style="font-family: Georgia, 'Times New Roman', serif; max-width: 600px; margin: 0 auto; color: #182420;">
+      <div style="border-bottom: 3px solid #a8752c; padding-bottom: 12px; margin-bottom: 20px;">
+        <div style="font-family: 'Courier New', monospace; font-size: 11px; letter-spacing: 1px; color: #a8752c; text-transform: uppercase;">GROWTH LEDGER &middot; DAILY REVIEW</div>
+        <div style="font-size: 22px; font-weight: bold; margin-top: 4px;">{Month D, YYYY}</div>
+      </div>
+
+      <table style="width: 100%; border-collapse: collapse; margin-bottom: 24px;">
+        <tr>
+          <td style="padding: 10px; background: #f5f5f0; border: 1px solid #d7ddd3; width: 33%;">
+            <div style="font-size: 10px; text-transform: uppercase; color: #8b978f;">Total Value</div>
+            <div style="font-size: 18px; font-weight: bold; font-family: 'Courier New', monospace;">${total}</div>
+          </td>
+          <td style="padding: 10px; background: #f5f5f0; border: 1px solid #d7ddd3; width: 33%;">
+            <div style="font-size: 10px; text-transform: uppercase; color: #8b978f;">Cash</div>
+            <div style="font-size: 18px; font-weight: bold; font-family: 'Courier New', monospace;">${cash} ({cash_pct}%)</div>
+          </td>
+          <td style="padding: 10px; background: #f5f5f0; border: 1px solid #d7ddd3; width: 33%;">
+            <div style="font-size: 10px; text-transform: uppercase; color: #8b978f;">Holdings</div>
+            <div style="font-size: 18px; font-weight: bold; font-family: 'Courier New', monospace;">{count}</div>
+          </td>
+        </tr>
+      </table>
+
+      <!-- Omit this whole section on a HOLD-only day; say so in one line instead. -->
+      <div style="font-size: 14px; font-weight: bold; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 8px; border-bottom: 1px solid #d7ddd3; padding-bottom: 4px;">Today's Decisions ({n})</div>
+      <table style="width: 100%; border-collapse: collapse; font-size: 13px; margin-bottom: 24px;">
+        <tr>
+          <!-- one row per BUY/SELL/TRIM/ADD. Action badge: TRIM/SELL -> loss colors, BUY/ADD -> gain colors. -->
+          <td style="padding: 8px; vertical-align: top; border-bottom: 1px solid #eee; white-space: nowrap;">
+            <span style="background:#f4e4e1; color:#a23b2e; font-weight:bold; padding:2px 6px; border-radius:3px; font-size:11px;">TRIM</span> <b>{TICKER}</b>
+          </td>
+          <td style="padding: 8px; vertical-align: top; border-bottom: 1px solid #eee; color: #5c6a63;">{one-line reason, not the full transactions.csv rationale}</td>
+        </tr>
+      </table>
+
+      <div style="text-align: center; margin: 24px 0;">
+        <a href="{dashboard_url}" style="background: #a8752c; color: #fff; padding: 10px 24px; text-decoration: none; border-radius: 4px; font-size: 13px; font-weight: bold; display: inline-block;">View Full Dashboard &rarr;</a>
+      </div>
+
+      <div style="font-size: 11px; color: #8b978f; border-top: 1px solid #d7ddd3; padding-top: 12px; margin-top: 20px;">
+        Recommendation only &mdash; no trades executed automatically. Full rationale for every decision is in the dashboard and <code>data/transactions.csv</code>.
+      </div>
+    </div>
+    ```
+
+    Keep the decisions table to one short line of "why" per row (the full cited rationale
+    lives in `transactions.csv` and the dashboard) — the email's job is triage, not the
+    complete record. On a data-outage or failure email, drop the decisions table and use a
+    short plain paragraph instead; the stat tiles and footer can stay if state is known.
 11. Commit and push all updated files (`data/`, `reports/`, `config/watchlist.csv`,
     `config/artifact_id.txt`) back to the repo with a dated commit message.
 12. Check the run against the Definition of Done below before finishing.
