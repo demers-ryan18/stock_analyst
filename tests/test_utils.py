@@ -1,6 +1,9 @@
 from utils import (
     holdings_value,
+    is_opportunity_tier,
+    opportunity_bucket_pct,
     position_pct,
+    room_in_opportunity_bucket,
     room_in_sector,
     sector_pct,
     total_portfolio_value,
@@ -56,3 +59,44 @@ def test_room_in_sector_zero_value_portfolio_no_crash():
     settings = {"sector_max_pct": 0.30}
     room = room_in_sector(settings, "Technology", empty_portfolio, {}, 0.0)
     assert room == 0.0
+
+
+OPP_SETTINGS = {"opportunity_market_cap_threshold": 10_000_000_000, "opportunity_bucket_max_pct": 0.20}
+
+
+def test_is_opportunity_tier_below_threshold():
+    assert is_opportunity_tier(2_000_000_000, OPP_SETTINGS) is True
+
+
+def test_is_opportunity_tier_above_threshold():
+    assert is_opportunity_tier(500_000_000_000, OPP_SETTINGS) is False
+
+
+def test_is_opportunity_tier_unknown_market_cap():
+    assert is_opportunity_tier(None, OPP_SETTINGS) is False
+
+
+def test_opportunity_bucket_pct_only_counts_sub_threshold_holdings():
+    fundamentals = {
+        "AAA": {"marketCap": 2_000_000_000},   # Technology, small-cap -> counts
+        "BBB": {"marketCap": 500_000_000_000},  # Health Care, mega-cap -> doesn't count
+    }
+    total = total_portfolio_value(PORTFOLIO, PRICES)
+    pct = opportunity_bucket_pct(PORTFOLIO, PRICES, fundamentals, OPP_SETTINGS, total)
+    assert abs(pct - (1100.0 / total)) < 1e-9  # only AAA's value (10 * 110)
+
+
+def test_room_in_opportunity_bucket_respects_cap():
+    fundamentals = {
+        "AAA": {"marketCap": 2_000_000_000},
+        "BBB": {"marketCap": 500_000_000_000},
+    }
+    total = total_portfolio_value(PORTFOLIO, PRICES)
+    room = room_in_opportunity_bucket(PORTFOLIO, PRICES, fundamentals, OPP_SETTINGS, total)
+    expected = max(0.0, 0.20 * total - 1100.0)
+    assert abs(room - expected) < 1e-6
+
+
+def test_room_in_opportunity_bucket_no_cap_configured():
+    room = room_in_opportunity_bucket(PORTFOLIO, PRICES, {}, {}, total_portfolio_value(PORTFOLIO, PRICES))
+    assert room == float("inf")

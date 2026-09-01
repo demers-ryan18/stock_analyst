@@ -11,8 +11,10 @@ from dataclasses import dataclass, field
 from typing import Any
 
 from utils import (
+    is_opportunity_tier,
     max_new_position_value,
     position_pct,
+    room_in_opportunity_bucket,
     room_in_sector,
     total_portfolio_value,
 )
@@ -93,6 +95,7 @@ class CandidateScore:
     score: float
     reasons: list[str] = field(default_factory=list)
     max_buy_value: float = 0.0
+    opportunity_tier: bool = False
 
 
 def score_candidate(
@@ -102,10 +105,18 @@ def score_candidate(
     prices: dict[str, float],
     settings: dict[str, Any],
     total_value: float,
+    all_fundamentals: dict[str, dict[str, Any]] | None = None,
 ) -> CandidateScore | None:
     """Simple growth-oriented quantitative screen. Returns None if fundamentals are
     missing/unusable; the agent's news research is what turns a positive score into
-    an actual buy decision, this just narrows the field."""
+    an actual buy decision, this just narrows the field.
+
+    No market-cap floor is applied here on purpose — small/micro-cap growth names score
+    the same way large caps do. `opportunity_tier` candidates (below
+    settings.opportunity_market_cap_threshold) are additionally gated by remaining room in
+    the combined opportunity_bucket_max_pct, so the portfolio doesn't over-concentrate in
+    smaller, less-established names even as it actively looks beyond blue chips for them.
+    """
     if not fundamentals:
         return None
 
@@ -117,6 +128,13 @@ def score_candidate(
     room = room_in_sector(settings, sector, portfolio, prices, total_value) if sector else float("inf")
     if room <= 0:
         return None
+
+    opportunity_tier = is_opportunity_tier(fundamentals.get("marketCap"), settings)
+    if opportunity_tier:
+        opp_room = room_in_opportunity_bucket(portfolio, prices, all_fundamentals or {}, settings, total_value)
+        if opp_room <= 0:
+            return None
+        room = min(room, opp_room)
 
     rev_growth = fundamentals.get("revenueGrowth") or 0.0
     earn_growth = fundamentals.get("earningsGrowth") or 0.0
@@ -138,7 +156,10 @@ def score_candidate(
         return None
 
     max_buy = min(max_new_position_value(settings, total_value), room)
-    return CandidateScore(ticker=ticker, sector=sector, score=score, reasons=reasons, max_buy_value=max_buy)
+    return CandidateScore(
+        ticker=ticker, sector=sector, score=score, reasons=reasons,
+        max_buy_value=max_buy, opportunity_tier=opportunity_tier,
+    )
 
 
 def screen_candidates(
@@ -151,7 +172,10 @@ def screen_candidates(
     total_value = total_portfolio_value(portfolio, prices)
     scored = []
     for ticker in watchlist_tickers:
-        result = score_candidate(ticker, fundamentals.get(ticker), portfolio, prices, settings, total_value)
+        result = score_candidate(
+            ticker, fundamentals.get(ticker), portfolio, prices, settings, total_value,
+            all_fundamentals=fundamentals,
+        )
         if result:
             scored.append(result)
     scored.sort(key=lambda c: c.score, reverse=True)

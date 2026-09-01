@@ -79,3 +79,40 @@ def room_in_sector(settings: dict[str, Any], sector: str, portfolio: dict[str, A
     cap_value = settings["sector_max_pct"] * total_value
     current = sector_pct(sector, portfolio, prices, total_value) * total_value
     return max(0.0, cap_value - current)
+
+
+def is_opportunity_tier(market_cap: float | None, settings: dict[str, Any]) -> bool:
+    """True if market_cap is known and below the opportunity-bucket threshold (i.e. this
+    is a smaller/less-established name rather than a mega-/large-cap blue chip)."""
+    threshold = settings.get("opportunity_market_cap_threshold")
+    return market_cap is not None and threshold is not None and market_cap < threshold
+
+
+def opportunity_bucket_pct(portfolio: dict[str, Any], prices: dict[str, float],
+                            fundamentals: dict[str, dict[str, Any]], settings: dict[str, Any],
+                            total_value: float) -> float:
+    """Fraction of portfolio value currently held in opportunity-tier (sub-threshold
+    market cap) positions. Holdings with unknown market cap aren't counted either way."""
+    if total_value <= 0:
+        return 0.0
+    bucket_value = 0.0
+    for h in portfolio["holdings"]:
+        market_cap = fundamentals.get(h["ticker"], {}).get("marketCap")
+        if not is_opportunity_tier(market_cap, settings):
+            continue
+        price = prices.get(h["ticker"], h["cost_basis_per_share"])
+        bucket_value += h["shares"] * price
+    return bucket_value / total_value
+
+
+def room_in_opportunity_bucket(portfolio: dict[str, Any], prices: dict[str, float],
+                                fundamentals: dict[str, dict[str, Any]], settings: dict[str, Any],
+                                total_value: float) -> float:
+    """Remaining dollar room across all opportunity-tier (smaller/less-established)
+    positions combined, before hitting opportunity_bucket_max_pct."""
+    cap_pct = settings.get("opportunity_bucket_max_pct")
+    if cap_pct is None:
+        return float("inf")
+    cap_value = cap_pct * total_value
+    current = opportunity_bucket_pct(portfolio, prices, fundamentals, settings, total_value) * total_value
+    return max(0.0, cap_value - current)

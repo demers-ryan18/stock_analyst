@@ -15,6 +15,8 @@ def _write_settings(tmp_path: Path) -> None:
         "benchmark_ticker": "SPY",
         "trim_over_cap_tolerance_pct": 0.02,
         "stop_loss_pct": -0.25,
+        "opportunity_market_cap_threshold": 10_000_000_000,
+        "opportunity_bucket_max_pct": 0.20,
         "paths": {
             "portfolio": "data/portfolio.json",
             "transactions": "data/transactions.csv",
@@ -99,6 +101,7 @@ def test_build_watchlist_view_excludes_held_tickers_and_scores_candidates(tmp_pa
     assert len(view["top_candidates"]) == 1
     assert view["top_candidates"][0]["ticker"] == "BBB"
     assert view["top_candidates"][0]["notes"] == "candidate note"
+    assert "opportunity_tier" in view["top_candidates"][0]
 
 
 def test_build_dashboard_payload_includes_new_sections(tmp_path):
@@ -112,3 +115,6 @@ def test_build_dashboard_payload_includes_new_sections(tmp_path):
     assert "fundamentals" in holding
     assert "position_cap_usage_pct" in holding
     assert "sector_cap_usage_pct" in payload["sector_allocation"][0]
+    assert holding["opportunity_tier"] is True  # AAA's marketCap (1e9) is below the $10B threshold
+    assert "opportunity_bucket" in payload
+    assert payload["opportunity_bucket"]["cap_pct"] == 0.20

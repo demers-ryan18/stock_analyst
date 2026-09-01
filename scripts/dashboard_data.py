@@ -16,8 +16,10 @@ from generate_report import load_latest_fetch, load_todays_transactions
 from record_history import load_history
 from utils import (
     REPO_ROOT,
+    is_opportunity_tier,
     load_portfolio,
     load_settings,
+    opportunity_bucket_pct,
     resolve_path,
     sector_pct,
     total_portfolio_value,
@@ -95,6 +97,7 @@ def build_watchlist_view(
             "score": c.score,
             "reasons": c.reasons,
             "notes": active.get(c.ticker, {}).get("notes"),
+            "opportunity_tier": c.opportunity_tier,
         })
     return {"total_screened": len(tickers), "top_candidates": top}
 
@@ -119,6 +122,10 @@ def build_dashboard_payload(repo_root: Path = REPO_ROOT) -> dict[str, Any]:
             "performance_history": build_performance_history(settings, repo_root),
             "benchmark_ticker": settings.get("benchmark_ticker"),
             "watchlist": build_watchlist_view(settings, portfolio, prices, fundamentals, repo_root),
+            "opportunity_bucket": {
+                "pct": 0.0, "cap_pct": settings.get("opportunity_bucket_max_pct", 0.0),
+                "cap_usage_pct": 0.0, "near_cap": False, "over_cap": False,
+            },
             "data_errors": fetch.get("errors", []),
         }
 
@@ -145,8 +152,13 @@ def build_dashboard_payload(repo_root: Path = REPO_ROOT) -> dict[str, Any]:
             "sector": h.get("sector"),
             "thesis": h.get("thesis"),
             "fundamentals": {k: f.get(k) for k in FUNDAMENTALS_DISPLAY_FIELDS},
+            "opportunity_tier": is_opportunity_tier(f.get("marketCap"), settings),
         })
     holdings_out.sort(key=lambda x: x["value"], reverse=True)
+
+    opp_pct = opportunity_bucket_pct(portfolio, prices, fundamentals, settings, total_value)
+    opp_cap_pct = settings.get("opportunity_bucket_max_pct", 1.0)
+    opp_cap_usage = (opp_pct / opp_cap_pct) if opp_cap_pct else 0.0
 
     sector_max_pct = settings.get("sector_max_pct", 1.0)
     sectors = sorted({h.get("sector") for h in portfolio["holdings"] if h.get("sector")})
@@ -172,6 +184,13 @@ def build_dashboard_payload(repo_root: Path = REPO_ROOT) -> dict[str, Any]:
         "performance_history": build_performance_history(settings, repo_root),
         "benchmark_ticker": settings.get("benchmark_ticker"),
         "watchlist": build_watchlist_view(settings, portfolio, prices, fundamentals, repo_root),
+        "opportunity_bucket": {
+            "pct": opp_pct,
+            "cap_pct": opp_cap_pct,
+            "cap_usage_pct": opp_cap_usage,
+            "near_cap": cap_warning <= opp_cap_usage < 1,
+            "over_cap": opp_cap_usage >= 1,
+        },
         "data_errors": fetch.get("errors", []),
     }
 

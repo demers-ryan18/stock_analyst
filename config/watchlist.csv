@@ -42,3 +42,24 @@ VUG,ETF,2026-08-30,seed,active,Broad US growth factor
 SMH,ETF,2026-08-30,seed,active,Semiconductor sector exposure
 XLK,ETF,2026-08-30,seed,active,Technology sector exposure
 VGT,ETF,2026-08-30,seed,active,Technology sector exposure, low cost
+IONQ,Technology,2026-09-01,opportunity-seed,active,Quantum computing pure-play, small-cap, pre-profit
+RGTI,Technology,2026-09-01,opportunity-seed,active,Quantum computing pure-play, micro-cap, speculative
+QBTS,Technology,2026-09-01,opportunity-seed,active,Quantum computing (annealing), small-cap
+OKLO,Industrials,2026-09-01,opportunity-seed,active,Advanced/SMR nuclear developer, small-cap, pre-revenue
+SMR,Industrials,2026-09-01,opportunity-seed,active,Small modular reactor developer (NuScale), small-cap
+LEU,Industrials,2026-09-01,opportunity-seed,active,Uranium enrichment, small-cap nuclear-fuel-cycle play
+TENB,Technology,2026-09-01,opportunity-seed,active,Vulnerability management, small-cap cybersecurity
+RPD,Technology,2026-09-01,opportunity-seed,active,Cybersecurity/incident response, small-cap
+S,Technology,2026-09-01,opportunity-seed,active,SentinelOne, endpoint security, small-cap CrowdStrike challenger
+KTOS,Industrials,2026-09-01,opportunity-seed,active,Unmanned defense systems/drones, small-cap
+AVAV,Industrials,2026-09-01,opportunity-seed,active,Drone/robotics defense tech, small-cap
+RCAT,Industrials,2026-09-01,opportunity-seed,active,Small drone maker, micro-cap, speculative
+RKLB,Industrials,2026-09-01,opportunity-seed,active,Small-lift launch + space systems, small-cap
+SOFI,Financials,2026-09-01,opportunity-seed,active,Digital consumer bank/fintech, small-cap
+AFRM,Financials,2026-09-01,opportunity-seed,active,Buy-now-pay-later fintech, small-cap
+UPST,Financials,2026-09-01,opportunity-seed,active,AI lending platform, small-cap, cyclical
+VKTX,Health Care,2026-09-01,opportunity-seed,active,GLP-1/obesity drug developer, small-cap biotech
+HIMS,Health Care,2026-09-01,opportunity-seed,active,Direct-to-consumer telehealth, small-cap, high growth
+SYM,Industrials,2026-09-01,opportunity-seed,active,Warehouse robotics/automation, small-cap
+SOUN,Technology,2026-09-01,opportunity-seed,active,Conversational AI voice platform, micro-cap, speculative
+BBAI,Technology,2026-09-01,opportunity-seed,active,AI/analytics for government & enterprise, micro-cap, speculative

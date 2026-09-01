@@ -58,3 +58,59 @@ def test_score_candidate_no_fundamentals_returns_none():
     portfolio = {"holdings": []}
     result = score_candidate("BBB", None, portfolio, {}, SETTINGS, total_value=10000.0)
     assert result is None
+
+
+OPP_SETTINGS = {
+    **SETTINGS,
+    "opportunity_market_cap_threshold": 10_000_000_000,
+    "opportunity_bucket_max_pct": 0.20,
+}
+
+
+def test_score_candidate_flags_opportunity_tier():
+    portfolio = {"holdings": []}
+    fundamentals = {"revenueGrowth": 0.30, "earningsGrowth": 0.25, "forwardPE": 20, "sector": "Technology",
+                     "marketCap": 2_000_000_000}
+    result = score_candidate("SMALL", fundamentals, portfolio, {}, OPP_SETTINGS, total_value=10000.0)
+    assert result is not None
+    assert result.opportunity_tier is True
+
+
+def test_score_candidate_large_cap_not_opportunity_tier():
+    portfolio = {"holdings": []}
+    fundamentals = {"revenueGrowth": 0.30, "earningsGrowth": 0.25, "forwardPE": 20, "sector": "Technology",
+                     "marketCap": 500_000_000_000}
+    result = score_candidate("BIG", fundamentals, portfolio, {}, OPP_SETTINGS, total_value=10000.0)
+    assert result is not None
+    assert result.opportunity_tier is False
+
+
+def test_score_candidate_rejected_when_opportunity_bucket_full():
+    # Existing small-cap holding already fills the 20% opportunity bucket cap.
+    portfolio = {"holdings": [
+        {"ticker": "EXISTING", "shares": 20, "cost_basis_per_share": 100.0, "sector": "Health Care"},
+    ]}
+    prices = {"EXISTING": 100.0}  # 2000 / 10000 = 20% == cap
+    all_fundamentals = {"EXISTING": {"marketCap": 1_000_000_000}}
+    candidate_fundamentals = {"revenueGrowth": 0.30, "earningsGrowth": 0.25, "forwardPE": 20,
+                               "sector": "Technology", "marketCap": 2_000_000_000}
+    result = score_candidate(
+        "SMALL", candidate_fundamentals, portfolio, prices, OPP_SETTINGS, total_value=10000.0,
+        all_fundamentals=all_fundamentals,
+    )
+    assert result is None
+
+
+def test_score_candidate_large_cap_ignores_full_opportunity_bucket():
+    portfolio = {"holdings": [
+        {"ticker": "EXISTING", "shares": 20, "cost_basis_per_share": 100.0, "sector": "Health Care"},
+    ]}
+    prices = {"EXISTING": 100.0}  # opportunity bucket already at cap
+    all_fundamentals = {"EXISTING": {"marketCap": 1_000_000_000}}
+    candidate_fundamentals = {"revenueGrowth": 0.30, "earningsGrowth": 0.25, "forwardPE": 20,
+                               "sector": "Technology", "marketCap": 500_000_000_000}
+    result = score_candidate(
+        "BIG", candidate_fundamentals, portfolio, prices, OPP_SETTINGS, total_value=10000.0,
+        all_fundamentals=all_fundamentals,
+    )
+    assert result is not None

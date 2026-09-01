@@ -22,6 +22,14 @@ real trade itself.
   decision. Target 15-25 total holdings. No sector above ~30% of portfolio value. (Exact
   thresholds live in `config/settings.yaml` — that file is authoritative if it disagrees
   with the numbers above.)
+- **Don't just default to the familiar mega-caps.** The candidate universe must actively
+  include smaller, less-established growth names and stocks in sectors/themes believed to
+  be inflecting upward — not only the largest, most obvious blue chips. There is no
+  market-cap floor on candidates. As a counterweight, combined exposure to "opportunity
+  tier" positions (market cap below `opportunity_market_cap_threshold` in
+  `config/settings.yaml`, currently $10B) is capped at `opportunity_bucket_max_pct`
+  (currently 20% of portfolio value) — `scripts/evaluate.py`'s `score_candidate` enforces
+  this automatically, on top of the normal position/sector caps.
 - **Every non-HOLD decision needs a rationale** that cites a concrete data point or news
   item, appended to `data/transactions.csv` — never log a BUY/SELL/TRIM/ADD without one.
 - **Never leave state inconsistent.** If a run fails partway through, do not commit a
@@ -44,20 +52,37 @@ real trade itself.
    over the size cap, thesis-breaking underperformance) **and** a WebSearch/WebFetch check
    for recent news, earnings, or catalysts on that ticker. Cite the specific data point or
    headline in the rationale.
-6. Screen buy candidates from `config/watchlist.csv` the same way (fundamentals + news
-   research). You may research and append new candidate tickers you discover to the
-   watchlist this run. Select at most a handful of new BUY/ADD decisions that keep the
-   portfolio within the sizing and sector-cap constraints.
-7. Update `data/portfolio.json` (holdings, cash) and append every BUY/SELL/TRIM/ADD (not
+6. **Weekly theme research.** Read `data/theme_research.csv` (header: `date,themes,
+   tickers_added`). If it has no rows, or its last row's date is 7+ days ago, do a broader
+   sourcing pass before the normal screen below: WebSearch for sectors/themes currently
+   expected to grow (e.g. "fastest growing industries [current year]", "emerging tech
+   sectors", or similar) and for undervalued growth names within them — don't limit this to
+   mega-caps; small and micro-cap names are explicitly in scope. Vet each candidate you're
+   considering adding with a quick fundamentals/news check, then append qualifying tickers
+   to `config/watchlist.csv` (with sector + a one-line note) and append one new row to
+   `data/theme_research.csv` logging today's date, the themes you explored, and which
+   tickers you added (comma-separated, empty string if none qualified) — this is what the
+   7-day check reads next time, so it must always get a fresh row this run whether or not
+   anything was added. Skip this step entirely (don't touch either file) if the last row is
+   under 7 days old.
+7. Screen buy candidates from the full `config/watchlist.csv` the same way (fundamentals +
+   news research) — this pulls in whatever step 6 just added, plus everything seeded
+   before. You may also append new candidate tickers you discover here, same as step 6.
+   `scripts/evaluate.py`'s `score_candidate` already narrows the field by sizing/sector
+   caps and the opportunity-bucket cap; don't second-guess it by favoring a familiar
+   large-cap name over a smaller one the screen ranked higher without a specific reason
+   tied to research. Select at most a handful of new BUY/ADD decisions that keep the
+   portfolio within the sizing, sector-cap, and opportunity-bucket constraints.
+8. Update `data/portfolio.json` (holdings, cash) and append every BUY/SELL/TRIM/ADD (not
    HOLDs) to `data/transactions.csv` with full rationale.
-8. Run `scripts/record_history.py` (appends/updates today's row in `data/history.csv` —
+9. Run `scripts/record_history.py` (appends/updates today's row in `data/history.csv` —
    total value, cash, and the benchmark price — powering the dashboard's performance chart
    and vs-benchmark comparison), then `scripts/generate_report.py` and
    `scripts/dashboard_data.py`.
-9. Load the `artifact-design` skill, then publish/update the dashboard Artifact **in
+10. Load the `artifact-design` skill, then publish/update the dashboard Artifact **in
    place** — reuse the id/URL stored in `config/artifact_id.txt`. If this is the very first
    publish, save the new URL to that file.
-10. Send an email digest via the Gmail MCP tool (`mcp__claude_ai_Gmail__send_message`) to
+11. Send an email digest via the Gmail MCP tool (`mcp__claude_ai_Gmail__send_message`) to
     demersryan495@gmail.com. Pass **both** `body` (plain-text fallback) and `htmlBody`
     (the real one Gmail renders) — always use the HTML template below, don't fall back to
     a plain-text wall of paragraphs. The goal is scannable at a glance: stat tiles first,
@@ -65,7 +90,7 @@ real trade itself.
     duplicated in the email.
 
     **Subject:** `Growth Ledger — Daily Review, {date}` (or `... — Data Outage` /
-    `... — Run Failed` on a failure email; see step 11's failure path).
+    `... — Run Failed` on a failure email; see step 12's failure path).
 
     **HTML body structure** (inline styles only — email clients strip `<style>` blocks and
     don't support flex/grid; use tables for layout). Match the dashboard's ledger palette:
@@ -125,18 +150,21 @@ real trade itself.
     lives in `transactions.csv` and the dashboard) — the email's job is triage, not the
     complete record. On a data-outage or failure email, drop the decisions table and use a
     short plain paragraph instead; the stat tiles and footer can stay if state is known.
-11. Commit and push all updated files (`data/`, `reports/`, `config/watchlist.csv`,
+12. Commit and push all updated files (`data/`, `reports/`, `config/watchlist.csv`,
     `config/artifact_id.txt`) back to the repo with a dated commit message.
-12. Check the run against the Definition of Done below before finishing.
+13. Check the run against the Definition of Done below before finishing.
 
 ## Definition of done
 
 A run is only complete when **all** of the following are true:
 
 - [ ] `data/portfolio.json` is internally consistent: share counts and cash reconcile,
-      no position exceeds the size cap, no sector exceeds the sector cap.
+      no position exceeds the size cap, no sector exceeds the sector cap, and combined
+      opportunity-tier exposure doesn't exceed `opportunity_bucket_max_pct`.
 - [ ] Every BUY/SELL/TRIM/ADD made this run has a rationale logged in
       `data/transactions.csv`.
+- [ ] `data/theme_research.csv` has a row within the last 7 days (either from a prior run,
+      or a fresh one appended this run per step 6).
 - [ ] `reports/latest.md` and a dated `reports/archive/YYYY-MM-DD.md` both exist for today.
 - [ ] The dashboard Artifact was republished at the **same** URL as last time (not a new
       one), and reflects today's data.

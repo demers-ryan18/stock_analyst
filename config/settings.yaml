@@ -7,6 +7,13 @@ target_holdings_max: 25
 sector_max_pct: 0.30         # no sector above 30% of portfolio value
 min_cash_buffer_pct: 0.02    # keep at least 2% of portfolio value as cash
 
+# "Opportunity bucket": combined exposure to smaller, less-established names, so the
+# portfolio isn't only mega-cap/blue-chip. A holding with marketCap below this threshold
+# counts toward the bucket; combined bucket value is capped separately from the normal
+# per-position/per-sector caps above.
+opportunity_market_cap_threshold: 10000000000   # $10B; below this = "opportunity" tier
+opportunity_bucket_max_pct: 0.20                # combined opportunity-tier exposure cap
+
 # Sell/trim thresholds used by scripts/evaluate.py
 trim_over_cap_tolerance_pct: 0.02   # trim if a position exceeds max_position_pct by more than this
 stop_loss_pct: -0.25                # flag for review if a holding is down this much from cost basis
@@ -21,6 +28,7 @@ paths:
   reports_archive: reports/archive
   artifact_id_file: config/artifact_id.txt
   history: data/history.csv
+  theme_research_log: data/theme_research.csv
 
 fundamentals_cache_days: 3
 universe: "US equities and ETFs only"

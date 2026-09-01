@@ -22,6 +22,9 @@ data/portfolio.json    The tracked "model" portfolio: cash + holdings, with cost
 data/transactions.csv  Append-only log of every BUY/SELL/TRIM/ADD with rationale
 data/history.csv        One row per day: total value, cash, benchmark price — powers the
                         dashboard's performance chart and vs-benchmark comparison
+data/theme_research.csv Log of weekly "find new opportunities" research passes (themes
+                        explored, tickers added) — the agent checks this before falling
+                        back to only re-screening the existing watchlist
 
 scripts/import_csv.py       Import/reconcile your real broker CSV export
 scripts/fetch_data.py       Pull prices + fundamentals (yfinance), including the benchmark
@@ -93,3 +96,8 @@ pip install -r requirements.txt
 - US equities and ETFs only — no options, crypto, or margin.
 - No single position above ~15% of portfolio value; target 15-25 holdings; no sector
   above ~30% (exact numbers in `config/settings.yaml`).
+- No market-cap floor on candidates — the agent actively looks beyond blue chips for
+  undervalued/smaller growth names and emerging sector themes (weekly research pass, see
+  `data/theme_research.csv`), but combined exposure to sub-$10B "opportunity tier" names
+  is capped at ~20% of portfolio value (`opportunity_bucket_max_pct` in
+  `config/settings.yaml`).
