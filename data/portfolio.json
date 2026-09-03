@@ -1,7 +1,7 @@
 {
   "status": "active",
   "cash": 89.18,
-  "last_updated": "2026-09-02",
+  "last_updated": "2026-09-03",
   "holdings": [
     {
       "ticker": "AGX",
@@ -9,8 +9,8 @@
       "cost_basis_per_share": 614.82,
       "date_added": "2026-08-30",
       "sector": "Industrials",
-      "thesis": "HOLD: Q2 FY27 results (reported 9/2/26) were a record beat -- revenue $384M vs. $299M consensus, EPS $3.76 vs. $2.66 est., record net income $53M and adjusted EBITDA $70M, Power segment revenue +53% YoY to $301M. Shares reacted positively (+1.4% intraday) rather than selling off further, validating the growth case the last two stop-loss trims were de-risking ahead of. Holding the reduced position steady rather than trimming further given the print resolved the near-term uncertainty in our favor.",
-      "last_review": "2026-09-02",
+      "thesis": "HOLD: shares popped another 3.3% today to ~$411 on continued reaction to the record Q2 FY27 beat (revenue $384M vs. $299M consensus, EPS $3.76 vs. $2.66 est.) -- the post-earnings rally is extending, not fading, with no new negative catalyst. Position remains small (3.1% of portfolio) after two prior stop-loss trims.",
+      "last_review": "2026-09-03",
       "status": "active"
     },
     {
@@ -19,8 +19,8 @@
       "cost_basis_per_share": 270.52,
       "date_added": "2026-08-30",
       "sector": "Technology",
-      "thesis": "TRIMMED 30%: Q1 FY27 results (9/1/26) beat on revenue (+114.7% YoY to $479M) and EPS, but Q2 guidance of $525-535M undershot elevated Street expectations and gross margin slipped to 64.5%, triggering a two-day, ~27% sell-off to a return of -38.9% vs. cost basis (past the -25% stop-loss threshold). JPMorgan cut its PT to $310 (from $335) and BofA to $275 (from $340), both still rating it Buy/Overweight, and FY27 guidance still implies 85%+ revenue growth -- so trimming to de-risk the guidance miss and top-3-customer concentration (88% of revenue) while keeping a smaller position for the still-intact growth story. Also helps keep the Technology sector under its 30% cap.",
-      "last_review": "2026-09-02",
+      "thesis": "HOLD: price has stabilized around $165, essentially flat with yesterday's close, two trading days after the Q2 guidance-miss selloff. 19-analyst average PT remains $283 (4 Strong Buy, 14 Buy, 1 Hold, 0 Sell) and FY27 guidance still implies 85%+ revenue growth -- no new catalyst today, thesis for the remaining (already-trimmed) position is unchanged.",
+      "last_review": "2026-09-03",
       "status": "active"
     },
     {
@@ -29,8 +29,8 @@
       "cost_basis_per_share": 127.51,
       "date_added": "2026-08-30",
       "sector": "Technology",
-      "thesis": "HOLD: thesis intact. Evercore's 9/1/26 upgrade to Outperform ($210 PT) continues to support the stock; DAU +23% YoY to 58.7M, paid subscribers +17% YoY, revenue +18% YoY to $298.5M. Earnings-growth flag reflects AI-feature reinvestment, not a slowdown -- no new data today changes that read.",
-      "last_review": "2026-09-02",
+      "thesis": "HOLD: thesis intact. JPMorgan raised its PT to $135 (kept Neutral) following Evercore's 9/1 Outperform upgrade to $210 -- incremental analyst support. The earnings-growth-decline flag remains attributable to AI-feature reinvestment per the Q2 print, not a demand slowdown; no new data today changes that read.",
+      "last_review": "2026-09-03",
       "status": "active"
     },
     {
@@ -39,8 +39,8 @@
       "cost_basis_per_share": 79.32,
       "date_added": "2026-08-30",
       "sector": "Technology",
-      "thesis": "HOLD: price roughly flat vs. yesterday (-31.6% vs. cost basis, essentially unchanged from -31.1%) with no new negative catalyst -- the insider-selling/CEO-transition overhang (effective 9/30/26) is unchanged and already fully reflected in the two prior trims that cut this position by ~85% combined. Position is now minimal (1.4% of portfolio), so holding rather than trimming further; will revisit if the CEO transition or fresh insider filings bring new information.",
-      "last_review": "2026-09-02",
+      "thesis": "HOLD: shares roughly flat, no new insider-selling Form 4s or fresh CEO-transition news beyond what's already reflected in the two prior trims (~85% combined reduction). Position is minimal (1.4% of portfolio); will revisit if the 9/30/26 CEO transition brings new information.",
+      "last_review": "2026-09-03",
       "status": "active"
     },
     {
@@ -49,8 +49,8 @@
       "cost_basis_per_share": 323.17,
       "date_added": "2026-08-30",
       "sector": "Industrials",
-      "thesis": "HOLD: thesis strengthening -- Vertiv raised full-year 2026 guidance to $14B revenue and $6.70 adjusted EPS and announced a $2.6B grid/microgrid acquisition; GLJ Research upgraded to Buy with a $381 PT, and the 28-analyst consensus remains Strong Buy. The Pomerantz/Hagens Berman/Schall securities-litigation investigations are still open but show no escalation since the last review, so this is a hold, not a further trim.",
-      "last_review": "2026-09-02",
+      "thesis": "HOLD: shares pulled back further intraday (down ~32% from the 52-week high, ~13% on renewed project-timing/execution concerns) but no new negative catalyst beyond the already-known securities-litigation overhang. Analyst sentiment stays firmly bullish (28 firms: 3 Strong Buy, 21 Buy, 4 Hold, 0 Sell) with Loop Capital's Street-high $500 PT implying ~100% upside -- a hold, not a further trim.",
+      "last_review": "2026-09-03",
       "status": "active"
     },
     {
@@ -59,8 +59,8 @@
       "cost_basis_per_share": 337.63,
       "date_added": "2026-08-31",
       "sector": "Communication Services",
-      "thesis": "HOLD: thesis intact, no new catalyst today. Google Cloud revenue +82% YoY offsets AI-talent-departure and search-growth concerns behind a recent pullback; the DOJ Chrome/Android divestiture overhang is unchanged from the original thesis, not a new break.",
-      "last_review": "2026-09-02",
+      "thesis": "HOLD: thesis intact. The FTC's YouTube investigation (account-suspension/content-policy practices) is reported nearing its final stages -- an incremental regulatory item alongside the already-known Chrome/Android DOJ divestiture overhang, but not a new thesis break. Strong Buy consensus (58 buy, 0 sell, avg PT $428) and Cloud/AI momentum remain the core case; stock goes ex-dividend ($0.22) 9/4.",
+      "last_review": "2026-09-03",
       "status": "active"
     },
     {
@@ -69,8 +69,8 @@
       "cost_basis_per_share": 260.16,
       "date_added": "2026-08-31",
       "sector": "Consumer Cyclical",
-      "thesis": "HOLD: thesis intact. Q2 beat the high end of guidance on both lines (revenue +20% YoY constant currency, operating margin 13.7% vs. 11.4% a year ago); Zoox is now expanding robotaxi service into new markets alongside AWS's continued growth.",
-      "last_review": "2026-09-02",
+      "thesis": "HOLD: thesis intact, no new catalyst today. The FTC's ad-surcharge lawsuit is a known, ongoing overhang rather than new information. Strong Buy consensus (59 buy, 0 sell, avg PT $328) and continued AWS/Zoox growth support the position.",
+      "last_review": "2026-09-03",
       "status": "active"
     },
     {
@@ -79,8 +79,8 @@
       "cost_basis_per_share": 159.93,
       "date_added": "2026-08-31",
       "sector": "Energy",
-      "thesis": "HOLD: thesis intact and strengthening. Q2 adjusted earnings $14.7B, Q3 dividend raised to $1.03/share; shares continue to benefit from rising oil prices on Middle East tensions plus renewed energy-deal activity in Venezuela.",
-      "last_review": "2026-09-02",
+      "thesis": "HOLD: thesis intact and strengthening. Piper Sandler raised its PT to $185 (from $158, kept Neutral) following the Q3 dividend raise to $1.03/share and the new Louisiana Proxxima blending-expansion final investment decision.",
+      "last_review": "2026-09-03",
       "status": "active"
     },
     {
@@ -89,8 +89,8 @@
       "cost_basis_per_share": 69.94,
       "date_added": "2026-09-01",
       "sector": "Financial Services",
-      "thesis": "HOLD: thesis strengthening -- shares +6% today after BofA raised its PT to $104 (from $93, kept Buy) and Scotiabank initiated coverage at Sector Outperform with a $95 PT, both citing the FQ4 beat. FY26 revenue growth 33%, forward P/E 14.4.",
-      "last_review": "2026-09-02",
+      "thesis": "HOLD: thesis strengthening further -- Goldman Sachs raised its PT to $115 (from $106) on 8/31 and BofA to $93 (from $88, kept Buy), both since the FQ4 beat, reinforcing the bull case with no new negative data today.",
+      "last_review": "2026-09-03",
       "status": "active"
     },
     {
@@ -99,8 +99,8 @@
       "cost_basis_per_share": 223.84,
       "date_added": "2026-09-01",
       "sector": "Technology",
-      "thesis": "HOLD: thesis intact, no new catalyst today (return -6.5% vs. cost basis, in line with yesterday). Q2 revenue +36% YoY, FY26 guidance raised, AI-observability demand story unchanged.",
-      "last_review": "2026-09-02",
+      "thesis": "HOLD: return improved to -4.1% (from -6.5% yesterday) as shares partly recovered on sector strength tied to Snowflake's earnings beat. The deceleration flagged on the Q2 call in spend from its largest AI-native customer (OpenAI) remains the known driver of the post-earnings pullback -- not new information -- while FY26 guidance was still raised overall; AI-observability demand thesis intact.",
+      "last_review": "2026-09-03",
       "status": "active"
     },
     {
@@ -109,8 +109,8 @@
       "cost_basis_per_share": 1160.0,
       "date_added": "2026-09-01",
       "sector": "Healthcare",
-      "thesis": "HOLD: thesis strengthening -- Q2 revenue +48% YoY to $23B on GLP-1 (Mounjaro/Zepbound) strength; FY26 guidance raised to $85-87B revenue and $35.50-36.50 EPS, above Street's $32.80 estimate, and shares popped 4% on the print.",
-      "last_review": "2026-09-02",
+      "thesis": "HOLD: thesis intact, no new catalyst today. GLP-1 franchise strength and the raised FY26 guidance ($86B revenue / $36 EPS) continue to support the position; Merida Biosciences acquisition remains pending.",
+      "last_review": "2026-09-03",
       "status": "active"
     },
     {
@@ -119,8 +119,8 @@
       "cost_basis_per_share": 17.05,
       "date_added": "2026-09-01",
       "sector": "Financial Services",
-      "thesis": "HOLD: shares down 4% today as rising long-duration Treasury yields pressure the loan book's fair-value marks and net interest margin (management flagged a 37bp benchmark-rate impact) -- a real near-term headwind, but Q2 fundamentals (revenue +40% YoY, record member/product adds, $45.5B deposits) are unchanged, so this is a rate-sensitivity watch item, not a thesis break.",
-      "last_review": "2026-09-02",
+      "thesis": "HOLD: shares +4.65% today after SoFi announced its SoFiUSD stablecoin will list on Kraken's (Payward) platform, plus Scotiabank's new Outperform initiation -- a positive incremental catalyst on top of unchanged Q2 fundamentals (revenue +40% YoY, record member/product adds). The prior rate-sensitivity watch item is unchanged, not worsened.",
+      "last_review": "2026-09-03",
       "status": "active"
     },
     {
@@ -129,8 +129,8 @@
       "cost_basis_per_share": 779.16,
       "date_added": "2026-09-01",
       "sector": "Industrials",
-      "thesis": "HOLD: thesis intact, no new catalyst today. Buy consensus PT $975.61, record $72B backlog, AI-driven autonomous-equipment demand; Burry's short remains a contrarian watch item, not a new signal.",
-      "last_review": "2026-09-02",
+      "thesis": "HOLD: thesis intact, no new negative catalyst. New FieldAI partnership on physical-AI/robotics adds to the existing NVIDIA autonomous-equipment collaboration; Bernstein maintains Hold but broader consensus (14 buy, 2 sell) stays Buy with a $975.61 average PT.",
+      "last_review": "2026-09-03",
       "status": "active"
     },
     {
@@ -139,8 +139,8 @@
       "cost_basis_per_share": 37.64,
       "date_added": "2026-09-02",
       "sector": "Technology",
-      "thesis": "BUY: Q2 revenue $80.1M, +287% YoY, drove a raised FY26 guidance to $280-290M; remaining performance obligations (contracted, unrecognized revenue) rose 297% YoY to $485M. New partnerships with Anduril and Sandia National Labs, SkyWater acquisition closed, and 11 of 13 analysts rate it Buy/Strong Buy. Quantum-computing pure-play sourced from the weekly theme screen; sized modestly given elevated valuation (~52x forward sales) and the 9/30/26 public-warrant expiration as a near-term dilution/selling-pressure watch item. Market cap $15.25B keeps this outside the opportunity-tier bucket, which has no remaining room today.",
-      "last_review": "2026-09-02",
+      "thesis": "HOLD: thesis intact. IonQ added two new board members (finance veteran Dr. Eric Ball, former Samsung NA CEO Timothy Baxter) in a governance-strengthening move; no new negative developments. The 9/30/26 public-warrant expiration remains the known near-term dilution watch item.",
+      "last_review": "2026-09-03",
       "status": "active"
     }
   ]
