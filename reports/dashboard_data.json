@@ -1,27 +1,27 @@
 {
   "status": "active",
-  "last_updated": "2026-09-03",
+  "last_updated": "2026-09-04",
   "cash": 89.18,
-  "total_value": 4080.195195775031,
+  "total_value": 4073.140507660484,
   "holdings": [
     {
       "ticker": "DUOL",
       "shares": 3.921,
       "cost_basis_per_share": 127.51,
-      "price": 158.82000732421875,
-      "value": 622.7332487182617,
-      "return_pct": 0.24554942611731428,
-      "pct_of_portfolio": 0.15262339639120473,
-      "position_cap_usage_pct": 1.0174893092746982,
+      "price": 154.4600067138672,
+      "value": 605.6376863250732,
+      "return_pct": 0.21135602473427326,
+      "pct_of_portfolio": 0.1486905951773653,
+      "position_cap_usage_pct": 0.9912706345157687,
       "near_position_cap": true,
       "sector": "Technology",
-      "thesis": "HOLD: thesis intact. JPMorgan raised its PT to $135 (kept Neutral) following Evercore's 9/1 Outperform upgrade to $210 -- incremental analyst support. The earnings-growth-decline flag remains attributable to AI-feature reinvestment per the Q2 print, not a demand slowdown; no new data today changes that read.",
+      "thesis": "HOLD: thesis intact and strengthening -- DA Davidson raised its PT to $175 (kept Buy) on top of Evercore's 9/1 upgrade to Outperform/$210, both citing strong product/monetization momentum (DAUs +23% YoY to 58.7M, paid subscribers +17%). The earnings-growth-decline flag remains attributable to AI-feature reinvestment, not demand weakness. Position is at 14.9% of portfolio, just under the 15% max_position_pct cap -- watching for a forced trim if price appreciates further, not trimming today since it hasn't breached the cap.",
       "fundamentals": {
-        "trailingPE": 18.77305,
-        "forwardPE": 20.790545,
+        "trailingPE": 18.236128,
+        "forwardPE": 20.219793,
         "revenueGrowth": 0.183,
         "earningsGrowth": -0.275,
-        "marketCap": 7399919104
+        "marketCap": 7196772864
       },
       "opportunity_tier": true
     },
@@ -29,20 +29,20 @@
       "ticker": "GOOGL",
       "shares": 1.7771,
       "cost_basis_per_share": 337.63,
-      "price": 342.4800109863281,
-      "value": 608.6212275238037,
-      "return_pct": 0.014364869787424487,
-      "pct_of_portfolio": 0.1491647331367921,
-      "position_cap_usage_pct": 0.9944315542452807,
+      "price": 338.4599914550781,
+      "value": 601.4772508148193,
+      "return_pct": 0.0024582870452214836,
+      "pct_of_portfolio": 0.1476691633111114,
+      "position_cap_usage_pct": 0.9844610887407428,
       "near_position_cap": true,
       "sector": "Communication Services",
-      "thesis": "HOLD: thesis intact. The FTC's YouTube investigation (account-suspension/content-policy practices) is reported nearing its final stages -- an incremental regulatory item alongside the already-known Chrome/Android DOJ divestiture overhang, but not a new thesis break. Strong Buy consensus (58 buy, 0 sell, avg PT $428) and Cloud/AI momentum remain the core case; stock goes ex-dividend ($0.22) 9/4.",
+      "thesis": "HOLD: thesis intact. Waymo announced plans for its first fully autonomous robotaxi service in the EU (Munich, targeting commercial launch by end of 2027) -- an incremental positive optionality story on top of the core Search/Cloud/AI case (Gemini 3.8 Flash rollout, Berkshire's Abel calling Alphabet a 'significant AI player'). Stock went ex-dividend ($0.22) today as scheduled; the known DOJ/FTC regulatory overhangs are unchanged, not new negative information.",
       "fundamentals": {
-        "trailingPE": 17.192772,
-        "forwardPE": 23.097359,
+        "trailingPE": 16.982437,
+        "forwardPE": 22.785429,
         "revenueGrowth": 0.242,
         "earningsGrowth": 2.94,
-        "marketCap": 4188508258304
+        "marketCap": 4139343675392
       },
       "opportunity_tier": false
     },
@@ -50,20 +50,20 @@
       "ticker": "VRT",
       "shares": 1.924,
       "cost_basis_per_share": 323.17,
-      "price": 268.8299865722656,
-      "value": 517.228894165039,
-      "return_pct": -0.1681468373541306,
-      "pct_of_portfolio": 0.12676572304693173,
-      "position_cap_usage_pct": 0.8451048203128783,
-      "near_position_cap": false,
+      "price": 280.5299987792969,
+      "value": 539.7397176513672,
+      "return_pct": -0.13194294402544524,
+      "pct_of_portfolio": 0.13251193191991822,
+      "position_cap_usage_pct": 0.8834128794661216,
+      "near_position_cap": true,
       "sector": "Industrials",
-      "thesis": "HOLD: shares pulled back further intraday (down ~32% from the 52-week high, ~13% on renewed project-timing/execution concerns) but no new negative catalyst beyond the already-known securities-litigation overhang. Analyst sentiment stays firmly bullish (28 firms: 3 Strong Buy, 21 Buy, 4 Hold, 0 Sell) with Loop Capital's Street-high $500 PT implying ~100% upside -- a hold, not a further trim.",
+      "thesis": "HOLD: thesis intact -- Vertiv acquired Strategic Thermal Labs (9/2) adding liquid-cooling expertise for high-density AI/HPC data centers, an incremental positive, and declared its regular $0.0625 quarterly dividend. The Hagens Berman/Pomerantz securities-fraud investigations tied to the 7/29 Q2 guidance miss remain a known, unchanged overhang, not new information. No further trim warranted beyond the two already taken (8/31, 9/1).",
       "fundamentals": {
-        "trailingPE": 60.821262,
-        "forwardPE": 29.545685,
+        "trailingPE": 63.612247,
+        "forwardPE": 30.75191,
         "revenueGrowth": 0.241,
         "earningsGrowth": 0.53,
-        "marketCap": 103496359936
+        "marketCap": 108000731136
       },
       "opportunity_tier": false
     },
@@ -71,20 +71,20 @@
       "ticker": "AMZN",
       "shares": 1.9219,
       "cost_basis_per_share": 260.16,
-      "price": 258.8999938964844,
-      "value": 497.5798982696533,
-      "return_pct": -0.004843196892357203,
-      "pct_of_portfolio": 0.12195002307362363,
-      "position_cap_usage_pct": 0.8130001538241576,
+      "price": 258.510009765625,
+      "value": 496.83038776855466,
+      "return_pct": -0.006342213385512857,
+      "pct_of_portfolio": 0.12197722785014414,
+      "position_cap_usage_pct": 0.813181519000961,
       "near_position_cap": false,
       "sector": "Consumer Cyclical",
-      "thesis": "HOLD: thesis intact, no new catalyst today. The FTC's ad-surcharge lawsuit is a known, ongoing overhang rather than new information. Strong Buy consensus (59 buy, 0 sell, avg PT $328) and continued AWS/Zoox growth support the position.",
+      "thesis": "HOLD: shares down ~11% from August's all-time high and have broken below the 100-day moving average, but the driver remains the already-known FTC ad-pricing lawsuit (filed 9/1), not new deterioration. Rosenblatt maintained Buy with a $335 PT, and Q2 results (revenue +20% YoY constant-currency, operating margin 13.7% vs. 11.4% a year ago, AWS growth trajectory toward 45% by year-end) still support the thesis.",
       "fundamentals": {
-        "trailingPE": 20.84541,
-        "forwardPE": 24.893465,
+        "trailingPE": 20.797264,
+        "forwardPE": 24.855967,
         "revenueGrowth": 0.196,
         "earningsGrowth": 2.423,
-        "marketCap": 2792576516096
+        "marketCap": 2788369891328
       },
       "opportunity_tier": false
     },
@@ -92,20 +92,20 @@
       "ticker": "XOM",
       "shares": 2.7512,
       "cost_basis_per_share": 159.93,
-      "price": 162.2100067138672,
-      "value": 446.2721704711914,
-      "return_pct": 0.014256279083769028,
-      "pct_of_portfolio": 0.1093752011995157,
-      "position_cap_usage_pct": 0.7291680079967714,
+      "price": 159.47000122070312,
+      "value": 438.7338673583984,
+      "return_pct": -0.0028762507303000174,
+      "pct_of_portfolio": 0.10771390442663535,
+      "position_cap_usage_pct": 0.718092696177569,
       "near_position_cap": false,
       "sector": "Energy",
-      "thesis": "HOLD: thesis intact and strengthening. Piper Sandler raised its PT to $185 (from $158, kept Neutral) following the Q3 dividend raise to $1.03/share and the new Louisiana Proxxima blending-expansion final investment decision.",
+      "thesis": "HOLD: thesis intact, no new catalyst today beyond yesterday's Piper Sandler PT raise to $185. Q3 dividend of $1.03/share is payable 9/10 to holders of record; 10 analysts rate Buy, 0 Sell, average PT $170.91. Geopolitical tensions continue supporting oil prices.",
       "fundamentals": {
-        "trailingPE": 20.90335,
-        "forwardPE": 15.041939,
+        "trailingPE": 20.52381,
+        "forwardPE": 14.787854,
         "revenueGrowth": 0.441,
         "earningsGrowth": 1.128,
-        "marketCap": 666993295360
+        "marketCap": 655726608384
       },
       "opportunity_tier": false
     },
@@ -113,20 +113,20 @@
       "ticker": "AFRM",
       "shares": 3.2885,
       "cost_basis_per_share": 69.94,
-      "price": 74.30000305175781,
-      "value": 244.33556003570556,
-      "return_pct": 0.06233919147494731,
-      "pct_of_portfolio": 0.05988330173240502,
-      "position_cap_usage_pct": 0.3992220115493668,
+      "price": 72.3499984741211,
+      "value": 237.9229699821472,
+      "return_pct": 0.03445808513184295,
+      "pct_of_portfolio": 0.05841265960127767,
+      "position_cap_usage_pct": 0.3894177306751845,
       "near_position_cap": false,
       "sector": "Financial Services",
-      "thesis": "HOLD: thesis strengthening further -- Goldman Sachs raised its PT to $115 (from $106) on 8/31 and BofA to $93 (from $88, kept Buy), both since the FQ4 beat, reinforcing the bull case with no new negative data today.",
+      "thesis": "HOLD: thesis strengthening further -- a broad wave of price-target raises followed the FQ4 beat (revenue +33% YoY to $1.17B, GMV +36% to $14.1B): Goldman Sachs to $115, Bernstein to $110, Truist to $85, plus JPMorgan/BofA/Susquehanna/BMO/Cantor/Needham/RBC all raising targets. Fiscal Q1 guidance of $1.19-1.22B revenue tops the $1.16B consensus. No new negative data today.",
       "fundamentals": {
-        "trailingPE": 13.435804,
-        "forwardPE": 15.132322,
+        "trailingPE": 13.083182,
+        "forwardPE": 14.735174,
         "revenueGrowth": 0.33,
         "earningsGrowth": 21.869,
-        "marketCap": 25070399488
+        "marketCap": 24412426240
       },
       "opportunity_tier": false
     },
@@ -134,20 +134,20 @@
       "ticker": "CRDO",
       "shares": 1.2968,
       "cost_basis_per_share": 270.52,
-      "price": 164.1699981689453,
-      "value": 212.89565362548828,
-      "return_pct": -0.3931317530350979,
-      "pct_of_portfolio": 0.0521778109650092,
-      "position_cap_usage_pct": 0.3478520731000614,
+      "price": 170.57000732421875,
+      "value": 221.19518549804687,
+      "return_pct": -0.36947357931310526,
+      "pct_of_portfolio": 0.05430580778690008,
+      "position_cap_usage_pct": 0.36203871857933384,
       "near_position_cap": false,
       "sector": "Technology",
-      "thesis": "HOLD: price has stabilized around $165, essentially flat with yesterday's close, two trading days after the Q2 guidance-miss selloff. 19-analyst average PT remains $283 (4 Strong Buy, 14 Buy, 1 Hold, 0 Sell) and FY27 guidance still implies 85%+ revenue growth -- no new catalyst today, thesis for the remaining (already-trimmed) position is unchanged.",
+      "thesis": "HOLD: shares ~$171, roughly flat with yesterday, three trading days past the Q1 FY27 guidance-miss/margin-compression selloff (GAAP gross margin fell to 64.5% from 68.2%). BofA cut its PT to $275 (from $340, kept Buy) reflecting the same known event -- no fresh negative data today. FY27 guidance still implies 85%+ revenue growth; position (5.4% of portfolio) was already de-risked via two trims on 8/31 and 9/2, so holding the smaller remaining stake rather than trimming further absent new information.",
       "fundamentals": {
-        "trailingPE": 65.40637,
-        "forwardPE": 17.054798,
+        "trailingPE": 60.059864,
+        "forwardPE": 17.719664,
         "revenueGrowth": 1.147,
         "earningsGrowth": 0.971,
-        "marketCap": 30853234688
+        "marketCap": 32058959872
       },
       "opportunity_tier": false
     },
@@ -155,20 +155,20 @@
       "ticker": "LLY",
       "shares": 0.1379,
       "cost_basis_per_share": 1160.0,
-      "price": 1159.5999755859375,
-      "value": 159.90883663330078,
-      "return_pct": -0.0003448486328125,
-      "pct_of_portfolio": 0.0391914673099178,
-      "position_cap_usage_pct": 0.2612764487327853,
+      "price": 1149.3599853515625,
+      "value": 158.49674197998047,
+      "return_pct": -0.00917242642106681,
+      "pct_of_portfolio": 0.03891266252217193,
+      "position_cap_usage_pct": 0.2594177501478129,
       "near_position_cap": false,
       "sector": "Healthcare",
-      "thesis": "HOLD: thesis intact, no new catalyst today. GLP-1 franchise strength and the raised FY26 guidance ($86B revenue / $36 EPS) continue to support the position; Merida Biosciences acquisition remains pending.",
+      "thesis": "HOLD: thesis intact. JPMorgan maintained Buy with a $1,400 PT; new Phase 1 inflammation candidate LY5625575 adds early pipeline optionality alongside the core GLP-1 franchise and pending $2.88B Merida Biosciences acquisition. Stock ~$1,149, off its $1,280 all-time closing high but no negative catalyst -- 20-analyst Buy consensus intact.",
       "fundamentals": {
-        "trailingPE": 38.899696,
-        "forwardPE": 24.539005,
+        "trailingPE": 38.569126,
+        "forwardPE": 24.32231,
         "revenueGrowth": 0.477,
         "earningsGrowth": 0.262,
-        "marketCap": 1034063249408
+        "marketCap": 1024931856384
       },
       "opportunity_tier": false
     },
@@ -176,20 +176,20 @@
       "ticker": "DDOG",
       "shares": 0.7148,
       "cost_basis_per_share": 223.84,
-      "price": 214.75999450683594,
-      "value": 153.51044407348633,
-      "return_pct": -0.04056471360419972,
-      "pct_of_portfolio": 0.03762330886337096,
-      "position_cap_usage_pct": 0.25082205908913974,
+      "price": 212.92999267578125,
+      "value": 152.20235876464844,
+      "return_pct": -0.048740204271885065,
+      "pct_of_portfolio": 0.037367323439590816,
+      "position_cap_usage_pct": 0.24911548959727212,
       "near_position_cap": false,
       "sector": "Technology",
-      "thesis": "HOLD: return improved to -4.1% (from -6.5% yesterday) as shares partly recovered on sector strength tied to Snowflake's earnings beat. The deceleration flagged on the Q2 call in spend from its largest AI-native customer (OpenAI) remains the known driver of the post-earnings pullback -- not new information -- while FY26 guidance was still raised overall; AI-observability demand thesis intact.",
+      "thesis": "HOLD: shares roughly stable around $213, no new catalyst today. Q2 results already reflected in price (EPS $0.13 vs $0.008 YoY, revenue $1.12B +36% YoY, both beats) with FY26 revenue-growth guidance raised to 30%. The known OpenAI spend-deceleration flag from the Q2 call remains the driver of the post-earnings pullback, not new information; AI-observability demand thesis intact.",
       "fundamentals": {
-        "trailingPE": 429.52,
-        "forwardPE": 72.34703,
+        "trailingPE": 434.551,
+        "forwardPE": 71.73055,
         "revenueGrowth": 0.356,
         "earningsGrowth": 14.985,
-        "marketCap": 77114949632
+        "marketCap": 76457836544
       },
       "opportunity_tier": false
     },
@@ -197,20 +197,20 @@
       "ticker": "SOFI",
       "shares": 7.0381,
       "cost_basis_per_share": 17.05,
-      "price": 18.510000228881836,
-      "value": 130.27523261089326,
-      "return_pct": 0.0856305119578789,
-      "pct_of_portfolio": 0.03192867653630663,
-      "position_cap_usage_pct": 0.21285784357537751,
+      "price": 18.219999313354492,
+      "value": 128.23417716732024,
+      "return_pct": 0.06862166060730154,
+      "pct_of_portfolio": 0.03148287591015978,
+      "position_cap_usage_pct": 0.20988583940106523,
       "near_position_cap": false,
       "sector": "Financial Services",
-      "thesis": "HOLD: shares +4.65% today after SoFi announced its SoFiUSD stablecoin will list on Kraken's (Payward) platform, plus Scotiabank's new Outperform initiation -- a positive incremental catalyst on top of unchanged Q2 fundamentals (revenue +40% YoY, record member/product adds). The prior rate-sensitivity watch item is unchanged, not worsened.",
+      "thesis": "HOLD: thesis strengthening -- Piper Sandler initiated Overweight with a $22 PT, adding to Scotiabank's Outperform/$25 initiation, both citing the high-growth capital-light platform model. Kraken/Payward stablecoin partnership remains the known catalyst. CEO fireside chat at Goldman's Communacopia conference on 9/8 is a near-term watch item; no new negative data today.",
       "fundamentals": {
-        "trailingPE": 37.77551,
-        "forwardPE": 22.512222,
+        "trailingPE": 37.18367,
+        "forwardPE": 22.159517,
         "revenueGrowth": 0.426,
         "earningsGrowth": 0.404,
-        "marketCap": 23906967552
+        "marketCap": 23532410880
       },
       "opportunity_tier": false
     },
@@ -218,20 +218,20 @@
       "ticker": "AGX",
       "shares": 0.3036,
       "cost_basis_per_share": 614.82,
-      "price": 411.7699890136719,
-      "value": 125.01336866455077,
-      "return_pct": -0.3302592807428648,
-      "pct_of_portfolio": 0.03063906569813127,
-      "position_cap_usage_pct": 0.20426043798754182,
+      "price": 417.989990234375,
+      "value": 126.90176103515624,
+      "return_pct": -0.32014249660978017,
+      "pct_of_portfolio": 0.031155753354564636,
+      "position_cap_usage_pct": 0.20770502236376426,
       "near_position_cap": false,
       "sector": "Industrials",
-      "thesis": "HOLD: shares popped another 3.3% today to ~$411 on continued reaction to the record Q2 FY27 beat (revenue $384M vs. $299M consensus, EPS $3.76 vs. $2.66 est.) -- the post-earnings rally is extending, not fading, with no new negative catalyst. Position remains small (3.1% of portfolio) after two prior stop-loss trims.",
+      "thesis": "HOLD: shares eased slightly to ~$418 (from ~$411-448 post-earnings range) after the 9/2 Q2 FY27 print (record revenue $384M, gross margin 19.3%, record net income $53M, record adjusted EBITDA $70M, Power segment +53% YoY) -- a normal pullback after the initial pop, not a reversal. Still down -32.0% vs. cost basis on stop-loss review, but that's a legacy of the original entry price, not new deterioration; position stays small (3.1% of portfolio) after two prior stop-loss trims and no new negative catalyst emerged today.",
       "fundamentals": {
-        "trailingPE": 32.57674,
-        "forwardPE": 25.374794,
-        "revenueGrowth": 0.502,
-        "earningsGrowth": 1.025,
-        "marketCap": 5772705280
+        "trailingPE": 33.06883,
+        "forwardPE": 25.758095,
+        "revenueGrowth": 0.615,
+        "earningsGrowth": 0.504,
+        "marketCap": 5864333312
       },
       "opportunity_tier": true
     },
@@ -239,20 +239,20 @@
       "ticker": "CAT",
       "shares": 0.154,
       "cost_basis_per_share": 779.16,
-      "price": 800.1400146484375,
-      "value": 123.22156225585937,
-      "return_pct": 0.026926452395448344,
-      "pct_of_portfolio": 0.030199918470433247,
-      "position_cap_usage_pct": 0.20133278980288832,
+      "price": 813.9400024414062,
+      "value": 125.34676037597656,
+      "return_pct": 0.044637818216292265,
+      "pct_of_portfolio": 0.030773983892829853,
+      "position_cap_usage_pct": 0.2051598926188657,
       "near_position_cap": false,
       "sector": "Industrials",
-      "thesis": "HOLD: thesis intact, no new negative catalyst. New FieldAI partnership on physical-AI/robotics adds to the existing NVIDIA autonomous-equipment collaboration; Bernstein maintains Hold but broader consensus (14 buy, 2 sell) stays Buy with a $975.61 average PT.",
+      "thesis": "HOLD: thesis intact and strengthening -- shares trading just below recent highs on record Q2 results and a swelling $72B backlog reflecting AI-linked power demand. A recent rating upgrade to Strong Buy reflects a 10.7% rise in earnings estimates over the past three months; FieldAI physical-AI/robotics partnership remains the known incremental positive. No new negative data today.",
       "fundamentals": {
-        "trailingPE": 34.473934,
-        "forwardPE": 24.712965,
+        "trailingPE": 35.08362,
+        "forwardPE": 25.139189,
         "revenueGrowth": 0.24,
         "earningsGrowth": 0.682,
-        "marketCap": 367804252160
+        "marketCap": 374147776512
       },
       "opportunity_tier": false
     },
@@ -260,20 +260,20 @@
       "ticker": "IONQ",
       "shares": 2.3911,
       "cost_basis_per_share": 37.64,
-      "price": 39.02000045776367,
-      "value": 93.3007230945587,
-      "return_pct": 0.03666313649744079,
-      "pct_of_portfolio": 0.02286673029544516,
-      "position_cap_usage_pct": 0.15244486863630108,
+      "price": 39.52000045776367,
+      "value": 94.4962730945587,
+      "return_pct": 0.0499468771988223,
+      "pct_of_portfolio": 0.023199855962944705,
+      "position_cap_usage_pct": 0.15466570641963137,
       "near_position_cap": false,
       "sector": "Technology",
-      "thesis": "HOLD: thesis intact. IonQ added two new board members (finance veteran Dr. Eric Ball, former Samsung NA CEO Timothy Baxter) in a governance-strengthening move; no new negative developments. The 9/30/26 public-warrant expiration remains the known near-term dilution watch item.",
+      "thesis": "HOLD: thesis intact. Record Q2 2026 revenue growth of 287% YoY continues to be the core support for the position; the Oxford Ionics acquisition ($1.075B, closed) advances the chip-scale ion-trap manufacturing roadmap. Company remains loss-making with a $254.7M six-month operating loss, a known risk already reflected in the modest 2.3% position sizing. The 9/30/26 public-warrant expiration remains the known near-term dilution watch item; no new negative developments today.",
       "fundamentals": {
         "trailingPE": null,
-        "forwardPE": -32.122364,
+        "forwardPE": -32.533978,
         "revenueGrowth": 2.868,
         "earningsGrowth": null,
-        "marketCap": 15808393216
+        "marketCap": 16010960896
       },
       "opportunity_tier": false
     },
@@ -281,20 +281,20 @@
       "ticker": "INOD",
       "shares": 1.0195,
       "cost_basis_per_share": 79.32,
-      "price": 55.04499816894531,
-      "value": 56.11837563323975,
-      "return_pct": -0.30603885313987245,
-      "pct_of_portfolio": 0.01375384581878566,
-      "position_cap_usage_pct": 0.09169230545857107,
+      "price": 55.65999984741211,
+      "value": 56.74536984443665,
+      "return_pct": -0.2982854280457373,
+      "pct_of_portfolio": 0.013931601362072788,
+      "position_cap_usage_pct": 0.09287734241381859,
       "near_position_cap": false,
       "sector": "Technology",
-      "thesis": "HOLD: shares roughly flat, no new insider-selling Form 4s or fresh CEO-transition news beyond what's already reflected in the two prior trims (~85% combined reduction). Position is minimal (1.4% of portfolio); will revisit if the 9/30/26 CEO transition brings new information.",
+      "thesis": "HOLD: shares roughly flat at ~$55.66, no new insider-selling Form 4s beyond what's already reflected in the two prior trims (~85% combined reduction). CEO succession plan (President Rahul Singhal to CEO, founder Jack Abuhoff to Executive Chairman effective 9/30/26) remains previously-known information, not a new catalyst. Position is minimal (1.4% of portfolio); will revisit if the transition date brings new developments.",
       "fundamentals": {
-        "trailingPE": 42.670544,
-        "forwardPE": 26.366713,
+        "trailingPE": 43.14729,
+        "forwardPE": 26.6613,
         "revenueGrowth": 0.578,
         "earningsGrowth": 1.05,
-        "marketCap": 1892593024
+        "marketCap": 1913738368
       },
       "opportunity_tier": true
     }
@@ -302,44 +302,44 @@
   "sector_allocation": [
     {
       "sector": "Communication Services",
-      "pct": 0.1491647331367921,
-      "sector_cap_usage_pct": 0.49721577712264037,
+      "pct": 0.1476691633111114,
+      "sector_cap_usage_pct": 0.4922305443703714,
       "near_sector_cap": false
     },
     {
       "sector": "Consumer Cyclical",
-      "pct": 0.12195002307362363,
-      "sector_cap_usage_pct": 0.4065000769120788,
+      "pct": 0.12197722785014414,
+      "sector_cap_usage_pct": 0.4065907595004805,
       "near_sector_cap": false
     },
     {
       "sector": "Energy",
-      "pct": 0.1093752011995157,
-      "sector_cap_usage_pct": 0.3645840039983857,
+      "pct": 0.10771390442663535,
+      "sector_cap_usage_pct": 0.3590463480887845,
       "near_sector_cap": false
     },
     {
       "sector": "Financial Services",
-      "pct": 0.09181197826871165,
-      "sector_cap_usage_pct": 0.3060399275623722,
+      "pct": 0.08989553551143746,
+      "sector_cap_usage_pct": 0.2996517850381249,
       "near_sector_cap": false
     },
     {
       "sector": "Healthcare",
-      "pct": 0.0391914673099178,
-      "sector_cap_usage_pct": 0.13063822436639266,
+      "pct": 0.03891266252217193,
+      "sector_cap_usage_pct": 0.12970887507390644,
       "near_sector_cap": false
     },
     {
       "sector": "Industrials",
-      "pct": 0.18760470721549624,
-      "sector_cap_usage_pct": 0.6253490240516542,
+      "pct": 0.19444166916731273,
+      "sector_cap_usage_pct": 0.6481388972243758,
       "near_sector_cap": false
     },
     {
       "sector": "Technology",
-      "pct": 0.2790450923338157,
-      "sector_cap_usage_pct": 0.9301503077793857,
+      "pct": 0.27749518372887366,
+      "sector_cap_usage_pct": 0.9249839457629122,
       "near_sector_cap": true
     }
   ],
@@ -556,6 +556,12 @@
       "total_value": 4080.2,
       "portfolio_return_pct": -0.009265824260142353,
       "benchmark_return_pct": 0.007978619385959201
+    },
+    {
+      "date": "2026-09-04",
+      "total_value": 4073.14,
+      "portfolio_return_pct": -0.010980098874309143,
+      "benchmark_return_pct": 0.00409360537122756
     }
   ],
   "benchmark_ticker": "SPY",
@@ -573,9 +579,21 @@
         "opportunity_tier": true
       },
       {
+        "ticker": "AVGO",
+        "sector": "Technology",
+        "score": 21.39126075,
+        "reasons": [
+          "revenue growth 85.5%",
+          "earnings growth 215.3%",
+          "forward P/E 18.5"
+        ],
+        "notes": "Semis + AI networking",
+        "opportunity_tier": false
+      },
+      {
         "ticker": "NVDA",
         "sector": "Technology",
-        "score": 19.2373442,
+        "score": 19.23488905,
         "reasons": [
           "revenue growth 105.9%",
           "earnings growth 127.8%",
@@ -597,11 +615,11 @@
       {
         "ticker": "UPST",
         "sector": "Financial Services",
-        "score": 17.3709801,
+        "score": 17.38644935,
         "reasons": [
           "revenue growth 42.3%",
           "earnings growth 211.2%",
-          "forward P/E 8.4"
+          "forward P/E 8.1"
         ],
         "notes": "AI lending platform",
         "opportunity_tier": true
@@ -609,10 +627,10 @@
       {
         "ticker": "AVAV",
         "sector": "Industrials",
-        "score": 14.646064,
+        "score": 14.68286235,
         "reasons": [
           "revenue growth 133.3%",
-          "forward P/E 33.7"
+          "forward P/E 32.9"
         ],
         "notes": "Drone/robotics defense tech",
         "opportunity_tier": true
@@ -620,35 +638,23 @@
       {
         "ticker": "AMD",
         "sector": "Technology",
-        "score": 14.508823849999999,
+        "score": 14.439539,
         "reasons": [
           "revenue growth 50.1%",
           "earnings growth 159.5%",
-          "forward P/E 29.5"
+          "forward P/E 30.9"
         ],
         "notes": "GPU/CPU challenger",
         "opportunity_tier": false
       },
       {
-        "ticker": "AVGO",
-        "sector": "Technology",
-        "score": 11.135932599999999,
-        "reasons": [
-          "revenue growth 47.9%",
-          "earnings growth 85.4%",
-          "forward P/E 18.5"
-        ],
-        "notes": "Semis + AI networking",
-        "opportunity_tier": false
-      },
-      {
         "ticker": "TSM",
         "sector": "Technology",
-        "score": 9.51623125,
+        "score": 9.48901405,
         "reasons": [
           "revenue growth 36.0%",
           "earnings growth 77.4%",
-          "forward P/E 19.1"
+          "forward P/E 19.6"
         ],
         "notes": "Leading-edge foundry",
         "opportunity_tier": false
@@ -656,11 +662,11 @@
       {
         "ticker": "CRM",
         "sector": "Technology",
-        "score": 9.199167800000001,
+        "score": 9.21532315,
         "reasons": [
           "revenue growth 10.8%",
           "earnings growth 118.9%",
-          "forward P/E 16.5"
+          "forward P/E 16.2"
         ],
         "notes": "Enterprise SaaS",
         "opportunity_tier": false
@@ -668,11 +674,11 @@
       {
         "ticker": "LRCX",
         "sector": "Technology",
-        "score": 6.4755488,
+        "score": 6.4107839,
         "reasons": [
           "revenue growth 30.0%",
           "earnings growth 34.8%",
-          "forward P/E 25.3"
+          "forward P/E 26.6"
         ],
         "notes": "Semicap equipment",
         "opportunity_tier": false
@@ -680,9 +686,9 @@
     ]
   },
   "opportunity_bucket": {
-    "pct": 0.19701630790812166,
+    "pct": 0.1937779498940027,
     "cap_pct": 0.2,
-    "cap_usage_pct": 0.9850815395406083,
+    "cap_usage_pct": 0.9688897494700135,
     "near_cap": true,
     "over_cap": false
   },
