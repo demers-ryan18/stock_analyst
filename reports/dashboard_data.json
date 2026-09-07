@@ -1,6 +1,6 @@
 {
   "status": "active",
-  "last_updated": "2026-09-04",
+  "last_updated": "2026-09-07",
   "cash": 89.18,
   "total_value": 4073.140507660484,
   "holdings": [
@@ -15,9 +15,9 @@
       "position_cap_usage_pct": 0.9912706345157687,
       "near_position_cap": true,
       "sector": "Technology",
-      "thesis": "HOLD: thesis intact and strengthening -- DA Davidson raised its PT to $175 (kept Buy) on top of Evercore's 9/1 upgrade to Outperform/$210, both citing strong product/monetization momentum (DAUs +23% YoY to 58.7M, paid subscribers +17%). The earnings-growth-decline flag remains attributable to AI-feature reinvestment, not demand weakness. Position is at 14.9% of portfolio, just under the 15% max_position_pct cap -- watching for a forced trim if price appreciates further, not trimming today since it hasn't breached the cap.",
+      "thesis": "HOLD: thesis intact; shares ~$154, holding most of the gains from Evercore's 9/1 Outperform/$210 upgrade and DA Davidson's $175 PT. The earnings-decline flag remains attributable to AI-feature reinvestment rather than demand softness (DAUs +23% YoY, paid subscribers +17%). Position at 14.9% of portfolio, just under the 15% max_position_pct cap -- watching for a forced trim if price appreciates further.",
       "fundamentals": {
-        "trailingPE": 18.236128,
+        "trailingPE": 18.257685,
         "forwardPE": 20.219793,
         "revenueGrowth": 0.183,
         "earningsGrowth": -0.275,
@@ -36,9 +36,9 @@
       "position_cap_usage_pct": 0.9844610887407428,
       "near_position_cap": true,
       "sector": "Communication Services",
-      "thesis": "HOLD: thesis intact. Waymo announced plans for its first fully autonomous robotaxi service in the EU (Munich, targeting commercial launch by end of 2027) -- an incremental positive optionality story on top of the core Search/Cloud/AI case (Gemini 3.8 Flash rollout, Berkshire's Abel calling Alphabet a 'significant AI player'). Stock went ex-dividend ($0.22) today as scheduled; the known DOJ/FTC regulatory overhangs are unchanged, not new negative information.",
+      "thesis": "HOLD: new positive catalyst -- a federal judge rejected the DOJ's push to force Alphabet to divest its ad exchange, a meaningful antitrust win that reduces a known regulatory overhang. Gemini 3.8 Flash rollout continues and Berkshire's Greg Abel reiterated Alphabet as a 'significant AI player.' Shares ~$338, up 8.5% YTD; thesis intact.",
       "fundamentals": {
-        "trailingPE": 16.982437,
+        "trailingPE": 16.97392,
         "forwardPE": 22.785429,
         "revenueGrowth": 0.242,
         "earningsGrowth": 2.94,
@@ -57,9 +57,9 @@
       "position_cap_usage_pct": 0.8834128794661216,
       "near_position_cap": true,
       "sector": "Industrials",
-      "thesis": "HOLD: thesis intact -- Vertiv acquired Strategic Thermal Labs (9/2) adding liquid-cooling expertise for high-density AI/HPC data centers, an incremental positive, and declared its regular $0.0625 quarterly dividend. The Hagens Berman/Pomerantz securities-fraud investigations tied to the 7/29 Q2 guidance miss remain a known, unchanged overhang, not new information. No further trim warranted beyond the two already taken (8/31, 9/1).",
+      "thesis": "HOLD: material new positive -- Vertiv agreed to acquire UtilityInnovation Group for ~$1.45B cash (plus up to $1.15B in EBITDA-linked earnouts) to accelerate power deployment for AI data centers, closing Q4 2026; shares rose to ~$280.53 on the news, and the company declared its regular $0.062 quarterly dividend (ex-date 9/14). The Hagens Berman/Pomerantz securities-fraud investigations remain a known, unchanged overhang. Position now 13.25% of portfolio, under the 15% cap after prior trims -- no action needed.",
       "fundamentals": {
-        "trailingPE": 63.612247,
+        "trailingPE": 63.325058,
         "forwardPE": 30.75191,
         "revenueGrowth": 0.241,
         "earningsGrowth": 0.53,
@@ -78,7 +78,7 @@
       "position_cap_usage_pct": 0.813181519000961,
       "near_position_cap": false,
       "sector": "Consumer Cyclical",
-      "thesis": "HOLD: shares down ~11% from August's all-time high and have broken below the 100-day moving average, but the driver remains the already-known FTC ad-pricing lawsuit (filed 9/1), not new deterioration. Rosenblatt maintained Buy with a $335 PT, and Q2 results (revenue +20% YoY constant-currency, operating margin 13.7% vs. 11.4% a year ago, AWS growth trajectory toward 45% by year-end) still support the thesis.",
+      "thesis": "HOLD: no material new catalyst -- the FTC/22-state ad-pricing lawsuit (filed 9/1) and broader e-commerce layoff headlines remain the known drivers of the ~11% pullback from August's all-time high. Q2 fundamentals (revenue +20% YoY constant-currency, operating margin 13.7% vs 11.4% a year ago) still support the thesis; Rosenblatt's Buy/$335 PT unchanged.",
       "fundamentals": {
         "trailingPE": 20.797264,
         "forwardPE": 24.855967,
@@ -99,7 +99,7 @@
       "position_cap_usage_pct": 0.718092696177569,
       "near_position_cap": false,
       "sector": "Energy",
-      "thesis": "HOLD: thesis intact, no new catalyst today beyond yesterday's Piper Sandler PT raise to $185. Q3 dividend of $1.03/share is payable 9/10 to holders of record; 10 analysts rate Buy, 0 Sell, average PT $170.91. Geopolitical tensions continue supporting oil prices.",
+      "thesis": "HOLD: no new catalyst beyond already-known items (Piper Sandler's $185 PT from 9/3, Q3 dividend of $1.03/share payable 9/10). ExxonMobil confirmed as operator of the Papua LNG project with reduced estimated capex ($14B), a modest incremental positive. Thesis intact, no action needed.",
       "fundamentals": {
         "trailingPE": 20.52381,
         "forwardPE": 14.787854,
@@ -120,7 +120,7 @@
       "position_cap_usage_pct": 0.3894177306751845,
       "near_position_cap": false,
       "sector": "Financial Services",
-      "thesis": "HOLD: thesis strengthening further -- a broad wave of price-target raises followed the FQ4 beat (revenue +33% YoY to $1.17B, GMV +36% to $14.1B): Goldman Sachs to $115, Bernstein to $110, Truist to $85, plus JPMorgan/BofA/Susquehanna/BMO/Cantor/Needham/RBC all raising targets. Fiscal Q1 guidance of $1.19-1.22B revenue tops the $1.16B consensus. No new negative data today.",
+      "thesis": "HOLD: thesis intact -- Truist raised its PT to $85 (from $83), continuing the wave of post-earnings target hikes (Goldman $115, Bernstein $110). CEO Levchin's fireside chat at Goldman's Communacopia + Technology Conference (9/8, 3:05pm PT) is the next near-term catalyst to watch; no new negative data today.",
       "fundamentals": {
         "trailingPE": 13.083182,
         "forwardPE": 14.735174,
@@ -141,9 +141,9 @@
       "position_cap_usage_pct": 0.36203871857933384,
       "near_position_cap": false,
       "sector": "Technology",
-      "thesis": "HOLD: shares ~$171, roughly flat with yesterday, three trading days past the Q1 FY27 guidance-miss/margin-compression selloff (GAAP gross margin fell to 64.5% from 68.2%). BofA cut its PT to $275 (from $340, kept Buy) reflecting the same known event -- no fresh negative data today. FY27 guidance still implies 85%+ revenue growth; position (5.4% of portfolio) was already de-risked via two trims on 8/31 and 9/2, so holding the smaller remaining stake rather than trimming further absent new information.",
+      "thesis": "HOLD: shares ~$171, up modestly from Friday's ~$164 close. No new information since the 9/1 guidance-miss selloff already reflected in the three prior trims; BofA's $275 PT (Buy maintained) and FY27 guidance implying 85%+ revenue growth remain the known bull case supporting the now much-smaller (5.4%) position. Holding the de-risked remainder absent fresh negative data.",
       "fundamentals": {
-        "trailingPE": 60.059864,
+        "trailingPE": 59.84913,
         "forwardPE": 17.719664,
         "revenueGrowth": 1.147,
         "earningsGrowth": 0.971,
@@ -162,9 +162,9 @@
       "position_cap_usage_pct": 0.2594177501478129,
       "near_position_cap": false,
       "sector": "Healthcare",
-      "thesis": "HOLD: thesis intact. JPMorgan maintained Buy with a $1,400 PT; new Phase 1 inflammation candidate LY5625575 adds early pipeline optionality alongside the core GLP-1 franchise and pending $2.88B Merida Biosciences acquisition. Stock ~$1,149, off its $1,280 all-time closing high but no negative catalyst -- 20-analyst Buy consensus intact.",
+      "thesis": "HOLD: thesis intact -- a new Phase 1 Tirzepatide-based Type 1 diabetes study adds pipeline optionality alongside the core GLP-1 franchise and the pending $2.88B Merida Biosciences acquisition. Buy consensus ($1,302.60 PT, 20 analysts) unchanged; Lilly presents at Morgan Stanley's healthcare conference on 9/14.",
       "fundamentals": {
-        "trailingPE": 38.569126,
+        "trailingPE": 38.607994,
         "forwardPE": 24.32231,
         "revenueGrowth": 0.477,
         "earningsGrowth": 0.262,
@@ -183,7 +183,7 @@
       "position_cap_usage_pct": 0.24911548959727212,
       "near_position_cap": false,
       "sector": "Technology",
-      "thesis": "HOLD: shares roughly stable around $213, no new catalyst today. Q2 results already reflected in price (EPS $0.13 vs $0.008 YoY, revenue $1.12B +36% YoY, both beats) with FY26 revenue-growth guidance raised to 30%. The known OpenAI spend-deceleration flag from the Q2 call remains the driver of the post-earnings pullback, not new information; AI-observability demand thesis intact.",
+      "thesis": "HOLD: mixed but not thesis-breaking -- new insider-selling headlines surfaced 9/5 (Datadog grouped with PDD/Roblox/TI/Fastly in a sell-off report), a data point to keep watching, but position is small (3.7% of portfolio) and a separate analyst framework raised its fair-value estimate to ~$317 from ~$268. The known OpenAI spend-deceleration flag from the Q2 call remains the primary driver of the post-earnings pullback, not fresh fundamental deterioration.",
       "fundamentals": {
         "trailingPE": 434.551,
         "forwardPE": 71.73055,
@@ -204,7 +204,7 @@
       "position_cap_usage_pct": 0.20988583940106523,
       "near_position_cap": false,
       "sector": "Financial Services",
-      "thesis": "HOLD: thesis strengthening -- Piper Sandler initiated Overweight with a $22 PT, adding to Scotiabank's Outperform/$25 initiation, both citing the high-growth capital-light platform model. Kraken/Payward stablecoin partnership remains the known catalyst. CEO fireside chat at Goldman's Communacopia conference on 9/8 is a near-term watch item; no new negative data today.",
+      "thesis": "HOLD: thesis strengthening -- a new Notre Dame partnership adds a fresh distribution/brand catalyst alongside the known Kraken stablecoin deal. This week's Scotiabank (Outperform/$25 PT) and Piper Sandler (Overweight/$22 PT) initiations remain supportive; CEO Noto's fireside chat at Goldman's Communacopia conference (9/8) is the next watch item for credit-quality/growth commentary.",
       "fundamentals": {
         "trailingPE": 37.18367,
         "forwardPE": 22.159517,
@@ -225,10 +225,10 @@
       "position_cap_usage_pct": 0.20770502236376426,
       "near_position_cap": false,
       "sector": "Industrials",
-      "thesis": "HOLD: shares eased slightly to ~$418 (from ~$411-448 post-earnings range) after the 9/2 Q2 FY27 print (record revenue $384M, gross margin 19.3%, record net income $53M, record adjusted EBITDA $70M, Power segment +53% YoY) -- a normal pullback after the initial pop, not a reversal. Still down -32.0% vs. cost basis on stop-loss review, but that's a legacy of the original entry price, not new deterioration; position stays small (3.1% of portfolio) after two prior stop-loss trims and no new negative catalyst emerged today.",
+      "thesis": "HOLD: shares ~$418, still within the $412-$430 range from earlier this week -- no new deterioration. Lake Street upgraded to Buy from Hold (9/3) and Goldman Sachs reiterated Buy after the Q2 FY27 EBITDA beat and Power-segment margin outperformance; both are incremental positive analyst sentiment, not new negative data. Still down -32.0% vs. cost basis on stop-loss review (legacy of original entry price), but position stays small (3.1% of portfolio) after two prior trims and no fresh catalyst warrants a further cut.",
       "fundamentals": {
-        "trailingPE": 33.06883,
-        "forwardPE": 25.758095,
+        "trailingPE": 32.99053,
+        "forwardPE": 26.53059,
         "revenueGrowth": 0.615,
         "earningsGrowth": 0.504,
         "marketCap": 5864333312
@@ -246,7 +246,7 @@
       "position_cap_usage_pct": 0.2051598926188657,
       "near_position_cap": false,
       "sector": "Industrials",
-      "thesis": "HOLD: thesis intact and strengthening -- shares trading just below recent highs on record Q2 results and a swelling $72B backlog reflecting AI-linked power demand. A recent rating upgrade to Strong Buy reflects a 10.7% rise in earnings estimates over the past three months; FieldAI physical-AI/robotics partnership remains the known incremental positive. No new negative data today.",
+      "thesis": "HOLD: thesis intact -- Bernstein maintained a Hold rating (9/3, not a downgrade from an existing Buy) and CEO Creed's insider stock sale (9/1) is a known, modest data point that doesn't indicate deteriorating fundamentals given the record $72B backlog and ongoing FieldAI physical-AI/robotics partnership. No new negative catalyst.",
       "fundamentals": {
         "trailingPE": 35.08362,
         "forwardPE": 25.139189,
@@ -267,7 +267,7 @@
       "position_cap_usage_pct": 0.15466570641963137,
       "near_position_cap": false,
       "sector": "Technology",
-      "thesis": "HOLD: thesis intact. Record Q2 2026 revenue growth of 287% YoY continues to be the core support for the position; the Oxford Ionics acquisition ($1.075B, closed) advances the chip-scale ion-trap manufacturing roadmap. Company remains loss-making with a $254.7M six-month operating loss, a known risk already reflected in the modest 2.3% position sizing. The 9/30/26 public-warrant expiration remains the known near-term dilution watch item; no new negative developments today.",
+      "thesis": "HOLD: thesis intact -- IonQ's investor day on 9/8 could bring multi-year revenue guidance, a near-term catalyst to watch. Record Q2 revenue growth of 287% YoY remains the core support; participation in Quantum World Congress 2026 (9/23-25) is a minor known event. Position stays modest (2.3% of portfolio) given the company's pre-profit risk profile.",
       "fundamentals": {
         "trailingPE": null,
         "forwardPE": -32.533978,
@@ -288,7 +288,7 @@
       "position_cap_usage_pct": 0.09287734241381859,
       "near_position_cap": false,
       "sector": "Technology",
-      "thesis": "HOLD: shares roughly flat at ~$55.66, no new insider-selling Form 4s beyond what's already reflected in the two prior trims (~85% combined reduction). CEO succession plan (President Rahul Singhal to CEO, founder Jack Abuhoff to Executive Chairman effective 9/30/26) remains previously-known information, not a new catalyst. Position is minimal (1.4% of portfolio); will revisit if the transition date brings new developments.",
+      "thesis": "HOLD: shares ~$55.66, roughly flat. A new Form 4 shows Director Louise Forlenza sold 10,000 shares on 9/4, adding to the known insider-selling pattern already reflected in the two prior trims (~85% combined reduction); position is already minimal (1.4% of portfolio) so a further trim isn't warranted for an incremental data point of this size. CEO succession (Singhal to CEO effective 9/30) remains known and unchanged.",
       "fundamentals": {
         "trailingPE": 43.14729,
         "forwardPE": 26.6613,
@@ -562,6 +562,12 @@
       "total_value": 4073.14,
       "portfolio_return_pct": -0.010980098874309143,
       "benchmark_return_pct": 0.00409360537122756
+    },
+    {
+      "date": "2026-09-07",
+      "total_value": 4073.14,
+      "portfolio_return_pct": -0.010980098874309143,
+      "benchmark_return_pct": 0.00409360537122756
     }
   ],
   "benchmark_ticker": "SPY",
@@ -593,11 +599,11 @@
       {
         "ticker": "NVDA",
         "sector": "Technology",
-        "score": 19.23488905,
+        "score": 19.2378159,
         "reasons": [
           "revenue growth 105.9%",
           "earnings growth 127.8%",
-          "forward P/E 14.9"
+          "forward P/E 14.8"
         ],
         "notes": "AI/datacenter compute leader",
         "opportunity_tier": false
@@ -638,11 +644,11 @@
       {
         "ticker": "AMD",
         "sector": "Technology",
-        "score": 14.439539,
+        "score": 14.4457495,
         "reasons": [
           "revenue growth 50.1%",
           "earnings growth 159.5%",
-          "forward P/E 30.9"
+          "forward P/E 30.8"
         ],
         "notes": "GPU/CPU challenger",
         "opportunity_tier": false
