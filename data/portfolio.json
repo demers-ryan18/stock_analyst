@@ -1,7 +1,7 @@
 {
   "status": "active",
   "cash": 79.28,
-  "last_updated": "2026-09-10",
+  "last_updated": "2026-09-11",
   "holdings": [
     {
       "ticker": "CRDO",
@@ -9,8 +9,8 @@
       "cost_basis_per_share": 270.52,
       "date_added": "2026-08-30",
       "sector": "Technology",
-      "thesis": "HOLD: third consecutive stop-loss review (-40.7% vs cost basis, price fell to ~$160.31 on 9/10 from ~$168 on 9/9), but no new company-specific catalyst found in the 9/9-9/10 window -- reads as continuation of the known post-Q1-FY27 margin-compression/customer-concentration overhang, not fresh deterioration. CTO Lawrence Cheng's 9/4 sale (~3,790 sh, 0.06% of his stake) is routine. Strong Buy consensus (14-18 analysts, avg PT ~$273) remains far above the current price. Position is already a de-risked stub (~5.3%) after three prior trims -- holding rather than cutting further absent a new negative fundamental signal.",
-      "last_review": "2026-09-10",
+      "thesis": "HOLD: fourth consecutive stop-loss review (-39.8% vs. cost basis, price ~$159.80 on 9/11 vs ~$160.31 on 9/10 -- essentially flat), no fresh negative catalyst. Strong Buy consensus intact (19 analysts, avg PT $281.39, ~74% upside) and FY27 guidance still implies 85%+ revenue growth off the 9/1 Q1 beat (record revenue, optical revenue seen exceeding $600M). Position is already a de-risked stub (~5.3%) after three prior trims -- holding rather than cutting further absent new information.",
+      "last_review": "2026-09-11",
       "status": "active"
     },
     {
@@ -19,8 +19,8 @@
       "cost_basis_per_share": 127.51,
       "date_added": "2026-08-30",
       "sector": "Technology",
-      "thesis": "HOLD: fresh bullish data point -- Evercore ISI upgraded to Outperform on 9/10, roughly doubling its price target to $210 on stronger engagement/monetization; DA Davidson also raised its PT to $175. Reinforces the reinvestment-not-deterioration thesis from the 9/9 Citi TMT conference (100M DAU by 2028 target, 84% all-time-high retention). Position ~14.5%, at the 15% cap -- hold, don't add.",
-      "last_review": "2026-09-10",
+      "thesis": "HOLD: thesis intact and strengthening -- shares ~$145.11, holding most of the gain from 9/10's Evercore ISI (Outperform, PT doubled to $210) and DA Davidson (PT raised to $175) upgrades. DAU +23% YoY with record retention, free cash flow $79M, cash reserves $1.3B, and FY26 adjusted EBITDA margin guidance raised to 26.5%. The earnings-decline flag remains attributable to AI-feature reinvestment, not demand weakness. Position ~14.2% of portfolio, under the 15% cap -- hold, don't add.",
+      "last_review": "2026-09-11",
       "status": "active"
     },
     {
@@ -29,8 +29,8 @@
       "cost_basis_per_share": 79.32,
       "date_added": "2026-08-30",
       "sector": "Technology",
-      "thesis": "HOLD: no new data since 9/9 -- the CEO succession (Abuhoff to Executive Chairman, Singhal to CEO effective 9/30) remains a previously-announced internal promotion, not a fresh negative. Third consecutive stop-loss review (-33% vs cost basis) but position is already a tiny stub (~1.4%) after two prior trims (~85% combined reduction); Strong Buy consensus PT $122-127 vs. a low-$50s price suggests the selloff is technical, not fundamentals-driven. Holding the remainder through the 9/30 transition.",
-      "last_review": "2026-09-10",
+      "thesis": "HOLD: no fresh negative catalyst since 9/10 -- shares ~$53.63, roughly flat. The prior insider sale (Director Louise Forlenza, 10,000 sh, 9/4) and the 9/30 CEO transition (Abuhoff to Executive Chairman, Singhal to CEO) remain previously-known items, not new deterioration. Fourth consecutive stop-loss review (-32.9% vs cost basis) but position is already a tiny stub (~1.4%) after two prior trims (~85% combined reduction); 58% YoY revenue growth and reaffirmed 40%+ FY guidance support holding the remainder through the 9/30 transition.",
+      "last_review": "2026-09-11",
       "status": "active"
     },
     {
@@ -39,8 +39,8 @@
       "cost_basis_per_share": 323.17,
       "date_added": "2026-08-30",
       "sector": "Industrials",
-      "thesis": "HOLD: no material new headline 9/9-9/10; known items (Utility Innovation deal terms, dividend ex-date 9/14, Buy-leaning 24/28 sell-side split) unchanged. Thesis intact.",
-      "last_review": "2026-09-10",
+      "thesis": "HOLD: no material new headline 9/10-9/11; known items (Utility Innovation deal, dividend ex-date 9/14, Strong Buy consensus avg PT ~$338) unchanged. Thesis intact.",
+      "last_review": "2026-09-11",
       "status": "active"
     },
     {
@@ -49,8 +49,8 @@
       "cost_basis_per_share": 337.63,
       "date_added": "2026-08-31",
       "sector": "Communication Services",
-      "thesis": "HOLD: no new company-specific news since the 9/9 youth-safety litigation headline, which is sector-wide (also hitting Meta/Snap/TikTok), not GOOGL-specific. Oppenheimer reaffirmed Buy citing TPU revenue upside. Position ~15.1%, essentially at the cap -- watch for drift, no action needed today.",
-      "last_review": "2026-09-10",
+      "thesis": "HOLD: no new negative catalyst; today's cloud-comparison coverage reaffirms Google Cloud's +82% YoY growth (vs. AWS's 37%) and Alphabet's 34% operating margin, reinforcing the cloud/AI thesis. Position ~15.1%, essentially at the cap -- watch for drift, no action needed today.",
+      "last_review": "2026-09-11",
       "status": "active"
     },
     {
@@ -59,8 +59,8 @@
       "cost_basis_per_share": 260.16,
       "date_added": "2026-08-31",
       "sector": "Consumer Cyclical",
-      "thesis": "HOLD: no AMZN-specific catalyst; the -1.8% move on 9/9 tracked broad market weakness. New $220B 2026 capex plan and a sterling bond issuance are routine financing items. AWS strength continues to support the thesis.",
-      "last_review": "2026-09-10",
+      "thesis": "HOLD: no AMZN-specific negative catalyst; today's coverage reaffirms AWS growth of +36.7% YoY, its fastest pace in 18 quarters. Thesis intact.",
+      "last_review": "2026-09-11",
       "status": "active"
     },
     {
@@ -69,8 +69,8 @@
       "cost_basis_per_share": 159.93,
       "date_added": "2026-08-31",
       "sector": "Energy",
-      "thesis": "HOLD: no negative news; shares +1.9% on 9/9 as Brent crossed $96 and analysts lifted targets toward $177-185. No new rating changes; thesis intact.",
-      "last_review": "2026-09-10",
+      "thesis": "HOLD: shares -0.54% on 9/11 on Pioneer Natural Resources' tender offer for its own notes -- unrelated to XOM. Strong Q2 ($14.5B earnings) and a 20th oil discovery in Angola's Block 15 support the thesis; no new rating changes.",
+      "last_review": "2026-09-11",
       "status": "active"
     },
     {
@@ -79,8 +79,8 @@
       "cost_basis_per_share": 69.94,
       "date_added": "2026-09-01",
       "sector": "Financial Services",
-      "thesis": "HOLD: no company-specific negative catalyst; the -4.3-4.7% move on 9/9 despite Loop Capital's Buy initiation ($105 PT) reflects broader consumer-fintech sector rotation, not fundamentals. Q3 revenue guidance of $1.21B (+29.1% YoY) beat estimates. Thesis intact.",
-      "last_review": "2026-09-10",
+      "thesis": "HOLD: no new negative catalyst since 9/9; the Loop Capital Buy-initiation-driven dip (-4.7%, $105 PT) remains the known item despite strong Q3 revenue guidance ($1.21B, +29.1% YoY). Thesis intact.",
+      "last_review": "2026-09-11",
       "status": "active"
     },
     {
@@ -89,8 +89,8 @@
       "cost_basis_per_share": 223.84,
       "date_added": "2026-09-01",
       "sector": "Technology",
-      "thesis": "HOLD: no new catalyst; stock rallied off its lows intraday 9/9 (closed ~$224.63) alongside strong SaaS-sector performance. Known AI-customer usage-cut overhang remains de-risked into FY26 guidance; consensus stays Buy, avg PT ~$269.",
-      "last_review": "2026-09-10",
+      "thesis": "HOLD: fresh positive data point -- Wedbush's Steven Wahrhaftig assumed coverage 9/11 with Outperform and a $275 PT (up from $260), reinforcing the AI-observability demand thesis. Shares traded $218-225 on 9/11.",
+      "last_review": "2026-09-11",
       "status": "active"
     },
     {
@@ -99,8 +99,8 @@
       "cost_basis_per_share": 1160.0,
       "date_added": "2026-09-01",
       "sector": "Healthcare",
-      "thesis": "HOLD: no LLY-specific news; the dip tracks a competitor's (Novartis) Phase 3 trial setback, not company data. $2.875B Merida Biosciences immunology acquisition and GLP-1 franchise support the thesis. Watch the 9/14 Morgan Stanley healthcare conference presentation.",
-      "last_review": "2026-09-10",
+      "thesis": "HOLD: no new LLY-specific news; the company confirmed it will present at the Morgan Stanley 24th Annual Global Healthcare Conference on 9/14. GLP-1 franchise and the Merida Biosciences acquisition continue to support the thesis.",
+      "last_review": "2026-09-11",
       "status": "active"
     },
     {
@@ -109,8 +109,8 @@
       "cost_basis_per_share": 17.05,
       "date_added": "2026-09-01",
       "sector": "Financial Services",
-      "thesis": "HOLD: Loop Capital initiated coverage 9/9 with a Hold and $22 PT, flagging rate-sensitivity and a mix-shift toward more capital-intensive lending -- a mildly bearish new data point (shares -3.1-3.3% on the news), but not thesis-breaking given the Kraken stablecoin tie-up and other recent Buy-leaning initiations (Scotiabank, Piper Sandler) remain in place. Monitoring.",
-      "last_review": "2026-09-10",
+      "thesis": "HOLD: no new negative catalyst since the 9/9 Loop Capital Hold initiation; shares ~$17.23, largely stable. Raised FY revenue guidance ($4.75-4.85B) and strong Q2 results remain the operative bull case alongside the Kraken stablecoin tie-up and other Buy-leaning initiations. Monitoring.",
+      "last_review": "2026-09-11",
       "status": "active"
     },
     {
@@ -119,8 +119,8 @@
       "cost_basis_per_share": 779.16,
       "date_added": "2026-09-01",
       "sector": "Industrials",
-      "thesis": "HOLD: no material new headline; shares ~$805-815 recently, supported by industrial/power-generation demand and a reported FieldAI robotics collaboration. Record $72B backlog thesis intact.",
-      "last_review": "2026-09-10",
+      "thesis": "HOLD: no material new headline 9/11; shares ~$804-826 continue to reflect the blowout Q2 print (record $20.5B revenue, EPS +73% YoY, sales outlook raised to mid-to-high-teens growth) and the FieldAI robotics tie-up. Record $72B backlog thesis intact.",
+      "last_review": "2026-09-11",
       "status": "active"
     },
     {
@@ -129,8 +129,8 @@
       "cost_basis_per_share": 37.64,
       "date_added": "2026-09-02",
       "sector": "Technology",
-      "thesis": "HOLD: mixed signals -- the 9/8 guidance raise to $450-460M FY26 revenue (aided by the SkyWater acquisition) is bullish on the surface, but Mizuho cut its PT to $52 (from $61, still Buy) on 9/9, flagging that the raise was largely inorganic and the stock still trades near 53x guided sales; shares fell ~3.4-4.4% on 9/9. Holding the modest (2.25%) position given continued volatility and mixed read-through.",
-      "last_review": "2026-09-10",
+      "thesis": "HOLD: mixed but largely already-known -- the 9/8 Investor Day (Superion 256 platform launch, $8.18M Congruity360 agreement, new elliptic-curve-breaking blueprint) failed to lift analyst targets, extending the ~5.8% post-event decline into the Mizuho PT-cut concerns already flagged on 9/9. No fresh negative fundamental data since; holding the modest (2.2%) position given continued volatility.",
+      "last_review": "2026-09-11",
       "status": "active"
     },
     {
@@ -139,8 +139,8 @@
       "cost_basis_per_share": 25.89,
       "date_added": "2026-09-09",
       "sector": "Financial Services",
-      "thesis": "HOLD: bullish new signal since entry -- incoming CEO Paul Gu disclosed an open-market purchase of 50,000 shares (~$1.375M at $27.50/sh) on 9/9, and shares jumped +4.8% on the filing, reinforcing the insider-buying thesis from the initial BUY. Thesis intact.",
-      "last_review": "2026-09-10",
+      "thesis": "HOLD: no new negative catalyst since 9/9; the incoming-CEO insider-purchase thesis (Paul Gu, 50,000 sh at $27.50) remains intact. Analyst sentiment stays mixed on rate-sensitivity/litigation risk, but nothing thesis-breaking emerged today.",
+      "last_review": "2026-09-11",
       "status": "active"
     },
     {
@@ -149,8 +149,8 @@
       "cost_basis_per_share": 140.8,
       "date_added": "2026-09-09",
       "sector": "Industrials",
-      "thesis": "HOLD: confirms the entry thesis -- the 9/9 Q1 FY27 beat (revenue $480.49M, adj. EPS $0.59) drove bookings of $0.7B (1.4x book-to-bill) and a record $1.5B funded backlog (+37% YoY); shares ultimately closed +10.4% on the print. Thesis intact.",
-      "last_review": "2026-09-10",
+      "thesis": "HOLD: fresh confirming data point -- the company announced its first international $50M LOCUST system order following the 9/9 Q1 FY27 beat (record $1.5B funded backlog, +37% YoY); JPMorgan raised its PT to $210 (from $200, Overweight). Thesis intact and strengthening.",
+      "last_review": "2026-09-11",
       "status": "active"
     }
   ]
