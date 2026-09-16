@@ -1,27 +1,27 @@
 {
   "status": "active",
-  "last_updated": "2026-09-14",
-  "cash": 79.28,
-  "total_value": 3977.3917744091036,
+  "last_updated": "2026-09-16",
+  "cash": 138.47,
+  "total_value": 3938.6298611375796,
   "holdings": [
     {
       "ticker": "GOOGL",
       "shares": 1.7771,
       "cost_basis_per_share": 337.63,
-      "price": 349.3900146484375,
-      "value": 620.9009950317383,
-      "return_pct": 0.034831071434521535,
-      "pct_of_portfolio": 0.15610757759058866,
-      "position_cap_usage_pct": 1.0407171839372578,
+      "price": 342.8699951171875,
+      "value": 609.3142683227538,
+      "return_pct": 0.015519933409908789,
+      "pct_of_portfolio": 0.15470208925567022,
+      "position_cap_usage_pct": 1.031347261704468,
       "near_position_cap": true,
       "sector": "Communication Services",
-      "thesis": "HOLD: no new negative catalyst; position (~15.6%) is a touch over the nominal 15% target but within the trim tolerance band, drifting with today's broad hyperscaler pullback (macro AI-sentiment selloff, not GOOGL-specific). Background remains supportive: Scotiabank reiterated Outperform 9/12, a judge rejected DOJ's ad-exchange divestiture push, and a $15B Texas AI-infra investment was announced days prior. Watch for drift, no action needed today.",
+      "thesis": "HOLD: no negative catalyst; incremental positives since 9/14 -- Alphabet closed its ~$1.5B acquisition of AI-coding startup Mechanize (DeepMind talent/tech tuck-in), and Waymo announced a planned Munich robotaxi launch by end-2027. Position ~15.5%, a touch over the nominal 15% target but within the trim tolerance band -- watch for sizing drift, no action needed today.",
       "fundamentals": {
-        "trailingPE": 17.522066,
-        "forwardPE": 23.490252,
+        "trailingPE": 17.195084,
+        "forwardPE": 23.078274,
         "revenueGrowth": 0.242,
         "earningsGrowth": 2.94,
-        "marketCap": 4273017192448
+        "marketCap": 4193277706240
       },
       "opportunity_tier": false
     },
@@ -29,20 +29,20 @@
       "ticker": "DUOL",
       "shares": 3.921,
       "cost_basis_per_share": 127.51,
-      "price": 151.13999938964844,
-      "value": 592.6199376068115,
-      "return_pct": 0.18531879373891014,
-      "pct_of_portfolio": 0.14899712455277386,
-      "position_cap_usage_pct": 0.9933141636851591,
+      "price": 148.1699981689453,
+      "value": 580.9745628204346,
+      "return_pct": 0.16202649336479732,
+      "pct_of_portfolio": 0.14750676842038513,
+      "position_cap_usage_pct": 0.9833784561359009,
       "near_position_cap": true,
       "sector": "Technology",
-      "thesis": "HOLD: thesis intact. No new negative news since 9/11; CEO reiterated the deliberate growth-over-near-term-revenue strategy (100M DAU by 2028 target) at Citi's TMT Conference on 9/9, and a 9/14 Motley Fool piece frames Duolingo's shift away from a legacy paid tier toward AI-driven monetization as a positive long-term move (single secondary source, not independently confirmed). Persistent earnings-decline flag remains attributable to deliberate AI-feature reinvestment, not demand weakness. Shares ~$151.14, position ~14.9% of portfolio -- just under the 15% cap, hold, don't add.",
+      "thesis": "HOLD: thesis intact and reinforced. A 9/16 report describes Duolingo folding former \"Max\" AI features (video calls, mistake-explanations) directly into the base Super tier as AI inference costs fall -- consistent with the 9/14 Motley Fool framing of the shift away from the legacy paid tier as a positive long-term monetization move, and with CEO von Ahn's 100M-DAU-by-2028 commentary from the 9/9 Citi conference. The persistent earnings-decline flag continues to reflect deliberate AI-feature reinvestment, not demand weakness. Position ~14.75% of portfolio, just under the 15% cap -- hold, don't add; any further appreciation may force a mechanical trim on sizing alone.",
       "fundamentals": {
-        "trailingPE": 17.865248,
-        "forwardPE": 19.785183,
+        "trailingPE": 17.493505,
+        "forwardPE": 19.39639,
         "revenueGrowth": 0.183,
         "earningsGrowth": -0.275,
-        "marketCap": 7042083328
+        "marketCap": 6903702016
       },
       "opportunity_tier": true
     },
@@ -50,41 +50,20 @@
       "ticker": "AMZN",
       "shares": 1.9219,
       "cost_basis_per_share": 260.16,
-      "price": 253.5399932861328,
-      "value": 487.2785130966186,
-      "return_pct": -0.02544590526547975,
-      "pct_of_portfolio": 0.12251207342254097,
-      "position_cap_usage_pct": 0.8167471561502732,
+      "price": 245.9600067138672,
+      "value": 472.71053690338135,
+      "return_pct": -0.0545817700112732,
+      "pct_of_portfolio": 0.12001903036576536,
+      "position_cap_usage_pct": 0.8001268691051024,
       "near_position_cap": false,
       "sector": "Consumer Cyclical",
-      "thesis": "HOLD: no new AMZN-specific catalyst; today's weakness is part of the broad hyperscaler pullback tied to the weekend AI-slowdown commentary, not an AWS-specific development. Kevin Mandia board addition (9/8) predates this window. Thesis intact.",
+      "thesis": "HOLD: one new item to monitor, not thesis-breaking -- CNBC/Insurance Journal (9/15-16) reported AWS still cannot restore its Bahrain data center and one UAE availability zone, with the Bahrain infrastructure damage (from March Iran-related strikes) possibly unrecoverable and no update expected before early 2027. This is a regional reliability/reputational issue, not a broad US AWS outage; no revenue/customer-impact disclosure yet. Thesis otherwise intact -- watch for a follow-up disclosure.",
       "fundamentals": {
-        "trailingPE": 20.397425,
-        "forwardPE": 24.369732,
+        "trailingPE": 19.803543,
+        "forwardPE": 23.70692,
         "revenueGrowth": 0.196,
         "earningsGrowth": 2.423,
-        "marketCap": 2734761705472
-      },
-      "opportunity_tier": false
-    },
-    {
-      "ticker": "VRT",
-      "shares": 1.924,
-      "cost_basis_per_share": 323.17,
-      "price": 237.38999938964844,
-      "value": 456.7383588256836,
-      "return_pct": -0.26543305569932724,
-      "pct_of_portfolio": 0.11483363589284296,
-      "position_cap_usage_pct": 0.7655575726189531,
-      "near_position_cap": false,
-      "sector": "Industrials",
-      "thesis": "HOLD: newly crossed the stop-loss threshold for the first time (-26.5% vs. cost basis, price ~$237.39), driven primarily by Monday's broad AI-slowdown selloff (Vertiv's ~2x beta amplifies moves in AI-infra names) layered on the already-known 9/9 UtilityInnovation Group ($1.45B, undisclosed target financials) deal-uncertainty and Q2-miss overhang, plus a Massachusetts data-center permitting order. No earnings miss, guidance cut, or litigation found; Q2 guidance was actually raised (20-22% organic CAGR target through 2030). Reads as multiple compression/high-beta drawdown amid a sentiment shock, not a thesis break -- holding, but flagging for closer monitoring given the unquantified M&A economics.",
-      "fundamentals": {
-        "trailingPE": 53.708145,
-        "forwardPE": 26.022871,
-        "revenueGrowth": 0.241,
-        "earningsGrowth": 0.53,
-        "marketCap": 91392335872
+        "marketCap": 2653001613312
       },
       "opportunity_tier": false
     },
@@ -92,20 +71,41 @@
       "ticker": "XOM",
       "shares": 2.7512,
       "cost_basis_per_share": 159.93,
-      "price": 165.0800018310547,
-      "value": 454.16810103759764,
-      "return_pct": 0.03220159964393597,
-      "pct_of_portfolio": 0.11418741899144963,
-      "position_cap_usage_pct": 0.7612494599429975,
+      "price": 163.32000732421875,
+      "value": 449.3260041503906,
+      "return_pct": 0.021196819384848013,
+      "pct_of_portfolio": 0.11408180509265053,
+      "position_cap_usage_pct": 0.760545367284337,
       "near_position_cap": false,
       "sector": "Energy",
-      "thesis": "HOLD: no new company-specific news since 9/11; Energy sector is not part of today's AI-sentiment selloff complex. Thesis (strong Q2 earnings, Angola Block 15 discovery) unchanged.",
+      "thesis": "HOLD: mildly positive update -- Texas regulators approved ExxonMobil's plan to inject ~53M metric tons of CO2 as part of its $5B carbon capture project (9/15); a Pioneer debt tender offer is routine. Thesis (strong Q2 earnings, Angola Block 15 discovery) unchanged.",
       "fundamentals": {
-        "trailingPE": 21.245817,
-        "forwardPE": 15.298401,
+        "trailingPE": 21.019306,
+        "forwardPE": 15.135298,
         "revenueGrowth": 0.441,
         "earningsGrowth": 1.128,
-        "marketCap": 678794428416
+        "marketCap": 671557484544
+      },
+      "opportunity_tier": false
+    },
+    {
+      "ticker": "VRT",
+      "shares": 1.3468,
+      "cost_basis_per_share": 323.17,
+      "price": 239.41000366210938,
+      "value": 322.4373929321289,
+      "return_pct": -0.2591824622888592,
+      "pct_of_portfolio": 0.08186537052227612,
+      "position_cap_usage_pct": 0.5457691368151741,
+      "near_position_cap": false,
+      "sector": "Industrials",
+      "thesis": "TRIMMED 30% today: this was the first-ever stop-loss breach for VRT (-25.9% vs. cost basis at review time, price ~$239.41), and unlike CRDO/INOD's chronic pattern this looked like a fresh crossing driven almost entirely by Monday's broad AI-sentiment selloff amplified by Vertiv's ~2x beta -- shares were already recovering (~$234 on 9/15 toward ~$240+ on 9/16). No earnings miss, guidance cut, or litigation; Q2 organic-growth guidance was actually raised (20-22% CAGR through 2030), and sell-side remains heavily bullish (83% buy-rated, ~$341 avg PT, GLJ upgraded to Buy $381). But the 9/9 UtilityInnovation Group acquisition ($1.45B plus up to $1.15B earnout, ~13x 2027 EBITDA) still has undisclosed target financials, and the Massachusetts data-center permitting order remains an overhang -- combined with the high beta, that's less-diversifiable risk into a choppy AI-infra tape. Trimmed 30% (0.5772 sh) to de-risk given the fresh breach, keeping the bulk of the position since there is no thesis-breaking catalyst.",
+      "fundamentals": {
+        "trailingPE": 54.287983,
+        "forwardPE": 26.244305,
+        "revenueGrowth": 0.241,
+        "earningsGrowth": 0.53,
+        "marketCap": 92170018816
       },
       "opportunity_tier": false
     },
@@ -113,20 +113,20 @@
       "ticker": "AFRM",
       "shares": 3.2885,
       "cost_basis_per_share": 69.94,
-      "price": 73.37999725341797,
-      "value": 241.31012096786498,
-      "return_pct": 0.04918497645722006,
-      "pct_of_portfolio": 0.06067044300751965,
-      "position_cap_usage_pct": 0.404469620050131,
+      "price": 71.58000183105469,
+      "value": 235.39083602142333,
+      "return_pct": 0.02344869646918344,
+      "pct_of_portfolio": 0.05976465022621757,
+      "position_cap_usage_pct": 0.3984310015081171,
       "near_position_cap": false,
       "sector": "Financial Services",
-      "thesis": "HOLD: no new news since 9/11; next catalyst is the Barclays conference on 9/15. Thesis (strong Q3 revenue guidance, BNPL growth) intact.",
+      "thesis": "HOLD: Affirm execs (Risk/Capital Markets/IR, not CEO/CFO) presented at the Barclays Global Financial Services Conference on 9/15, reiterating the existing growth story -- 36% GMV growth, Affirm Card scaling, the 5-year Amazon renewal -- with no new guidance surprises. Thesis intact.",
       "fundamentals": {
-        "trailingPE": 13.269439,
-        "forwardPE": 14.841032,
+        "trailingPE": 12.943942,
+        "forwardPE": 14.476985,
         "revenueGrowth": 0.33,
         "earningsGrowth": 21.869,
-        "marketCap": 24759969792
+        "marketCap": 24152612864
       },
       "opportunity_tier": false
     },
@@ -134,20 +134,20 @@
       "ticker": "CRDO",
       "shares": 1.2968,
       "cost_basis_per_share": 270.52,
-      "price": 150.08999633789062,
-      "value": 194.63670725097654,
-      "return_pct": -0.44517966753700045,
-      "pct_of_portfolio": 0.04893576451364098,
-      "position_cap_usage_pct": 0.32623843009093983,
+      "price": 161.49000549316406,
+      "value": 209.42023912353514,
+      "return_pct": -0.4030385720347328,
+      "pct_of_portfolio": 0.05317083516526457,
+      "position_cap_usage_pct": 0.3544722344350972,
       "near_position_cap": false,
       "sector": "Technology",
-      "thesis": "HOLD: fifth consecutive stop-loss review (-44.5% vs. cost basis, price ~$150.09 vs ~$159.80 on 9/11). Decline reflects Monday's broad AI-slowdown selloff (Anthropic CEO Amodei's weekend essay urging AI labs to slow development, echoed by Altman/Musk; Nasdaq 100 futures -1.5%, Philly Semi Index -6%) compounding the already-known 9/1-9/2 margin/customer-concentration overhang (GAAP gross margin 64.5%, ~87% revenue from two customers; JPMorgan PT cut to $310, BofA to $275, both still Buy/Overweight). No new company-specific negative catalyst found. FY27 guidance still implies 85%+ revenue growth. Position remains a de-risked stub (~4.9%) after three prior trims -- holding through macro-driven volatility absent fresh idiosyncratic news.",
+      "thesis": "HOLD: sixth consecutive stop-loss review (-40.3% vs. cost basis, price ~$161.49, recovering from ~$150 earlier in the week). No new company-specific negative catalyst since 9/14 -- Credo is presenting at the AI Infra Summit 2026 (Santa Clara, 9/15-17), showcasing 1.6T optical interconnects; Stifel flagged a prospective $600M optical ramp opportunity across multiple hyperscalers, and sell-side remains unanimously bullish (consensus PT ~$281, BofA Buy $275, Evercore Buy $292). FY27 guidance still implies 85%+ revenue growth. Position is already a de-risked ~5.3% stub after three prior trims -- holding.",
       "fundamentals": {
-        "trailingPE": 52.84859,
-        "forwardPE": 15.465607,
+        "trailingPE": 56.86268,
+        "forwardPE": 16.640099,
         "revenueGrowth": 1.147,
         "earningsGrowth": 0.971,
-        "marketCap": 28209702912
+        "marketCap": 30352357376
       },
       "opportunity_tier": false
     },
@@ -155,20 +155,20 @@
       "ticker": "DDOG",
       "shares": 0.7148,
       "cost_basis_per_share": 223.84,
-      "price": 230.0500030517578,
-      "value": 164.43974218139647,
-      "return_pct": 0.027743044369897288,
-      "pct_of_portfolio": 0.04134361197189992,
-      "position_cap_usage_pct": 0.2756240798126661,
+      "price": 230.7899932861328,
+      "value": 164.96868720092772,
+      "return_pct": 0.031048933551343857,
+      "pct_of_portfolio": 0.04188479065491075,
+      "position_cap_usage_pct": 0.279231937699405,
       "near_position_cap": false,
       "sector": "Technology",
-      "thesis": "HOLD: no new company-specific news; continued price-target momentum (Daiwa to $300, Scotiabank to $285) reinforces rather than adds to the known AI-observability demand thesis. Not among today's hardest-hit AI-infra names.",
+      "thesis": "HOLD: no material news -- the only new item is a routine, pre-scheduled Rule 10b5-1 insider sale by the Chief Product Officer (~$2.8M, reported 9/16), not a signal. AI-observability demand thesis unchanged.",
       "fundamentals": {
-        "trailingPE": 451.07846,
-        "forwardPE": 77.41282,
+        "trailingPE": 452.52942,
+        "forwardPE": 77.661835,
         "revenueGrowth": 0.356,
         "earningsGrowth": 14.985,
-        "marketCap": 82605203456
+        "marketCap": 82870919168
       },
       "opportunity_tier": false
     },
@@ -176,41 +176,20 @@
       "ticker": "LLY",
       "shares": 0.1379,
       "cost_basis_per_share": 1160.0,
-      "price": 1138.280029296875,
-      "value": 156.96881604003906,
-      "return_pct": -0.01872411267510776,
-      "pct_of_portfolio": 0.03946526390736526,
-      "position_cap_usage_pct": 0.2631017593824351,
+      "price": 1137.8199462890625,
+      "value": 156.90537059326172,
+      "return_pct": -0.01912073595770474,
+      "pct_of_portfolio": 0.039837551667762795,
+      "position_cap_usage_pct": 0.2655836777850853,
       "near_position_cap": false,
       "sector": "Healthcare",
-      "thesis": "HOLD: Morgan Stanley Healthcare Conference fireside chat occurred today (9/14) as expected -- management reiterated the obesity-franchise and donanemab growth strategy with normal payer-friction commentary, no negative surprise. Thesis intact.",
+      "thesis": "HOLD: no material news yet -- Lilly announced (9/15) it will present new cardiometabolic data (orforglipron/Foundayo, retatrutide, eloraTZP) at EASD 2026 in Milan, an upcoming catalyst to watch rather than new data itself. Obesity-franchise/donanemab thesis intact.",
       "fundamentals": {
-        "trailingPE": 38.210136,
-        "forwardPE": 24.094229,
+        "trailingPE": 38.220352,
+        "forwardPE": 24.047348,
         "revenueGrowth": 0.477,
         "earningsGrowth": 0.262,
-        "marketCap": 1015051386880
-      },
-      "opportunity_tier": false
-    },
-    {
-      "ticker": "SOFI",
-      "shares": 7.0381,
-      "cost_basis_per_share": 17.05,
-      "price": 17.649999618530273,
-      "value": 124.22246231517792,
-      "return_pct": 0.03519059346218608,
-      "pct_of_portfolio": 0.03123214140342835,
-      "position_cap_usage_pct": 0.2082142760228557,
-      "near_position_cap": false,
-      "sector": "Financial Services",
-      "thesis": "HOLD: no new news since 9/11; recent items (analyst initiations, PT hikes, private-market fund rollout) predate this window. Thesis intact.",
-      "fundamentals": {
-        "trailingPE": 36.020405,
-        "forwardPE": 21.326986,
-        "revenueGrowth": 0.426,
-        "earningsGrowth": 0.404,
-        "marketCap": 22796216320
+        "marketCap": 1014641131520
       },
       "opportunity_tier": false
     },
@@ -218,20 +197,41 @@
       "ticker": "CAT",
       "shares": 0.154,
       "cost_basis_per_share": 779.16,
-      "price": 784.0,
-      "value": 120.736,
-      "return_pct": 0.006211817855126075,
-      "pct_of_portfolio": 0.030355571401546683,
-      "position_cap_usage_pct": 0.20237047601031122,
+      "price": 782.719970703125,
+      "value": 120.53887548828125,
+      "return_pct": 0.004568985449875548,
+      "pct_of_portfolio": 0.030604265883838716,
+      "position_cap_usage_pct": 0.20402843922559144,
       "near_position_cap": false,
       "sector": "Industrials",
-      "thesis": "HOLD: down ~3-4% today specifically on AI-slowdown fears hitting the data-center power-generation trade (Power & Energy segment, +72% last quarter partly on off-grid AI-compute gensets/turbines) -- sentiment/momentum unwind, not a change to backlog or demand; no earnings, guidance, or contract news. Core industrial/backlog thesis ($72B backlog) unchanged; worth watching given the AI-power read-through, but not thesis-breaking.",
+      "thesis": "HOLD, flagging sentiment risk: shares extended a pullback (~4% around 9/14-16) on renewed AI-data-center-capex-slowdown sentiment (media reports questioning hyperscaler capex), which reads directly against the Power & Energy segment's AI-genset/turbine growth driver. No earnings, guidance, or contract news; $72B backlog and core industrial thesis unchanged. Worth watching given the direct read-through to the thesis, but not thesis-breaking today.",
       "fundamentals": {
-        "trailingPE": 33.72043,
-        "forwardPE": 24.214468,
+        "trailingPE": 33.752476,
+        "forwardPE": 24.174932,
         "revenueGrowth": 0.24,
         "earningsGrowth": 0.682,
-        "marketCap": 360385118208
+        "marketCap": 359796703232
+      },
+      "opportunity_tier": false
+    },
+    {
+      "ticker": "SOFI",
+      "shares": 7.0381,
+      "cost_basis_per_share": 17.05,
+      "price": 16.84000015258789,
+      "value": 118.52160507392884,
+      "return_pct": -0.012316706593085635,
+      "pct_of_portfolio": 0.030092090207150538,
+      "position_cap_usage_pct": 0.20061393471433692,
+      "near_position_cap": false,
+      "sector": "Financial Services",
+      "thesis": "HOLD, flagging a new litigation risk: Citizens Bank filed a federal lawsuit (filed ~9/10, widely reported 9/15) in Connecticut alleging SoFi orchestrated poaching of ~30 mortgage loan officers and trade-secret misuse, including a RICO claim tied to SoFi's home-loan business. This is a reputational/legal overhang on the mortgage business, not an immediate financial hit or a break of the core digital-bank/fintech thesis -- holding, monitoring for developments.",
+      "fundamentals": {
+        "trailingPE": 34.367348,
+        "forwardPE": 20.34824,
+        "revenueGrowth": 0.426,
+        "earningsGrowth": 0.404,
+        "marketCap": 21750044672
       },
       "opportunity_tier": false
     },
@@ -239,62 +239,83 @@
       "ticker": "IONQ",
       "shares": 2.3911,
       "cost_basis_per_share": 37.64,
-      "price": 37.5,
-      "value": 89.66624999999999,
-      "return_pct": -0.0037194473963868377,
-      "pct_of_portfolio": 0.022543982359726468,
-      "position_cap_usage_pct": 0.1502932157315098,
+      "price": 36.84000015258789,
+      "value": 88.0881243648529,
+      "return_pct": -0.021253981068334482,
+      "pct_of_portfolio": 0.022365169480386447,
+      "position_cap_usage_pct": 0.14910112986924298,
       "near_position_cap": false,
       "sector": "Technology",
-      "thesis": "HOLD: no new news since 9/11; the previously-flagged Mizuho PT cut (to $52, still Buy) predates this window. As an AI-adjacent small-cap quantum name, likely getting extra beta from today's broad selloff, but no new company-specific negative catalyst. Holding the modest (~2.3%) position.",
+      "thesis": "HOLD: no material news since 9/14 -- a CEO share sale reported 9/16 was a tax-related Rule 10b5-1 vesting transaction, not a signal. Thesis (raised FY26 revenue guidance post-SkyWater, quantum-computing pure-play) unchanged. Holding the modest ~2.2% position.",
       "fundamentals": {
         "trailingPE": null,
-        "forwardPE": -28.713629,
+        "forwardPE": -28.20827,
         "revenueGrowth": 2.868,
         "earningsGrowth": null,
-        "marketCap": 15192587264
+        "marketCap": 14925197312
       },
       "opportunity_tier": false
     },
     {
-      "ticker": "UPST",
-      "shares": 2.7037,
-      "cost_basis_per_share": 25.89,
-      "price": 26.100000381469727,
-      "value": 70.5665710313797,
-      "return_pct": 0.008111254595199922,
-      "pct_of_portfolio": 0.017741921096486236,
-      "position_cap_usage_pct": 0.11827947397657491,
+      "ticker": "ASTS",
+      "shares": 1.3329,
+      "cost_basis_per_share": 59.27,
+      "price": 59.27000045776367,
+      "value": 79.0009836101532,
+      "return_pct": 7.723362050761126e-09,
+      "pct_of_portfolio": 0.020057986252949304,
+      "position_cap_usage_pct": 0.13371990835299535,
       "near_position_cap": false,
-      "sector": "Financial Services",
-      "thesis": "HOLD: no new news since 9/11; shares range-bound around $25.40. Thesis (incoming-CEO Paul Gu insider purchase) intact.",
+      "sector": "Technology",
+      "thesis": "BUY: AST SpaceMobile sourced from the 9/8 weekly theme screen (direct-to-cell satellite connectivity). Shifting from proof-of-concept to commercial activation: BlueBird 11-13 satellites deployed, a new New Zealand gateway opened, deepening integration tests with Vodafone/Orange/Telefonica/Deutsche Telekom via a gateway JV, and US Mobile preparing a direct-to-cell launch. 2026 revenue guided to $150-200M off a near-zero base (drove the screen's outsized revenue-growth score), backed by a $1.3B backlog and over $3.7B cash on hand -- funds the capital-intensive buildout without near-term dilution risk. Known risk: execution on an expensive, tightly-timed deployment (targets imply ~165%/yr revenue growth through 2029); stock is down modestly on the mixed reaction to the BlueBird/US Mobile news despite the bull case being intact per sell-side (~$78 fair-value estimate vs. ~$59 entry). Not opportunity-tier (market cap ~$23B). Sized to $79 (~2.0% of portfolio), the remaining room in the Technology sector cap (already ~28% of portfolio before this buy) rather than a full-size position -- funded by today's VRT trim proceeds.",
       "fundamentals": {
-        "trailingPE": 50.19231,
-        "forwardPE": 7.508717,
-        "revenueGrowth": 0.423,
-        "earningsGrowth": 2.112,
-        "marketCap": 2539870464
+        "trailingPE": null,
+        "forwardPE": -45.97496,
+        "revenueGrowth": 26.266,
+        "earningsGrowth": null,
+        "marketCap": 23065956352
       },
-      "opportunity_tier": true
+      "opportunity_tier": false
     },
     {
       "ticker": "AVAV",
       "shares": 0.4403,
       "cost_basis_per_share": 140.8,
-      "price": 153.39999389648438,
-      "value": 67.54201731262208,
-      "return_pct": 0.0894885930148037,
-      "pct_of_portfolio": 0.01698148463704116,
-      "position_cap_usage_pct": 0.11320989758027442,
+      "price": 156.4499969482422,
+      "value": 68.88493365631103,
+      "return_pct": 0.1111505465074018,
+      "pct_of_portfolio": 0.017489567713889025,
+      "position_cap_usage_pct": 0.1165971180925935,
       "near_position_cap": false,
       "sector": "Industrials",
-      "thesis": "HOLD: no new news since the 9/9 items already reflected in thesis (Q1 FY27 beat, $1.5B backlog, LOCUST awards). Defense/drone name, not part of today's AI-infra selloff complex. Thesis intact and strengthening.",
+      "thesis": "HOLD: no new headlines since the 9/9 items already reflected in thesis (Q1 FY27 beat, $1.5B backlog, LOCUST/Titan contract wins). Defense/drone thesis intact and strengthening (+11.1% vs. cost basis).",
       "fundamentals": {
         "trailingPE": null,
-        "forwardPE": 34.29243,
+        "forwardPE": 34.97426,
         "revenueGrowth": 0.057,
         "earningsGrowth": null,
-        "marketCap": 7795895808
+        "marketCap": 7950899200
+      },
+      "opportunity_tier": true
+    },
+    {
+      "ticker": "UPST",
+      "shares": 2.7037,
+      "cost_basis_per_share": 25.89,
+      "price": 24.850000381469727,
+      "value": 67.1869460313797,
+      "return_pct": -0.04016993505331302,
+      "pct_of_portfolio": 0.017058456468406084,
+      "position_cap_usage_pct": 0.11372304312270723,
+      "near_position_cap": false,
+      "sector": "Financial Services",
+      "thesis": "HOLD: no company-specific news since 9/14; shares dipped ~3% on 9/15 on general rate-sensitivity/insider-selling-overhang sentiment rather than any new headline. Thesis (incoming-CEO Paul Gu insider purchase, AI-underwriting) intact.",
+      "fundamentals": {
+        "trailingPE": 47.788464,
+        "forwardPE": 7.149104,
+        "revenueGrowth": 0.423,
+        "earningsGrowth": 2.112,
+        "marketCap": 2418229248
       },
       "opportunity_tier": true
     },
@@ -302,20 +323,20 @@
       "ticker": "INOD",
       "shares": 1.0195,
       "cost_basis_per_share": 79.32,
-      "price": 55.2400016784668,
-      "value": 56.3171817111969,
-      "return_pct": -0.30358041252563284,
-      "pct_of_portfolio": 0.014159324729725323,
-      "position_cap_usage_pct": 0.09439549819816882,
+      "price": 55.40999984741211,
+      "value": 56.49049484443665,
+      "return_pct": -0.3014372182625805,
+      "pct_of_portfolio": 0.014342676726703309,
+      "position_cap_usage_pct": 0.09561784484468873,
       "near_position_cap": false,
       "sector": "Technology",
-      "thesis": "HOLD: sixth consecutive stop-loss review (-30.4% vs. cost basis, price ~$55.24). No new INOD-specific news since 9/11 -- today's move tracks the broad AI-services-name selloff rather than any company-specific driver. Known items (9/4 director Forlenza insider sale, 9/30 CEO transition to Singhal) unchanged, no new insider filings or analyst actions found. 58% YoY revenue growth and reaffirmed 40%+ FY guidance continue to support holding the remaining stub (~1.4%) through the transition.",
+      "thesis": "HOLD: seventh consecutive stop-loss review (-30.1% vs. cost basis, price ~$55.41). Director Louise Forlenza sold another ~10,000 shares on 9/14 (Form 4 filed 9/15, ~$535K), but this continues the same recurring diversification-style selling pattern already reviewed (prior tranches $1.7M/$2.67M/$1.8M), not a new escalation. CEO succession (Singhal to CEO, Abuhoff to Executive Chairman effective 9/30) remains on track with no reported disruption; 58% YoY revenue growth and 40%+ FY guidance reaffirmed and unchanged. Holding the remaining ~1.4% stub through the transition.",
       "fundamentals": {
-        "trailingPE": 42.82171,
-        "forwardPE": 26.460121,
+        "trailingPE": 42.95349,
+        "forwardPE": 26.54155,
         "revenueGrowth": 0.578,
         "earningsGrowth": 1.05,
-        "marketCap": 1899297792
+        "marketCap": 1905142784
       },
       "opportunity_tier": true
     }
@@ -323,48 +344,70 @@
   "sector_allocation": [
     {
       "sector": "Communication Services",
-      "pct": 0.15610757759058866,
-      "sector_cap_usage_pct": 0.5203585919686289,
+      "pct": 0.15470208925567022,
+      "sector_cap_usage_pct": 0.515673630852234,
       "near_sector_cap": false
     },
     {
       "sector": "Consumer Cyclical",
-      "pct": 0.12251207342254097,
-      "sector_cap_usage_pct": 0.4083735780751366,
+      "pct": 0.12001903036576536,
+      "sector_cap_usage_pct": 0.4000634345525512,
       "near_sector_cap": false
     },
     {
       "sector": "Energy",
-      "pct": 0.11418741899144963,
-      "sector_cap_usage_pct": 0.38062472997149877,
+      "pct": 0.11408180509265053,
+      "sector_cap_usage_pct": 0.3802726836421685,
       "near_sector_cap": false
     },
     {
       "sector": "Financial Services",
-      "pct": 0.10964450550743422,
-      "sector_cap_usage_pct": 0.36548168502478073,
+      "pct": 0.10691519690177419,
+      "sector_cap_usage_pct": 0.3563839896725806,
       "near_sector_cap": false
     },
     {
       "sector": "Healthcare",
-      "pct": 0.03946526390736526,
-      "sector_cap_usage_pct": 0.13155087969121754,
+      "pct": 0.039837551667762795,
+      "sector_cap_usage_pct": 0.13279183889254265,
       "near_sector_cap": false
     },
     {
       "sector": "Industrials",
-      "pct": 0.1621706919314308,
-      "sector_cap_usage_pct": 0.5405689731047694,
+      "pct": 0.12995920412000386,
+      "sector_cap_usage_pct": 0.43319734706667956,
       "near_sector_cap": false
     },
     {
       "sector": "Technology",
-      "pct": 0.27597980812776657,
-      "sector_cap_usage_pct": 0.9199326937592219,
+      "pct": 0.29932822670059955,
+      "sector_cap_usage_pct": 0.9977607556686652,
       "near_sector_cap": true
     }
   ],
   "recent_transactions": [
+    {
+      "date": "2026-09-16",
+      "action": "BUY",
+      "ticker": "ASTS",
+      "shares": "1.3329",
+      "price": "59.27",
+      "amount": "-79.00",
+      "rationale": "AST SpaceMobile sourced from the 9/8 weekly theme screen (direct-to-cell satellite connectivity). Shifting from proof-of-concept to commercial activation: BlueBird 11-13 satellites deployed, new New Zealand gateway opened, deepening carrier integration (Vodafone/Orange/Telefonica/Deutsche Telekom via a gateway JV) and US Mobile preparing a direct-to-cell launch. 2026 revenue guided to $150-200M (vs. a near-zero prior-year base, which drove the quantitative screen's outsized revenue-growth score), backed by a $1.3B backlog and over $3.7B cash funding the buildout. Key risk is execution on an expensive, tightly-timed deployment (implied ~165%/yr revenue growth needed through 2029), but the bull case is still considered intact by sell-side (~$78 fair-value estimate vs. ~$59.27 entry). Not opportunity-tier (~$23B market cap). Sized to the remaining Technology sector-cap room (~$81.65, sector already ~28% of portfolio) rather than a full position; funded by today's VRT trim proceeds.",
+      "portfolio_value_after": "3938.63",
+      "cash_after": "138.47"
+    },
+    {
+      "date": "2026-09-16",
+      "action": "TRIM",
+      "ticker": "VRT",
+      "shares": "-0.5772",
+      "price": "239.41",
+      "amount": "138.19",
+      "rationale": "First-ever stop-loss breach for VRT (-25.9% vs. cost basis at review), but unlike CRDO/INOD's chronic pattern this reads as a fresh, macro-beta-driven crossing -- Monday's broad AI-slowdown selloff hit Vertiv's ~2x-beta shares hard, and the stock was already recovering (~$234 on 9/15 toward ~$240 on 9/16). No earnings miss, guidance cut, or litigation; Q2 organic-growth guidance was actually raised to a 20-22% CAGR target through 2030, and sell-side remains heavily bullish (83% buy-rated, ~$341 average PT, GLJ upgrade to Buy $381). Trimming 30% to de-risk specifically because the 9/9 $1.45B UtilityInnovation Group acquisition still has undisclosed target financials and the Massachusetts data-center permitting order remains an unresolved overhang layered on top of the high beta -- not a full exit since there is no thesis-breaking catalyst.",
+      "portfolio_value_after": "3938.63",
+      "cash_after": "217.47"
+    },
     {
       "date": "2026-09-09",
       "action": "BUY",
@@ -562,28 +605,6 @@
       "rationale": "Stop-loss threshold triggered (-28.9% vs cost basis) and stock down 43% over the past 30 days despite a Q2 beat (revenue $92.1M +58% YoY) -- driven by heavy insider selling ($174.3M sold, zero insider buys over 12mo) and a pending CEO transition (founder Abuhoff to Executive Chairman, new CEO effective 9/30/26). Fundamentals (58% revenue growth, reaffirmed 40% FY guidance) don't justify a full exit, but elevated near-term risk warrants cutting the position roughly in half; this trim also helps reduce Technology sector concentration.",
       "portfolio_value_after": "4107.27",
       "cash_after": "1851.07"
-    },
-    {
-      "date": "2026-08-31",
-      "action": "TRIM",
-      "ticker": "VRT",
-      "shares": "-4.599",
-      "price": "256.17",
-      "amount": "1178.12",
-      "rationale": "Position drifted to 43.7% of portfolio, far over the 15% max_position_pct cap and the largest driver of the Industrials sector exceeding its 30% cap. Q2 FY26 net sales +24% YoY (18% organic), raised full-year guidance, Strong Buy consensus PT $338 vs ~$256 price -- thesis intact, trimmed back to the 15% position cap.",
-      "portfolio_value_after": "4107.27",
-      "cash_after": "1625.08"
-    },
-    {
-      "date": "2026-08-31",
-      "action": "TRIM",
-      "ticker": "CRDO",
-      "shares": "-1.7854",
-      "price": "227.79",
-      "amount": "406.69",
-      "rationale": "Position drifted to 24.9% of portfolio, over the 15% max_position_pct cap (settings.yaml). Fundamentals remain strong (Q4 FY26 revenue +205.7% YoY, EPS beat by 13.7%, FY27 guidance implies 80%+ revenue growth, Strong Buy consensus PT $283) so this is a sizing rebalance, not an exit -- trimmed back to the 15% cap.",
-      "portfolio_value_after": "4107.27",
-      "cash_after": "446.96"
     }
   ],
   "performance_history": [
@@ -652,21 +673,37 @@
       "total_value": 3977.39,
       "portfolio_return_pct": -0.03422964481006998,
       "benchmark_return_pct": -0.008043804184864037
+    },
+    {
+      "date": "2026-09-16",
+      "total_value": 3938.63,
+      "portfolio_return_pct": -0.043641158130906375,
+      "benchmark_return_pct": -0.0169480477152728
     }
   ],
   "benchmark_ticker": "SPY",
   "watchlist": {
-    "total_screened": 67,
+    "total_screened": 72,
     "top_candidates": [
       {
-        "ticker": "ASTS",
+        "ticker": "ONDS",
         "sector": "Technology",
-        "score": 262.65999999999997,
+        "score": 123.53999999999999,
         "reasons": [
-          "revenue growth 2626.6%"
+          "revenue growth 1235.4%"
         ],
-        "notes": "AST SpaceMobile -- direct-to-cell satellite connectivity",
-        "opportunity_tier": false
+        "notes": "Ondas Holdings -- autonomous drone/counter-UAS/ground-robotics roll-up, Q2 revenue +1235% YoY to $83.7M, $757M backlog; growth is largely acquisition-driven (92% of revenue from recent M&A), not yet proven organic",
+        "opportunity_tier": true
+      },
+      {
+        "ticker": "ZENA",
+        "sector": "Technology",
+        "score": 63.99,
+        "reasons": [
+          "revenue growth 639.9%"
+        ],
+        "notes": "ZenaTech -- micro-cap drone-as-a-service roll-up (27 acquisitions), revenue +705% LTM, pursuing Blue UAS DoD certification; heavy shareholder dilution funding the roll-up, stock down ~73% over past year despite growth -- highly speculative",
+        "opportunity_tier": true
       },
       {
         "ticker": "RCAT",
@@ -679,13 +716,23 @@
         "opportunity_tier": true
       },
       {
+        "ticker": "SERV",
+        "sector": "Industrials",
+        "score": 40.44,
+        "reasons": [
+          "revenue growth 404.4%"
+        ],
+        "notes": "Serve Robotics -- sidewalk delivery-robot pure play, micro-cap, diversifying beyond Uber Eats into DoorDash/software; FY26 revenue guide was cut from ~$26M to $9-10M on Uber Eats volume weakness, real customer-concentration risk",
+        "opportunity_tier": true
+      },
+      {
         "ticker": "AVGO",
         "sector": "Technology",
-        "score": 21.425808850000003,
+        "score": 21.43924785,
         "reasons": [
           "revenue growth 85.5%",
           "earnings growth 215.3%",
-          "forward P/E 17.8"
+          "forward P/E 17.5"
         ],
         "notes": "Semis + AI networking",
         "opportunity_tier": false
@@ -693,11 +740,11 @@
       {
         "ticker": "NVDA",
         "sector": "Technology",
-        "score": 19.3044909,
+        "score": 19.29507685,
         "reasons": [
           "revenue growth 105.9%",
           "earnings growth 127.8%",
-          "forward P/E 13.5"
+          "forward P/E 13.7"
         ],
         "notes": "AI/datacenter compute leader",
         "opportunity_tier": false
@@ -715,11 +762,11 @@
       {
         "ticker": "AMD",
         "sector": "Technology",
-        "score": 14.39443135,
+        "score": 14.339279699999999,
         "reasons": [
           "revenue growth 50.1%",
           "earnings growth 159.5%",
-          "forward P/E 31.8"
+          "forward P/E 32.9"
         ],
         "notes": "GPU/CPU challenger",
         "opportunity_tier": false
@@ -727,7 +774,7 @@
       {
         "ticker": "TSM",
         "sector": "Technology",
-        "score": 9.51673185,
+        "score": 9.51739325,
         "reasons": [
           "revenue growth 36.0%",
           "earnings growth 77.4%",
@@ -739,45 +786,21 @@
       {
         "ticker": "CRM",
         "sector": "Technology",
-        "score": 9.214695,
+        "score": 9.243095100000001,
         "reasons": [
           "revenue growth 10.8%",
           "earnings growth 118.9%",
-          "forward P/E 16.2"
+          "forward P/E 15.6"
         ],
         "notes": "Enterprise SaaS",
-        "opportunity_tier": false
-      },
-      {
-        "ticker": "MOD",
-        "sector": "Consumer Cyclical",
-        "score": 7.18221765,
-        "reasons": [
-          "revenue growth 28.0%",
-          "earnings growth 44.2%",
-          "forward P/E 16.6"
-        ],
-        "notes": "Modine Manufacturing -- data-center liquid-cooling/thermal management for AI infrastructure",
-        "opportunity_tier": true
-      },
-      {
-        "ticker": "LRCX",
-        "sector": "Technology",
-        "score": 6.5664086,
-        "reasons": [
-          "revenue growth 30.0%",
-          "earnings growth 34.8%",
-          "forward P/E 23.5"
-        ],
-        "notes": "Semicap equipment",
         "opportunity_tier": false
       }
     ]
   },
   "opportunity_bucket": {
-    "pct": 0.1978798550160266,
+    "pct": 0.1963974693293835,
     "cap_pct": 0.2,
-    "cap_usage_pct": 0.9893992750801329,
+    "cap_usage_pct": 0.9819873466469176,
     "near_cap": true,
     "over_cap": false
   },
