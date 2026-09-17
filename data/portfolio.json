@@ -1,7 +1,7 @@
 {
   "status": "active",
-  "cash": 138.47,
-  "last_updated": "2026-09-16",
+  "cash": 129.84,
+  "last_updated": "2026-09-17",
   "holdings": [
     {
       "ticker": "CRDO",
@@ -9,18 +9,18 @@
       "cost_basis_per_share": 270.52,
       "date_added": "2026-08-30",
       "sector": "Technology",
-      "thesis": "HOLD: sixth consecutive stop-loss review (-40.3% vs. cost basis, price ~$161.49, recovering from ~$150 earlier in the week). No new company-specific negative catalyst since 9/14 -- Credo is presenting at the AI Infra Summit 2026 (Santa Clara, 9/15-17), showcasing 1.6T optical interconnects; Stifel flagged a prospective $600M optical ramp opportunity across multiple hyperscalers, and sell-side remains unanimously bullish (consensus PT ~$281, BofA Buy $275, Evercore Buy $292). FY27 guidance still implies 85%+ revenue growth. Position is already a de-risked ~5.3% stub after three prior trims -- holding.",
-      "last_review": "2026-09-16",
+      "thesis": "HOLD: seventh consecutive stop-loss review (-37.8% vs. cost basis, price ~$168.25). No new company-specific negative catalyst since 9/16; sell-side remains Strong Buy (19 analysts, consensus PT ~$281, ~73% implied upside), and FY27 guidance still implies 85%+ revenue growth with optical revenue on track to exceed $600M. Position is already a de-risked ~5.5% stub after three prior trims -- holding.",
+      "last_review": "2026-09-17",
       "status": "active"
     },
     {
       "ticker": "DUOL",
-      "shares": 3.921,
+      "shares": 3.8227,
       "cost_basis_per_share": 127.51,
       "date_added": "2026-08-30",
       "sector": "Technology",
-      "thesis": "HOLD: thesis intact and reinforced. A 9/16 report describes Duolingo folding former \"Max\" AI features (video calls, mistake-explanations) directly into the base Super tier as AI inference costs fall -- consistent with the 9/14 Motley Fool framing of the shift away from the legacy paid tier as a positive long-term monetization move, and with CEO von Ahn's 100M-DAU-by-2028 commentary from the 9/9 Citi conference. The persistent earnings-decline flag continues to reflect deliberate AI-feature reinvestment, not demand weakness. Position ~14.75% of portfolio, just under the 15% cap -- hold, don't add; any further appreciation may force a mechanical trim on sizing alone.",
-      "last_review": "2026-09-16",
+      "thesis": "TRIMMED today: thesis intact; the persistent earnings-decline flag continues to reflect deliberate AI-feature reinvestment (folding former \"Max\" features into the base Super tier), not demand weakness. New item to note: sell-side sentiment is now more mixed than any other holding (6 buy vs. 2 sell, average 12-month PT ~$134.29 is actually below the current ~$147 price) -- a first for this position, worth watching but not a fresh negative catalyst on its own. Separately, adding MOD today pushed the Technology sector to 30.16% of the portfolio, over the 30% sector_max_pct cap -- trimmed 0.0983 shares (~$14.46) from DUOL, the largest Tech position, to bring the sector back to ~29.8%. This is a pure sizing rebalance, not a change of view; fundamentals-driven thesis unchanged.",
+      "last_review": "2026-09-17",
       "status": "active"
     },
     {
@@ -29,8 +29,8 @@
       "cost_basis_per_share": 79.32,
       "date_added": "2026-08-30",
       "sector": "Technology",
-      "thesis": "HOLD: seventh consecutive stop-loss review (-30.1% vs. cost basis, price ~$55.41). Director Louise Forlenza sold another ~10,000 shares on 9/14 (Form 4 filed 9/15, ~$535K), but this continues the same recurring diversification-style selling pattern already reviewed (prior tranches $1.7M/$2.67M/$1.8M), not a new escalation. CEO succession (Singhal to CEO, Abuhoff to Executive Chairman effective 9/30) remains on track with no reported disruption; 58% YoY revenue growth and 40%+ FY guidance reaffirmed and unchanged. Holding the remaining ~1.4% stub through the transition.",
-      "last_review": "2026-09-16",
+      "thesis": "HOLD: eighth consecutive stop-loss review (-28.2% vs. cost basis, price ~$56.98). Mildly positive governance update -- the board added Admiral Michael Rogers (former NSA Director and US Cyber Command Commander) on 9/16, a credibility-supportive addition during the pending CEO transition (Singhal to CEO effective 9/30). No new negative catalyst; 58% YoY revenue growth and 40%+ FY guidance remain reaffirmed. Holding the remaining ~1.4% stub through the transition.",
+      "last_review": "2026-09-17",
       "status": "active"
     },
     {
@@ -39,8 +39,8 @@
       "cost_basis_per_share": 323.17,
       "date_added": "2026-08-30",
       "sector": "Industrials",
-      "thesis": "TRIMMED 30% today: this was the first-ever stop-loss breach for VRT (-25.9% vs. cost basis at review time, price ~$239.41), and unlike CRDO/INOD's chronic pattern this looked like a fresh crossing driven almost entirely by Monday's broad AI-sentiment selloff amplified by Vertiv's ~2x beta -- shares were already recovering (~$234 on 9/15 toward ~$240+ on 9/16). No earnings miss, guidance cut, or litigation; Q2 organic-growth guidance was actually raised (20-22% CAGR through 2030), and sell-side remains heavily bullish (83% buy-rated, ~$341 avg PT, GLJ upgraded to Buy $381). But the 9/9 UtilityInnovation Group acquisition ($1.45B plus up to $1.15B earnout, ~13x 2027 EBITDA) still has undisclosed target financials, and the Massachusetts data-center permitting order remains an overhang -- combined with the high beta, that's less-diversifiable risk into a choppy AI-infra tape. Trimmed 30% (0.5772 sh) to de-risk given the fresh breach, keeping the bulk of the position since there is no thesis-breaking catalyst.",
-      "last_review": "2026-09-16",
+      "thesis": "HOLD: second review of the same stop-loss breach trimmed yesterday (-25.3% vs. cost basis, price ~$241.49, essentially flat/slightly improved vs. -25.9% at the trim). No fresh VRT-specific catalyst -- today's broader softness ties to the Fed's 25bp rate hike (first since 2023) pushing the 10-year yield above 5%, a market-wide rate headwind rather than a company-specific issue. No new earnings miss, guidance cut, or litigation escalation found beyond the already-known securities-disclosure investigation and Massachusetts permitting overhang. Already de-risked 30% yesterday specifically for this breach and sell-side remains heavily bullish (83% buy-rated, ~$341 avg PT) -- holding the remainder without a further trim.",
+      "last_review": "2026-09-17",
       "status": "active"
     },
     {
@@ -49,8 +49,8 @@
       "cost_basis_per_share": 337.63,
       "date_added": "2026-08-31",
       "sector": "Communication Services",
-      "thesis": "HOLD: no negative catalyst; incremental positives since 9/14 -- Alphabet closed its ~$1.5B acquisition of AI-coding startup Mechanize (DeepMind talent/tech tuck-in), and Waymo announced a planned Munich robotaxi launch by end-2027. Position ~15.5%, a touch over the nominal 15% target but within the trim tolerance band -- watch for sizing drift, no action needed today.",
-      "last_review": "2026-09-16",
+      "thesis": "HOLD: no negative catalyst; incremental positives since 9/16 -- Nvidia, Google, and Emerald AI launched an alliance for flexible AI data-center power management, and Berkshire Hathaway's latest 13-F showed an 83% QoQ increase to its Alphabet stake, now Berkshire's third-largest equity position. A Pixel firmware bug (CVE-2026-58704) exploited in limited targeted attacks was already patched -- narrow scope, not a broad business risk. Position ~15.5%, a touch over the nominal 15% target but within the trim tolerance band -- watch for sizing drift, no action needed today.",
+      "last_review": "2026-09-17",
       "status": "active"
     },
     {
@@ -59,8 +59,8 @@
       "cost_basis_per_share": 260.16,
       "date_added": "2026-08-31",
       "sector": "Consumer Cyclical",
-      "thesis": "HOLD: one new item to monitor, not thesis-breaking -- CNBC/Insurance Journal (9/15-16) reported AWS still cannot restore its Bahrain data center and one UAE availability zone, with the Bahrain infrastructure damage (from March Iran-related strikes) possibly unrecoverable and no update expected before early 2027. This is a regional reliability/reputational issue, not a broad US AWS outage; no revenue/customer-impact disclosure yet. Thesis otherwise intact -- watch for a follow-up disclosure.",
-      "last_review": "2026-09-16",
+      "thesis": "HOLD: AWS confirmed this week that data/resources hosted solely in its Bahrain region cannot be recovered (an escalation in language from the earlier \"cannot restore\" framing) following March's Iran-linked strike damage -- still a regional reliability issue, not a broad US AWS outage, with no disclosed customer or revenue impact. Also monitoring pre-existing FTC/22-state litigation alleging ad-pricing practices that may have cost advertisers up to $20B -- a known regulatory overhang, not a new escalation. Thesis otherwise intact.",
+      "last_review": "2026-09-17",
       "status": "active"
     },
     {
@@ -69,8 +69,8 @@
       "cost_basis_per_share": 159.93,
       "date_added": "2026-08-31",
       "sector": "Energy",
-      "thesis": "HOLD: mildly positive update -- Texas regulators approved ExxonMobil's plan to inject ~53M metric tons of CO2 as part of its $5B carbon capture project (9/15); a Pioneer debt tender offer is routine. Thesis (strong Q2 earnings, Angola Block 15 discovery) unchanged.",
-      "last_review": "2026-09-16",
+      "thesis": "HOLD: incrementally positive -- Exxon is reportedly nearing a deal for access to Venezuela's Orinoco Belt (50B+ barrels of reserves, reported 9/16-17), and management raised its LNG sales target to 50M tons by 2030 on rising global demand; Exxon is also lined up for new US-Vietnam energy/industrial agreements. Thesis (strong Q2 earnings, capital discipline, Angola Block 15 discovery) strengthened.",
+      "last_review": "2026-09-17",
       "status": "active"
     },
     {
@@ -79,8 +79,8 @@
       "cost_basis_per_share": 69.94,
       "date_added": "2026-09-01",
       "sector": "Financial Services",
-      "thesis": "HOLD: Affirm execs (Risk/Capital Markets/IR, not CEO/CFO) presented at the Barclays Global Financial Services Conference on 9/15, reiterating the existing growth story -- 36% GMV growth, Affirm Card scaling, the 5-year Amazon renewal -- with no new guidance surprises. Thesis intact.",
-      "last_review": "2026-09-16",
+      "thesis": "HOLD: positive -- Wolfe Research upgraded Affirm to Outperform with a $90 PT (vs. ~$70 price) on 9/16, citing strong Q4 results. Thesis (36% GMV growth, Affirm Card scaling, the 5-year Amazon renewal) intact and reinforced.",
+      "last_review": "2026-09-17",
       "status": "active"
     },
     {
@@ -89,8 +89,8 @@
       "cost_basis_per_share": 223.84,
       "date_added": "2026-09-01",
       "sector": "Technology",
-      "thesis": "HOLD: no material news -- the only new item is a routine, pre-scheduled Rule 10b5-1 insider sale by the Chief Product Officer (~$2.8M, reported 9/16), not a signal. AI-observability demand thesis unchanged.",
-      "last_review": "2026-09-16",
+      "thesis": "HOLD: no material negative news -- shares traded in a normal $227-237 range with some reported strength tied to CEO Olivier Pomel commentary. AI-observability demand thesis unchanged.",
+      "last_review": "2026-09-17",
       "status": "active"
     },
     {
@@ -99,8 +99,8 @@
       "cost_basis_per_share": 1160.0,
       "date_added": "2026-09-01",
       "sector": "Healthcare",
-      "thesis": "HOLD: no material news yet -- Lilly announced (9/15) it will present new cardiometabolic data (orforglipron/Foundayo, retatrutide, eloraTZP) at EASD 2026 in Milan, an upcoming catalyst to watch rather than new data itself. Obesity-franchise/donanemab thesis intact.",
-      "last_review": "2026-09-16",
+      "thesis": "HOLD: positive -- Berenberg upgraded Lilly from Hold to Buy on 9/15, raising its PT from $1,220 to $1,400 on strong ROI and obesity-market growth; consensus PT now ~$1,392.50 (~22% implied upside). New TuneLab drug-discovery partnerships with Ginkgo Bioworks and Twist Bioscience announced 9/16. Obesity-franchise thesis intact and reinforced.",
+      "last_review": "2026-09-17",
       "status": "active"
     },
     {
@@ -109,8 +109,8 @@
       "cost_basis_per_share": 17.05,
       "date_added": "2026-09-01",
       "sector": "Financial Services",
-      "thesis": "HOLD, flagging a new litigation risk: Citizens Bank filed a federal lawsuit (filed ~9/10, widely reported 9/15) in Connecticut alleging SoFi orchestrated poaching of ~30 mortgage loan officers and trade-secret misuse, including a RICO claim tied to SoFi's home-loan business. This is a reputational/legal overhang on the mortgage business, not an immediate financial hit or a break of the core digital-bank/fintech thesis -- holding, monitoring for developments.",
-      "last_review": "2026-09-16",
+      "thesis": "HOLD: no new company-specific news since the Citizens Bank litigation disclosure already reflected in thesis -- continuing to monitor that overhang. Core digital-bank/fintech thesis unchanged.",
+      "last_review": "2026-09-17",
       "status": "active"
     },
     {
@@ -119,8 +119,8 @@
       "cost_basis_per_share": 779.16,
       "date_added": "2026-09-01",
       "sector": "Industrials",
-      "thesis": "HOLD, flagging sentiment risk: shares extended a pullback (~4% around 9/14-16) on renewed AI-data-center-capex-slowdown sentiment (media reports questioning hyperscaler capex), which reads directly against the Power & Energy segment's AI-genset/turbine growth driver. No earnings, guidance, or contract news; $72B backlog and core industrial thesis unchanged. Worth watching given the direct read-through to the thesis, but not thesis-breaking today.",
-      "last_review": "2026-09-16",
+      "thesis": "HOLD, still flagging sentiment risk: analysts remained \"conflicted\" on CAT alongside other AI-infrastructure-linked industrial names (BE, PWR) through 9/14-16 on AI-data-center-capex-slowdown concerns -- the same overhang already noted, no new escalation. $72B backlog and core industrial/Power & Energy thesis unchanged.",
+      "last_review": "2026-09-17",
       "status": "active"
     },
     {
@@ -129,8 +129,8 @@
       "cost_basis_per_share": 37.64,
       "date_added": "2026-09-02",
       "sector": "Technology",
-      "thesis": "HOLD: no material news since 9/14 -- a CEO share sale reported 9/16 was a tax-related Rule 10b5-1 vesting transaction, not a signal. Thesis (raised FY26 revenue guidance post-SkyWater, quantum-computing pure-play) unchanged. Holding the modest ~2.2% position.",
-      "last_review": "2026-09-16",
+      "thesis": "HOLD: positive -- IonQ research was recognized with four Best Paper Awards at IEEE Quantum Week 2026, reinforcing its technology-leadership positioning. No news affecting the raised FY26 guidance or the SkyWater-driven thesis. Holding the modest ~2.2% position.",
+      "last_review": "2026-09-17",
       "status": "active"
     },
     {
@@ -139,8 +139,8 @@
       "cost_basis_per_share": 25.89,
       "date_added": "2026-09-09",
       "sector": "Financial Services",
-      "thesis": "HOLD: no company-specific news since 9/14; shares dipped ~3% on 9/15 on general rate-sensitivity/insider-selling-overhang sentiment rather than any new headline. Thesis (incoming-CEO Paul Gu insider purchase, AI-underwriting) intact.",
-      "last_review": "2026-09-16",
+      "thesis": "HOLD: no new ticker-specific news found since 9/14-15. Thesis (incoming-CEO Paul Gu insider purchase, AI-underwriting) unchanged.",
+      "last_review": "2026-09-17",
       "status": "active"
     },
     {
@@ -149,8 +149,8 @@
       "cost_basis_per_share": 140.8,
       "date_added": "2026-09-09",
       "sector": "Industrials",
-      "thesis": "HOLD: no new headlines since the 9/9 items already reflected in thesis (Q1 FY27 beat, $1.5B backlog, LOCUST/Titan contract wins). Defense/drone thesis intact and strengthening (+11.1% vs. cost basis).",
-      "last_review": "2026-09-16",
+      "thesis": "HOLD: mixed but net-neutral post-earnings analyst moves -- Jefferies trimmed its PT to $204 from $229 (kept Buy) while JPMorgan raised its PT to $210 from $200 (kept Overweight); both remain bullish. Record $1.5B backlog and the 9/9 Q1 FY27 beat remain the operative thesis, position +16% vs. cost basis.",
+      "last_review": "2026-09-17",
       "status": "active"
     },
     {
@@ -159,8 +159,18 @@
       "cost_basis_per_share": 59.27,
       "date_added": "2026-09-16",
       "sector": "Technology",
-      "thesis": "BUY: AST SpaceMobile sourced from the 9/8 weekly theme screen (direct-to-cell satellite connectivity). Shifting from proof-of-concept to commercial activation: BlueBird 11-13 satellites deployed, a new New Zealand gateway opened, deepening integration tests with Vodafone/Orange/Telefonica/Deutsche Telekom via a gateway JV, and US Mobile preparing a direct-to-cell launch. 2026 revenue guided to $150-200M off a near-zero base (drove the screen's outsized revenue-growth score), backed by a $1.3B backlog and over $3.7B cash on hand -- funds the capital-intensive buildout without near-term dilution risk. Known risk: execution on an expensive, tightly-timed deployment (targets imply ~165%/yr revenue growth through 2029); stock is down modestly on the mixed reaction to the BlueBird/US Mobile news despite the bull case being intact per sell-side (~$78 fair-value estimate vs. ~$59 entry). Not opportunity-tier (market cap ~$23B). Sized to $79 (~2.0% of portfolio), the remaining room in the Technology sector cap (already ~28% of portfolio before this buy) rather than a full-size position -- funded by today's VRT trim proceeds.",
-      "last_review": "2026-09-16",
+      "thesis": "HOLD, flagging a new execution-risk item on day two: AST SpaceMobile shifted its 45-satellites-in-orbit target from year-end 2026 to early 2027 -- no formal delay announced for BlueBirds 14-16, but the gap versus prior messaging is drawing investor scrutiny (Stocktwits sentiment stayed bearish). COO and CTO also filed proposed sales of ~52,000 shares (~$3.06M combined). This is exactly the \"expensive, tightly-timed deployment\" execution risk flagged at entry yesterday -- not thesis-breaking yet on a still-small ~2.1% position (+5.8% vs. cost basis), but worth close monitoring given how early this is in the holding period.",
+      "last_review": "2026-09-17",
+      "status": "active"
+    },
+    {
+      "ticker": "MOD",
+      "shares": 0.1249,
+      "cost_basis_per_share": 184.86,
+      "date_added": "2026-09-17",
+      "sector": "Consumer Cyclical",
+      "thesis": "BUY: Modine Manufacturing sourced from the 9/8 weekly theme screen (AI data-center liquid-cooling/thermal management). FY26 net sales +23% YoY to $3.2B, driven by a 90% increase in data-center cooling revenue, and the company signed a new long-term agreement this week to supply over $4B in cooling products through 2029 -- multi-year revenue visibility. Forward P/E 16.8 with 28% revenue growth and 44% earnings growth is a reasonable growth-at-a-reasonable-price setup versus richer AI-infra peers (e.g. RKLB's ~1,489x forward P/E, screened but passed on for this reason). Opportunity-tier (market cap ~$9.8B, just under the $10B threshold); sized to the full remaining opportunity-bucket room (~$23, bucket already ~19.4% of its 20% cap) rather than a full position, funded by available cash above the 2% buffer floor. Note: company announced a 9/10 corporate name change to Modexus Solutions, effective date TBD -- ticker unaffected for now.",
+      "last_review": "2026-09-17",
       "status": "active"
     }
   ]
