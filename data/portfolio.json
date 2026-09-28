@@ -1,7 +1,7 @@
 {
   "status": "active",
   "cash": 81.67,
-  "last_updated": "2026-09-25",
+  "last_updated": "2026-09-28",
   "holdings": [
     {
       "ticker": "CRDO",
@@ -9,8 +9,8 @@
       "cost_basis_per_share": 270.52,
       "date_added": "2026-08-30",
       "sector": "Technology",
-      "thesis": "HOLD: 14th consecutive stop-loss review (-22.0% vs. cost basis, $210.97 on 9/25). Rally continued into 9/25 (+8.62% intraday to ~$212.88), extending the 7-day winning streak to ~29% cumulative gain -- moving further from, not toward, the -25% stop-loss threshold. No new company-specific catalyst found in the 9/24-25 window (BofA/Mizuho PT cuts and ECOC conference appearances predate the window); Strong Buy consensus intact. Position ~6.7%.",
-      "last_review": "2026-09-25",
+      "thesis": "HOLD: continuing stop-loss review (-28.8% vs. cost basis, $192.67 on 9/28 after a ~6.7% intraday drop). Today's driver is a newly disclosed Form 4 covering CTO/co-founder Cheng Chi Fung's family trust selling 27,500 shares on 9/17 and another 27,500 on 9/23, both under a pre-existing Rule 10b5-1 plan adopted 9/5/25 -- a lagging filing disclosure of already-scheduled, plan-based sales (the trust retains ~5.8M shares, ~$984.6M), not a fresh discretionary signal. Q1 FY27 fundamentals remain strong (114.7% revenue growth); Buy/Outperform ratings intact from JPMorgan/Mizuho/BofA despite recent PT trims, and the ECOC 2026 showcase (800G/1.6T optics) reinforces the product roadmap. No thesis-breaking catalyst found -- holding through valuation-driven sentiment swings. Position ~6.3%.",
+      "last_review": "2026-09-28",
       "status": "active"
     },
     {
@@ -19,8 +19,8 @@
       "cost_basis_per_share": 127.51,
       "date_added": "2026-08-30",
       "sector": "Technology",
-      "thesis": "TRIMMED (sector cap): Tech sector drifted to 30.13% of the portfolio (fractionally over the 30% sector_max_pct cap) on price moves alone. Trimmed DUOL, the largest Tech holding, back to ~29.8% -- a pure sizing rebalance. Fundamentals/thesis unchanged: earnings-growth flag (-27.5% YoY) remains the known deliberate Max-tier sunset/AI-reinvestment story. Insider-selling pattern continues -- SEC EDGAR shows CEO von Ahn Form 4s dated 9/21-22 disposing of ~37,366 shares (~$150-152/share) under his existing 10b5-1 plan; pattern-consistent, no new escalation confirmed in the 9/24-25 window specifically. Position ~11.2% post-trim.",
-      "last_review": "2026-09-25",
+      "thesis": "HOLD: earnings-growth flag persists (-27.5% YoY), the known deliberate Max-tier sunset/AI-reinvestment story reaffirmed by management at recent investor conferences. Shares eased ~4.8% on 9/28 alongside a broader softer tone on growth-stock valuations; no new company-specific catalyst identified in the 9/26-28 window beyond already-known insider-selling activity (General Counsel Stephen Chen's 9/14 sale, CEO von Ahn's prior liquidation) and a minor Brawl Stars in-app crossover. Tech sector back to 29.1% of the portfolio on price moves alone -- no trim needed today. Position ~10.8%.",
+      "last_review": "2026-09-28",
       "status": "active"
     },
     {
@@ -29,8 +29,8 @@
       "cost_basis_per_share": 79.32,
       "date_added": "2026-08-30",
       "sector": "Technology",
-      "thesis": "HOLD: no new developments found since 9/24 -- CEO succession to Rahul Singhal remains on track for 9/30; the Hunterbrook/Meta 'Muse' customer speculation (which drove the prior 14.6% jump) is now several days old with no fresh confirmation or denial from either side. Small ~1.7% position -- holding.",
-      "last_review": "2026-09-25",
+      "thesis": "HOLD: CEO succession to Rahul Singhal (from Jack Abuhoff, moving to Executive Chairman) completes as scheduled 9/30. New board appointment of Admiral Michael S. Rogers (former NSA Director/US Cyber Command Commander), announced this window, is a notable governance/security-credibility signal. No update on the earlier Meta 'Muse' customer speculation since 9/24-25. Small ~1.7% position -- holding.",
+      "last_review": "2026-09-28",
       "status": "active"
     },
     {
@@ -39,8 +39,8 @@
       "cost_basis_per_share": 323.17,
       "date_added": "2026-08-30",
       "sector": "Industrials",
-      "thesis": "HOLD: down -21.6% from cost basis, still short of the -25% stop-loss threshold. Confirmed via 8-K filed 9/24: definitive agreement to acquire King Environmental Services (Europe-based fluid-management/commissioning/load-testing for liquid-cooled data centers), extending EMEA thermal-management reach and building on the 2025 PurgeRite acquisition -- a small, strategically consistent bolt-on, not a negative catalyst. No positive catalyst large enough to move it off the watch list either. Holding without further action.",
-      "last_review": "2026-09-25",
+      "thesis": "HOLD: down -24.5% from cost basis, still just short of the -25% stop-loss threshold. Wells Fargo initiated coverage 9/25 with Overweight and a $340 PT; separately Vertiv was named a qualified cooling supplier for Nvidia's DSX Ready program, tying the business closer to AI data-center buildouts. No negative catalyst found in the 9/26-28 window -- the King Environmental and Utility Innovation Holdings bolt-on acquisitions remain the known, strategically consistent M&A activity. Holding without further action.",
+      "last_review": "2026-09-28",
       "status": "active"
     },
     {
@@ -49,8 +49,8 @@
       "cost_basis_per_share": 337.63,
       "date_added": "2026-08-31",
       "sector": "Communication Services",
-      "thesis": "HOLD: no new antitrust ruling, earnings, or major rating change dated 9/24-25 specifically -- a newly surfaced Buist v. Anthropic AI-industry-coordination suit (naming Google alongside Anthropic/OpenAI/SpaceXAI, filed 9/18) is a watch item but predates this review window. Stock stabilized at $343.92 on 9/24 (+0.46%) after the prior session's antitrust-driven dip. Position ~15.0%, within the trim-tolerance band -- no action needed.",
-      "last_review": "2026-09-25",
+      "thesis": "HOLD: the 9/24 ad-tech antitrust ruling remains favorable -- the judge declined to force an AdX sale, ordering behavioral remedies (compliance monitor, data-sharing, ending exclusive default-placement deals) instead of a structural breakup; the DOJ's planned appeal targets the separate 2025 search-case ruling, not a new near-term risk. No other rating change or earnings news in the 9/26-28 window. Position ~15.3%, within the trim-tolerance band -- no action needed.",
+      "last_review": "2026-09-28",
       "status": "active"
     },
     {
@@ -59,8 +59,8 @@
       "cost_basis_per_share": 260.16,
       "date_added": "2026-08-31",
       "sector": "Consumer Cyclical",
-      "thesis": "HOLD: the Meta 'Muse' agentic-commerce standoff continued escalating 9/24-25 -- Amazon formally blocked Muse from completing purchases (citing ToS violations), while other major retailers (Walmart, Best Buy, Dick's Sporting Goods) continue embracing Muse instead, a new bearish wrinkle on potential share-of-wallet risk worth continued monitoring. Separately, Amazon opened a new Selling Partner plugin connecting US sellers directly to Claude -- a preferred-AI-partner signal. EU price-parity probe remains live but unescalated. Thesis intact, not yet thesis-breaking.",
-      "last_review": "2026-09-25",
+      "thesis": "HOLD: the Meta 'Muse' agentic-commerce standoff continues -- Amazon's block (effective 9/20) remains in place, with Meta instead pushing forward via a Shopify/Shop Pay integration; some sell-side framing casts Amazon's stance as protecting share-of-wallet rather than a defensive weakness. No new regulatory or earnings news in the 9/26-28 window. Thesis intact.",
+      "last_review": "2026-09-28",
       "status": "active"
     },
     {
@@ -69,8 +69,8 @@
       "cost_basis_per_share": 159.93,
       "date_added": "2026-08-31",
       "sector": "Energy",
-      "thesis": "HOLD: oil-driven move continues -- WTI settled $94.61 on 9/24 (+2.7%) on continued Iran/Strait-of-Hormuz tension headlines; XOM closed $163.52 (+0.6%), outperforming the broader market (Dow -0.3%). No XOM-specific corporate news (earnings, filings, rating changes) found in the 9/24-25 window -- purely macro/oil-price driven. Thesis unchanged.",
-      "last_review": "2026-09-25",
+      "thesis": "HOLD: HSBC raised its price target to $172 from $158 (Hold rating maintained). No XOM-specific earnings or filing news in the 9/26-28 window; the move continues to track oil-price macro. Thesis unchanged.",
+      "last_review": "2026-09-28",
       "status": "active"
     },
     {
@@ -79,8 +79,8 @@
       "cost_basis_per_share": 69.94,
       "date_added": "2026-09-01",
       "sector": "Financial Services",
-      "thesis": "HOLD: no new catalyst dated 9/24-25 specifically -- stock partially recovered to ~$71.57 on 9/24 after the prior session's 'Muse checkout' concern dip, helped by a Wells Fargo Buy reiteration (9/23). Next earnings confirmed ~Nov 5, 2026. Thesis intact.",
-      "last_review": "2026-09-25",
+      "thesis": "HOLD: caught in the same broad rate-sensitive consumer-lending selloff as SOFI/UPST on 9/28 -- no company-specific negative news, a repricing of consumer-credit risk across the peer group consistent with the 9/23 pattern. Next earnings still ~Nov 5, 2026. Thesis intact.",
+      "last_review": "2026-09-28",
       "status": "active"
     },
     {
@@ -89,8 +89,8 @@
       "cost_basis_per_share": 223.84,
       "date_added": "2026-09-01",
       "sector": "Technology",
-      "thesis": "HOLD: no rating change or filing found in the 9/24-25 window. Buy consensus unchanged (~35 analysts, ~$269 avg PT); AI-observability demand thesis unchanged.",
-      "last_review": "2026-09-25",
+      "thesis": "HOLD: named a Leader in Gartner's 2026 Magic Quadrant for Observability Platforms for the 6th consecutive year (~9/25), reinforcing the AI-observability thesis; shares +8.3% on 9/25 on the news. No new rating change since. Thesis intact, strong performer (+20.0% vs. cost basis).",
+      "last_review": "2026-09-28",
       "status": "active"
     },
     {
@@ -99,8 +99,8 @@
       "cost_basis_per_share": 1160.0,
       "date_added": "2026-09-01",
       "sector": "Healthcare",
-      "thesis": "HOLD: new positive -- signed a research collaboration/license deal with China's InnoCare Pharma (9/24) worth up to $3.35B (~$100M upfront, ~$3.25B milestones) across up to 5 undisclosed targets, an early-stage but incremental pipeline/BD positive alongside the already-known Onswik FDA approval. Shares rose ~2.9-3.7% on 9/24 on the combined news. NAION MDL 3163 litigation: no new docket ruling found in-window; Rule 702 hearing already concluded 9/18, no bellwether trial date set. Obesity/diabetes-franchise thesis intact.",
-      "last_review": "2026-09-25",
+      "thesis": "HOLD: NAION multidistrict litigation remains at the procedural stage -- Plaintiff Fact Sheet deadline was 9/25, master complaint due 10/28, fact discovery against Lilly due 12/18/26; no bellwether trial date set and causality remains scientifically unconfirmed. No new deal/earnings news in the 9/26-28 window beyond the already-known InnoCare license and Onswik approval. Obesity/diabetes-franchise thesis intact.",
+      "last_review": "2026-09-28",
       "status": "active"
     },
     {
@@ -109,8 +109,8 @@
       "cost_basis_per_share": 17.05,
       "date_added": "2026-09-01",
       "sector": "Financial Services",
-      "thesis": "HOLD: only in-window item is routine -- EVP Kelli Keough sold 10,203 shares (~$173K) on 9/21 under a pre-existing 10b5-1 plan (Form 4 filed 9/23), a small scheduled sale, not a red flag. No new update on the Citizens Bank RICO suit or Loop Capital coverage since 9/23. Core digital-bank/fintech thesis unchanged.",
-      "last_review": "2026-09-25",
+      "thesis": "HOLD: caught in the same broad rate-sensitive fintech selloff as AFRM/UPST on 9/28, no company-specific negative news. Operational progress continues -- expanded stablecoin settlement, Q2 adjusted net revenue +40% YoY, raised 2026 guidance. No update on the Citizens Bank RICO suit since 9/23. Core digital-bank/fintech thesis unchanged.",
+      "last_review": "2026-09-28",
       "status": "active"
     },
     {
@@ -119,8 +119,8 @@
       "cost_basis_per_share": 779.16,
       "date_added": "2026-09-01",
       "sector": "Industrials",
-      "thesis": "HOLD: no new company-specific catalyst -- 9/24 move was macro-driven (broad Dow weakness on rising Treasury yields). Moderate Buy consensus reaffirmed (27 analysts, ~$994 avg PT per MarketBeat as of 9/25). Backlog/AI-datacenter-power-demand thesis unchanged.",
-      "last_review": "2026-09-25",
+      "thesis": "HOLD: BofA Securities maintained its Buy rating and $989 PT. Company posted its first-ever $20B sales quarter and raised its quarterly dividend to $1.63 from $1.51, reinforcing the backlog/AI-datacenter-power-demand thesis. No negative catalyst found.",
+      "last_review": "2026-09-28",
       "status": "active"
     },
     {
@@ -129,8 +129,8 @@
       "cost_basis_per_share": 37.64,
       "date_added": "2026-09-02",
       "sector": "Technology",
-      "thesis": "HOLD: positive follow-through continues -- confirmed real-time quantum error-correction decoder demo and Superion 256 deployment at Nvidia's Accelerated Quantum Research Center (announced 9/23-24), extending the existing Nvidia partnership (commercial deliveries not expected until 2027, so a narrative/technical catalyst rather than near-term revenue). Shares +4.4% on 9/23 continuing higher into 9/24 on elevated volume, alongside broader quantum-peer strength. FY26 guidance raise and SkyWater acquisition remain the operative thesis.",
-      "last_review": "2026-09-25",
+      "thesis": "HOLD: no new company-specific news found in the 9/26-28 window beyond the already-known Nvidia Accelerated Quantum Research Center demo and SkyWater acquisition. FY26 guidance raise remains the operative thesis; position +18.4% vs. cost basis.",
+      "last_review": "2026-09-28",
       "status": "active"
     },
     {
@@ -139,8 +139,8 @@
       "cost_basis_per_share": 25.89,
       "date_added": "2026-09-09",
       "sector": "Financial Services",
-      "thesis": "HOLD, flagging for continued monitoring: touched a fresh 52-week low intraday ($23.72) on 9/24 amid the ongoing sector-wide consumer-credit selloff, before reversing to close near $24.45-24.56 -- a technical breach worth noting given the position is already down ~8%, though no fundamental deterioration accompanies it (no earnings or rating changes in-window; the strong Q2 print -- record $193M contribution profit -- remains the fundamental anchor). Well short of the -25% stop-loss threshold. AI-underwriting thesis unchanged; will recheck closely next review.",
-      "last_review": "2026-09-25",
+      "thesis": "HOLD, continued monitoring: part of the broad rate-sensitive consumer-lending selloff hitting the group again on 9/28 (no company-specific news); still returned to GAAP profitability last quarter with a record $193M contribution profit and 50% loan-origination growth, and holds a conditional bank-charter approval pending final sign-off in early 2027. AI-underwriting thesis unchanged, well short of the -25% stop-loss threshold.",
+      "last_review": "2026-09-28",
       "status": "active"
     },
     {
@@ -149,8 +149,8 @@
       "cost_basis_per_share": 140.8,
       "date_added": "2026-09-09",
       "sector": "Industrials",
-      "thesis": "HOLD: held its 2026 Annual Meeting on 9/24 (routine proxy vote; one director did not seek re-election, no controversy). The SCAR-program securities class action is old news with its lead-plaintiff deadline already passed. Buy consensus unchanged (~$221 avg PT). Record backlog thesis intact.",
-      "last_review": "2026-09-25",
+      "thesis": "HOLD: post-earnings recovery continues -- Q1 FY27 record revenue ($481M) and a $1.5B backlog (+37% YoY), plus a new $400M+ LOCUST laser contract award, keep sell-side constructive even as the broader drone group lags. No new negative catalyst found.",
+      "last_review": "2026-09-28",
       "status": "active"
     },
     {
@@ -159,8 +159,8 @@
       "cost_basis_per_share": 59.27,
       "date_added": "2026-09-16",
       "sector": "Technology",
-      "thesis": "HOLD, continuing to flag execution risk: space-sector rally continued 9/24 (+~3-4%, no fresh company-specific catalyst -- sector rotation alongside RKLB/Planet Labs). Additional law-firm class-action solicitation press releases (9/22-24) remain the same known 11/13/26 lead-plaintiff-deadline noise, not a docket escalation. Still-small ~2.0% position -- nothing thesis-breaking.",
-      "last_review": "2026-09-25",
+      "thesis": "HOLD, continuing to flag execution risk: shareholder class-action litigation (misleading-investor allegations, leadership-role deadline extending to November 2026) remains the known overhang, unchanged from prior reviews. No new company-specific catalyst confirmed in the 9/26-28 window. Still-small ~2.0% position -- nothing thesis-breaking.",
+      "last_review": "2026-09-28",
       "status": "active"
     },
     {
@@ -169,8 +169,8 @@
       "cost_basis_per_share": 184.86,
       "date_added": "2026-09-17",
       "sector": "Consumer Cyclical",
-      "thesis": "HOLD: stock +1.99% to $196.95 on 9/24, driven by a hiring announcement (up to 300 new jobs at its Franklin, WI data-center-cooling plant) and continued Data Centers segment momentum (+90% YoY to $348.6M in Q1 FY27 per recent filings). Spinoff mechanics reconfirmed via SEC 8-K/425 (record date 9/28, SpinCo distribution + Gentherm merger close 10/1, rebrand to Modexus Solutions) -- no change from prior thesis. Small position, no action needed.",
-      "last_review": "2026-09-25",
+      "thesis": "HOLD: no new company-specific news found in the 9/26-28 window; the Gentherm-merger spinoff mechanics (SpinCo distribution + rebrand to Modexus Solutions, effective 10/1) proceed as previously confirmed. Small position, no action needed.",
+      "last_review": "2026-09-28",
       "status": "active"
     },
     {
@@ -179,8 +179,8 @@
       "cost_basis_per_share": 7.39,
       "date_added": "2026-09-18",
       "sector": "Technology",
-      "thesis": "HOLD: only in-window item is a routine Form 4 -- CFO Neil Laird sold 4,952 shares ($38,328) on 9/24 to cover tax withholding on vested RSUs, retaining 42,246 shares directly; a small, mechanical sale, not a discretionary signal. No new deal/contract news since the Aran Defense/GATE/Bron acquisitions already priced in. Small position, no action needed.",
-      "last_review": "2026-09-25",
+      "thesis": "HOLD: no new deal/contract news found in the 9/26-28 window beyond the already-priced-in Aran Defense/GATE/Bron acquisitions. Small position, no action needed.",
+      "last_review": "2026-09-28",
       "status": "active"
     },
     {
@@ -189,8 +189,8 @@
       "cost_basis_per_share": 69.89,
       "date_added": "2026-09-21",
       "sector": "Industrials",
-      "thesis": "HOLD: strong positive follow-through continues -- confirmed Space Force NITE-STAR contract-vehicle award (up to $981M combined, one of 15 awardees) announced 9/24, shares +5.7% to $74.33. Separately, ARK Invest (Cathie Wood) added ~359,612 shares (~$25.1M) on top of recent purchases, an incremental institutional-buying signal. Small position, no action needed -- continues to validate the thesis.",
-      "last_review": "2026-09-25",
+      "thesis": "HOLD: no new company-specific catalyst found in the 9/26-28 window; the finalized Iridium-acquisition financing (~$1.944B raised) and ongoing Neutron hardware testing remain the known thesis drivers. Small position, no action needed.",
+      "last_review": "2026-09-28",
       "status": "active"
     },
     {
@@ -199,8 +199,8 @@
       "cost_basis_per_share": 46.97,
       "date_added": "2026-09-22",
       "sector": "Industrials",
-      "thesis": "HOLD: no new company-specific headline dated exactly 9/24-25; nearest catalysts (GEK800 turbofan ignition-test success with GE Aerospace, 9/21; $20M Asia SATCOM gateway contract, 9/1) predate the window but reinforce the existing thesis. FY2026 guidance raise and MACH-TB $1B hypersonics backlog remain the thesis. Newest, least-seasoned position -- continuing to monitor.",
-      "last_review": "2026-09-25",
+      "thesis": "HOLD: no new negative catalyst found; sell-side continues to view Kratos as the defense/drone group's most defensible name given its positive net income, despite a soft YTD return shared across the sector. FY2026 guidance raise and the MACH-TB hypersonics backlog remain the thesis. Newest, least-seasoned position -- continuing to monitor.",
+      "last_review": "2026-09-28",
       "status": "active"
     },
     {
@@ -209,8 +209,8 @@
       "cost_basis_per_share": 371.29,
       "date_added": "2026-09-23",
       "sector": "Healthcare",
-      "thesis": "HOLD: confirmed 9/24 -- Jodee Kozlak joins as new Chief Administrative Officer effective 9/28, an organizational rather than fundamental development (newly created role overseeing People/Real Estate/Procurement/Corporate Security). No new negative fundamental news found in the 9/24-25 window; Q2 2026 earnings strength and raised FY guidance remain the core thesis. Watching closely on the broadly lower analyst PT trend flagged previously; no action needed yet.",
-      "last_review": "2026-09-25",
+      "thesis": "HOLD: Jodee Kozlak's appointment as Chief Administrative Officer took effect today (9/28) as previously confirmed -- organizational, not fundamental. No new negative fundamental news found in the 9/26-28 window; Q2 2026 earnings strength and raised FY guidance remain the core thesis.",
+      "last_review": "2026-09-28",
       "status": "active"
     },
     {
@@ -219,8 +219,8 @@
       "cost_basis_per_share": 6.17,
       "date_added": "2026-09-25",
       "sector": "Industrials",
-      "thesis": "BUY: Satellogic sourced from the 9/23 weekly theme screen (satellite earth-observation/geospatial intelligence). Distinguished from higher-scoring but governance-flagged opportunity-tier candidates on the same screen (RCAT: unresolved CRO retaliation lawsuit plus continued heavy CEO insider selling and a steep downtrend; SERV: FY26 revenue guidance cut from ~$26M to $9-10M plus an explicit risk the core Uber Eats partnership isn't renewed in 2027) by a clean legal/governance profile and Q2 2026 results showing +259% YoY revenue growth and the company's first positive adjusted EBITDA. New concrete catalyst: expanded Slingshot III maritime-domain-awareness contract with the US Office of Naval Research (announced 9/14, six new NewSat Mark VI satellites over 18 months), driving a +3.9% move on 9/25 to ~$6.17. Opportunity-tier (market cap ~$949M); sized to the available cash above the 2% buffer floor (~$12.33), the binding constraint today, funded by today's DUOL sector-cap trim proceeds. Revenue growth off a small absolute base and unproven profitability durability are the key risks to watch.",
-      "last_review": "2026-09-25",
+      "thesis": "HOLD: continued positive reinforcement of the buy thesis -- SynMax named the exclusive maritime-intelligence channel for data from the new Merlin constellation (9/3), and retired Vice Admiral Frank 'Trey' Whitworth appointed President, sharpening the defense/intelligence push. Small ~0.3% position, no action needed.",
+      "last_review": "2026-09-28",
       "status": "active"
     }
   ]
