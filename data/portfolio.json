@@ -1,7 +1,7 @@
 {
   "status": "active",
   "cash": 80.96,
-  "last_updated": "2026-10-06",
+  "last_updated": "2026-10-07",
   "holdings": [
     {
       "ticker": "CRDO",
@@ -9,8 +9,8 @@
       "cost_basis_per_share": 270.52,
       "date_added": "2026-08-30",
       "sector": "Technology",
-      "thesis": "HOLD: no new negative catalyst since 10/5 -- chronic insider selling (CTO/COO-level Form 4s) continues as the known normalized 10b5-1 pattern, not an escalation. AI optical-connectivity/AEC fundamentals remain strong (last print revenue +157% YoY, guiding 6-9% sequential growth next quarter). Return -18.4% vs. cost basis. Position ~6.9%.",
-      "last_review": "2026-10-06",
+      "thesis": "HOLD: no new negative catalyst since 10/6 -- chronic insider selling (CTO/COO-level Form 4s) continues as the known normalized 10b5-1 pattern, not an escalation. AI optical-connectivity/AEC fundamentals thesis unchanged. Return -18.7% vs. cost basis. Position ~6.9%.",
+      "last_review": "2026-10-07",
       "status": "active"
     },
     {
@@ -19,8 +19,8 @@
       "cost_basis_per_share": 127.51,
       "date_added": "2026-08-30",
       "sector": "Technology",
-      "thesis": "HOLD: Street remains split on the deliberate Max-tier sunset/AI-reinvestment strategy -- consensus clusters Hold (~$90-115 PT from cautious shops citing bookings guidance below estimates) vs. more bullish shops near $270-355; no new upgrade/downgrade since 10/5. Earnings-growth flag (-27.5% YoY) is the known story, not a new deterioration. Return +16.2% vs. cost basis. Position ~11.0%.",
-      "last_review": "2026-10-06",
+      "thesis": "HOLD: no new catalyst since 10/6 -- minor ~4% intraday dip noted but no company-specific driver found. Max-tier sunset/AI-reinvestment strategy and the earnings-growth flag (-27.5% YoY) remain the known, already-priced story. Return +19.0% vs. cost basis. Position ~11.3%.",
+      "last_review": "2026-10-07",
       "status": "active"
     },
     {
@@ -29,8 +29,8 @@
       "cost_basis_per_share": 79.32,
       "date_added": "2026-08-30",
       "sector": "Technology",
-      "thesis": "HOLD: only a minor, immaterial director insider sale found (~10,000 shares) against the backdrop of the recent quarterly beat and reaffirmed 40%+ FY2026 revenue growth guidance under new CEO Singhal (effective 9/30). No new negative catalyst since 10/5. Return -16.5% vs. cost basis. Position ~1.6%.",
-      "last_review": "2026-10-06",
+      "thesis": "HOLD: no new catalyst since 10/6 -- new CEO Singhal's transition (effective 9/30) and reaffirmed 40%+ FY2026 revenue growth guidance remain the operative drivers. Return -20.1% vs. cost basis. Position ~1.6%.",
+      "last_review": "2026-10-07",
       "status": "active"
     },
     {
@@ -39,8 +39,8 @@
       "cost_basis_per_share": 323.17,
       "date_added": "2026-08-30",
       "sector": "Industrials",
-      "thesis": "HOLD into 10/28 earnings: analyst coverage stays net-bullish (Baird initiated Outperform/$370; RBC trimmed to $418 from $435, still well above spot) even as the Hagens Berman securities inquiry and Massachusetts data-center permitting/community-approval overhang (Executive Order 658, local moratoria) remain open but inactive -- no escalation on either. Return -21.7% vs. cost basis. Position ~8.2%.",
-      "last_review": "2026-10-06",
+      "thesis": "HOLD into 10/28 earnings, monitoring closely: no new analyst/legal news, but shares fell further intraday 10/7 (~$254.70 on 10/5 to ~$241.75 intraday, -4.5%) with no identified catalyst -- now within ~1.3pts of the -25% stop-loss threshold. Hagens Berman inquiry and the Massachusetts data-center permitting overhang remain open but inactive; no escalation. Return -23.7% vs. cost basis. Position ~8.0%.",
+      "last_review": "2026-10-07",
       "status": "active"
     },
     {
@@ -49,8 +49,8 @@
       "cost_basis_per_share": 337.63,
       "date_added": "2026-08-31",
       "sector": "Communication Services",
-      "thesis": "HOLD, near the 15% position cap (no room to add): heavy capex (~$195-205B 2026 plan) continues pressuring free cash flow following the first-ever negative FCF quarter (-$5.9B); Gemini 4 'Argon' reception and the Anthropic TPU supply deal remain the key swing factors into 10/28 earnings. No new negative catalyst since 10/5. Return +3.0% vs. cost basis. Position ~14.9%.",
-      "last_review": "2026-10-06",
+      "thesis": "HOLD, still near the 15% position cap (no room to add): no new catalyst since 10/6 -- heavy capex pressuring free cash flow, Gemini 4 'Argon' reception, and the Anthropic TPU supply deal remain the key swing factors into 10/28 earnings. Return +3.8% vs. cost basis. Position ~15.1%.",
+      "last_review": "2026-10-07",
       "status": "active"
     },
     {
@@ -59,8 +59,8 @@
       "cost_basis_per_share": 260.16,
       "date_added": "2026-08-31",
       "sector": "Consumer Cyclical",
-      "thesis": "HOLD: the ~$8B Nvidia GPU SPV/leaseback exploration remains unsigned and preliminary; AWS is raising reserved Nvidia GPU-capacity prices ~15%+ effective 10/7 (third hike this year), a modestly positive demand/pricing-power signal ahead of October earnings (AWS growth rate, last print 36.7%, remains the key watch item). Return -1.5% vs. cost basis. Position ~11.9%.",
-      "last_review": "2026-10-06",
+      "thesis": "HOLD: AWS's ~15-20% reserved-GPU price hike took effect 10/7 as scheduled (4th straight quarterly increase) -- in-line with the known thesis, a modest positive pricing-power signal, not a new catalyst. The ~$8B Nvidia GPU SPV/leaseback exploration remains unsigned/preliminary; AWS growth rate into October earnings remains the key watch item. Return -0.1% vs. cost basis. Position ~12.1%.",
+      "last_review": "2026-10-07",
       "status": "active"
     },
     {
@@ -69,8 +69,8 @@
       "cost_basis_per_share": 159.93,
       "date_added": "2026-08-31",
       "sector": "Energy",
-      "thesis": "HOLD: SCOTUS heard oral argument Mon 10/5 in Boulder v. Exxon/Suncor (first case of fall term) -- no ruling yet, outcome pending, already anticipated/priced. $9.4B buyback and PetroVietnam supply MOU remain supportive; routine analyst PT shuffling reflects oil-price moves, not company news. Next earnings 10/23. Return +2.9% vs. cost basis. Position ~10.9%.",
-      "last_review": "2026-10-06",
+      "thesis": "HOLD: SCOTUS oral argument in Boulder v. Exxon/Suncor proceeded 10/5 as scheduled -- justices appeared split (Jackson/Sotomayor raised jurisdictional questions, a possible favorable off-ramp; Kagan skeptical of the companies); no ruling, decision expected by June 2027, already anticipated/priced. $9.4B buyback remains supportive. Next earnings 10/23. Return +2.6% vs. cost basis. Position ~10.9%.",
+      "last_review": "2026-10-07",
       "status": "active"
     },
     {
@@ -79,8 +79,8 @@
       "cost_basis_per_share": 69.94,
       "date_added": "2026-09-01",
       "sector": "Financial Services",
-      "thesis": "HOLD: Crate & Barrel BNPL and UK Amazon installment expansions remain intact; TD Cowen trimmed its PT to $110 from $124 (10/3) while keeping Buy -- a valuation reset, not a downgrade. No new partnership/regulatory news since 10/5. Next earnings 11/5. Return +7.1% vs. cost basis. Position ~5.9%.",
-      "last_review": "2026-10-06",
+      "thesis": "HOLD: no new catalyst since 10/6 -- Crate & Barrel BNPL and UK Amazon installment expansions remain intact; TD Cowen's PT trim to $110 (Buy kept) is the known story. Next earnings 11/5. Return +7.7% vs. cost basis. Position ~6.0%.",
+      "last_review": "2026-10-07",
       "status": "active"
     },
     {
@@ -89,8 +89,8 @@
       "cost_basis_per_share": 223.84,
       "date_added": "2026-09-01",
       "sector": "Technology",
-      "thesis": "HOLD: no new company-specific news in the 10/4-10/6 window; the bullish analyst wave (FBN, Wedbush initiations) and ~30% FY26 revenue growth guide remain the core support. Recent PT moves (Citi $305, Needham/Baird $300, UBS $280) cluster around the August earnings reaction, not new. Return +24.3% vs. cost basis. Position ~4.8%.",
-      "last_review": "2026-10-06",
+      "thesis": "HOLD: no new company-specific news since 10/6; the bullish analyst wave and ~30% FY26 revenue growth guide remain the core support. Return +21.2% vs. cost basis. Position ~4.7%.",
+      "last_review": "2026-10-07",
       "status": "active"
     },
     {
@@ -99,8 +99,8 @@
       "cost_basis_per_share": 1160.0,
       "date_added": "2026-09-01",
       "sector": "Healthcare",
-      "thesis": "HOLD: no new news since 10/5 -- the expanded Jaypirca approval (10/2) and advancing obesity-combo/retatrutide pipeline (BLA targeted Q1 2027) remain the operative drivers. Watch Fall Clinical dermatology data readouts 10/8-11. Next earnings 10/29. Return -0.2% vs. cost basis. Position ~3.9%.",
-      "last_review": "2026-10-06",
+      "thesis": "HOLD: no new news since 10/6 -- the expanded Jaypirca approval and advancing obesity-combo/retatrutide pipeline remain the operative drivers. Watch Fall Clinical dermatology data readouts 10/8-11. Next earnings 10/29. Return +2.5% vs. cost basis. Position ~4.0%.",
+      "last_review": "2026-10-07",
       "status": "active"
     },
     {
@@ -109,8 +109,8 @@
       "cost_basis_per_share": 17.05,
       "date_added": "2026-09-01",
       "sector": "Financial Services",
-      "thesis": "HOLD: no new adverse news since 10/5; remains down ~43% YTD on rate-hike-fear sentiment despite record Q2 results, with a supportive Fed rate-cut backdrop into next earnings (10/27). Insider activity continues to skew toward routine 10b5-1 selling only. Return -7.6% vs. cost basis. Position ~2.7%.",
-      "last_review": "2026-10-06",
+      "thesis": "HOLD: no new adverse news since 10/6; remains down materially YTD on rate-fear sentiment despite record Q2 results, with a supportive Fed rate-cut backdrop into next earnings (10/27). Return -8.2% vs. cost basis. Position ~2.7%.",
+      "last_review": "2026-10-07",
       "status": "active"
     },
     {
@@ -119,8 +119,8 @@
       "cost_basis_per_share": 779.16,
       "date_added": "2026-09-01",
       "sector": "Industrials",
-      "thesis": "HOLD: Truist's Buy/trimmed-PT call ($1,100), the John Fabick Tractor acquisition, and the NC compact-equipment expansion remain the operative drivers. CFO transition to Kyle Epley completed 10/1 as previously scheduled, non-surprising. No new catalyst since 10/5. Return +10.8% vs. cost basis. Position ~3.2%.",
-      "last_review": "2026-10-06",
+      "thesis": "HOLD: no new catalyst since 10/6 -- Truist's Buy/$1,100 PT and the pending John Fabick Tractor acquisition (not yet closed) remain the operative drivers; CFO transition to Kyle Epley completed as scheduled 10/1. Return +4.4% vs. cost basis. Position ~3.0%.",
+      "last_review": "2026-10-07",
       "status": "active"
     },
     {
@@ -129,8 +129,8 @@
       "cost_basis_per_share": 37.64,
       "date_added": "2026-09-02",
       "sector": "Technology",
-      "thesis": "HOLD: IonQ raised FY26 revenue guidance to $450-460M (from $280-290M) reflecting the closed SkyWater consolidation (7/31); BofA initiated Buy/$60 PT (9/30) and Mizuho reiterated Outperform/~$52 PT after CFO/COO meetings. Minor dip to ~$43 (10/4-5) reads as routine profit-taking, not catalyst-driven. Return +15.0% vs. cost basis. Position ~2.5%.",
-      "last_review": "2026-10-06",
+      "thesis": "HOLD: no new catalyst since 10/6 -- the raised FY26 revenue guidance ($450-460M) and BofA/Mizuho Buy/Outperform coverage remain the core support. Return +9.8% vs. cost basis. Position ~2.4%.",
+      "last_review": "2026-10-07",
       "status": "active"
     },
     {
@@ -139,8 +139,8 @@
       "cost_basis_per_share": 25.89,
       "date_added": "2026-09-09",
       "sector": "Financial Services",
-      "thesis": "HOLD: September originations confirmed at $1.378B (up from August) with the Upstart Macro Index easing to 1.49; new multi-year forward-flow deal with Centerbridge Partners (up to $1.2B in loan purchases) and an expanded Commonwealth Credit Union partnership (HELOC/indirect auto) extend funding capacity. No negative news. Return -7.8% vs. cost basis. Position ~1.6%.",
-      "last_review": "2026-10-06",
+      "thesis": "HOLD: no new catalyst since 10/6 -- September originations strength and the new Centerbridge Partners forward-flow deal remain the operative drivers. Return -7.2% vs. cost basis. Position ~1.6%.",
+      "last_review": "2026-10-07",
       "status": "active"
     },
     {
@@ -149,8 +149,8 @@
       "cost_basis_per_share": 140.8,
       "date_added": "2026-09-09",
       "sector": "Industrials",
-      "thesis": "HOLD, watch continues: still no FILED complaint since 10/5 -- Berger Montague's board-fiduciary-duty investigation (SCAR-related) is an ongoing solicitation, recirculated mid-Sept, not a new escalation. BofA/Goldman Buy (cut PT) and UBS raised-PT views stand. No TRIM warranted while it remains investigation-stage only. Return +2.0% vs. cost basis. Position ~1.5%.",
-      "last_review": "2026-10-06",
+      "thesis": "HOLD, watch continues: no new escalation since 10/6 -- Berger Montague's board-fiduciary-duty investigation remains solicitation-stage only (its related Hunter v. AST SpaceMobile-style lead-plaintiff deadline framework has not produced a filed complaint); BofA/Goldman Buy and UBS raised-PT views stand. Return -1.4% vs. cost basis. Position ~1.5%.",
+      "last_review": "2026-10-07",
       "status": "active"
     },
     {
@@ -159,8 +159,8 @@
       "cost_basis_per_share": 59.27,
       "date_added": "2026-09-16",
       "sector": "Technology",
-      "thesis": "HOLD, flagged for monitoring: no new escalation since 10/5 -- B. Riley's Neutral/$65 PT (cut from $85, ~24%, on launch delays and Viasat/Space42 competition) and the pending Hunter v. AST SpaceMobile fraud suit (W.D. Tex., lead-plaintiff deadline 11/13/26) remain known, already-priced risks; no amended complaint or class-cert news found. Return +6.5% vs. cost basis. Position ~2.0%.",
-      "last_review": "2026-10-06",
+      "thesis": "HOLD, flagged for monitoring: no new escalation since 10/6 -- B. Riley's Neutral/$65 PT cut (dated 10/2, already known) and the pending Hunter v. AST SpaceMobile fraud suit (lead-plaintiff deadline 11/13/26) remain known, already-priced risks. Return +2.3% vs. cost basis. Position ~2.0%.",
+      "last_review": "2026-10-07",
       "status": "active"
     },
     {
@@ -169,8 +169,8 @@
       "cost_basis_per_share": 184.86,
       "date_added": "2026-09-17",
       "sector": "Consumer Cyclical",
-      "thesis": "HOLD: yesterday's watch items are now CONFIRMED. The Reverse Morris Trust closed 10/1 -- Modine's Performance Technologies business spun off into Gentherm (MOD holders received 0.44619 Gentherm shares per MOD share, record date 9/28); remaining Modine becomes a focused data-center-cooling/HVAC pure-play (rebranding 'Modexus Solutions', ticker MOD unchanged). Oppenheimer's PT cut to $260 from $300 (10/2, Outperform kept) is a mechanical re-rating for the smaller remaining entity, not a bearish call. Note: this recommendation-only tracker continues to carry the position under ticker MOD at its existing share count; it does not independently book the distributed Gentherm shares the user's real brokerage account will receive -- reconcile that distribution against the actual brokerage statement. Return +2.7% vs. cost basis. Position ~0.6%.",
-      "last_review": "2026-10-06",
+      "thesis": "HOLD: Gentherm's special dividend ($2.07/share) paid 10/7 as scheduled -- routine completion of the already-known 10/1 Reverse Morris Trust spinoff. This recommendation-only tracker continues to carry the position under ticker MOD at its existing share count and does not independently book the distributed Gentherm shares the user's real brokerage account received -- reconcile that distribution against the actual brokerage statement. Return +2.5% vs. cost basis. Position ~0.6%.",
+      "last_review": "2026-10-07",
       "status": "active"
     },
     {
@@ -179,8 +179,8 @@
       "cost_basis_per_share": 7.39,
       "date_added": "2026-09-18",
       "sector": "Technology",
-      "thesis": "HOLD: new $56M order (announced 10/5 via subsidiary Mistral) for Electronic Safe & Arm Devices supporting a European loitering-munition program -- the first order since closing the GATE/Bron acquisitions; Citizens initiated coverage at Market Outperform same day, stock +5%. Extends roll-up momentum but the order flows through recently acquired units, reinforcing (not resolving) the existing flag that growth is largely acquisition-driven. Return +0.3% vs. cost basis. Position ~0.8%.",
-      "last_review": "2026-10-06",
+      "thesis": "HOLD: no new catalyst since 10/6 -- the $56M Mistral-subsidiary order and Citizens' Market Outperform initiation (both 10/5) remain the latest drivers; growth remains largely acquisition-driven, reinforcing (not resolving) the existing flag. Return -2.7% vs. cost basis. Position ~0.7%.",
+      "last_review": "2026-10-07",
       "status": "active"
     },
     {
@@ -189,8 +189,8 @@
       "cost_basis_per_share": 69.89,
       "date_added": "2026-09-21",
       "sector": "Industrials",
-      "thesis": "HOLD (bullish lean): no new negative catalyst -- the Synspective 20-launch deal, Citi Buy/$105 PT, and $266M Space Force award remain the core drivers. The $8B Iridium acquisition is now fully financed (completed $1.94B ATM, 9/15) with HSR waiting period expired (8/12); on track for a mid-2027 close. Return +7.4% vs. cost basis. Position ~1.3%.",
-      "last_review": "2026-10-06",
+      "thesis": "HOLD (bullish lean): no new catalyst since 10/6 -- the Synspective deal, Citi Buy/$105 PT, and the fully financed $8B Iridium acquisition (on track for mid-2027 close) remain the core drivers. Return +2.9% vs. cost basis. Position ~1.3%.",
+      "last_review": "2026-10-07",
       "status": "active"
     },
     {
@@ -199,8 +199,8 @@
       "cost_basis_per_share": 46.97,
       "date_added": "2026-09-22",
       "sector": "Industrials",
-      "thesis": "HOLD: no incremental news since 10/5 -- Kratos holds Buy ratings despite Jefferies' PT trim to $68 (from $80, valuation/sentiment-related, not fundamental), supported by $100M+ new space/cyber awards and the GEK800/F143 turbofan milestone with GE. Return -6.9% vs. cost basis. Position ~0.4%.",
-      "last_review": "2026-10-06",
+      "thesis": "HOLD: no new catalyst since 10/6 -- Jefferies' PT trim to $68 and $100M+ new space/cyber awards remain the known items; the GEK800/F143 turbofan milestone with GE continues. Return -10.7% vs. cost basis. Position ~0.4%.",
+      "last_review": "2026-10-07",
       "status": "active"
     },
     {
@@ -209,8 +209,8 @@
       "cost_basis_per_share": 371.29,
       "date_added": "2026-09-23",
       "sector": "Healthcare",
-      "thesis": "HOLD: no new DOJ or legal developments since 10/5 -- the 2027 Medicare Advantage network-narrowing plan (66% dual HMO/PPO access vs. 70% in 2026) and the Robert Hunter leadership change continue as known items. Q3 earnings confirmed for 10/13 pre-market remains the next real catalyst. Return +1.4% vs. cost basis. Position ~0.7%.",
-      "last_review": "2026-10-06",
+      "thesis": "HOLD: no new DOJ or legal developments since 10/6 -- the 2027 Medicare Advantage network-narrowing plan continues as a known item. Q3 earnings confirmed for 10/13 pre-market remains the next real catalyst. Return +1.3% vs. cost basis. Position ~0.6%.",
+      "last_review": "2026-10-07",
       "status": "active"
     },
     {
@@ -219,8 +219,8 @@
       "cost_basis_per_share": 6.17,
       "date_added": "2026-09-25",
       "sector": "Industrials",
-      "thesis": "HOLD: Merlin.01 plus three NewSat satellites successfully launched and reached orbit (10/1-2, SpaceX Falcon 9); all four established ground contact, on-orbit commissioning begins mid-October. Expanded SynMax defense-data partnership extends the Slingshot III/ONR pipeline. Launch success is a positive confirmatory milestone, not a new catalyst beyond what was already anticipated. Return -10.7% vs. cost basis. Position ~0.3%.",
-      "last_review": "2026-10-06",
+      "thesis": "HOLD: no new catalyst since 10/6 -- Merlin.01/NewSat on-orbit commissioning continues as previously reported; no new developments found for the window. Return -16.0% vs. cost basis. Position ~0.3%.",
+      "last_review": "2026-10-07",
       "status": "active"
     },
     {
@@ -229,8 +229,8 @@
       "cost_basis_per_share": 312.39,
       "date_added": "2026-10-01",
       "sector": "Industrials",
-      "thesis": "HOLD: no new negative catalyst -- the >$30B defense backlog and raised FY26 guidance ($7.65-7.85 adj. EPS) remain on track; the $0.47 dividend went ex-div 10/5 as scheduled and Wells Fargo's trim to $380 PT (Overweight) reflects valuation, not fundamentals. Q3 earnings (mid-to-late October) is the next catalyst. Return -1.0% vs. cost basis. Position ~0.5%.",
-      "last_review": "2026-10-06",
+      "thesis": "HOLD: no new negative catalyst -- the $0.47 dividend went ex-div 10/5 as scheduled (routine, already known); the >$30B defense backlog and raised FY26 guidance remain on track. Q3 earnings (mid-to-late October) is the next catalyst. Return -2.8% vs. cost basis. Position ~0.4%.",
+      "last_review": "2026-10-07",
       "status": "active"
     }
   ]
