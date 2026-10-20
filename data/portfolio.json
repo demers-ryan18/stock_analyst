@@ -1,7 +1,7 @@
 {
   "status": "active",
   "cash": 132.28,
-  "last_updated": "2026-10-19",
+  "last_updated": "2026-10-20",
   "holdings": [
     {
       "ticker": "CRDO",
@@ -9,8 +9,8 @@
       "cost_basis_per_share": 270.52,
       "date_added": "2026-08-30",
       "sector": "Technology",
-      "thesis": "HOLD: stop-loss flag essentially flat at -36.1% (from -37.3% on 10/16). WebSearch 10/17-19 found no new CRDO-specific catalyst -- only stale/pre-10/17 analyst PTs (Barclays $165, TD Cowen $160, Stifel $155). Fundamentals data is back online this run (yfinance 401/Invalid-Crumb outage from 10/16 resolved): revenue growth +114.7% YoY intact. Reads as continued chip-sector/rate-driven beta drift, not a fresh thesis break. Position ~5.8%.",
-      "last_review": "2026-10-19",
+      "thesis": "HOLD: stop-loss flag deepened slightly to -36.6% (from -36.1%). No company-specific catalyst found 10/19-20 -- Benzinga (10/19) attributes Monday's bounce to broad semiconductor/AI-infra sector rotation back in after the prior week's sell-off, not CRDO-specific news. OCP Global Summit product news (1.6T ZeroFlap Active Light Cable, 10/12-15) predates this window. Fundamentals intact: revenue growth +114.7%, earnings growth +97.1% YoY. Reads as continued sector-beta drift, not a fresh thesis break. Position ~5.7%.",
+      "last_review": "2026-10-20",
       "status": "active"
     },
     {
@@ -19,8 +19,8 @@
       "cost_basis_per_share": 127.51,
       "date_added": "2026-08-30",
       "sector": "Technology",
-      "thesis": "HOLD: no new company-specific news found 10/17-19 (search skewed toward stale Jan 2026 items). Known Max-tier sunset/AI-reinvestment earnings-growth flag (-27.5% YoY) and insider 10b5-1 sales pattern (von Ahn, GC Chen, director Gordon) unchanged. Return +11.4%. Position ~11.2%.",
-      "last_review": "2026-10-19",
+      "thesis": "HOLD: earnings-decline flag unchanged (-27.5% YoY, known deliberate Max-tier sunset/AI-reinvestment). NEW: a securities-fraud class action (City of Dearborn Heights Act 345 Police & Fire Retirement System v. Duolingo, filed 10/7/26, W.D. Pa.) naming CEO von Ahn and former CFO Skaruppa over May 2025-Feb 2026 DAU/monetization disclosures surfaced via lead-plaintiff-deadline reminder press releases dated 10/19-20; lead-plaintiff deadline 12/7/26. Backward-looking to an already-known/priced period (stock still +9.5% unrealized) -- not treated as thesis-breaking, but flagging as a new legal overhang to watch. Insider 10b5-1 sales continue (von Ahn ~110k shares/~$16.7M ~10/7), consistent with the known pattern. Return +9.5%. Position ~11.1%.",
+      "last_review": "2026-10-20",
       "status": "active"
     },
     {
@@ -29,8 +29,8 @@
       "cost_basis_per_share": 79.32,
       "date_added": "2026-08-30",
       "sector": "Technology",
-      "thesis": "HOLD, watch continues: stop-loss flag at -31.9%, roughly flat vs. prior review. One new item -- Innodata scheduled Q3 2026 earnings for Nov 5 after-market close (confirmed 10/15 via ACCESS Newswire), a scheduling note only. CFO transition and reaffirmed 40%+ FY2026 revenue growth guidance remain the known backdrop; no negative catalyst found 10/17-19. Position ~1.4%.",
-      "last_review": "2026-10-19",
+      "thesis": "HOLD, watch continues: stop-loss flag at -30.6%, roughly flat vs. prior review. No new ticker-specific news found 10/17-20. Nov 5 AMC earnings date and reaffirmed 40%+ FY2026 revenue growth guidance remain unchanged; CFO transition (Jayant Chauhan, effective 7/6/26) remains the known backdrop. Reads as continued AI-services-sector beta drift, no fresh negative catalyst. Position ~1.4%.",
+      "last_review": "2026-10-20",
       "status": "active"
     },
     {
@@ -39,8 +39,8 @@
       "cost_basis_per_share": 323.17,
       "date_added": "2026-08-30",
       "sector": "Industrials",
-      "thesis": "HOLD, watch continues: stop-loss flag at -36.2% (deepened slightly from -36.1%). Earnings date now confirmed by Vertiv's own 10/14 release: Wednesday Oct 28 before market open -- resolves the prior 10/20-21 uncertainty; not reporting this week. Securities-fraud matter remains at the investigation stage (Pomerantz, Grabar Law and others), no suit filed, no escalation found 10/17-19. Fundamentals look strong now that data is back online (earnings growth +53%, revenue growth +24.1%). Holding into the 10/28 print given no fresh negative catalyst; position ~7.1%.",
-      "last_review": "2026-10-19",
+      "thesis": "HOLD, watch continues: stop-loss flag deepened to -37.0% (from -36.2%). Oct 28 earnings date reconfirmed via Vertiv's own 10/14 release. Pomerantz securities matter remains at investigation-stage only -- no suit filed as of 10/20. Recent weakness reads as rate/macro-driven sector pressure on AI-datacenter-capex fears, not VRT-specific; fundamentals intact (earnings growth +53%, revenue growth +24.1%). No fresh negative catalyst found 10/17-20. Holding into the 10/28 print. Position ~7.1%.",
+      "last_review": "2026-10-20",
       "status": "active"
     },
     {
@@ -49,8 +49,8 @@
       "cost_basis_per_share": 337.63,
       "date_added": "2026-08-31",
       "sector": "Communication Services",
-      "thesis": "HOLD, still slightly over the 15% position cap (~15.74%, within the 2% trim tolerance so no forced trim). No new catalyst found 10/17-19; Q3 earnings still expected ~10/27-28. Fundamentals data back online: revenue growth +24.2%, earnings growth +294% YoY. Return +1.9%. Position ~15.7%.",
-      "last_review": "2026-10-19",
+      "thesis": "HOLD, still slightly over the 15% position cap (~15.6%, within the 2% trim tolerance so no forced trim). No new catalyst found 10/17-20; Gemini-bundling antitrust remedy remains unresolved and pending at the D.C. Circuit. Earnings date likely 10/28 (one day later than the prior 10/27 assumption, per third-party trackers; not yet company-confirmed). Fundamentals: revenue growth +24.2%, earnings growth +294%. Return +0.8%. Position ~15.6%.",
+      "last_review": "2026-10-20",
       "status": "active"
     },
     {
@@ -59,8 +59,8 @@
       "cost_basis_per_share": 260.16,
       "date_added": "2026-08-31",
       "sector": "Consumer Cyclical",
-      "thesis": "HOLD: no new catalyst found 10/17-19. Q3 earnings 10/29 remains the key near-term event; AWS growth rate and the ~$220B 2026 capex guide are still the watch items. Fundamentals: revenue growth +19.6%, earnings growth +242%. Return +0.9%. Position ~13.0%.",
-      "last_review": "2026-10-19",
+      "thesis": "HOLD: no new catalyst found 10/17-20. Q3 earnings reconfirmed for 10/29 via Amazon's own IR site. AWS growth rate and the ~$220B 2026 capex guide remain the key near-term watch items. Return +0.95%. Position ~13.0%.",
+      "last_review": "2026-10-20",
       "status": "active"
     },
     {
@@ -69,8 +69,8 @@
       "cost_basis_per_share": 159.93,
       "date_added": "2026-08-31",
       "sector": "Energy",
-      "thesis": "HOLD: no new company-specific or oil-price news confirmed 10/17-19 (search skewed stale). $20B 2026 buyback and the NJ->TX reincorporation vote remain unconfirmed/unresolved as before; next earnings still ~10/30. Fundamentals: revenue growth +44.1%, earnings growth +112.8%. Return +11.5%. Position ~12.6%.",
-      "last_review": "2026-10-19",
+      "thesis": "HOLD: no new company-specific news found 10/17-20. Correction to prior tracking: the NJ->TX reincorporation vote is resolved, not pending -- shareholders already approved the move at the 5/27/26 annual meeting (~71% approval); dropping as an open watch item. The $20B 2026 buyback appears on pace (~$4.9B Q1 + ~$5.1B Q2 repurchased per early-Oct reporting). Earnings confirmed for Fri Oct 30 via Exxon's own IR release. Return +11.2%. Position ~12.6%.",
+      "last_review": "2026-10-20",
       "status": "active"
     },
     {
@@ -79,8 +79,8 @@
       "cost_basis_per_share": 69.94,
       "date_added": "2026-09-01",
       "sector": "Financial Services",
-      "thesis": "HOLD: no new company-specific news found 10/17-19 (search returned only stale pre-2024 results). Evercore outperform/$95 PT and the Amazon contract renewal remain the core support; next earnings confirmed 11/5. Fundamentals: revenue growth +33%, earnings growth +2187% YoY (post-profitability swing). Return +4.1%. Position ~6.2%.",
-      "last_review": "2026-10-19",
+      "thesis": "HOLD: no new company-specific news found 10/17-20. Correction: the Amazon contract renewal is old/already-priced news (signed ~11/6/25, effective since 2/1/26, 5-yr term through 1/31) -- not a pending catalyst as previously framed. Could not independently verify the previously-logged \"Evercore $95 PT\" -- found Truist and Jefferies at $95 PTs instead; flagging the attribution as unconfirmed. Next earnings confirmed 11/5. Return +5.6%. Position ~6.3%.",
+      "last_review": "2026-10-20",
       "status": "active"
     },
     {
@@ -89,8 +89,8 @@
       "cost_basis_per_share": 223.84,
       "date_added": "2026-09-01",
       "sector": "Technology",
-      "thesis": "HOLD: no new company-specific news found 10/17-19; nearest dated item is the stale May 2026 Q1 beat/guidance raise. ~30% FY26 revenue growth guide remains the core support; next earnings tentatively early November. Fundamentals: revenue growth +35.6%, earnings growth +1499% YoY. Return +16.3%. Position ~4.8%.",
-      "last_review": "2026-10-19",
+      "thesis": "HOLD: no new company-specific news found for October 2026 at all in available search results (coverage topped out ~early Sept: Q2 beat 8/6, Bits GA, Adaptive ML acquisition, CodeRabbit investment). The ~30% FY26 revenue growth guide and a tentative early-November earnings date remain the core support/watch item, neither confirmed nor contradicted this window. Return +14.6%. Position ~4.7%.",
+      "last_review": "2026-10-20",
       "status": "active"
     },
     {
@@ -99,8 +99,8 @@
       "cost_basis_per_share": 1160.0,
       "date_added": "2026-09-01",
       "sector": "Healthcare",
-      "thesis": "HOLD: no market-moving readout confirmed 10/17-19 (an undated Medicare GLP-1 Bridge Program mention couldn't be pinned to this window). Next earnings 10/29 remains the key catalyst. Fundamentals: revenue growth +47.7%, earnings growth +26.2%. Return +6.9%. Position ~4.4%.",
-      "last_review": "2026-10-19",
+      "thesis": "HOLD: no market-moving readout found 10/17-20. Oct 29 earnings date reconfirmed by the company; options market implies an outsized ~\u00b18.5% move (vs. ~\u00b16.4% historical average), consistent with high-stakes-print positioning. Return +10.7%. Position ~4.6%.",
+      "last_review": "2026-10-20",
       "status": "active"
     },
     {
@@ -109,8 +109,8 @@
       "cost_basis_per_share": 17.05,
       "date_added": "2026-09-01",
       "sector": "Financial Services",
-      "thesis": "HOLD: Muddy Waters situation remains unresolved/unescalated -- no lawsuit filed by either side as of 10/19 (most recent dated item is a June 27 Signal Law Group bulletin characterizing it as a disclosure risk, not litigation). Next earnings confirmed 10/27. Fundamentals: revenue growth +42.6%, earnings growth +40.4%. Return -16.1%. Position ~2.6%.",
-      "last_review": "2026-10-19",
+      "thesis": "HOLD: Muddy Waters situation remains unresolved/unescalated -- no lawsuit filed by either side, no October follow-up found. The 10/14 (-6.7%) to 10/15 (+6.1%) swing reads as macro rate-fear-driven (sector-wide), not company-specific. Q3 earnings call confirmed for Oct 27 (7am ET release / 8am ET call) via company press release. Return -13.9%. Position ~2.7%.",
+      "last_review": "2026-10-20",
       "status": "active"
     },
     {
@@ -119,8 +119,8 @@
       "cost_basis_per_share": 779.16,
       "date_added": "2026-09-01",
       "sector": "Industrials",
-      "thesis": "HOLD: Fabick Tractor acquisition (announced 9/29) still not confirmed closed as of 10/19; a Fabick customer letter (~10/7) suggests a possible late-October close but nothing confirmed 10/17-19. Fundamentals: revenue growth +24%, earnings growth +68.2%. Return -6.9%. Position ~2.9%.",
-      "last_review": "2026-10-19",
+      "thesis": "HOLD: Fabick Tractor acquisition (announced 9/29) still not confirmed closed as of 10/20 -- no closing press release found; the ~30-day target window from signing lands right around now, so confirmation may be imminent. No other new CAT-specific news found 10/17-20. Return -6.9%. Position ~2.9%.",
+      "last_review": "2026-10-20",
       "status": "active"
     },
     {
@@ -129,8 +129,8 @@
       "cost_basis_per_share": 25.89,
       "date_added": "2026-09-09",
       "sector": "Financial Services",
-      "thesis": "HOLD: no new company-specific news found 10/17-19. Goldman's $28 PT cut (10/7) and the Castlelake forward-flow deal remain the known, already-priced backdrop. Next earnings 11/3. Fundamentals: revenue growth +42.3%, earnings growth +211%. Return -10.2%. Position ~1.6%.",
-      "last_review": "2026-10-19",
+      "thesis": "HOLD: no new company-specific news found 10/17-20; could not independently corroborate the previously-logged Goldman $28 PT cut (10/7) -- flagging as unverified rather than re-asserting it. Castlelake forward-flow deal remains known/already-priced. Next earnings 11/3. Return -8.7%. Position ~1.6%.",
+      "last_review": "2026-10-20",
       "status": "active"
     },
     {
@@ -139,8 +139,8 @@
       "cost_basis_per_share": 140.8,
       "date_added": "2026-09-09",
       "sector": "Industrials",
-      "thesis": "HOLD, watch continues: no new ticker-specific news found 10/17-19; Berger Montague SCAR-contract class action remains unescalated since the 7/27 lead-plaintiff deadline. Record Q1 FY2027 revenue/backlog remain the core support. Return -16.3%. Position ~1.3%.",
-      "last_review": "2026-10-19",
+      "thesis": "HOLD, watch continues: no new ticker-specific news found 10/17-20; Berger Montague SCAR-contract class action remains unescalated since the 7/27 lead-plaintiff deadline (no new filing or lead-plaintiff appointment found). Record Q1 FY2027 revenue/backlog remain the core support. Return -16.5%. Position ~1.3%.",
+      "last_review": "2026-10-20",
       "status": "active"
     },
     {
@@ -149,8 +149,8 @@
       "cost_basis_per_share": 184.86,
       "date_added": "2026-09-17",
       "sector": "Consumer Cyclical",
-      "thesis": "HOLD: no new catalyst found 10/17-19. Earnings-date estimates have narrowed somewhat (third-party calendars now cluster 10/26-29) but remain company-unconfirmed. $4B+ data-center cooling supply agreement and Q3 FY26 data-center sales +78% YoY remain the known drivers. Return -19.1%, essentially unchanged -- continued broad growth-sector pullback, no company-specific explanation found. Position ~0.5%.",
-      "last_review": "2026-10-19",
+      "thesis": "HOLD, watch closely (approaching but not yet at the stop-loss): return -20.6%, continued broad growth-sector pullback with no confirmed company-specific explanation found 10/17-20. An Oppenheimer PT cut to $260 (from $300) surfaced in search results but its date could not be pinned down with confidence -- treating as unverified. Earnings-date estimates still cluster 10/26-29 (company-unconfirmed). The $4B+ data-center cooling supply agreement and prior data-center sales growth remain the known driver. Position ~0.5%.",
+      "last_review": "2026-10-20",
       "status": "active"
     },
     {
@@ -159,8 +159,8 @@
       "cost_basis_per_share": 7.39,
       "date_added": "2026-09-18",
       "sector": "Technology",
-      "thesis": "HOLD: no new item found 10/17-19 (most recent dated coverage located is July 31). DZYNE acquisition close and the raised 2026 revenue target ($170-180M) remain the known backdrop. Return -18.0%. Position ~0.6%.",
-      "last_review": "2026-10-19",
+      "thesis": "HOLD: no new ticker-specific news found 10/17-20. Correction: the DZYNE acquisition already closed 7/2/26 (resolves the prior \"close status\" uncertainty -- it is done, not pending). Revenue guidance figures found conflicting in search results (previously-logged $170-180M vs. a later, unverified $525M claim) -- treating the higher figure as unconfirmed pending a primary-source check. Return -17.5%. Position ~0.7%.",
+      "last_review": "2026-10-20",
       "status": "active"
     },
     {
@@ -169,8 +169,8 @@
       "cost_basis_per_share": 69.89,
       "date_added": "2026-09-21",
       "sector": "Industrials",
-      "thesis": "HOLD (watch closely): no news beyond the already-known 10/15 Neutron launch delay (carbon-composite forward-propellant-dome defect, pushing the first launch into Q1 2027), but fuller analyst detail is now available: KeyBanc cut to $100 (from $135), Clear Street to $105 (from $129), TD Cowen to $90 (from $120) -- all covering analysts (KeyBanc, Clear Street, Roth Capital, Cantor) kept Buy/Overweight ratings despite the cuts. A real, dated setback (growth pushed out ~3 quarters) but not thesis-breaking per analyst consensus holding firm. Return improved slightly to -26.5% from -27.3%. Position ~1.0%.",
-      "last_review": "2026-10-19",
+      "thesis": "HOLD (watch closely): stop-loss threshold newly crossed (-27.2%, from -26.5%). No new news found 10/17-20 beyond the already-known 10/15 Neutron carbon-composite dome-defect delay and the KeyBanc/Clear Street/TD Cowen PT cuts (all covering analysts kept Buy/Overweight ratings). Reads as a stop-loss trigger on an already-digested catalyst rather than a fresh shock -- holding per the prior review's \"real-but-not-thesis-breaking\" read. Position ~1.0%.",
+      "last_review": "2026-10-20",
       "status": "active"
     },
     {
@@ -179,8 +179,8 @@
       "cost_basis_per_share": 46.97,
       "date_added": "2026-09-22",
       "sector": "Industrials",
-      "thesis": "HOLD: no new ticker-specific news found 10/17-19. Caveat: the previously-logged $175M Pentagon Navy AN/SPY-1 award may actually be dated Oct 2025 rather than Oct 2026 (source year was ambiguous) -- flagging for correction next review, not a new catalyst either way. Next earnings 10/29. Fundamentals: revenue growth +30.5%, earnings growth +7.4%. Return -16.6%. Position ~0.4%.",
-      "last_review": "2026-10-19",
+      "thesis": "HOLD: no new ticker-specific news found 10/17-20. Correction: the previously-logged $175M Pentagon Navy AN/SPY-1 \"Project Anaconda\" award is confirmed dated October 2025 (via Kratos's own IR release), not October 2026 as tracked -- dropping it as a current catalyst; it was stale. Next earnings date is ambiguous between the previously-assumed 10/29 and 11/3-4 per third-party aggregators, not yet company-confirmed. Return -17.1%. Position ~0.4%.",
+      "last_review": "2026-10-20",
       "status": "active"
     },
     {
@@ -189,8 +189,8 @@
       "cost_basis_per_share": 371.29,
       "date_added": "2026-09-23",
       "sector": "Healthcare",
-      "thesis": "HOLD: Q3 beat and raised FY guidance (reported 10/13) remain the core support -- shares +4.7% to ~$395.62 on 10/14-15 per dated coverage found; no new DOJ/legal development found 10/17-19. Note: this run's quant screen flagged revenue growth at -0.4% (essentially flat), which looks like a data-field artifact given the confirmed Q3 beat/raised guidance -- not treated as a real deceleration signal. Return +9.6%. Position ~0.8%.",
-      "last_review": "2026-10-19",
+      "thesis": "HOLD: no new news or DOJ/legal escalation confirmed 10/17-20. The quant screen's flat/-0.4% revenue-growth flag remains unconfirmed as a data artifact against the confirmed 10/13 Q3 beat-and-raise (shares +4.7% on 10/14). CMS finalized the 2027 Medicare Advantage rate notice (~+2.5%); open enrollment running 10/15-12/7. Return +12.9%. Position ~0.8%.",
+      "last_review": "2026-10-20",
       "status": "active"
     },
     {
@@ -199,8 +199,8 @@
       "cost_basis_per_share": 6.17,
       "date_added": "2026-09-25",
       "sector": "Industrials",
-      "thesis": "HOLD: no stock-moving item found 10/17-19; one forward-looking item -- Satellogic's interim CFO/chief of staff scheduled to present at the LD Micro conference 10/20 highlighting the Merlin-01 launch (IR visibility, not yet a catalyst). No new negative catalyst found. Return improved slightly to -36.8% from -37.8%. Continuing to hold given the tiny (~0.2%) position size. Position ~0.2%.",
-      "last_review": "2026-10-19",
+      "thesis": "HOLD: no new stock-moving item found 10/17-20. Today's LD Micro conference presentation (10/20) reads as an IR-visibility event only -- no new disclosed catalyst found beyond the pre-announced agenda. New nuance: Merlin-01's commercial-service timeline quietly slipped from \"H1 2027\" to \"H2 2027\" per an October update -- a mild negative worth flagging, not thesis-breaking. Return -40.2% (deepened from -36.8%). Continuing to hold given the tiny (~0.2%) position size.",
+      "last_review": "2026-10-20",
       "status": "active"
     },
     {
@@ -209,8 +209,8 @@
       "cost_basis_per_share": 312.39,
       "date_added": "2026-10-01",
       "sector": "Industrials",
-      "thesis": "HOLD: earnings-date clarity improved -- current third-party estimates cluster around Oct 19-20, 2026 (Zacks: 10/20, Bullstory: 10/19), revising the previously-logged ~10/26 estimate which now looks stale/wrong. Results may already be out or imminent as of today; flagging for next review to check actuals directly. Raised FY26 guidance and the ~$210B backlog remain the known, unchallenged thesis. Return roughly flat at -0.4% (from +0.5%). Position ~0.5%.",
-      "last_review": "2026-10-19",
+      "thesis": "HOLD: GE Aerospace reported Q3 2026 earnings TODAY (10/20) -- a clean beat-and-raise: GAAP revenue $14.1B (+16% YoY), adjusted EPS $2.25 (+36% YoY) vs. ~$2.01-2.02 consensus, total orders +49% to $19.0B, and raised full-year guidance. Note GE has a documented pattern of \"sell-the-news\" dips on past beats (Q4 FY25, Q2 2026); same-day price reaction not yet available in search results. Raised FY26 guidance and the ~$210B backlog remain the core thesis. Return -4.0%. Position ~0.5%.",
+      "last_review": "2026-10-20",
       "status": "active"
     },
     {
@@ -219,8 +219,8 @@
       "cost_basis_per_share": 346.25,
       "date_added": "2026-10-14",
       "sector": "Technology",
-      "thesis": "HOLD: no new ticker-specific news found 10/17-19 (newest dated item remains 10/5-6: ~29.5% June-Sept pullback, fiscal Q4 report expected ~Dec 2-9, AI chip revenue guided to double again in FY2027). No new negative catalyst; current weakness continues to read as the known pullback, not a fresh break. Return -3.4%. Position ~1.9%.",
-      "last_review": "2026-10-19",
+      "thesis": "HOLD: no new ticker-specific news found 10/17-20; confirmed the \"OpenAI partnership drove PT hikes\" story circulating in search results is dated October 2025 -- a full year stale, not current. Most recent verified analyst action remains Citigroup $515 PT / DA Davidson $350 PT, both from 9/4/26. The ~29.5% June-Sept pullback remains known/priced; fiscal Q4 report expected ~Dec 2-9. Return -3.4%. Position ~1.9%.",
+      "last_review": "2026-10-20",
       "status": "active"
     }
   ]
