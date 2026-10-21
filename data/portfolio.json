@@ -1,6 +1,6 @@
 {
   "status": "active",
-  "cash": 132.28,
+  "cash": 78.13,
   "last_updated": "2026-10-21",
   "holdings": [
     {
@@ -220,6 +220,16 @@
       "date_added": "2026-10-14",
       "sector": "Technology",
       "thesis": "HOLD: no new ticker-specific news found 10/19-21. Competitive-pressure commentary continues to cite the Marvell-Google custom AI chip partnership as a known/already-priced risk. Most recent verified analyst actions remain Citigroup $515 PT / DA Davidson $350 PT (both 9/4/26). Fiscal Q4 report still expected ~Dec 2-9 (consensus estimate, company-unconfirmed). Return -2.4%. Position ~2.0%.",
+      "last_review": "2026-10-21",
+      "status": "active"
+    },
+    {
+      "ticker": "ALAB",
+      "shares": 0.1867,
+      "cost_basis_per_share": 290.06,
+      "date_added": "2026-10-21",
+      "sector": "Technology",
+      "thesis": "BUY: sourced from the 10/14 theme screen (AI data-center interconnect silicon). Top-ranked non-disqualified, non-opportunity-tier candidate on today's full watchlist screen (104.5% revenue growth, 186.2% earnings growth, forward P/E 45.3). No October-specific news found; the known customer-concentration risk (top 4 customers ~82% of Q2 revenue) remains disclosed/stable, not worsening. Q2'26 revenue $392M (>2x YoY beat), Q3 guided $540-560M (~40% QoQ). Recent weakness reads as sector-wide chip selloff, not company-specific. Full rationale (including passed-on candidates) in transactions.csv. Position ~1.4%.",
       "last_review": "2026-10-21",
       "status": "active"
     }
