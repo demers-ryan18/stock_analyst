@@ -1,7 +1,7 @@
 {
   "status": "active",
   "cash": 78.13,
-  "last_updated": "2026-11-05",
+  "last_updated": "2026-11-06",
   "holdings": [
     {
       "ticker": "CRDO",
@@ -9,8 +9,8 @@
       "cost_basis_per_share": 270.52,
       "date_added": "2026-08-30",
       "sector": "Technology",
-      "thesis": "HOLD: no CRDO-specific news found despite a dedicated search; today's drop sits squarely inside a broad, confirmed AI/chip-sector rout -- Nasdaq fell into correction territory (~-5.3 to -5.5%), S&P -4.1%, Dow -3.3 to -3.4%, on fears the Democratic congressional sweep could slow AI data-center buildout and that Big Tech capex growth may be peaking (an escalation of 11/4's VRT/MOD data-center-policy theme into a market-wide 'AI trade meltdown' led by Nvidia/AMD/Micron), not a CRDO-specific break. Fundamentals API back online for the first time in several days: confirms revenue growth +114.7% YoY, earnings growth +97.1% YoY (unchanged from 11/3's last confirmed read). Stop-loss flag deepened sharply to -58.5% (from -49.5% on 11/4). Position ~4.1%.",
-      "last_review": "2026-11-05",
+      "thesis": "HOLD: no CRDO-specific news dated 11/6 found despite a dedicated search. Today's partial recovery (stop-loss flag eased to -55.4% from -58.5% on 11/5) tracks the broad market's tech-led bounce (Nasdaq +1.09% to 24,579.42 after yesterday's correction-territory close) rather than a CRDO-specific catalyst. Fundamentals API fully down again today (101/101 tickers, 0 fundamentals returned) -- last confirmed fundamentals (11/5) stand: revenue growth +114.7% YoY, earnings growth +97.1% YoY. Position ~4.4%.",
+      "last_review": "2026-11-06",
       "status": "active"
     },
     {
@@ -19,8 +19,8 @@
       "cost_basis_per_share": 127.51,
       "date_added": "2026-08-30",
       "sector": "Technology",
-      "thesis": "HOLD: shares pulled back to +23.1% return (from +26.5% on 11/4), consistent with the broad AI/chip-sector correction today (Nasdaq -5.3 to -5.5%) rather than any DUOL-specific news -- none found dated 11/5. Fundamentals API back online: revenue growth +13.7% YoY, earnings growth -90.9% YoY (still the known, deliberate Max-tier sunset, not a new deterioration). Consensus EPS $0.55 for the ~Nov 9 report remains unconfirmed. Dearborn Heights securities-fraud class action lead-plaintiff deadline 12/7/26, unresolved. Position ~13.7%, still under the 15% cap.",
-      "last_review": "2026-11-05",
+      "thesis": "HOLD: return eased to +25.8% (from +23.1% on 11/5) in today's tech-led market bounce. No DUOL-specific news dated 11/6 found; thesis unchanged (Max-tier sunset remains the known, deliberate story). Consensus EPS $0.55 for the ~Nov 9 report remains unconfirmed -- the real resolution point ahead. Dearborn Heights securities-fraud lead-plaintiff deadline 12/7/26 still unresolved. Position ~13.8%, still under the 15% cap.",
+      "last_review": "2026-11-06",
       "status": "active"
     },
     {
@@ -29,8 +29,8 @@
       "cost_basis_per_share": 79.32,
       "date_added": "2026-08-30",
       "sector": "Technology",
-      "thesis": "HOLD, watch continues: no INOD-specific news dated 11/5 found; today's deeper drop reads as part of the confirmed broad AI/chip-sector correction (Nasdaq into correction territory, -5.3 to -5.5%) rather than a new company catalyst. Fundamentals API back online: confirms revenue growth +57.8% YoY, earnings growth +105% YoY (unchanged from 11/3's last confirmed read). Earnings date still disputed (Nov 5 most common, Nov 9 per one source), company-unconfirmed. Stop-loss flag deepened to -51.3% (from -45.4% on 11/4). Position ~1.1% (token size).",
-      "last_review": "2026-11-05",
+      "thesis": "HOLD, watch continues: no INOD-specific news dated 11/6 found. Stop-loss flag deepened further to -53.3% (from -51.3% on 11/5) even as the broad market bounced -- one of the few flagged names that didn't participate in today's partial tech recovery; no company-specific reason identified, reads as elevated-beta drift on a historically volatile small name. Earnings date remains disputed/unconfirmed (Nov 5 vs. Nov 9, neither confirmed reported). Fundamentals API fully down again; last confirmed (11/5): revenue growth +57.8% YoY, earnings growth +105% YoY. Position ~1.1%.",
+      "last_review": "2026-11-06",
       "status": "active"
     },
     {
@@ -39,8 +39,8 @@
       "cost_basis_per_share": 323.17,
       "date_added": "2026-08-30",
       "sector": "Industrials",
-      "thesis": "HOLD: no new VRT-specific catalyst found beyond yesterday's -- today's further decline is the continuation/escalation of the same data-center-policy-fear theme into a market-wide 'AI trade meltdown' (Nasdaq into correction territory, chip/AI/data-center names broadly hit per CNBC/Yahoo Finance coverage), not a fresh VRT-specific break. No earnings miss, guidance cut, or litigation escalation found. Fundamentals API back online: confirms revenue growth +61.2% YoY, earnings growth +91.2% YoY (unchanged from 11/3's last confirmed read); organic orders and backlog already booked are unaffected by a policy headline. Stop-loss flag deepened further to -45.3% (from -36.4% on 11/4) -- still reads as sector-wide macro/political beta, watching for any follow-through into actual policy action. Position ~6.8%.",
-      "last_review": "2026-11-05",
+      "thesis": "HOLD: no new VRT-specific catalyst found; stop-loss flag eased to -43.4% (from -45.3% on 11/5), consistent with today's broad market bounce in AI-infrastructure-adjacent names after yesterday's data-center-policy-fear selloff. No earnings miss, guidance cut, or litigation escalation found dated 11/6. Fundamentals API fully down again; last confirmed (11/5): revenue growth +61.2% YoY, earnings growth +91.2% YoY. Position ~6.9%.",
+      "last_review": "2026-11-06",
       "status": "active"
     },
     {
@@ -49,8 +49,8 @@
       "cost_basis_per_share": 337.63,
       "date_added": "2026-08-31",
       "sector": "Communication Services",
-      "thesis": "HOLD: no GOOGL-specific news dated 11/5 found; today's decline tracks the broad, confirmed AI/chip-sector market correction (Nasdaq -5.3 to -5.5%, S&P -4.1%) rather than a new company catalyst. Fundamentals API back online: confirms earnings growth -25.3% YoY (capex-driven, already known) and revenue growth +24.7% YoY -- both unchanged from 11/3's last confirmed read. Neither stop-loss nor position cap breached. Return -16.3% (down from -14.4% on 11/4). Position ~14.3%, approaching but not past the 15% cap.",
-      "last_review": "2026-11-05",
+      "thesis": "HOLD: no GOOGL-specific news dated 11/6 found; return -15.7% (little changed from -16.3% on 11/5) in the broad market's partial tech-led bounce (Nasdaq +1.09%, S&P +0.31%). Fundamentals API fully down again; last confirmed (11/5): earnings growth -25.3% YoY (capex-driven, known), revenue growth +24.7% YoY. Neither stop-loss nor position cap breached. Position ~14.2%, approaching but not past the 15% cap.",
+      "last_review": "2026-11-06",
       "status": "active"
     },
     {
@@ -59,8 +59,8 @@
       "cost_basis_per_share": 260.16,
       "date_added": "2026-08-31",
       "sector": "Consumer Cyclical",
-      "thesis": "HOLD: no AMZN-specific news dated 11/5 found; most recent dated item remains the 10/29 Q3 report (AWS +39% YoY reaccelerating, trailing FCF -$42.4B on the $220B 2026 capex guide) -- AWS capex is directly implicated in today's broad 'AI trade meltdown' narrative (Big Tech capex growth feared to be peaking), but no AMZN-specific news beyond that macro theme. Return roughly flat at +0.02% (down sharply from +2.3% on 11/4, consistent with the broad selloff). Position ~14.2%.",
-      "last_review": "2026-11-05",
+      "thesis": "HOLD: no AMZN-specific news dated 11/6 found; return roughly flat at -0.3% (little changed from +0.02% on 11/5). Fundamentals API fully down again; the 10/29 Q3 report (AWS +39% YoY, FCF -$42.4B on the $220B capex guide) remains the latest confirmed data point. Position ~14.0%.",
+      "last_review": "2026-11-06",
       "status": "active"
     },
     {
@@ -69,8 +69,8 @@
       "cost_basis_per_share": 159.93,
       "date_added": "2026-08-31",
       "sector": "Energy",
-      "thesis": "HOLD: no XOM-specific news dated 11/5 found; thesis unchanged from the 10/30 Q3 beat (adj EPS $4.23, refining-margin tailwind, $20B buyback confirmed into 2027). Fundamentals API back online: revenue growth +32.6% YoY, earnings growth +111.4% YoY. Energy held up relatively better than the broad market today (Dow -3.4% vs. XOM's own pullback). Return +3.4% (down from +5.8% on 11/4). Position ~12.9%.",
-      "last_review": "2026-11-05",
+      "thesis": "HOLD: no XOM-specific news dated 11/6 found; thesis unchanged from the 10/30 Q3 beat ($20B buyback confirmed into 2027). Return +3.7% (up slightly from +3.4% on 11/5). Fundamentals API fully down again; last confirmed (11/5): revenue growth +32.6% YoY, earnings growth +111.4% YoY. Position ~12.8%.",
+      "last_review": "2026-11-06",
       "status": "active"
     },
     {
@@ -79,8 +79,8 @@
       "cost_basis_per_share": 69.94,
       "date_added": "2026-09-01",
       "sector": "Financial Services",
-      "thesis": "HOLD, earnings today: fiscal Q1 2027 results are scheduled after market close today (Nov 5) -- confirmed still not yet posted as of this review (company guided GMV $13.7-14.0B / revenue $1.19-1.22B; prior quarter revenue $1.166B +33% YoY beat consensus). No pre-announcement found. Return -0.4% (down from +8.1% on 11/4, consistent with pre-earnings jitters plus today's broad market correction). Position ~6.5%; results are the real resolution point for tomorrow's review.",
-      "last_review": "2026-11-05",
+      "thesis": "HOLD, earnings resolved -- clean beat: fiscal Q1 2027 results (reported after close 11/5) beat on revenue ($1.262B, +35% YoY, vs. ~$1.21B consensus) and GMV (+33-34% YoY to ~$14.4B); EPS readings are mixed across sources depending on which consensus figure is used (one reports $0.47 actual vs. $0.38 est., a beat; another frames it as an EPS miss on a different estimate) -- treating this as a clean beat on the core growth/GMV metrics with ambiguous EPS optics, not thesis-breaking. Raised FY2027 GMV outlook to $65.25B+ (from prior $64B+); Q2 FY27 guide GMV $17.9-18.2B / revenue $1.44-1.47B. Affirm Card GMV nearly doubled to $3.3B, cardholders more than doubled to 6.0M. Return dipped to -2.6% (from -0.4% on 11/5) despite the beat, likely residual broad-market/EPS-optics noise rather than a fundamentals problem. Position ~6.3%.",
+      "last_review": "2026-11-06",
       "status": "active"
     },
     {
@@ -89,8 +89,8 @@
       "cost_basis_per_share": 223.84,
       "date_added": "2026-09-01",
       "sector": "Technology",
-      "thesis": "HOLD: no new DDOG-specific news dated 11/5 found beyond 11/4's confirmed Q3 beat-and-raise-but-weak-Q4-guidance story (customer-concentration risk from one large customer cutting usage to its minimum commitment); today's further decline reads as continued digestion of that guidance plus DDOG's direct exposure to today's broad AI/chip-sector correction as an AI-infrastructure-adjacent name. Return -22.0% (down from -15.7% on 11/4), nowhere near the -25% stop-loss. Position ~3.5%.",
-      "last_review": "2026-11-05",
+      "thesis": "HOLD: no new DDOG-specific news dated 11/6 found; return improved to -20.0% (from -22.0% on 11/5) in today's tech-led bounce, still well clear of the -25% stop-loss. The known 11/4 story (Q3 beat-and-raise but weak Q4 guide tied to one large customer cutting usage to its minimum commitment) stands unchanged. Position ~3.6%.",
+      "last_review": "2026-11-06",
       "status": "active"
     },
     {
@@ -99,8 +99,8 @@
       "cost_basis_per_share": 1160.0,
       "date_added": "2026-09-01",
       "sector": "Healthcare",
-      "thesis": "HOLD: no LLY-specific news dated 11/5 found; thesis unchanged from the 10/29 Q3 GLP-1 beat (Mounjaro +64.6%, Zepbound +49.2% YoY) and the routine Q4 dividend declaration. Healthcare held up better than the broad market today but still pulled back with it. Return +17.7% (down from +22.2% on 11/4). Position ~5.4%.",
-      "last_review": "2026-11-05",
+      "thesis": "HOLD: no LLY-specific news dated 11/6 found; return +16.7% (down slightly from +17.7% on 11/5, broadly tracking the market). Thesis unchanged from the 10/29 Q3 GLP-1 beat. Position ~5.2%.",
+      "last_review": "2026-11-06",
       "status": "active"
     },
     {
@@ -109,8 +109,8 @@
       "cost_basis_per_share": 17.05,
       "date_added": "2026-09-01",
       "sector": "Financial Services",
-      "thesis": "HOLD: no SOFI-specific news dated 11/5 found; thesis unchanged from the 10/27 Q3 beat-and-raise (record $1.4B net revenue +44%, EBITDA +70%, FY2027 outlook introduced). Muddy Waters short-seller situation remains unresolved/unescalated. Today's decline reads as broad-market drag on fintech/growth names rather than a new negative signal. Return -5.9% (down from +1.9% on 11/4). Position ~3.2%.",
-      "last_review": "2026-11-05",
+      "thesis": "HOLD: no SOFI-specific news dated 11/6 found; return -4.9% (improved from -5.9% on 11/5) in the broad fintech/growth-sector bounce. Thesis unchanged from the 10/27 beat-and-raise; Muddy Waters short-seller situation remains unresolved/unescalated. Position ~3.2%.",
+      "last_review": "2026-11-06",
       "status": "active"
     },
     {
@@ -119,8 +119,8 @@
       "cost_basis_per_share": 779.16,
       "date_added": "2026-09-01",
       "sector": "Industrials",
-      "thesis": "HOLD: no CAT-specific news dated 11/5 found; thesis unchanged from the confirmed 10/31 Fabick Cat acquisition close. Today's decline tracks the broad Dow decline (-3.3 to -3.4%) in the market-wide AI/chip-sector correction, not a CAT-specific catalyst. Stop-loss flag newly crossed at -28.9% (from -28.9%/-24.1% range on 11/4 -- deepened past the threshold for the first time). Position ~2.4%.",
-      "last_review": "2026-11-05",
+      "thesis": "HOLD: no CAT-specific news dated 11/6 found despite a dedicated search; stop-loss flag eased slightly to -28.3% (from -28.9% on 11/5), tracking the broad market's partial recovery (Dow roughly flat, -0.46%). Fundamentals API fully down again; last confirmed figures (unchanged since the 10/31 Fabick Cat close) stand. Position ~2.4%.",
+      "last_review": "2026-11-06",
       "status": "active"
     },
     {
@@ -129,8 +129,8 @@
       "cost_basis_per_share": 25.89,
       "date_added": "2026-09-09",
       "sector": "Financial Services",
-      "thesis": "HOLD: no new UPST-specific news dated 11/5 found; thesis unchanged from 11/3's clean Q3 FY26 beat (diluted EPS $0.33 vs $0.23 YoY, revenue $371M +34% YoY, record loan originations $4.1B +44% YoY). Today's decline reads as broad-market drag on fintech/growth names in the AI/chip-sector correction. Return -14.5% (down from -9.7% on 11/4). Position ~1.7%.",
-      "last_review": "2026-11-05",
+      "thesis": "HOLD: no new UPST-specific news dated 11/6 found; return -15.5% (down slightly from -14.5% on 11/5), still well above the -25% stop-loss. 11/3's clean Q3 FY26 beat (diluted EPS $0.33, revenue +34% YoY, record loan originations +44% YoY) remains the latest confirmed data point. Position ~1.7%.",
+      "last_review": "2026-11-06",
       "status": "active"
     },
     {
@@ -139,8 +139,8 @@
       "cost_basis_per_share": 140.8,
       "date_added": "2026-09-09",
       "sector": "Industrials",
-      "thesis": "HOLD, newly past stop-loss: no AVAV-specific news dated 11/5 found on the unresolved Norrell v. AeroVironment securities suit or otherwise; today's decline reads as correlated drift with the broader small-cap defense/space-adjacent softness (RKLB, KTOS moved similarly) inside the broad market correction, not a new AVAV catalyst. Record Q1 FY2027 revenue/backlog and FY2030 Investor Day targets remain the core support. Return crossed the -25% stop-loss for the first time at -27.5% (from -19.6% on 11/4). Position ~1.3%.",
-      "last_review": "2026-11-05",
+      "thesis": "HOLD, recovered above stop-loss: no new AVAV-specific news dated 11/6 found; return improved sharply to -19.9% (from -27.5% on 11/5), moving back above the -25% stop-loss threshold in today's small-cap defense/space bounce (RKLB recovered similarly). No AVAV-specific catalyst identified behind the move -- reads as correlated beta reversing, not a new thesis development. Position ~1.4%.",
+      "last_review": "2026-11-06",
       "status": "active"
     },
     {
@@ -149,8 +149,8 @@
       "cost_basis_per_share": 172.05,
       "date_added": "2026-09-17",
       "sector": "Consumer Cyclical",
-      "thesis": "HOLD: no new MOD-specific news dated 11/5 found; thesis unchanged from 11/4's confirmed Q2 FY2027 beat (adj EPS $1.35 +27% YoY, adj EBITDA +31% YoY, retained Data Centers segment +95% YoY). Today's further decline is a continuation of the same data-center-policy-fear rotation that hit VRT/MOD yesterday, now escalated into a market-wide AI-sector correction -- still not thesis-breaking, since the segment this position is built on just posted its strongest growth yet. Stop-loss flag deepened further to -46.9% (from -42.7% on 11/4) on the price move, not the fundamentals. Position ~0.3% (token size).",
-      "last_review": "2026-11-05",
+      "thesis": "HOLD: no new MOD-specific news dated 11/6 found; stop-loss flag eased to -43.9% (from -46.9% on 11/5) in today's partial data-center-sector bounce. Thesis unchanged from 11/4's confirmed Q2 FY2027 beat (adj EPS +27% YoY, Data Centers segment +95% YoY); the 11/18 analyst/investor day remains the next real catalyst. Position ~0.3% (token size).",
+      "last_review": "2026-11-06",
       "status": "active"
     },
     {
@@ -159,8 +159,8 @@
       "cost_basis_per_share": 7.39,
       "date_added": "2026-09-18",
       "sector": "Technology",
-      "thesis": "HOLD, past stop-loss: no ONDS-specific news dated 11/5 found despite a dedicated search; next-earnings-date sources still conflict (Nov 12/16, unconfirmed). Today's deeper decline reads as small-cap volatility/correlated drift inside the broad market correction rather than a new negative data point -- no identified company-specific catalyst. Return deepened to -38.8% (from -28.7% on 11/4). Position ~0.5% (token size).",
-      "last_review": "2026-11-05",
+      "thesis": "HOLD, past stop-loss but improving: no ONDS-specific news dated 11/6 found; return improved substantially to -27.8% (from -38.8% on 11/5) in today's small-cap bounce -- still past the -25% threshold but a large one-day swing with no identified company catalyst behind it, consistent with ONDS's known high volatility. Next-earnings-date sources still conflict (Nov 12/16, unconfirmed). Position ~0.6% (token size).",
+      "last_review": "2026-11-06",
       "status": "active"
     },
     {
@@ -169,8 +169,8 @@
       "cost_basis_per_share": 69.89,
       "date_added": "2026-09-21",
       "sector": "Industrials",
-      "thesis": "HOLD: no RKLB-specific news dated 11/5 found; Q3 earnings date still disputed across sources (Nov 9/10/12), none company-confirmed. Today's decline reads as correlated drift with the same small-cap defense/space softness as AVAV/KTOS inside the broad market correction, not a new catalyst. Stop-loss flag deepened to -34.2% (from -25.1% on 11/4). Position ~1.0% (token size).",
-      "last_review": "2026-11-05",
+      "thesis": "HOLD, recovered above stop-loss: no new RKLB-specific news dated 11/6 found; return improved to -24.1% (from -34.2% on 11/5), moving back above the -25% threshold in today's small-cap defense/space bounce alongside AVAV. Q3 earnings date still disputed across sources (Nov 9/10/12), none company-confirmed. Position ~1.1% (token size).",
+      "last_review": "2026-11-06",
       "status": "active"
     },
     {
@@ -179,8 +179,8 @@
       "cost_basis_per_share": 46.97,
       "date_added": "2026-09-22",
       "sector": "Industrials",
-      "thesis": "HOLD, earnings imminent, newly past stop-loss: still no Q3 2026 results found and no company-confirmed date -- calendars remain unsettled (consensus ~$460-480M revenue guided 8/4). Today's decline reads as the same small-cap defense/space-adjacent softness as AVAV/RKLB inside the broad market correction, pending actual results. Return crossed the -25% stop-loss for the first time at -28.9% (from -23.4% on 11/4). Position ~0.4%.",
-      "last_review": "2026-11-05",
+      "thesis": "HOLD, earnings resolved -- clean beat: Kratos reported Q3 2026 results after close 11/5: revenue $471.8M (+35.7% YoY, beat the ~$462.8M consensus), adjusted EPS $0.24 (beat $0.18 consensus, up from $0.14 in Q3 2025), book-to-bill 2.2x on $1.037B of bookings, and the company raised FY2026 guidance plus issued an initial FY2027 forecast. This resolves the 'earnings imminent' pending item from 11/5 with a clear fundamentals beat. Stop-loss flag eased slightly to -25.3% (from -28.9% on 11/5) but technically remains just past the -25% threshold on price alone -- the beat supports rather than breaks the thesis; reads as sector/macro beta still weighing on the share price. Position ~0.4%.",
+      "last_review": "2026-11-06",
       "status": "active"
     },
     {
@@ -189,8 +189,8 @@
       "cost_basis_per_share": 371.29,
       "date_added": "2026-09-23",
       "sector": "Healthcare",
-      "thesis": "HOLD: no UNH-specific news dated 11/5 found. Fundamentals API back online: revenue growth essentially flat at -0.4% YoY (immaterial), earnings growth +76.1% YoY. Thesis unchanged from the Q3 beat-and-raise; DOJ/legal situation unescalated. Return +6.6% (down from +10.3% on 11/4, tracking the broad market pullback but still solidly positive). Position ~0.8%.",
-      "last_review": "2026-11-05",
+      "thesis": "HOLD: no UNH-specific news dated 11/6 found; return +6.2% (down slightly from +6.6% on 11/5). Fundamentals API fully down again; last confirmed (11/5) figures stand (revenue growth -0.4% YoY immaterial, earnings growth +76.1% YoY). Thesis unchanged; DOJ/legal situation unescalated. Position ~0.8%.",
+      "last_review": "2026-11-06",
       "status": "active"
     },
     {
@@ -199,8 +199,8 @@
       "cost_basis_per_share": 6.17,
       "date_added": "2026-09-25",
       "sector": "Industrials",
-      "thesis": "HOLD, earnings imminent/unresolved: Q3 2026 results still not confirmed as reported -- Earnings Whispers' Nov 4 AMC date remains an unconfirmed projection with no press release or SEC filing located, while Investing.com's Nov 16 date still stands as the alternative; one day further past the disputed date without resolution. Today's further decline reads as the broad market correction compounding pre-earnings uncertainty, not a new negative signal. Stop-loss flag deepened to -53.2% (from -48.0% on 11/4). Position ~0.2% (token size); will revisit fresh once results are confirmed either way.",
-      "last_review": "2026-11-05",
+      "thesis": "HOLD, earnings still unresolved: Q3 2026 results still not located in any source as of this review -- the disputed Earnings Whispers Nov 4 AMC date remains unconfirmed with no press release or 8-K found, while Investing.com's Nov 16 date still stands as the alternative. Stop-loss flag eased to -43.6% (from -53.2% on 11/5) in today's small-cap bounce. Position ~0.2% (token size); will revisit fresh once results are confirmed either way.",
+      "last_review": "2026-11-06",
       "status": "active"
     },
     {
@@ -209,8 +209,8 @@
       "cost_basis_per_share": 312.39,
       "date_added": "2026-10-01",
       "sector": "Industrials",
-      "thesis": "HOLD: no GE-specific news dated 11/5 found; most recent dated item remains late September. FY26 EPS guide of $8.00-8.10 remains intact as last known. Return +0.8% (down from +5.5% on 11/4, tracking the broad market pullback). Position ~0.5%.",
-      "last_review": "2026-11-05",
+      "thesis": "HOLD: no GE-specific news dated 11/6 found; return +3.5% (up slightly from +0.8% on 11/5). FY26 EPS guide of $8.00-8.10 remains the latest known figure. Position ~0.5%.",
+      "last_review": "2026-11-06",
       "status": "active"
     },
     {
@@ -219,8 +219,8 @@
       "cost_basis_per_share": 346.25,
       "date_added": "2026-10-14",
       "sector": "Technology",
-      "thesis": "HOLD: no AVGO-specific news dated 11/5 found; today's sharp decline is a direct hit from the confirmed, broad AI/chip-sector correction (Nvidia/AMD/Micron-led selloff, Nasdaq into correction territory) rather than an AVGO-specific issue. Fiscal Q4 report still expected ~Dec 9-10 (company-unconfirmed). Return -15.8% (down from -6.0% on 11/4). Position ~1.9%.",
-      "last_review": "2026-11-05",
+      "thesis": "HOLD: no AVGO-specific news dated 11/6 found; return improved to -15.2% (from -15.8% on 11/5) in today's chip-sector bounce. Fiscal Q4 report still expected ~Dec 9-10 (company-unconfirmed). Position ~1.9%.",
+      "last_review": "2026-11-06",
       "status": "active"
     },
     {
@@ -229,8 +229,8 @@
       "cost_basis_per_share": 290.06,
       "date_added": "2026-10-21",
       "sector": "Technology",
-      "thesis": "HOLD: no ALAB-specific news dated 11/5 found (earnings-date confusion unresolved, no results surfaced). Customer-concentration disclosure (top 4 customers ~82% of Q2 revenue) remains stable, not worsening. Today's sharp further decline is a direct hit from the confirmed, broad AI/chip-sector correction as a high-beta AI-interconnect name, not an ALAB-specific issue. Return deepened sharply to -38.1% (from -23.0% on 11/4). Position ~1.0%.",
-      "last_review": "2026-11-05",
+      "thesis": "HOLD: no ALAB-specific news dated 11/6 found; return improved to -34.3% (from -38.1% on 11/5) in today's AI-interconnect-sector bounce. Earnings-date confusion remains unresolved across sources (Nov 3/5/10 all cited, no actual results located for any of them). Customer-concentration disclosure (top 4 customers ~82% of Q2 revenue) remains stable, not worsening. Position ~1.0%.",
+      "last_review": "2026-11-06",
       "status": "active"
     },
     {
@@ -239,8 +239,8 @@
       "cost_basis_per_share": 28.7,
       "date_added": "2026-10-01",
       "sector": "Consumer Cyclical",
-      "thesis": "HOLD: no THRM-specific news dated 11/5 found; no update on the Modine Performance Technologies/Gentherm integration beyond the known Q4 2026 expected-close estimate. Return +3.2% (down from +8.4% on 11/4, tracking the broad market pullback). Position ~0.05% (token size, below the share-count rounding threshold to matter for sizing).",
-      "last_review": "2026-11-05",
+      "thesis": "HOLD: no THRM-specific news dated 11/6 found; no update on the Modine Performance Technologies/Gentherm integration beyond the known Q4 2026 expected-close estimate. Return +2.7% (down slightly from +3.2% on 11/5). Position ~0.05% (token size).",
+      "last_review": "2026-11-06",
       "status": "active"
     }
   ]
