@@ -1,27 +1,48 @@
 {
   "status": "active",
-  "last_updated": "2026-11-13",
+  "last_updated": "2026-11-16",
   "cash": 78.13,
-  "total_value": 3697.3073864117864,
+  "total_value": 3579.2254957027194,
   "holdings": [
+    {
+      "ticker": "DUOL",
+      "shares": 3.0683,
+      "cost_basis_per_share": 127.51,
+      "price": 168.75,
+      "value": 517.775625,
+      "return_pct": 0.32342561367735856,
+      "pct_of_portfolio": 0.14466135917439413,
+      "position_cap_usage_pct": 0.9644090611626276,
+      "near_position_cap": true,
+      "sector": "Technology",
+      "thesis": "HOLD: no DUOL-specific news dated 11/14-11/16 found. A Nov 9 Jefferies Hold rating and new detail that the CFO transition-period arrangement reportedly runs through 11/20/26 are the only fresher items; the underlying Nov 3 Q3 report (DAU +29% YoY to 64.9M, FY26 revenue guide raised to ~$1.2B) remains the confirmed story -- a separate secondary-source figure claiming a GAAP EPS miss ($0.54 vs $0.56 consensus) conflicts with the already-confirmed beat-and-raise and is treated as unreliable pending better confirmation. Return improved further to +32.3% (from +29.6% on 11/13) on no identified fresh catalyst. EARNINGS_DECLINING flag remains the known deliberate Max-tier sunset/AI-reinvestment story. Dearborn Heights securities-fraud lead-plaintiff deadline (12/7/26) remains unresolved. Position ~14.5%, still under the 15% cap (watch -- approaching).",
+      "fundamentals": {
+        "trailingPE": 55.877483,
+        "forwardPE": 21.59848,
+        "revenueGrowth": 0.137,
+        "earningsGrowth": -0.909,
+        "marketCap": 7961331200
+      },
+      "opportunity_tier": true
+    },
     {
       "ticker": "GOOGL",
       "shares": 1.7771,
       "cost_basis_per_share": 337.63,
-      "price": 295.7699890136719,
-      "value": 525.6128474761963,
-      "return_pct": -0.12398190618821824,
-      "pct_of_portfolio": 0.14216098163974952,
-      "position_cap_usage_pct": 0.9477398775983302,
+      "price": 283.7200012207031,
+      "value": 504.1988141693115,
+      "return_pct": -0.15967182649437808,
+      "pct_of_portfolio": 0.1408681332804154,
+      "position_cap_usage_pct": 0.9391208885361026,
       "near_position_cap": true,
       "sector": "Communication Services",
-      "thesis": "HOLD: no new GOOGL-specific news found dated 11/12-11/13. Return eased to -12.4% (from -11.5% on 11/12) on broad-market/sector moves. EARNINGS_DECLINING flag remains the known, already-priced capex/equity-markdown story (Q3: revenue +25% YoY, Cloud +103% YoY) rather than new deterioration. Kaplan Fox securities class-action lead-plaintiff deadline (12/1/26) remains unresolved. Position ~14.2%, approaching but not past the 15% cap.",
+      "thesis": "HOLD: no new GOOGL-specific news found dated 11/14-11/16. Return eased to -16.0% (from -12.4% on 11/13) on broad-market/sector moves, no identified company-specific catalyst. EARNINGS_DECLINING flag remains the known, already-priced capex/equity-markdown story (Q3: revenue +25% YoY, Cloud +103% YoY). Kaplan Fox securities class-action lead-plaintiff deadline (12/1/26) remains unresolved -- confirmed tied to the Stewart v. Alphabet suit (Gemini 3.5 Pro development-progress allegations, class period 5/19-7/16/26, stock fell 4.4% on 7/16/26 on the underlying news); no new development this week. Position ~14.1%, approaching but not past the 15% cap.",
       "fundamentals": {
-        "trailingPE": 15.444908,
-        "forwardPE": 19.162155,
+        "trailingPE": 14.815666,
+        "forwardPE": 18.689484,
         "revenueGrowth": 0.247,
         "earningsGrowth": -0.253,
-        "marketCap": 3636196016128
+        "marketCap": 3488053460992
       },
       "opportunity_tier": false
     },
@@ -29,62 +50,41 @@
       "ticker": "AMZN",
       "shares": 1.9219,
       "cost_basis_per_share": 260.16,
-      "price": 266.6600036621094,
-      "value": 512.493861038208,
-      "return_pct": 0.024984638922622038,
-      "pct_of_portfolio": 0.13861272744638636,
-      "position_cap_usage_pct": 0.9240848496425758,
+      "price": 257.75,
+      "value": 495.36972499999996,
+      "return_pct": -0.009263530135301448,
+      "pct_of_portfolio": 0.1384013735917867,
+      "position_cap_usage_pct": 0.9226758239452447,
       "near_position_cap": true,
       "sector": "Consumer Cyclical",
-      "thesis": "HOLD: no new AMZN-specific news found dated 11/12-11/13. Return eased slightly to +2.5% (from +2.8% on 11/12), tracking the broader market. Thesis unchanged from the 10/29 Q3 report (AWS +39% YoY, trailing FCF -$42.4B on the $220B 2026 capex guide). Position ~13.9%, approaching but not past the 15% cap.",
+      "thesis": "HOLD: no new AMZN-specific news found dated 11/14-11/16. Return eased to -0.9% (from +2.5% on 11/13), tracking the broader market. Thesis unchanged from the 10/29 Q3 report (AWS +39% YoY, trailing FCF -$42.4B on the $220B 2026 capex guide). Position ~13.8%, approaching but not past the 15% cap.",
       "fundamentals": {
-        "trailingPE": 21.556993,
-        "forwardPE": 24.421114,
+        "trailingPE": 20.836702,
+        "forwardPE": 23.590345,
         "revenueGrowth": 0.121,
         "earningsGrowth": -0.031,
-        "marketCap": 2883431432192
+        "marketCap": 2787086172160
       },
       "opportunity_tier": false
-    },
-    {
-      "ticker": "DUOL",
-      "shares": 3.0683,
-      "cost_basis_per_share": 127.51,
-      "price": 165.30999755859375,
-      "value": 507.22066550903315,
-      "return_pct": 0.29644731831694565,
-      "pct_of_portfolio": 0.13718650155330678,
-      "position_cap_usage_pct": 0.9145766770220453,
-      "near_position_cap": true,
-      "sector": "Technology",
-      "thesis": "HOLD: no new DUOL-specific news found dated 11/12-11/13 beyond the already-known Nov 3 Q3 beat-and-raise (DAU +29% YoY to 64.9M, FY26 revenue guide raised to ~$1.2B) and Feb 2026 CFO transition. Return improved further to +29.6% (from +23.5% on 11/12) on no identified fresh catalyst -- broad-market strength. EARNINGS_DECLINING flag remains the known deliberate Max-tier sunset/AI-reinvestment story. Dearborn Heights securities-fraud lead-plaintiff deadline (12/7/26) remains unresolved. Position ~13.7%, still under the 15% cap.",
-      "fundamentals": {
-        "trailingPE": 54.73841,
-        "forwardPE": 21.15819,
-        "revenueGrowth": 0.137,
-        "earningsGrowth": -0.909,
-        "marketCap": 7799037952
-      },
-      "opportunity_tier": true
     },
     {
       "ticker": "XOM",
       "shares": 2.7512,
       "cost_basis_per_share": 159.93,
-      "price": 170.58999633789062,
-      "value": 469.3271979248047,
-      "return_pct": 0.06665413829732143,
-      "pct_of_portfolio": 0.12693756533461606,
-      "position_cap_usage_pct": 0.8462504355641071,
-      "near_position_cap": false,
+      "price": 166.8699951171875,
+      "value": 459.0927305664062,
+      "return_pct": 0.04339395433744446,
+      "pct_of_portfolio": 0.1282659422038653,
+      "position_cap_usage_pct": 0.855106281359102,
+      "near_position_cap": true,
       "sector": "Energy",
-      "thesis": "HOLD: no new XOM-specific news found dated 11/12-11/13; thesis unchanged from the 10/30 Q3 beat (adj EPS $4.23, refining-margin tailwind, $20B buyback confirmed into 2027). Return improved to +6.7% (from +6.2% on 11/12). Position ~12.7%.",
+      "thesis": "HOLD: no new XOM-specific news found dated 11/14-11/16; thesis unchanged from the 10/30 Q3 beat (adj EPS $4.23, refining-margin tailwind, $20B buyback confirmed into 2027). Return improved to +4.3% (from +6.7% on 11/13). Position ~12.8%.",
       "fundamentals": {
-        "trailingPE": 17.550411,
-        "forwardPE": 13.590759,
+        "trailingPE": 17.167694,
+        "forwardPE": 13.198995,
         "revenueGrowth": 0.326,
         "earningsGrowth": 1.114,
-        "marketCap": 695874551808
+        "marketCap": 680699822080
       },
       "opportunity_tier": false
     },
@@ -92,20 +92,20 @@
       "ticker": "VRT",
       "shares": 1.3468,
       "cost_basis_per_share": 323.17,
-      "price": 202.07000732421875,
-      "value": 272.14788586425783,
-      "return_pct": -0.3747253540730305,
-      "pct_of_portfolio": 0.07360704897419298,
-      "position_cap_usage_pct": 0.49071365982795323,
+      "price": 188.6699981689453,
+      "value": 254.10075353393555,
+      "return_pct": -0.4161896272273252,
+      "pct_of_portfolio": 0.07099322293021587,
+      "position_cap_usage_pct": 0.4732881528681058,
       "near_position_cap": false,
       "sector": "Industrials",
-      "thesis": "HOLD: no new VRT-specific news found dated 11/12-11/13 (still no coverage of what was said at the 11/10 Baird Global Industrial Conference fireside chat). Stop-loss deepened to -37.5% (from -35.1% on 11/12) on no identified company-specific catalyst -- read as continued data-center-capex-fear sector beta. Analyst sentiment stays strongly bullish (consensus avg PT ~$335 vs. current ~$196). Fundamentals last confirmed: revenue growth +61.2% YoY, earnings growth +91.2% YoY. Position ~7.4%.",
+      "thesis": "HOLD, still past stop-loss: no VRT-specific news found dated 11/14-11/16. Stop-loss deepened to -41.6% (from -37.5% on 11/13), consistent with the 11/5 14.3%-single-day-drop midterm-sweep/AI-capex-delay fear story continuing to weigh on the stock -- GLJ Research holds a standing 'Sell' rating ($187 PT, cut from $188 in early November, exact date unconfirmed) versus Bank of America's standing 50%+-upside bull case; this is a pre-existing split in analyst opinion, not a new catalyst. Fundamentals last confirmed: revenue growth +61.2% YoY, earnings growth +91.2% YoY. Position ~7.1%.",
       "fundamentals": {
-        "trailingPE": 37.770096,
-        "forwardPE": 20.37261,
+        "trailingPE": 35.26542,
+        "forwardPE": 19.10801,
         "revenueGrowth": 0.612,
         "earningsGrowth": 0.912,
-        "marketCap": 77809164288
+        "marketCap": 72649351168
       },
       "opportunity_tier": false
     },
@@ -113,20 +113,20 @@
       "ticker": "AFRM",
       "shares": 3.2885,
       "cost_basis_per_share": 69.94,
-      "price": 65.11000061035156,
-      "value": 214.1142370071411,
-      "return_pct": -0.0690591848677214,
-      "pct_of_portfolio": 0.05791085636916373,
-      "position_cap_usage_pct": 0.3860723757944249,
+      "price": 62.709999084472656,
+      "value": 206.22183198928832,
+      "return_pct": -0.10337433393662199,
+      "pct_of_portfolio": 0.057616328514892914,
+      "position_cap_usage_pct": 0.3841088567659528,
       "near_position_cap": false,
       "sector": "Financial Services",
-      "thesis": "HOLD: no new AFRM-specific news found dated 11/12-11/13. Return eased to -6.9% (from -5.9% on 11/12), tracking broad-market noise rather than any company-specific catalyst. Thesis unchanged since the confirmed 11/5 fiscal Q1 2027 beat (revenue $1.26B beat, GMV +34% YoY, raised fiscal Q2 revenue guide). Funding-cost watch item (rates expected to stay elevated into FY27) remains unchanged. Position ~5.8%.",
+      "thesis": "HOLD: no new AFRM-specific news found dated 11/14-11/16. Return improved to -10.3% (from -6.9% on 11/13; move direction reads as broad-market noise, not a company-specific catalyst). Thesis unchanged since the confirmed 11/5 fiscal Q1 2027 beat (revenue $1.26B beat, GMV +34% YoY, raised fiscal Q2 revenue guide). Funding-cost watch item (rates expected to stay elevated into FY27) remains unchanged. Position ~5.8%.",
       "fundamentals": {
-        "trailingPE": 11.284229,
-        "forwardPE": 12.961573,
+        "trailingPE": 10.868284,
+        "forwardPE": 12.383614,
         "revenueGrowth": 0.352,
         "earningsGrowth": 1.014,
-        "marketCap": 22073198592
+        "marketCap": 21259565056
       },
       "opportunity_tier": false
     },
@@ -134,20 +134,20 @@
       "ticker": "LLY",
       "shares": 0.1379,
       "cost_basis_per_share": 1160.0,
-      "price": 1443.5,
-      "value": 199.05865,
-      "return_pct": 0.24439655172413793,
-      "pct_of_portfolio": 0.053838815439466385,
-      "position_cap_usage_pct": 0.35892543626310924,
+      "price": 1431.6700439453125,
+      "value": 197.42729906005857,
+      "return_pct": 0.23419831374595906,
+      "pct_of_portfolio": 0.055159223496003044,
+      "position_cap_usage_pct": 0.3677281566400203,
       "near_position_cap": false,
       "sector": "Healthcare",
-      "thesis": "HOLD: no new LLY-specific news found dated 11/12-11/13; thesis unchanged from the 10/29 Q3 GLP-1 beat (Mounjaro +64.6%, Zepbound +49.2% YoY) and the known $4.5B Indiana manufacturing-investment commitment. Return improved to +24.4% (from +23.0% on 11/12). Position ~5.4%.",
+      "thesis": "HOLD: no new LLY-specific news found dated 11/14-11/16; thesis unchanged from the 10/29 Q3 GLP-1 beat (Mounjaro +64.6%, Zepbound +49.2% YoY) and the known $4.5B Indiana manufacturing-investment commitment. Return eased to +23.4% (from +24.4% on 11/13). Position ~5.5%.",
       "fundamentals": {
-        "trailingPE": 46.851673,
-        "forwardPE": 28.504753,
+        "trailingPE": 46.46771,
+        "forwardPE": 28.184029,
         "revenueGrowth": 0.386,
         "earningsGrowth": 0.163,
-        "marketCap": 1285790498816
+        "marketCap": 1275252965376
       },
       "opportunity_tier": false
     },
@@ -155,20 +155,20 @@
       "ticker": "CRDO",
       "shares": 1.2968,
       "cost_basis_per_share": 270.52,
-      "price": 131.50999450683594,
-      "value": 170.54216087646483,
-      "return_pct": -0.5138622116411505,
-      "pct_of_portfolio": 0.04612604337503432,
-      "position_cap_usage_pct": 0.30750695583356213,
+      "price": 120.70999908447266,
+      "value": 156.53672681274415,
+      "return_pct": -0.5537853057649244,
+      "pct_of_portfolio": 0.04373480435940258,
+      "position_cap_usage_pct": 0.2915653623960172,
       "near_position_cap": false,
       "sector": "Technology",
-      "thesis": "HOLD: no new CRDO-specific news found dated 11/12-11/13 (most recent dated items remain the known DustPhotonics acquisition close and the Aug-quarter Q1 FY2027 report; some commentary cites post-midterm AI-datacenter-capex-slowdown fears as a sector overhang). Stop-loss deepened to -51.4% (from -48.3% on 11/12) -- continued chip-sector-wide beta, not a company-specific deterioration. Fundamentals unchanged: revenue growth +114.7% YoY, earnings growth +97.1% YoY. Position ~4.6%.",
+      "thesis": "HOLD, still past stop-loss: no CRDO-specific news found dated 11/14-11/16 (searches returned nothing in this window). Stop-loss deepened to -55.4% (from -51.4% on 11/13) -- consistent with the standing chip-sector-wide AI-datacenter-capex-slowdown fear sweep (a ~14% weekly drop through 11/10 across the sector) rather than a new company-specific issue. The 11/4 Oracle/Credo OCP optical-telemetry contribution remains a minor positive, not price-moving. Fundamentals unchanged: revenue growth +114.7% YoY, earnings growth +97.1% YoY. Position ~4.4%.",
       "fundamentals": {
-        "trailingPE": 46.63475,
-        "forwardPE": 13.540799,
+        "trailingPE": 42.804966,
+        "forwardPE": 12.428788,
         "revenueGrowth": 1.147,
         "earningsGrowth": 0.971,
-        "marketCap": 24717555712
+        "marketCap": 22687676416
       },
       "opportunity_tier": false
     },
@@ -176,20 +176,20 @@
       "ticker": "DDOG",
       "shares": 0.7148,
       "cost_basis_per_share": 223.84,
-      "price": 184.16000366210938,
-      "value": 131.63757061767578,
-      "return_pct": -0.17726946183832482,
-      "pct_of_portfolio": 0.03560363174061901,
-      "position_cap_usage_pct": 0.23735754493746006,
+      "price": 172.86000061035156,
+      "value": 123.56032843627929,
+      "return_pct": -0.227751962963047,
+      "pct_of_portfolio": 0.03452152667794415,
+      "position_cap_usage_pct": 0.23014351118629434,
       "near_position_cap": false,
       "sector": "Technology",
-      "thesis": "HOLD: no new DDOG-specific news found dated 11/12-11/13, beyond the already-known 11/4 Q3 beat-and-raise-but-weak-Q4-guidance story. Return essentially flat at -17.7% (from -17.6% on 11/12). Position ~3.6%.",
+      "thesis": "HOLD: no new DDOG-specific news found dated 11/14-11/16, beyond the already-known 11/4 Q3 beat-and-raise-but-weak-Q4-guidance story. Return worsened to -22.8% (from -17.7% on 11/13) on no identified fresh catalyst -- broad-market/sector noise. Position ~3.5%.",
       "fundamentals": {
-        "trailingPE": 255.77777,
-        "forwardPE": 57.859188,
+        "trailingPE": 240.08333,
+        "forwardPE": 54.308964,
         "revenueGrowth": 0.352,
         "earningsGrowth": 2.316,
-        "marketCap": 66489597952
+        "marketCap": 62409818112
       },
       "opportunity_tier": false
     },
@@ -197,20 +197,20 @@
       "ticker": "SOFI",
       "shares": 7.0381,
       "cost_basis_per_share": 17.05,
-      "price": 15.420000076293945,
-      "value": 108.52750253696442,
-      "return_pct": -0.0956011685458097,
-      "pct_of_portfolio": 0.029353118687350927,
-      "position_cap_usage_pct": 0.19568745791567285,
+      "price": 14.850000381469727,
+      "value": 104.51578768482209,
+      "return_pct": -0.12903223569092517,
+      "pct_of_portfolio": 0.029200671433053202,
+      "position_cap_usage_pct": 0.19467114288702136,
       "near_position_cap": false,
       "sector": "Financial Services",
-      "thesis": "HOLD: no new SOFI-specific news found dated 11/12-11/13; thesis unchanged from the 10/27 Q3 beat-and-raise (adj. net revenue +44%, FY26 guide raised to $5.04B). Muddy Waters short-seller situation remains unresolved/unescalated. Return eased to -9.6% (from -8.3% on 11/12) on no identified company-specific catalyst -- broad-market noise. Position ~2.9%.",
+      "thesis": "HOLD: no new SOFI-specific news found dated 11/14-11/16; thesis unchanged from the 10/27 Q3 beat-and-raise (adj. net revenue +44%, FY26 guide raised to $5.04B). Muddy Waters short-seller situation remains unresolved/unescalated. Return eased to -12.9% (from -9.6% on 11/13) on no identified company-specific catalyst -- broad-market noise. Position ~2.9%.",
       "fundamentals": {
-        "trailingPE": 28.036364,
-        "forwardPE": 17.140762,
+        "trailingPE": 27.0,
+        "forwardPE": 16.507154,
         "revenueGrowth": 0.439,
         "earningsGrowth": 0.644,
-        "marketCap": 20012699648
+        "marketCap": 19272929280
       },
       "opportunity_tier": false
     },
@@ -218,20 +218,20 @@
       "ticker": "CAT",
       "shares": 0.154,
       "cost_basis_per_share": 779.16,
-      "price": 600.2000122070312,
-      "value": 92.43080187988281,
-      "return_pct": -0.22968323295981408,
-      "pct_of_portfolio": 0.024999490769845437,
-      "position_cap_usage_pct": 0.1666632717989696,
+      "price": 570.489990234375,
+      "value": 87.85545849609375,
+      "return_pct": -0.26781406869657703,
+      "pct_of_portfolio": 0.02454594118240791,
+      "position_cap_usage_pct": 0.16363960788271942,
       "near_position_cap": false,
       "sector": "Industrials",
-      "thesis": "HOLD: no new CAT-specific news dated 11/12-11/13. Return essentially flat at -23.0% (from -22.3% on 11/12), still above the -25% stop-loss threshold. Thesis unchanged from the confirmed 10/31 Fabick Cat acquisition close. Position ~2.5%.",
+      "thesis": "HOLD, newly past stop-loss: no new CAT-specific news dated 11/14-11/16. Return worsened to -26.8% (from -23.0% on 11/13), now past the -25% stop-loss threshold. Most relevant recent item: Evercore ISI cut its PT to $833 from $1,045 on 11/10 (kept Outperform) citing Q4 guidance to only moderate sales growth as dealers trim ~$1.6B of inventory; Freedom Capital similarly cut to $800 from $980 (11/2, kept Buy) -- both pre-window, no new catalyst found in 11/14-16 itself, both firms kept bullish ratings despite the cuts. Thesis unchanged from the confirmed 10/31 Fabick Cat acquisition close. Position ~2.5%.",
       "fundamentals": {
-        "trailingPE": 23.55573,
-        "forwardPE": 18.652845,
+        "trailingPE": 22.389717,
+        "forwardPE": 17.729525,
         "revenueGrowth": 0.173,
         "earningsGrowth": 0.461,
-        "marketCap": 274648023040
+        "marketCap": 261052891136
       },
       "opportunity_tier": false
     },
@@ -239,20 +239,20 @@
       "ticker": "AVGO",
       "shares": 0.2253,
       "cost_basis_per_share": 346.25,
-      "price": 347.010009765625,
-      "value": 78.18135520019531,
-      "return_pct": 0.0021949740523465704,
-      "pct_of_portfolio": 0.021145484275266014,
-      "position_cap_usage_pct": 0.1409698951684401,
+      "price": 333.3999938964844,
+      "value": 75.11501862487793,
+      "return_pct": -0.03711193098488267,
+      "pct_of_portfolio": 0.020986389014903458,
+      "position_cap_usage_pct": 0.1399092600993564,
       "near_position_cap": false,
       "sector": "Technology",
-      "thesis": "HOLD: no new AVGO-specific news found dated 11/12-11/13; fiscal Q4 report still expected ~Dec 9-10 (company-unconfirmed). Return eased to +0.2% (from +5.2% on 11/12) on no identified company-specific catalyst -- broad market pullback. Position ~2.1%.",
+      "thesis": "HOLD: no new AVGO-specific news found dated 11/14-11/16; most recent dated item remains the 5/5/26 VMware Cloud Foundation 9.1 announcement. Fiscal Q4 report still expected ~Dec 9-10 (company-unconfirmed). Return worsened to -3.7% (from +0.2% on 11/13) on no identified company-specific catalyst -- broad market pullback. Position ~2.1%.",
       "fundamentals": {
-        "trailingPE": 44.31801,
-        "forwardPE": 17.874224,
+        "trailingPE": 42.579823,
+        "forwardPE": 17.17314,
         "revenueGrowth": 0.855,
         "earningsGrowth": 2.153,
-        "marketCap": 1656497373184
+        "marketCap": 1591528259584
       },
       "opportunity_tier": false
     },
@@ -260,20 +260,20 @@
       "ticker": "UPST",
       "shares": 2.7037,
       "cost_basis_per_share": 25.89,
-      "price": 19.559999465942383,
-      "value": 52.88437055606842,
-      "return_pct": -0.24449596500801923,
-      "pct_of_portfolio": 0.014303482245059524,
-      "position_cap_usage_pct": 0.09535654830039683,
+      "price": 19.09000015258789,
+      "value": 51.61363341255188,
+      "return_pct": -0.2626496657942105,
+      "pct_of_portfolio": 0.014420335761052247,
+      "position_cap_usage_pct": 0.09613557174034831,
       "near_position_cap": false,
       "sector": "Financial Services",
-      "thesis": "HOLD: no new UPST-specific news dated 11/12-11/13 beyond the already-confirmed 11/3 Q3 FY26 beat and the cautious ~$1.35B FY26 revenue-outlook watch item flagged previously. Return eased slightly to -24.5% (from -26.0% on 11/12), back above the -25% stop-loss threshold on no identified fresh catalyst -- sector/macro beta easing. Position ~1.4%.",
+      "thesis": "HOLD, past stop-loss: no new UPST-specific news dated 11/14-11/16. Return deepened to -26.3% (from -24.5% on 11/13), back past the -25% stop-loss threshold. Thesis unchanged from the known early-Nov guidance cut (2026 outlook lowered to ~$1.35B revenue/$260M adj. EBITDA from $1.4B/$294M on balance-sheet loan losses exceeding expectations) -- B. Riley (PT $42 from $54, kept Buy) and BTIG (PT $40 from $43, kept Buy) both cut targets on 11/3 but kept bullish ratings implying large upside from the current ~$19.09 price. Next catalyst flagged as early-December origination/delinquency data. Position ~1.4%.",
       "fundamentals": {
-        "trailingPE": 32.06557,
-        "forwardPE": 6.71588,
+        "trailingPE": 31.295082,
+        "forwardPE": 6.4931974,
         "revenueGrowth": 0.341,
         "earningsGrowth": 0.442,
-        "marketCap": 1934653312
+        "marketCap": 1888166272
       },
       "opportunity_tier": true
     },
@@ -281,20 +281,20 @@
       "ticker": "AVAV",
       "shares": 0.4403,
       "cost_basis_per_share": 140.8,
-      "price": 117.5199966430664,
-      "value": 51.74405452194214,
-      "return_pct": -0.16534093293276708,
-      "pct_of_portfolio": 0.013995064276264955,
-      "position_cap_usage_pct": 0.09330042850843304,
+      "price": 109.5,
+      "value": 48.21285,
+      "return_pct": -0.22230113636363644,
+      "pct_of_portfolio": 0.013470190704074162,
+      "position_cap_usage_pct": 0.08980127136049441,
       "near_position_cap": false,
       "sector": "Industrials",
-      "thesis": "HOLD, still above stop-loss: no new AVAV-specific news dated 11/12-11/13 beyond the already-known ~$315M contract award (announced 11/9). Return eased to -16.5% (from -14.2% on 11/12), still comfortably above the -25% stop-loss threshold. Record Q1 FY2027 revenue/backlog and FY2030 Investor Day targets remain the core support; Norrell v. AeroVironment securities suit remains unescalated. Position ~1.4%.",
+      "thesis": "HOLD, still above stop-loss: no new AVAV-specific negative news dated 11/14-11/16. One missed-at-the-time positive item surfaces: a $405M international order for LOCUST X3 laser weapon systems was announced 11/11 (not previously logged) -- incrementally positive, confirms continued order momentum alongside the already-known ~$315M contract (11/9). Return worsened to -22.2% (from -16.5% on 11/13) on no identified negative catalyst -- broad sector/macro beta. Record Q1 FY2027 revenue/backlog and FY2030 Investor Day targets remain the core support; Norrell v. AeroVironment securities suit remains unescalated. Position ~1.4%.",
       "fundamentals": {
         "trailingPE": null,
-        "forwardPE": 26.659225,
+        "forwardPE": 24.839903,
         "revenueGrowth": 0.057,
         "earningsGrowth": null,
-        "marketCap": 5972448768
+        "marketCap": 5564867072
       },
       "opportunity_tier": true
     },
@@ -302,20 +302,20 @@
       "ticker": "RKLB",
       "shares": 0.7362,
       "cost_basis_per_share": 69.89,
-      "price": 61.529998779296875,
-      "value": 45.29838510131836,
-      "return_pct": -0.1196165577436418,
-      "pct_of_portfolio": 0.012251722772036046,
-      "position_cap_usage_pct": 0.08167815181357364,
+      "price": 57.369998931884766,
+      "value": 42.235793213653565,
+      "return_pct": -0.17913866172721754,
+      "pct_of_portfolio": 0.011800260493328123,
+      "position_cap_usage_pct": 0.07866840328885416,
       "near_position_cap": false,
       "sector": "Industrials",
-      "thesis": "HOLD: no new RKLB-specific news found dated 11/12-11/13, beyond the already-known 11/9 Q3 report details (record revenue $268M +73% YoY, record backlog $3.57B) and the previously-noted Neutron launch slip to 2027. Return eased to -12.0% (from -8.3% on 11/12), still well above the -25% stop-loss threshold. Position ~1.2% (token size).",
+      "thesis": "HOLD: no new RKLB-specific news found dated 11/14-11/16, beyond the already-known 11/9 Q3 report details (record revenue $268M +73% YoY, record backlog $3.57B) and the previously-noted Neutron launch slip to 2027. Return worsened to -17.9% (from -12.0% on 11/13), still well above the -25% stop-loss threshold. Position ~1.2% (token size).",
       "fundamentals": {
         "trailingPE": null,
-        "forwardPE": 859.59766,
+        "forwardPE": 801.48083,
         "revenueGrowth": 0.727,
         "earningsGrowth": null,
-        "marketCap": 41407975424
+        "marketCap": 38608412672
       },
       "opportunity_tier": false
     },
@@ -323,20 +323,20 @@
       "ticker": "ALAB",
       "shares": 0.1867,
       "cost_basis_per_share": 290.06,
-      "price": 221.8300018310547,
-      "value": 41.41566134185791,
-      "return_pct": -0.2352271880609023,
-      "pct_of_portfolio": 0.011201573743656611,
-      "position_cap_usage_pct": 0.07467715829104409,
+      "price": 202.33999633789062,
+      "value": 37.77687731628418,
+      "return_pct": -0.30242020155178023,
+      "pct_of_portfolio": 0.010554483745614731,
+      "position_cap_usage_pct": 0.07036322497076487,
       "near_position_cap": false,
       "sector": "Technology",
-      "thesis": "HOLD, strong beat confirmed, disconnect persists: no new ALAB-specific news found dated 11/12-11/13. Return deepened to -23.5% (from -21.5% on 11/12), still above the -25% stop-loss threshold. The confirmed 11/3 Q3 beat (revenue $584.9M +154% YoY, Q4 guide $730-750M vs ~$656M consensus) and stable, already-disclosed customer-concentration profile continue to support the thesis. Position ~1.1%.",
+      "thesis": "HOLD, strong beat confirmed, disconnect persists: no new ALAB-specific news found dated 11/14-11/16. The confirmed 11/3 Q3 beat (record $584.9M revenue +154% YoY, Q4 guide $730-750M vs ~$656M consensus) was followed by a ~26% five-session slide (10/30-11/6, $259->$191) that sources attribute to the same midterm-driven sector selloff hitting chip/AI names broadly, with ALAB falling further than its peer set specifically -- still read as sector beta, not a company-specific deterioration, given no customer-concentration or guidance news. A routine 11/10 investor-conference participation announcement is not a catalyst. Return deepened to -30.2% (from -23.5% on 11/13), newly past the -25% stop-loss threshold. Next real catalyst: Q4 2026 earnings, expected February 2027. Position ~1.1%.",
       "fundamentals": {
-        "trailingPE": 87.67984,
-        "forwardPE": 31.01676,
+        "trailingPE": 79.97629,
+        "forwardPE": 28.291624,
         "revenueGrowth": 1.537,
         "earningsGrowth": 0.98,
-        "marketCap": 38771908608
+        "marketCap": 35365404672
       },
       "opportunity_tier": false
     },
@@ -344,20 +344,20 @@
       "ticker": "INOD",
       "shares": 1.0195,
       "cost_basis_per_share": 79.32,
-      "price": 35.459999084472656,
-      "value": 36.151469066619875,
-      "return_pct": -0.5529500871851657,
-      "pct_of_portfolio": 0.009777782934543792,
-      "position_cap_usage_pct": 0.06518521956362529,
+      "price": 32.59000015258789,
+      "value": 33.225505155563354,
+      "return_pct": -0.5891326254086247,
+      "pct_of_portfolio": 0.009282875637607766,
+      "position_cap_usage_pct": 0.06188583758405178,
       "near_position_cap": false,
       "sector": "Technology",
-      "thesis": "HOLD: no new INOD-specific news dated 11/12-11/13 beyond the already-confirmed 11/5 Q3 beat (revenue +53% YoY to $95.6M, net income +24% to $10.3M, FY26 guidance raised to 42%+) and previously-reported India/Philippines layoff coverage. Stop-loss deepened to -55.3% (from -54.3% on 11/12), consistent with the continued AI-margin-scrutiny narrative -- the known fundamentals/price disconnect persists, no fresh negative catalyst found today specifically. Position ~1.0% (token size).",
+      "thesis": "HOLD, still past stop-loss: no INOD-specific news found at all dated 11/14-11/16 (search returned nothing in this window); most recent dated items remain stale (9/23 price snapshot, 9/30 motion-capture lab release). Stop-loss deepened to -58.9% (from -55.3% on 11/13) on no identified fresh catalyst -- continued AI-margin-scrutiny sector beta, the known fundamentals/price disconnect persists (confirmed 11/5 Q3 beat: revenue +53% YoY, FY26 guidance raised to 42%+). Position ~0.9% (token size).",
       "fundamentals": {
-        "trailingPE": 25.695652,
-        "forwardPE": 18.804987,
+        "trailingPE": 23.615942,
+        "forwardPE": 17.282982,
         "revenueGrowth": 0.529,
         "earningsGrowth": 0.208,
-        "marketCap": 1219208832
+        "marketCap": 1120530688
       },
       "opportunity_tier": true
     },
@@ -365,20 +365,20 @@
       "ticker": "UNH",
       "shares": 0.0718,
       "cost_basis_per_share": 371.29,
-      "price": 407.4599914550781,
-      "value": 29.25562738647461,
-      "return_pct": 0.09741709029351209,
-      "pct_of_portfolio": 0.00791268464558664,
-      "position_cap_usage_pct": 0.0527512309705776,
+      "price": 412.0199890136719,
+      "value": 29.58303521118164,
+      "return_pct": 0.10969858874106993,
+      "pct_of_portfolio": 0.008265205767756054,
+      "position_cap_usage_pct": 0.05510137178504036,
       "near_position_cap": false,
       "sector": "Healthcare",
-      "thesis": "HOLD: no new UNH-specific negative news found dated 11/12-11/13. The NEGATIVE_REVENUE_GROWTH flag (-0.4% YoY) remains rounding/data noise against the Q3 beat-and-raise (net income $4.11B/$4.56 EPS vs $2.59 YoY) and new CFO Wayne DeVeydt's three-year turnaround plan (presented at the UBS Global Healthcare Conference, buybacks to resume H2'26). DOJ/legal situation unescalated. Return improved to +9.7% (from +9.1% on 11/12). Position ~0.8%.",
+      "thesis": "HOLD: no new UNH-specific news found dated 11/14-11/16 -- search results skewed to stale 2025-dated items (CFO DeVeydt's Sept 2025 start, Nov 2025 UBS remarks), so this reflects a search-coverage gap rather than a confirmed quiet period; treating current watch items (NEGATIVE_REVENUE_GROWTH -0.4% YoY rounding noise against the Q3 beat-and-raise; DOJ/legal situation; CFO turnaround plan) as unchanged pending better confirmation next run. Return improved to +11.0% (from +9.7% on 11/13). Position ~0.8%.",
       "fundamentals": {
-        "trailingPE": 23.256847,
-        "forwardPE": 17.464527,
+        "trailingPE": 23.517122,
+        "forwardPE": 17.659977,
         "revenueGrowth": -0.004,
         "earningsGrowth": 0.761,
-        "marketCap": 365093355520
+        "marketCap": 369179230208
       },
       "opportunity_tier": false
     },
@@ -386,20 +386,20 @@
       "ticker": "ONDS",
       "shares": 4.1949,
       "cost_basis_per_share": 7.39,
-      "price": 5.159999847412109,
-      "value": 21.645683359909057,
-      "return_pct": -0.3017591546127051,
-      "pct_of_portfolio": 0.005854445167166925,
-      "position_cap_usage_pct": 0.0390296344477795,
+      "price": 4.710000038146973,
+      "value": 19.757979160022735,
+      "return_pct": -0.3626522275849834,
+      "pct_of_portfolio": 0.005520182839484271,
+      "position_cap_usage_pct": 0.036801218929895144,
       "near_position_cap": false,
       "sector": "Technology",
-      "thesis": "HOLD, Q3 earnings now confirmed -- beat-and-raise but margin/cash-burn concerns: Ondas' 11/12 Q3 2026 results are now confirmed: record revenue $167.5M (16x YoY, beat the ~$148M estimate), GAAP EPS -$0.10 (beat the -$0.14 estimate), backlog $835M (+36% QoQ), FY26 revenue guidance raised to $550M+ with a new 2027 target of $1.1B+. However, net loss widened sharply to $64.7M (from $7.5M a year ago), adjusted EBITDA loss widened to $59.7M, and gross margin declined to 34.8% -- shares fell specifically on these margin/cash-burn concerns despite the top-line beat. Return worsened to -30.2% (from -28.0% on 11/12), deepening past the -25% stop-loss threshold with a genuine, if not thesis-breaking, company-specific cause now identified. Holding given the still-strong growth/backlog/guidance trajectory, but margin/cash-burn path is now a real watch item rather than an unconfirmed pending one. Position ~0.6% (token size).",
+      "thesis": "HOLD, beat-and-raise with margin/cash-burn watch item standing: no new ONDS-specific news dated 11/14-11/16 beyond the already-confirmed 11/12 Q3 results (record revenue $167.5M, FY26 guidance raised to $550M+, but net loss widened to $64.7M and gross margin fell to 34.8%). A 'Digital Bat' tactical-drone purchase order was reported 11/10 (pre-window, incrementally positive, no dollar value disclosed). Return eased to -36.3% (from -30.2% on 11/13). Holding given the still-strong growth/backlog/guidance trajectory; margin/cash-burn path remains a real watch item. Position ~0.6% (token size).",
       "fundamentals": {
         "trailingPE": null,
-        "forwardPE": -33.29032,
+        "forwardPE": -30.387096,
         "revenueGrowth": 15.586,
         "earningsGrowth": null,
-        "marketCap": 3004681984
+        "marketCap": 2785693952
       },
       "opportunity_tier": true
     },
@@ -407,20 +407,20 @@
       "ticker": "GE",
       "shares": 0.0597,
       "cost_basis_per_share": 312.39,
-      "price": 331.80999755859375,
-      "value": 19.80905685424805,
-      "return_pct": 0.06216587457535057,
-      "pct_of_portfolio": 0.005357698125681839,
-      "position_cap_usage_pct": 0.0357179875045456,
+      "price": 325.17999267578125,
+      "value": 19.41324556274414,
+      "return_pct": 0.04094238828317572,
+      "pct_of_portfolio": 0.005423867701560581,
+      "position_cap_usage_pct": 0.036159118010403876,
       "near_position_cap": false,
       "sector": "Industrials",
-      "thesis": "HOLD: no new GE-specific news found dated 11/12-11/13; most recent dated item remains late September. FY26 EPS guide of $8.00-8.10 remains intact as last known. Return improved to +6.2% (from +5.9% on 11/12). Position ~0.5%.",
+      "thesis": "HOLD: no new GE-specific news found dated 11/14-11/16; most recent dated item remains the 7/28/26 Farnborough Turkish Technic MRO deal. FY26 EPS guide of $8.00-8.10 remains intact as last known. Return improved to +4.1% (from +6.2% on 11/13). Position ~0.5%.",
       "fundamentals": {
-        "trailingPE": 37.921143,
-        "forwardPE": 35.629494,
+        "trailingPE": 37.16343,
+        "forwardPE": 34.91757,
         "revenueGrowth": 0.159,
         "earningsGrowth": 0.089,
-        "marketCap": 342876487680
+        "marketCap": 336025387008
       },
       "opportunity_tier": false
     },
@@ -428,20 +428,20 @@
       "ticker": "MOD",
       "shares": 0.1249,
       "cost_basis_per_share": 172.05,
-      "price": 135.66000366210938,
-      "value": 16.94393445739746,
-      "return_pct": -0.21150826119087843,
-      "pct_of_portfolio": 0.004582776784983908,
-      "position_cap_usage_pct": 0.030551845233226054,
+      "price": 130.5500030517578,
+      "value": 16.30569538116455,
+      "return_pct": -0.24120893314874858,
+      "pct_of_portfolio": 0.00455564909244792,
+      "position_cap_usage_pct": 0.030370993949652803,
       "near_position_cap": false,
       "sector": "Consumer Cyclical",
-      "thesis": "HOLD: no new MOD-specific news dated 11/12-11/13. Return essentially flat at -21.2% (from -21.1% on 11/12). Next real catalyst remains the Analyst & Investor Day on 11/18 (new post-spin financial targets, including the pending Modexus Solutions rename), not yet occurred. Position ~0.5% (token size).",
+      "thesis": "HOLD: no new MOD-specific news dated 11/14-11/16. Reviewed the 11/3 Q2 FY2027 report in more depth: revenue $974.6-994.4M (+35% YoY), Data Centers segment +95% YoY to $440M, Commercial HVAC +23% YoY to $286M -- the core AI-cooling thesis continues to accelerate. GAAP EPS fell to $0.56 (from $0.83 YoY) on a one-time $29.5M tax charge tied to legal-entity restructuring, not operational deterioration; adjusted EPS figures conflict sharply across sources ($0.97 beat vs. $0.92 consensus per one source vs. $1.35 miss vs. $1.55 consensus per another) -- unresolved/disputed, flagged for a closer look rather than treated as a clean beat or miss. New FY2027 guidance ($3.1-3.2B revenue, $470-500M adj. EBITDA) reflects the post-spinoff continuing-business base only (excludes divested Performance Technologies) and is not a comparable cut to the pre-spin $3.8-4.3B guide -- a reclassification, not new deterioration. Analyst & Investor Day (new long-term targets, pending Modexus Solutions rename) remains scheduled for 11/18, not yet occurred. Return eased to -24.1% (from -21.2% on 11/13). Position ~0.5% (token size).",
       "fundamentals": {
-        "trailingPE": 56.761505,
-        "forwardPE": 14.407637,
+        "trailingPE": 54.62343,
+        "forwardPE": 13.864934,
         "revenueGrowth": 0.346,
         "earningsGrowth": -0.325,
-        "marketCap": 7216694272
+        "marketCap": 6944858112
       },
       "opportunity_tier": true
     },
@@ -449,20 +449,20 @@
       "ticker": "KTOS",
       "shares": 0.4282,
       "cost_basis_per_share": 46.97,
-      "price": 33.90999984741211,
-      "value": 14.520261934661866,
-      "return_pct": -0.27804982228205005,
-      "pct_of_portfolio": 0.00392725311074384,
-      "position_cap_usage_pct": 0.026181687404958933,
+      "price": 31.65999984741211,
+      "value": 13.556811934661866,
+      "return_pct": -0.3259527390374258,
+      "pct_of_portfolio": 0.003787638401363203,
+      "position_cap_usage_pct": 0.025250922675754687,
       "near_position_cap": false,
       "sector": "Industrials",
-      "thesis": "HOLD, still past stop-loss: no new KTOS-specific negative news dated 11/12-11/13 beyond the already-known 11/5 Q3 print (EPS beat $0.24, revenue +35.7% to $471.8M just light of estimate, record $1.037B bookings/$2.65B backlog, continued cash burn and a below-Street 2027 guide) and the 11/10 Seagate Space Gateway partnership (incrementally positive, first mission 2027). Return deepened to -27.8% (from -26.0% on 11/12) on no identified fresh catalyst -- sector/macro beta continues. Standing analyst base remains very constructive (24/25 Buy-rated, ~$80 avg PT). Position ~0.4%.",
+      "thesis": "HOLD, still past stop-loss: no new KTOS-specific news dated 11/14-11/16. Most recent dated item: a Gulf Space Technology satellite-ground-equipment contract (Q/V/Ka-band antennas/gateway systems) announced 11/9, no dollar value disclosed -- pre-window, incrementally positive but not thesis-moving. Return eased to -32.6% (from -27.8% on 11/13) on no identified fresh catalyst -- sector/macro beta continues. Standing analyst base remains very constructive (24/25 Buy-rated, ~$80 avg PT). Position ~0.4%.",
       "fundamentals": {
-        "trailingPE": 282.58334,
-        "forwardPE": 30.323353,
+        "trailingPE": 263.83334,
+        "forwardPE": 28.311586,
         "revenueGrowth": 0.357,
         "earningsGrowth": null,
-        "marketCap": 6384354304
+        "marketCap": 5960739328
       },
       "opportunity_tier": true
     },
@@ -470,20 +470,20 @@
       "ticker": "SATL",
       "shares": 1.9983,
       "cost_basis_per_share": 6.17,
-      "price": 3.299999952316284,
-      "value": 6.594389904713631,
-      "return_pct": -0.4651539785548972,
-      "pct_of_portfolio": 0.0017835655020053511,
-      "position_cap_usage_pct": 0.011890436680035674,
+      "price": 3.0299999713897705,
+      "value": 6.054848942828178,
+      "return_pct": -0.5089141051232139,
+      "pct_of_portfolio": 0.001691664565447954,
+      "position_cap_usage_pct": 0.011277763769653027,
       "near_position_cap": false,
       "sector": "Industrials",
-      "thesis": "HOLD, earnings beat confirmed but analyst targets cut on cash-burn/Merlin-delay concerns: the 11/12 Q3 beat (revenue +342% YoY, second straight positive adj. EBITDA quarter) stands, but a specific reason for the continued price decline is now identified -- Cantor Fitzgerald and Northland both lowered their price targets on 11/11, citing cash usage, an ongoing contract transition, and delayed Merlin revenue recognition as the central lingering concerns despite the headline beat. Return worsened sharply to -46.5% (from -43.0% on 11/12). This is an incremental, real negative (not pure noise) but reads as a near-term execution/cash-runway worry layered on still-strong top-line growth, not a broken core thesis. Token position (~0.2%); will keep close watch on cash burn given the two analyst cuts.",
+      "thesis": "HOLD, earnings beat confirmed with a new EPS-miss detail: no new SATL-specific news dated 11/14-11/16. The Q3 report (confirmed reported ~11/10) shows revenue $16.0M +342% YoY, a second straight positive adj. EBITDA quarter -- but one source newly flags a narrow EPS miss (-$0.03 vs. -$0.01 consensus), a specific data point not previously logged. Cantor Fitzgerald's PT cut to $9 from $10 (kept Overweight) matches the already-logged 11/11 analyst-cut story (alongside Northland's cut, both citing cash usage/Merlin-delay concerns). Return worsened further to -50.9% (from -46.5% on 11/13). Token position (~0.2%); cash-burn/EPS-miss combination keeps this a close-watch name, not yet thesis-breaking given the still-strong top-line growth.",
       "fundamentals": {
         "trailingPE": null,
-        "forwardPE": 16.229774,
+        "forwardPE": 24.435484,
         "revenueGrowth": 3.415,
         "earningsGrowth": null,
-        "marketCap": 508506112
+        "marketCap": 466901088
       },
       "opportunity_tier": true
     },
@@ -491,20 +491,20 @@
       "ticker": "THRM",
       "shares": 0.0557,
       "cost_basis_per_share": 28.7,
-      "price": 29.079999923706055,
-      "value": 1.6197559957504273,
-      "return_pct": 0.013240415460141304,
-      "pct_of_portfolio": 0.0004380907039818483,
-      "position_cap_usage_pct": 0.0029206046932123224,
+      "price": 28.530000686645508,
+      "value": 1.5891210382461547,
+      "return_pct": -0.005923321022804582,
+      "pct_of_portfolio": 0.0004439846106801824,
+      "position_cap_usage_pct": 0.0029598974045345495,
       "near_position_cap": false,
       "sector": "Consumer Cyclical",
-      "thesis": "HOLD: no new THRM-specific news found dated 11/12-11/13; no update on the Modine Performance Technologies/Gentherm integration beyond the known Q4 2026 expected-close estimate. Return improved to +1.3% (from +0.3% on 11/12). Position ~0.04% (token size, below the share-count rounding threshold to matter for sizing).",
+      "thesis": "HOLD: no new THRM-specific news found dated 11/14-11/16; most recent dated item remains Q1 2026 results (4/23/26, record $394M revenue); no update on the Modine Performance Technologies/Gentherm integration beyond the known Q4 2026 expected-close estimate. Return essentially flat at -0.6% (from +1.3% on 11/13). Position ~0.04% (token size, below the share-count rounding threshold to matter for sizing).",
       "fundamentals": {
-        "trailingPE": 103.85714,
-        "forwardPE": 9.631116,
+        "trailingPE": 101.89286,
+        "forwardPE": 9.502936,
         "revenueGrowth": 0.047,
         "earningsGrowth": null,
-        "marketCap": 1584132352
+        "marketCap": 1554171264
       },
       "opportunity_tier": true
     }
@@ -512,44 +512,44 @@
   "sector_allocation": [
     {
       "sector": "Communication Services",
-      "pct": 0.14216098163974952,
-      "sector_cap_usage_pct": 0.4738699387991651,
+      "pct": 0.1408681332804154,
+      "sector_cap_usage_pct": 0.4695604442680513,
       "near_sector_cap": false
     },
     {
       "sector": "Consumer Cyclical",
-      "pct": 0.14363359493535213,
-      "sector_cap_usage_pct": 0.4787786497845071,
+      "pct": 0.14340100729491478,
+      "sector_cap_usage_pct": 0.47800335764971597,
       "near_sector_cap": false
     },
     {
       "sector": "Energy",
-      "pct": 0.12693756533461606,
-      "sector_cap_usage_pct": 0.42312521778205353,
+      "pct": 0.1282659422038653,
+      "sector_cap_usage_pct": 0.427553140679551,
       "near_sector_cap": false
     },
     {
       "sector": "Financial Services",
-      "pct": 0.10156745730157417,
-      "sector_cap_usage_pct": 0.33855819100524726,
+      "pct": 0.10123733570899836,
+      "sector_cap_usage_pct": 0.3374577856966612,
       "near_sector_cap": false
     },
     {
       "sector": "Healthcare",
-      "pct": 0.06175150008505302,
-      "sector_cap_usage_pct": 0.20583833361684342,
+      "pct": 0.0634244292637591,
+      "sector_cap_usage_pct": 0.21141476421253036,
       "near_sector_cap": false
     },
     {
       "sector": "Industrials",
-      "pct": 0.13592184353077047,
-      "sector_cap_usage_pct": 0.4530728117692349,
+      "pct": 0.1317127859783978,
+      "sector_cap_usage_pct": 0.4390426199279927,
       "near_sector_cap": false
     },
     {
       "sector": "Technology",
-      "pct": 0.2668954627895934,
-      "sector_cap_usage_pct": 0.8896515426319781,
+      "pct": 0.26926162144935106,
+      "sector_cap_usage_pct": 0.8975387381645036,
       "near_sector_cap": true
     }
   ],
@@ -1087,6 +1087,12 @@
       "total_value": 3697.31,
       "portfolio_return_pct": -0.10223729834205843,
       "benchmark_return_pct": -0.016530865002281403
+    },
+    {
+      "date": "2026-11-16",
+      "total_value": 3579.23,
+      "portfolio_return_pct": -0.13090890548664996,
+      "benchmark_return_pct": -0.03533016100645318
     }
   ],
   "benchmark_ticker": "SPY",
@@ -1116,11 +1122,11 @@
       {
         "ticker": "HLIT",
         "sector": "Technology",
-        "score": 36.0413014,
+        "score": 36.051288400000004,
         "reasons": [
           "revenue growth 64.5%",
           "earnings growth 543.3%",
-          "forward P/E 11.5"
+          "forward P/E 11.3"
         ],
         "notes": "Harmonic Inc -- broadband/video network infrastructure; Q2'26 broadband revenue +54% YoY on fiber build-out and customer diversification, raised FY26 guidance to $475-495M",
         "opportunity_tier": true
@@ -1128,10 +1134,10 @@
       {
         "ticker": "LEU",
         "sector": "Energy",
-        "score": 33.863461,
+        "score": 34.002565000000004,
         "reasons": [
           "earnings growth 642.1%",
-          "forward P/E 24.8"
+          "forward P/E 22.0"
         ],
         "notes": "Uranium enrichment",
         "opportunity_tier": true
@@ -1169,10 +1175,10 @@
       {
         "ticker": "TENB",
         "sector": "Technology",
-        "score": 23.8281682,
+        "score": 23.822691,
         "reasons": [
           "earnings growth 433.1%",
-          "forward P/E 16.5"
+          "forward P/E 16.6"
         ],
         "notes": "Vulnerability management",
         "opportunity_tier": true
@@ -1180,11 +1186,11 @@
       {
         "ticker": "NVDA",
         "sector": "Technology",
-        "score": 19.4657055,
+        "score": 19.4872278,
         "reasons": [
           "revenue growth 105.9%",
           "earnings growth 127.8%",
-          "forward P/E 10.3"
+          "forward P/E 9.9"
         ],
         "notes": "AI/datacenter compute leader",
         "opportunity_tier": false
@@ -1202,9 +1208,9 @@
     ]
   },
   "opportunity_bucket": {
-    "pct": 0.19184896227805698,
+    "pct": 0.1978338807865518,
     "cap_pct": 0.2,
-    "cap_usage_pct": 0.9592448113902848,
+    "cap_usage_pct": 0.989169403932759,
     "near_cap": true,
     "over_cap": false
   },
