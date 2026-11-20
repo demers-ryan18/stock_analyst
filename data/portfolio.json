@@ -1,7 +1,7 @@
 {
   "status": "active",
   "cash": 78.13,
-  "last_updated": "2026-11-19",
+  "last_updated": "2026-11-20",
   "holdings": [
     {
       "ticker": "CRDO",
@@ -9,8 +9,8 @@
       "cost_basis_per_share": 270.52,
       "date_added": "2026-08-30",
       "sector": "Technology",
-      "thesis": "HOLD, still past stop-loss: no new CRDO-specific news dated 11/19 found (search surfaced only stale, undated margin/cost-concern commentary, nothing tied to today). Return worsened sharply to -56.5% (from -54.6% on 11/18) alongside a broad market selloff (SPY -1.96% today, part of a multi-day AI-sector pullback following Nvidia CEO Jensen Huang's 11/16 resignation) -- reads as continued AI-datacenter-capex-slowdown sector-beta amplified by CRDO's high beta, not a company-specific issue. Fundamentals unchanged: revenue growth +114.7% YoY, earnings growth +97.1% YoY. Position ~4.5%.",
-      "last_review": "2026-11-19",
+      "thesis": "HOLD, still past stop-loss: no CRDO-specific news dated 11/19-11/20 confirmed (research found only a stale no-cause 5.9% drop reference from 11/13 and an 11/16 Trefis recap). Return deepened sharply to -63.1% (from -56.5% on 11/19) as CRDO fell -15.2% today alone, amplified by a newly reported Reuters story (11/20) that the SEC is examining Nvidia's accounting practices -- triggering a ~14% NVDA plunge and dragging the entire AI-chip/interconnect complex down (AVGO -12.2%, ALAB -14.8%, VRT -10.1%, Nasdaq -5.3%) -- a specific, dated sector catalyst, not a CRDO-specific issue. Fundamentals unchanged: revenue growth +114.7% YoY, earnings growth +97.1% YoY. Position ~4.0%.",
+      "last_review": "2026-11-20",
       "status": "active"
     },
     {
@@ -19,8 +19,8 @@
       "cost_basis_per_share": 127.51,
       "date_added": "2026-08-30",
       "sector": "Technology",
-      "thesis": "HOLD: no new DUOL-specific news dated 11/19 found beyond stale items (a Nov 2025 KeyBanc downgrade, the still-unresolved Dearborn Heights securities-fraud lead-plaintiff deadline 12/7/26). Return eased sharply to +17.1% (from +25.7% on 11/18) -- reads as continued broad AI/tech-sector beta from the multi-day selloff following Nvidia CEO Jensen Huang's 11/16 resignation and stretched-AI-valuation fears (Nasdaq -1.9% on 11/18), not a company-specific move. EARNINGS_DECLINING flag remains the known deliberate Max-tier sunset/AI-reinvestment story; fundamentals (revenue growth +13.7% YoY) unchanged. Position ~13.5%, under the 15% cap.",
-      "last_review": "2026-11-19",
+      "thesis": "HOLD: no new DUOL-specific news dated 11/19-11/20 found; confirms the EARNINGS_DECLINING flag is the known, deliberate Max-tier sunset/AI-cost-reinvestment story (Q3: revenue +13.7% YoY beat, DAU +29%, EPS -43.2% YoY as AI-feature rollout costs are absorbed), not a demand breakdown. Return held up relatively well at +13.7% despite today's severe Nasdaq -5.3% selloff triggered by a newly reported SEC accounting investigation into Nvidia (Reuters, 11/20). KeyBanc downgrade and Dearborn Heights lead-plaintiff deadline (12/7/26) remain stale/unresolved. Position ~13.7%, under the 15% cap.",
+      "last_review": "2026-11-20",
       "status": "active"
     },
     {
@@ -29,8 +29,8 @@
       "cost_basis_per_share": 79.32,
       "date_added": "2026-08-30",
       "sector": "Technology",
-      "thesis": "HOLD, still past stop-loss: no new INOD-specific news dated 11/19 found. Return worsened further to -61.1% (from -59.4% on 11/18) amid today's broad market selloff (SPY -1.96%) -- continued AI-margin-scrutiny sector beta. An undated India Today report of ~550 India/Philippines layoffs surfaced in research but couldn't be tied to a specific date or confirmed as new versus the already-known cost-cutting backdrop -- flagged as a watch item pending confirmation next run, not treated as a fresh catalyst. Confirmed fundamentals stand: revenue +52.9% YoY, earnings +20.8% YoY. Position ~0.9% (token size).",
-      "last_review": "2026-11-19",
+      "thesis": "HOLD, still past stop-loss: no new INOD-specific news dated 11/19-11/20 found. The ~550 India/Philippines layoffs item is now dated to late October (~10/26 per multiple outlets, per this run's research) -- confirmed as old news, not a fresh catalyst, resolving last run's pending item. Q3 (reported 11/5) was strong: revenue ~$96M beat, EPS $0.29 beat, FY guidance raised to 42%+ growth. Return worsened further to -64.5% (from -61.1% on 11/19) amid today's broad AI-sector meltdown triggered by a newly reported SEC accounting investigation into Nvidia (Reuters, 11/20) -- continued sector beta, fundamentals intact. Position ~0.9% (token size).",
+      "last_review": "2026-11-20",
       "status": "active"
     },
     {
@@ -39,8 +39,8 @@
       "cost_basis_per_share": 323.17,
       "date_added": "2026-08-30",
       "sector": "Industrials",
-      "thesis": "HOLD, still past stop-loss: no new VRT-specific news dated 11/19 found; search results remained stuck on early-November price snapshots. Return worsened to -42.8% (from -39.8% on 11/18) alongside today's broad risk-off move (SPY -1.96%) -- continued AI-capex-fear sector beta, consistent with the pattern already hitting CAT/peers. No new company-specific data point to cite; standing GLJ Research Sell ($187 PT) vs. Bank of America bull-case split remains unchanged. Fundamentals last confirmed: revenue +61.2% YoY, earnings +91.2% YoY. Position ~7.3%.",
-      "last_review": "2026-11-19",
+      "thesis": "HOLD, still past stop-loss: no new VRT-specific news dated 11/19-11/20 found. Return worsened sharply to -48.6% (from -42.8% on 11/19) as VRT fell -10.1% today alone, driven by a newly reported Reuters story (11/20) that the SEC is examining Nvidia's accounting practices -- a confirmed, dated sector catalyst that hammered AI-datacenter-infrastructure names broadly (NVDA -14%, AVGO -12.2%, CRDO -15.2%), not VRT-specific. Standing GLJ Research Sell ($187 PT) vs. Bank of America bull-case split unchanged. Fundamentals: revenue +61.2% YoY, earnings +91.2% YoY. Position ~6.9%.",
+      "last_review": "2026-11-20",
       "status": "active"
     },
     {
@@ -49,8 +49,8 @@
       "cost_basis_per_share": 337.63,
       "date_added": "2026-08-31",
       "sector": "Communication Services",
-      "thesis": "HOLD: no dated GOOGL-specific news confirmed this week; two undated items surfaced (a reported Gemini co-lead Noam Shazeer departure to OpenAI; a Waymo recall report) that could not be verified as current -- flagging as unconfirmed watch items, not acted on. Return worsened to -19.2% (from -16.3% on 11/18), consistent with the broad AI/tech selloff (Nasdaq -1.9% on 11/18 following Nvidia CEO Jensen Huang's 11/16 resignation) rather than a company-specific catalyst. EARNINGS_DECLINING flag remains the known capex/equity-markdown story (Q3: revenue +25% YoY, Cloud +103% YoY). Kaplan Fox securities class-action lead-plaintiff deadline (12/1/26) remains unresolved. Position ~14.3%, approaching but not past the 15% cap.",
-      "last_review": "2026-11-19",
+      "thesis": "HOLD: Waymo (Alphabet subsidiary) filed two new NHTSA safety recalls on 11/19 -- one for vehicles entering/continuing in closed freeway lanes, one for mishandling manual traffic-control commands from police/emergency personnel -- confirmed via Reuters/Investing.com, alongside this week's California freeway ban and a 11/9 school-bus-violation recall query; a genuine, dated, company-specific negative, but Waymo is a small piece of overall Alphabet, not core-thesis-breaking. The previously flagged Shazeer-to-OpenAI departure item is now confirmed stale (dated back to June 2026), not a fresh catalyst as miscategorized last run. Return worsened to -21.4% (from -19.2%) amid today's broad AI-sector selloff (Nasdaq -5.3%) following a newly reported SEC accounting investigation into Nvidia. EARNINGS_DECLINING flag remains the known capex/equity-markdown story. Kaplan Fox lead-plaintiff deadline (12/1/26) unresolved. Position ~14.5%, approaching but not past the 15% cap.",
+      "last_review": "2026-11-20",
       "status": "active"
     },
     {
@@ -59,8 +59,8 @@
       "cost_basis_per_share": 260.16,
       "date_added": "2026-08-31",
       "sector": "Consumer Cyclical",
-      "thesis": "HOLD: no new AMZN-specific news found this week; most recent dated reference remains the 11/6 ~$259.30 snapshot. Return essentially flat at -1.1% (from +2.9% on 11/18) -- within normal broad-market noise amid the ongoing AI-sector selloff, no company-specific catalyst identified. Thesis unchanged from the 10/29 Q3 report (AWS +39% YoY, trailing FCF -$42.4B on the $220B 2026 capex guide). Position ~14.6%, approaching but not past the 15% cap.",
-      "last_review": "2026-11-19",
+      "thesis": "HOLD: no new AMZN-specific news dated 11/19-11/20 found. Return eased to -5.1% (from -1.1%) amid today's broad market selloff (SPY -3.6%, Nasdaq -5.3%) tied to a newly reported SEC accounting investigation into Nvidia -- no company-specific catalyst identified. Thesis unchanged from the 10/29 Q3 report (AWS +39% YoY). Position ~14.6%, approaching but not past the 15% cap.",
+      "last_review": "2026-11-20",
       "status": "active"
     },
     {
@@ -69,8 +69,8 @@
       "cost_basis_per_share": 159.93,
       "date_added": "2026-08-31",
       "sector": "Energy",
-      "thesis": "HOLD: no new dated XOM-specific news found this week; an undated item referencing a Kazakhstan arbitration dispute and a Chevron/Venezuela collaboration both appear to be standing, not new, developments. Return essentially flat at -0.6% (from +0.4% on 11/18). Thesis unchanged from the 10/30 Q3 beat (adj EPS $4.23, refining-margin tailwind, $20B buyback confirmed into 2027). Position ~12.9%.",
-      "last_review": "2026-11-19",
+      "thesis": "HOLD: no new XOM-specific news dated 11/19-11/20 found; Kazakhstan arbitration and Chevron/Venezuela items remain standing, undated references, not new. Return essentially flat (0.0%), XOM held up well versus today's broad tech-led selloff (energy largely untouched by the Nvidia SEC-probe story hitting semis). Thesis unchanged from the 10/30 Q3 beat. Position ~13.6%.",
+      "last_review": "2026-11-20",
       "status": "active"
     },
     {
@@ -79,8 +79,8 @@
       "cost_basis_per_share": 69.94,
       "date_added": "2026-09-01",
       "sector": "Financial Services",
-      "thesis": "HOLD: no new AFRM-specific news dated 11/19 found; newest dated item remains the Sept 2026 fiscal Q2 beat-and-raise coverage. Return eased to -18.6% (from -15.8% on 11/18) on no identified company-specific catalyst -- broad-market noise consistent with SPY's -2.0% day. Thesis unchanged since the confirmed 11/5 fiscal Q1 2027 beat (revenue $1.26B beat, GMV +34% YoY). Fundamentals strong (revenue growth +35.2%, earnings growth +101.4%). Position ~5.5%.",
-      "last_review": "2026-11-19",
+      "thesis": "HOLD: no new AFRM-specific news dated 11/19-11/20 found. Return eased to -22.8% (from -18.6%) amid today's broad risk-off selloff (SPY -3.6%, Nasdaq -5.3%) tied to a newly reported SEC accounting investigation into Nvidia -- no company-specific catalyst, still under the -25% stop-loss. Thesis unchanged since the confirmed 11/5 fiscal Q1 2027 beat. Fundamentals strong (revenue growth +35.2%, earnings growth +101.4%). Position ~5.5%.",
+      "last_review": "2026-11-20",
       "status": "active"
     },
     {
@@ -89,8 +89,8 @@
       "cost_basis_per_share": 223.84,
       "date_added": "2026-09-01",
       "sector": "Technology",
-      "thesis": "HOLD, newly past stop-loss: no new DDOG-specific news dated 11/19 found; search coverage skewed to stale mid-2026 items (Jefferies Hold/$280 PT, May Q1 beat-and-soar). Return worsened to -25.6% (from -25.3% on 11/18), now fractionally past the -25% stop-loss threshold on no identified catalyst -- broad software/growth-tech beta on today's down day. Standing 11/4 Q3 beat-and-raise thesis (revenue +35% YoY to $1.20B) alongside the guide-assumes-minimum-commitment-from-largest-customer watch item remains unchanged. Position ~3.5%.",
-      "last_review": "2026-11-19",
+      "thesis": "HOLD, still past stop-loss: no new DDOG-specific news dated 11/19-11/20 found; the \"large customer usage reduction\" item remains the known, already-priced-in 8/6 disclosure, not new. Return worsened to -29.7% (from -25.6%) as the stock fell further amid today's AI-infrastructure-sector rout triggered by a newly reported SEC accounting investigation into Nvidia (Reuters, 11/20). Standing 11/4 Q3 beat-and-raise (revenue +35% YoY) unchanged. Position ~3.5%.",
+      "last_review": "2026-11-20",
       "status": "active"
     },
     {
@@ -99,8 +99,8 @@
       "cost_basis_per_share": 1160.0,
       "date_added": "2026-09-01",
       "sector": "Healthcare",
-      "thesis": "HOLD: no new LLY-specific news dated 11/19 found; most recent dated items remain the 11/2-11/3 window (FY26 revenue outlook raised to $91-92B). Return eased to +16.5% (from +19.2% on 11/18) on no identified company-specific catalyst -- broad market pullback. Thesis unchanged from the 10/29 Q3 GLP-1 beat (Mounjaro +64.6%, Zepbound +49.2% YoY). Position ~5.5%.",
-      "last_review": "2026-11-19",
+      "thesis": "HOLD: no new LLY-specific news dated 11/19-11/20 found. Return eased slightly to +16.1% (from +16.5%) on no identified company-specific catalyst -- broad market pullback (SPY -3.6%) tied to today's Nvidia-SEC-probe-driven selloff, which left healthcare/pharma largely untouched on a relative basis. Thesis unchanged from the 10/29 Q3 GLP-1 beat. Position ~5.7%.",
+      "last_review": "2026-11-20",
       "status": "active"
     },
     {
@@ -109,8 +109,8 @@
       "cost_basis_per_share": 17.05,
       "date_added": "2026-09-01",
       "sector": "Financial Services",
-      "thesis": "HOLD, approaching stop-loss (flag for next run): no new SOFI-specific news dated 11/19 found addressing the standing Muddy Waters short-seller situation (still unresolved/unescalated -- SoFi has called the report 'misleading' and Muddy Waters says the company 'stonewalled' 11 questions, both standing, pre-window items). Return worsened notably to -20.7% (from -17.2% on 11/18), now within ~4 points of the -25% stop-loss threshold on no identified fresh catalyst -- reads as broad-market beta (SPY -2.0%) rather than an escalation of the short-seller story specifically. Thesis unchanged from the 10/27 Q3 beat-and-raise (adj. net revenue +44%, FY26 guide raised to $5.04B). Fundamentals still strong (revenue growth +43.9%, earnings growth +64.4%). Position ~2.8%. Flag explicitly for next run given proximity to stop-loss.",
-      "last_review": "2026-11-19",
+      "thesis": "HOLD, newly past stop-loss: no escalation of the Muddy Waters short-seller dispute found, and no new SOFI-specific headline. SOFI hit a fresh 52-week low (~$13.52-13.84) on 11/19, its 8th straight down session (Benzinga/TradingView), with only generic causes cited (rate worries, private-credit-exposure doubts, broad AI/tech selling, one speculative Anthropic-IPO-liquidity theory) -- no company-specific escalation found. Return worsened sharply to -26.8% (from -20.7%), now past the -25% stop-loss for the first time, compounded today by the Nvidia-SEC-probe-driven broad selloff (SPY -3.6%). Fundamentals remain strong and unaddressed by any negative news (revenue growth +43.9%, earnings growth +64.4%, FY26 guide raised to $5.04B on 10/27). Reads as sector/macro beta, not thesis-breaking -- held through the stop-loss given the lack of a company-specific driver. Position ~2.7%. Continue to flag as a close watch item.",
+      "last_review": "2026-11-20",
       "status": "active"
     },
     {
@@ -119,8 +119,8 @@
       "cost_basis_per_share": 779.16,
       "date_added": "2026-09-01",
       "sector": "Industrials",
-      "thesis": "HOLD, past stop-loss (confirmed sector beta, no split): no new CAT-specific news dated 11/19 found, and no CAT stock split has been announced (checked explicitly given the large price move -- Caterpillar's last split was in 2005; 2026 split-speculation pieces are stale/unconfirmed). Return worsened to -31.0% (from -28.3% on 11/18) in today's broad risk-off selloff (SPY -1.96%) -- consistent with the standing AI-capex-fear sector-beta read already confirmed for CAT/VRT/industrials. Confirmed Q3 beat (revenue +17.3%, adj EPS +45.5%, record $78.1B backlog) and the closed Fabick Cat acquisition remain unchallenged. Position ~2.4%.",
-      "last_review": "2026-11-19",
+      "thesis": "HOLD, past stop-loss: no new CAT-specific news dated 11/19-11/20 found (confirmed still no stock split). Return worsened to -34.5% (from -31.0%) amid today's broad risk-off selloff (SPY -3.6%) tied to a newly reported SEC accounting investigation into Nvidia -- continued sector/macro beta, industrials swept up alongside tech. Confirmed Q3 beat (revenue +17.3%, adj EPS +45.5%, record $78.1B backlog) remains unchallenged. Position ~2.4%.",
+      "last_review": "2026-11-20",
       "status": "active"
     },
     {
@@ -129,8 +129,8 @@
       "cost_basis_per_share": 25.89,
       "date_added": "2026-09-09",
       "sector": "Financial Services",
-      "thesis": "HOLD, past stop-loss: no new UPST-specific news dated 11/19 found; search surfaced only undated/stale items (a DuPage Credit Union AI-lending-platform selection, a 55% YTD decline reference, standing 14-analyst Buy consensus). Return worsened to -34.3% (from -30.4% on 11/18) on no identified fresh catalyst -- reads as broad market/fintech beta on today's down day. Thesis unchanged from the early-Nov guidance cut (2026 outlook lowered to ~$1.35B revenue/$260M adj. EBITDA on balance-sheet loan losses). Next catalyst remains early-December origination/delinquency data. Position ~1.4%.",
-      "last_review": "2026-11-19",
+      "thesis": "HOLD, past stop-loss: no new UPST-specific news dated 11/19-11/20 found; search surfaced only stale mid-October analyst notes (Citizens $18 PT cut 10/15, Needham reiterated Buy 10/6). Return worsened to -39.5% (from -34.3%) on no identified fresh catalyst -- broad market/fintech beta amid today's Nvidia-SEC-probe-driven selloff. Thesis unchanged from the early-Nov guidance cut. Next catalyst remains early-December origination/delinquency data. Position ~1.3%.",
+      "last_review": "2026-11-20",
       "status": "active"
     },
     {
@@ -139,8 +139,8 @@
       "cost_basis_per_share": 140.8,
       "date_added": "2026-09-09",
       "sector": "Industrials",
-      "thesis": "HOLD, still past stop-loss: no new AVAV-specific news dated 11/19 found beyond the already-logged 11/11 $405M LOCUST X3 international order and the standing $315M IDIQ award. Return worsened further to -31.9% (from -28.1% on 11/18), deepening past the -25% stop-loss threshold on no identified negative catalyst -- continued broad defense/drone-sector beta amplified by today's broader market decline (SPY -1.96%), consistent with the sector-beta pattern across RKLB/KTOS/UPST/ONDS/DDOG today. Record Q1 FY2027 revenue/backlog and FY2030 Investor Day targets remain the core support; next real catalyst is earnings on 12/8/26. Position ~1.2%.",
-      "last_review": "2026-11-19",
+      "thesis": "HOLD, still past stop-loss: no new AVAV-specific news dated 11/19-11/20 found beyond the already-logged 11/11 $405M LOCUST X3 order. Return worsened to -38.4% (from -31.9%) amid today's broad risk-off selloff -- continued defense/drone-sector beta, amplified by the Nvidia-SEC-probe-driven tech rout. Record Q1 FY2027 revenue/backlog and FY2030 Investor Day targets remain the core support; next catalyst is earnings 12/8/26. Position ~1.2%.",
+      "last_review": "2026-11-20",
       "status": "active"
     },
     {
@@ -149,8 +149,8 @@
       "cost_basis_per_share": 172.05,
       "date_added": "2026-09-17",
       "sector": "Consumer Cyclical",
-      "thesis": "HOLD: Modine's 11/18 Analyst & Investor Day confirmed as having occurred (new multi-year targets presented), but no post-event coverage of the actual announced targets was found in today's search -- outcome still unresolved, carrying the watch item forward again to next run. Return worsened to -21.8% (from -19.9% on 11/18). Thesis unchanged from the 11/3 Q2 FY2027 report (revenue +35% YoY, Data Centers segment +95% YoY to $440M; pre-event FY27 guide was net sales $3.1-3.2B, adj EBITDA $470-500M). Position ~0.5% (token size).",
-      "last_review": "2026-11-19",
+      "thesis": "HOLD, newly past stop-loss, but on a confirmed POSITIVE catalyst overridden by sector beta: sell-side coverage of the 11/18 Analyst & Investor Day has now appeared and is bullish -- DA Davidson reiterated Buy (MarketBeat, 11/19), Cantor Fitzgerald raised its PT to $200 (from $178), KeyBanc kept Overweight at $225 PT, on new FY29 targets (data-center revenue guided toward $4.5-6.5B, up sharply from the prior FY27 guide of $3.1-3.2B). Despite this, MOD crossed the -25% stop-loss for the first time today (-27.5%, from -21.8%) as the stock got swept into the broad AI-infrastructure selloff following the newly reported Nvidia SEC accounting probe -- sector beta overriding a fundamentally positive, newly confirmed catalyst, essentially the opposite of thesis-breaking. Held through the stop-loss on that basis. Position ~0.5% (token size).",
+      "last_review": "2026-11-20",
       "status": "active"
     },
     {
@@ -159,8 +159,8 @@
       "cost_basis_per_share": 7.39,
       "date_added": "2026-09-18",
       "sector": "Technology",
-      "thesis": "HOLD: no new ONDS-specific news dated 11/19 found; results remain dominated by stale items. Return worsened to -42.8% (from -40.2% on 11/18) on no identified fresh catalyst -- broad drone-sector beta compounding today's market-wide decline. Note: the fetched revenue-growth figure (~1558.6% YoY) reads as a data artifact from a tiny prior-year comparison base, not a genuine current-quarter signal. Confirmed 11/12 Q3 results (record revenue $167.5M, FY26 guidance raised to $550M+, net loss widened to $64.7M, gross margin fell to 34.8%) remain the standing story. Position ~0.5% (token size).",
-      "last_review": "2026-11-19",
+      "thesis": "HOLD: no new ONDS-specific news dated 11/19-11/20 found. Return worsened to -49.1% (from -42.8%) amid today's broad drone/tech-sector selloff tied to the newly reported Nvidia SEC accounting-probe story -- no fresh company-specific catalyst. Confirmed 11/12 Q3 results (record revenue $167.5M, FY26 guidance raised to $550M+) remain the standing story. Position ~0.5% (token size).",
+      "last_review": "2026-11-20",
       "status": "active"
     },
     {
@@ -169,8 +169,8 @@
       "cost_basis_per_share": 69.89,
       "date_added": "2026-09-21",
       "sector": "Industrials",
-      "thesis": "HOLD: no new RKLB-specific news dated 11/19 found; most recent dated item remains the confirmed 11/14 100th-Electron-launch milestone, a modest positive not thesis-moving. Return worsened to -27.0% (from -24.1% on 11/18), now newly past the -25% stop-loss threshold on no identified company-specific catalyst -- continued broad defense/space-sector beta (consistent with AVAV/KTOS) amplified by today's market-wide selloff. Q3 results (record revenue $268M +73% YoY, record backlog $3.57B) and the Neutron slip to 2027 remain the standing story; a pending Iridium acquisition (value disputed across sources, ~$5.9-8B) is unresolved but not a new development today. Position ~1.1%.",
-      "last_review": "2026-11-19",
+      "thesis": "HOLD, still past stop-loss: no new RKLB-specific news dated 11/19-11/20 found (search returned only older items -- Neutron-tank rupture history, SpaceX-IPO comparisons -- nothing dated this week). Return worsened to -35.0% (from -27.0%) amid today's broad defense/space-sector selloff, amplified by the Nvidia-SEC-probe-driven tech rout. Q3 record revenue ($268M, +73% YoY) and backlog ($3.57B) remain the standing story; Neutron slip to 2027 and the disputed-value Iridium acquisition are unresolved but not new today. Position ~1.0%.",
+      "last_review": "2026-11-20",
       "status": "active"
     },
     {
@@ -179,8 +179,8 @@
       "cost_basis_per_share": 46.97,
       "date_added": "2026-09-22",
       "sector": "Industrials",
-      "thesis": "HOLD, still past stop-loss: no new KTOS-specific news dated 11/19 found beyond the standing 10/28 $33.6M NASA contract. Return worsened to -36.9% (from -35.6% on 11/18) -- continued sector/macro beta (broad drone/defense weakness alongside AVAV/RKLB this session). Q3 results (35.7% revenue growth, 2.2:1 book-to-bill, record backlog) plus the cautious initial 2027 guide citing continuing-resolution uncertainty remain the standing story; analyst base remains constructive (Wedbush Outperform/$85 PT standing). Position ~0.4%.",
-      "last_review": "2026-11-19",
+      "thesis": "HOLD, still past stop-loss: no new KTOS-specific news dated 11/19-11/20 found beyond already-logged early-November contract wins (Gulf Space Technology, Seagate Space, Space Force RMWT milestone), all pre-dating this week. Return worsened to -42.8% (from -36.9%) amid today's broad defense/tech selloff -- continued sector beta tied to the Nvidia-SEC-probe-driven rout. Q3 results and cautious 2027 guide (continuing-resolution uncertainty) remain standing; Wedbush Outperform/$85 PT stands. Position ~0.4%.",
+      "last_review": "2026-11-20",
       "status": "active"
     },
     {
@@ -189,8 +189,8 @@
       "cost_basis_per_share": 371.29,
       "date_added": "2026-09-23",
       "sector": "Healthcare",
-      "thesis": "HOLD, now with a confirmed catalyst: CMS proposed around 11/17 to claw back Medicare Advantage overpayments retroactive to payment year 2018, with ~$9B/year industry-wide recoupment exposure estimated; UNH has not yet sized its own specific exposure. Humana and CVS fell in sympathy the same day -- this explains both the 11/17 (-5.8%) and continuing 11/19 (-11.0%) slide as a real, confirmed regulatory headwind, not unexplained noise as flagged the past two runs. Not yet thesis-breaking absent a company-specific exposure number -- watch closely next run for UNH's own disclosed exposure estimate, which would determine whether this becomes thesis-breaking. NEGATIVE_REVENUE_GROWTH flag remains the known trivial -0.4% YoY rounding-level item. Position ~0.7%.",
-      "last_review": "2026-11-19",
+      "thesis": "HOLD, still unresolved: UNH has not yet disclosed its own dollar exposure estimate to the CMS Medicare Advantage overpayment clawback (the CMS \"CRUSH\" rule, released 11/16, proposes extrapolating risk-adjustment audits back to 2018, ~$9B/year industry-wide). A third-party Morningstar extrapolation puts UNH's own exposure near ~$20B, but that is not a UNH- or CMS-issued figure -- the key swing factor remains unresolved, so not yet confirmable as thesis-breaking either way. Return improved to -8.5% even as the broader Nasdaq fell -5.3% today on the Nvidia SEC-probe story -- healthcare has been relatively insulated from the AI-chip-specific selloff. NEGATIVE_REVENUE_GROWTH flag remains the known trivial item. Continue to flag closely for next run pending UNH's own disclosed number. Position ~0.8%.",
+      "last_review": "2026-11-20",
       "status": "active"
     },
     {
@@ -199,8 +199,8 @@
       "cost_basis_per_share": 6.17,
       "date_added": "2026-09-25",
       "sector": "Industrials",
-      "thesis": "HOLD, no new catalyst: no SATL-specific news dated 11/19 found. Return worsened to -55.6% (from -53.1% on 11/18) in today's broad selloff (SPY -1.96%) -- reads as sector beta compounding the standing cash-burn/EPS-miss watch item, not a new development. An ATM/registered-direct dilution reference surfaced in research but carries no confirmable date, so it is not treated as fresh news this run -- flagged for next run. Confirmed 11/10 Q3 results (revenue $16.0M +341.5% YoY, second straight positive adj. EBITDA quarter) remain the standing story. Token position (~0.2%, shrinking with price).",
-      "last_review": "2026-11-19",
+      "thesis": "HOLD, no new catalyst: no SATL-specific news dated 11/19-11/20 found. On the standing dilution watch item: confirmed via SEC EDGAR that Satellogic has an active ATM program (up to $50.0M aggregate), but no November 2026 drawdown, new shelf, or prospectus supplement was found -- reflects standing shelf capacity, not a newly dated action, resolving last run's pending item as unconfirmed/not new. Return worsened to -60.0% (from -55.6%) amid today's broad risk-off selloff tied to the Nvidia SEC-probe story. Confirmed 11/10 Q3 results (revenue $16.0M +341.5% YoY, second straight positive adj. EBITDA quarter) remain the standing story. Token position (~0.2%, shrinking with price).",
+      "last_review": "2026-11-20",
       "status": "active"
     },
     {
@@ -209,8 +209,8 @@
       "cost_basis_per_share": 312.39,
       "date_added": "2026-10-01",
       "sector": "Industrials",
-      "thesis": "HOLD: no new GE-specific news dated 11/19 found; most recent dated price point located (10/23, $283.58) is stale and inconsistent with our own fetched $318.88 -- treating the fetched price as authoritative. No new catalyst beyond the standing valuation/cash-flow-vs-guidance split (Q3 FCF -14% YoY to $2.0B vs. RBC Outperform/$355 PT). Return improved to +2.1% (from +5.0% on 11/18, some pullback consistent with the broad market). Fundamentals: revenue growth +15.9%, earnings growth +8.9%. Position ~0.6%.",
-      "last_review": "2026-11-19",
+      "thesis": "HOLD: no new GE-specific news dated 11/19-11/20 found; most recent dated item remains the 10/29 FLIGHT DECK/Hungary facility piece. Return essentially flat (-0.9%, vs +2.1% on 11/19) -- GE held up well versus today's broad tech-led selloff (industrials with limited AI-chip exposure were largely spared from the Nvidia SEC-probe story). Fundamentals: revenue growth +15.9%, earnings growth +8.9%. Position ~0.6%.",
+      "last_review": "2026-11-20",
       "status": "active"
     },
     {
@@ -219,8 +219,8 @@
       "cost_basis_per_share": 346.25,
       "date_added": "2026-10-14",
       "sector": "Technology",
-      "thesis": "HOLD: no new AVGO-specific news dated 11/19 found; most recent dated item remains the 11/13 report near $346.41, with fiscal Q4 earnings confirmed for 12/9/26 as the next real catalyst (unchanged). Return essentially flat at +0.1% (from +1.5% on 11/18). Fundamentals: revenue growth +85.5%, earnings growth +215.3%. Position ~2.3%.",
-      "last_review": "2026-11-19",
+      "thesis": "HOLD: no new AVGO-specific news dated 11/19-11/20 found beyond the ongoing (not new) narrative of CEO Hock Tan publicly pushing back on AI-slowdown fears and reaffirming FY27/28 AI-revenue targets. AVGO fell -12.2% today alone, deepening return to -12.1% (from +0.1%), swept up directly in the Nvidia-SEC-accounting-probe-driven AI-chip selloff (NVDA -14%, Nasdaq -5.3%) -- a specific, dated sector catalyst, not AVGO-specific. Fiscal Q4 earnings remain the next real catalyst (12/9/26). Fundamentals: revenue growth +85.5%, earnings growth +215.3%. Position ~2.1%.",
+      "last_review": "2026-11-20",
       "status": "active"
     },
     {
@@ -229,8 +229,8 @@
       "cost_basis_per_share": 290.06,
       "date_added": "2026-10-21",
       "sector": "Technology",
-      "thesis": "HOLD, strong beat confirmed, disconnect persists: no new ALAB-specific news dated 11/19 found; search results surfaced only a stale August PT raise. Return worsened back to -27.1% (from -25.3% on 11/18, erasing the prior day's improvement) amid today's broad chip/AI selloff (SPY -1.96%). The confirmed 11/3 Q3 beat (record $584.9M revenue +153.7% YoY, strong Q4 guide) remains the standing, unchallenged story. Next real catalyst: Q4 2026 earnings, expected February 2027. Position ~1.2%.",
-      "last_review": "2026-11-19",
+      "thesis": "HOLD, outsized single-day move confirmed as sector-driven, not company-specific: ALAB fell -14.8% today alone (deepening return to -37.8%, from -27.1% on 11/19), driven directly by a newly reported Reuters story that the SEC is examining Nvidia's accounting practices (11/20), which triggered a ~$491B single-day wipeout in NVDA (-14%) and hammered the entire AI-interconnect/datacenter-silicon complex (CRDO -15.2%, VRT -10.1%, AVGO -12.2%) -- an extra-hard dedicated check found no ALAB-specific headline. The confirmed 11/3 Q3 beat (record $584.9M revenue +153.7% YoY) and stable customer-concentration disclosure remain the standing, unchallenged story. Next real catalyst: Q4 2026 earnings, expected February 2027. Position ~1.0%.",
+      "last_review": "2026-11-20",
       "status": "active"
     },
     {
@@ -239,8 +239,8 @@
       "cost_basis_per_share": 28.7,
       "date_added": "2026-10-01",
       "sector": "Consumer Cyclical",
-      "thesis": "HOLD: no new THRM-specific news dated 11/19 found; most recent dated item remains a 11/13 close near $28.79 (stale vs. our fetched $30.19). No new catalyst beyond the standing Modine-spinoff/analyst-split story (JPMorgan Overweight vs. Freedom Broker Hold, both pre-window). Return improved to +5.2% (roughly flat from +5.7% on 11/18). Position ~0.0% (token size, below the share-count rounding threshold to matter for sizing).",
-      "last_review": "2026-11-19",
+      "thesis": "HOLD: no new THRM-specific news dated 11/19-11/20 found. Return essentially flat (-2.0%, vs +5.2% on 11/19), well-insulated from today's AI-chip-driven selloff. Standing Modine-spinoff/analyst-split story unchanged. Position ~0.0% (token size, below the share-count rounding threshold to matter for sizing).",
+      "last_review": "2026-11-20",
       "status": "active"
     }
   ]
